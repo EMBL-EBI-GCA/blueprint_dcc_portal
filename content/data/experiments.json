@@ -1,0 +1,2765 @@
+[
+   {
+      "SAMPLE_DESC_2" : "S001QB",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001QB/CLP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CLP"
+   },
+   {
+      "SAMPLE_DESC_2" : "C12001",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C12001/HSC/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "HSC"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001KH",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C001KH/Monocytes/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001FR",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001FR/Central_memory_CD4_T_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Central memory CD4 T cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00DCS",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00DCS/HUVEC_proliferating/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00DCS/HUVEC_proliferating/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00DCS/HUVEC_proliferating/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00DCS/HUVEC_proliferating/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00DCS/HUVEC_proliferating/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "HUVEC_proliferating"
+   },
+   {
+      "SAMPLE_DESC_2" : "C07002",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07002/HSC/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "HSC"
+   },
+   {
+      "SAMPLE_DESC_2" : "UMCG 2012-094",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/UMCG_2012-094/Acute_myeloid_leukemia/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/UMCG_2012-094/Acute_myeloid_leukemia/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/UMCG_2012-094/Acute_myeloid_leukemia/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Myeloid cell"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00C2F",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C2F/CD8+_naive/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C2F/CD8+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C2F/CD8+_naive/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C2F/CD8+_naive/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C2F/CD8+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C2F/CD8+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD8+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "S001FX",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001FX/CLP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CLP"
+   },
+   {
+      "SAMPLE_DESC_2" : "SU-DHL-5",
+      "SAMPLE_DESC_1" : "Cell Line",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/NA/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/NA/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/NA/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/NA/ChIP-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/NA/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/NA/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/NA/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/NA/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/NA/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NA"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001FR",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001FR/Effector_memory_CD4_T_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Effector memory CD4 T cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 289",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia MC2884 (4h)"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001NB",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001NB/Memory_B_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Memory B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "S0018A",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/CD4+_naive/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/CD4+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/CD4+_naive/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/CD4+_naive/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/CD4+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/CD4+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD4+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "BL-2",
+      "SAMPLE_DESC_1" : "Cell Line",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/NA/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/NA/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/NA/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/NA/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/NA/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/NA/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/NA/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/NA/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NA"
+   },
+   {
+      "SAMPLE_DESC_2" : "S0018A",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/MK/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MK"
+   },
+   {
+      "SAMPLE_DESC_2" : "S001QB",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001QB/HSC/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "HSC"
+   },
+   {
+      "SAMPLE_DESC_2" : "C0066P",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8+_naive/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8+_naive/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8+_naive/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8+_naive/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8+_naive/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8+_naive/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD8+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "S005YG",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S005YG/NK_cells/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S005YG/NK_cells/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S005YG/NK_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S005YG/NK_cells/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S005YG/NK_cells/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S005YG/NK_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NK cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C006NS",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006NS/MK/DNase-Hypersensitivity",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006NS/MK/RNA-Seq"
+      },
+      "got_data" : {
+         "DNase-Hypersensitivity" : "Yes",
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MK"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 289",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia ATRA"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 289",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia MC2884 (24h)"
+   },
+   {
+      "SAMPLE_DESC_2" : "-",
+      "SAMPLE_DESC_1" : "-",
+      "ftp_path" : {
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/K-562/NA/DNase-Hypersensitivity"
+      },
+      "got_data" : {
+         "DNase-Hypersensitivity" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "-"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00622",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00622/Macrophage_M2/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00622/Macrophage_M2/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00622/Macrophage_M2/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00622/Macrophage_M2/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00622/Macrophage_M2/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00622/Macrophage_M2/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00622/Macrophage_M2/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00622/Macrophage_M2/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00622/Macrophage_M2/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M2"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001FR",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001FR/CD4+_naive/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD4+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001FR",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001FR/Tregs/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Tregs"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 283",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_283/Acute_myeloid_leukemia/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_283/Monocytes,lymphocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_283/Acute_myeloid_leukemia/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_283/Acute_myeloid_leukemia/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_283/Acute_myeloid_leukemia/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia CTR"
+   },
+   {
+      "SAMPLE_DESC_2" : "C000WY",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C000WY/MEP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MEP"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 289",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K4me3" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia MS275"
+   },
+   {
+      "SAMPLE_DESC_2" : "JVM-2",
+      "SAMPLE_DESC_1" : "Cell Line",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/NA/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/NA/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/NA/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/NA/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/NA/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/NA/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/NA/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/NA/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NA"
+   },
+   {
+      "SAMPLE_DESC_2" : "C000S5",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Monocytes/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Monocytes/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Monocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Monocytes/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Monocytes/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Monocytes/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Monocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Monocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Monocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   },
+   {
+      "SAMPLE_DESC_2" : "S0033CH0",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0033CH0/Naive_B_cells/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0033CH0/Naive_B_cells/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0033CH0/Naive_B_cells/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0033CH0/Naive_B_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0033CH0/Naive_B_cells/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0033CH0/Naive_B_cells/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/-/Naive_B_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Naive B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C00184",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/Neutrophils/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/Neutrophils/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/Neutrophils/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/Neutrophils/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/Neutrophils/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/Neutrophils/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/Neutrophils/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/Neutrophils/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/Neutrophils/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Neutrophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "C12001",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C12001/MEP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MEP"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 284",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Monocytes,lymphocytes/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Monocytes,lymphocytes/Bisulfite-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27ac" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute promyelocytic leukemia ATRA"
+   },
+   {
+      "SAMPLE_DESC_2" : "S0067TH0",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/-/Central_Memory_CD8_T_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/-/Central_Memory_CD8_T_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Central Memory CD8 T cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "S001MJ",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001MJ/Macrophage_M1/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001MJ/Macrophage_M1/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001MJ/Macrophage_M1/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001MJ/Macrophage_M1/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001MJ/Macrophage_M1/Bisulfite-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001MJ/Macrophage_M1/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001MJ/Macrophage_M1/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001MJ/Macrophage_M1/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001MJ/Macrophage_M1/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001MJ/Macrophage_M1/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M1"
+   },
+   {
+      "SAMPLE_DESC_2" : "S0016E",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0016E/Naive_B_cells/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0016E/Naive_B_cells/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0016E/Naive_B_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0016E/Naive_B_cells/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0016E/Naive_B_cells/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0016E/Naive_B_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Naive B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00C1H",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/Macrophage_M2/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/Macrophage_M2/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/Macrophage_M2/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/Macrophage_M2/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/Macrophage_M2/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/Macrophage_M2/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/Macrophage_M2/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M2"
+   },
+   {
+      "SAMPLE_DESC_2" : "UMCG 2012-082",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/UMCG_2012-082/Acute_myeloid_leukemia/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/UMCG_2012-082/Myeloid_cell/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/UMCG_2012-082/Myeloid_cell/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/UMCG_2012-082/Myeloid_cell/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/UMCG_2012-082/Myeloid_cell/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/UMCG_2012-082/Myeloid_cell/ChIP-Seq"
+      },
+      "got_data" : {
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Myeloid cell"
+   },
+   {
+      "SAMPLE_DESC_2" : "F2012-2912",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/precursor_B_lymphocytes/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "-"
+   },
+   {
+      "SAMPLE_DESC_2" : "S0025C",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0025C/HSC/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "HSC"
+   },
+   {
+      "SAMPLE_DESC_2" : "C00192",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00192/Neutrophils/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Neutrophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "C00408",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C00408/Monocytes/DNase-Hypersensitivity",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C00408/Monocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "DNase-Hypersensitivity" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   },
+   {
+      "SAMPLE_DESC_2" : "299.2",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/299.2/T_cell/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "T cell"
+   },
+   {
+      "SAMPLE_DESC_2" : "C004SQ",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C004SQ/Monocytes/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C004SQ/Monocytes/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C004SQ/Monocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C004SQ/Monocytes/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C004SQ/Monocytes/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C004SQ/Monocytes/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C004SQ/Monocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C004SQ/Monocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C004SQ/Monocytes/ChIP-Seq",
+         "H3K9/14ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C004SQ/Monocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K9/14ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   },
+   {
+      "SAMPLE_DESC_2" : "C002Q1",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002Q1/CD4+_naive/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002Q1/CD4+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002Q1/CD4+_naive/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002Q1/CD4+_naive/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002Q1/CD4+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002Q1/CD4+_naive/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002Q1/CD4+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD4+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "C002AX",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002AX/NK_cells/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002AX/NK_cells/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002AX/NK_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002AX/NK_cells/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002AX/NK_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NK cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "329.2",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/329.2/T_cell/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "T cell"
+   },
+   {
+      "SAMPLE_DESC_2" : "C006PO",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006PO/EB/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "EB"
+   },
+   {
+      "SAMPLE_DESC_2" : "S004AV",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004AV/MK/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004AV/MK/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004AV/MK/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MK"
+   },
+   {
+      "SAMPLE_DESC_2" : "C07002",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07002/MEP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MEP"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00198",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00198/Macrophage_M0/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00198/Macrophage_M0/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00198/Macrophage_M0/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M0"
+   },
+   {
+      "SAMPLE_DESC_2" : "C004GD",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/Neutrophils/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/Neutrophils/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/Neutrophils/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/Neutrophils/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/Neutrophils/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/Neutrophils/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/Neutrophils/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/Neutrophils/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/Neutrophils/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Neutrophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "C07015",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/CLP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CLP"
+   },
+   {
+      "SAMPLE_DESC_2" : "C12001",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C12001/CMP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CMP"
+   },
+   {
+      "SAMPLE_DESC_2" : "S000RD",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD4+_naive/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD4+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD4+_naive/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD4+_naive/RNA-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD4+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD4+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD4+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "C0070X",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0070X/EB/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "EB"
+   },
+   {
+      "SAMPLE_DESC_2" : "C005MY",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005MY/Naive_B_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Naive B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "MO7071",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cells/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "-"
+   },
+   {
+      "SAMPLE_DESC_2" : "S008H1",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S008H1/CD4+_naive/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S008H1/CD4+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S008H1/CD4+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S008H1/CD4+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD4+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "Z-138",
+      "SAMPLE_DESC_1" : "Cell Line",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/NA/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/NA/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/NA/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/NA/ChIP-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/NA/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/NA/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/NA/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/NA/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/NA/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NA"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001NB",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001NB/Class_Switch_B_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Class Switch B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001HN",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001HN/Effector_Memory_CD8_T_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Effector Memory CD8 T cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001HN",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001HN/Central_Memory_CD8_T_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Central Memory CD8 T cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C002CT",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002CT/NK_cells/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NK cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C005DF",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005DF/CD8+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005DF/CD8+_naive/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005DF/CD8+_naive/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005DF/CD8+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005DF/CD8+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD8+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "S001S7",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M0/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M0/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M0/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M0/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M0/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M0/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M0/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M0/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M0"
+   },
+   {
+      "SAMPLE_DESC_2" : "C00280",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/CD4+_naive/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/CD4+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/CD4+_naive/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/CD4+_naive/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/CD4+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/CD4+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD4+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "S002S3",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/EB/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/EB/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/EB/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/EB/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/EB/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/EB/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/EB/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/EB/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/EB/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "EB"
+   },
+   {
+      "SAMPLE_DESC_2" : "C00360",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00360/CD8+_naive/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00360/CD8+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "Input" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD8+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "S0022I",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M0/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M0/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M0/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M0/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M0/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M0/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M0/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M0/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M0"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 283",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_283/Acute_myeloid_leukemia/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_283/Monocytes,lymphocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_283/Acute_myeloid_leukemia/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_283/Acute_myeloid_leukemia/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia SAHA"
+   },
+   {
+      "SAMPLE_DESC_2" : "C0010K",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Neutrophils/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Neutrophils/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Neutrophils/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Neutrophils/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Neutrophils/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Neutrophils/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Neutrophils/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Neutrophils/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Neutrophils/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Neutrophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "299.1",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/299.1/T_cell/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "T cell"
+   },
+   {
+      "SAMPLE_DESC_2" : "KARPAS-422",
+      "SAMPLE_DESC_1" : "Cell Line",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/NA/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/NA/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/NA/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/NA/ChIP-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/NA/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/NA/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/NA/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/NA/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/NA/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NA"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 284",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Monocytes,lymphocytes/RNA-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute promyelocytic leukemia MC2392"
+   },
+   {
+      "SAMPLE_DESC_2" : "145.1",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/145.1/T_cell/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "T cell"
+   },
+   {
+      "SAMPLE_DESC_2" : "S004JD",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S004JD/TDEM_CD8_T_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S004JD/TDEM_CD8_T_cells/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S004JD/TDEM_CD8_T_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "TDEM CD8 T cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C07002",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07002/GMP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "GMP"
+   },
+   {
+      "SAMPLE_DESC_2" : "S009W4",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S009W4/CD4+_naive/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S009W4/CD4+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S009W4/CD4+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S009W4/CD4+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD4+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "S0022I",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M1/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M1/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M1/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M1/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M1/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M1/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M1/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M1/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S0022I/Macrophage_M1/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M1"
+   },
+   {
+      "SAMPLE_DESC_2" : "C005VG",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005VG/Macrophage_M0/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005VG/Macrophage_M0/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005VG/Macrophage_M0/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005VG/Macrophage_M0/Bisulfite-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005VG/Macrophage_M0/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005VG/Macrophage_M0/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005VG/Macrophage_M0/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005VG/Macrophage_M0/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C005VG/Macrophage_M0/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M0"
+   },
+   {
+      "SAMPLE_DESC_2" : "S0018A",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/Macrophage_M1/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/Macrophage_M1/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/Macrophage_M1/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/Macrophage_M1/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M1"
+   },
+   {
+      "SAMPLE_DESC_2" : "C005PS",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Naive_B_cells/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Naive_B_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Naive_B_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Naive B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00BJM",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00BJM/HUVEC_proliferating/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00BJM/HUVEC_proliferating/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00BJM/HUVEC_proliferating/ChIP-Seq"
+      },
+      "got_data" : {
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "HUVEC_proliferating"
+   },
+   {
+      "SAMPLE_DESC_2" : "C002UU",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/MPP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MPP"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001MD",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001MD/NK_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NK cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "S006XE",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006XE/Eosinophils/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006XE/Eosinophils/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006XE/Eosinophils/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006XE/Eosinophils/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006XE/Eosinophils/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006XE/Eosinophils/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Eosinophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "25386",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/25386/Plasma_cells/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Multiple myeloma"
+   },
+   {
+      "SAMPLE_DESC_2" : "329.1",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/329.1/T_cell/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "T cell"
+   },
+   {
+      "SAMPLE_DESC_2" : "C005QQ",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005QQ/Naive_B_cells/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005QQ/Naive_B_cells/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005QQ/Naive_B_cells/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005QQ/Naive_B_cells/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005QQ/Naive_B_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Naive B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001R3",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001R3/NK_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NK cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "S002R5",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/EB/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/EB/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/EB/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/EB/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/EB/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/EB/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/EB/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "EB"
+   },
+   {
+      "SAMPLE_DESC_2" : "5.1",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/5.1/T_cell/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "T cell"
+   },
+   {
+      "SAMPLE_DESC_2" : "C12001",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C12001/GMP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "GMP"
+   },
+   {
+      "SAMPLE_DESC_2" : "S001S7",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M1/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M1/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M1/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M1/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M1/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M1/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M1/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M1/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001S7/Macrophage_M1/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M1"
+   },
+   {
+      "SAMPLE_DESC_2" : "C0011I",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Monocytes/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Monocytes/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Monocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Monocytes/ChIP-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Monocytes/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Monocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Monocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Monocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00390",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M0/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M0/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M0/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M0/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M0/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M0/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M0/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M0/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M0"
+   },
+   {
+      "SAMPLE_DESC_2" : "145.2",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/145.2/T_cell/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "T cell"
+   },
+   {
+      "SAMPLE_DESC_2" : "C0067N",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0067N/NK_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NK cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C006NS",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006NS/EB/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "EB"
+   },
+   {
+      "SAMPLE_DESC_2" : "5.2",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/5.2/T_cell/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "T cell"
+   },
+   {
+      "SAMPLE_DESC_2" : "C00280",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/Monocytes/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/Monocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/Monocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/Monocytes/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/Monocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00280/Monocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 284",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute promyelocytic leukemia MS275"
+   },
+   {
+      "SAMPLE_DESC_2" : "C006X8",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006X8/EB/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "EB"
+   },
+   {
+      "SAMPLE_DESC_2" : "C002YM",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8+_naive/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8+_naive/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8+_naive/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8+_naive/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD8+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "C003K9",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C003K9/Naive_B_cells/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Naive B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C00504",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C00504/NK_cells/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C00504/NK_cells/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C00504/NK_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C00504/NK_cells/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C00504/NK_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NK cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "S007DD",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007DD/CD4+_naive/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007DD/CD4+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007DD/CD4+_naive/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007DD/CD4+_naive/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007DD/CD4+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007DD/CD4+_naive/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007DD/CD4+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD4+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "C000R7",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000R7/Neutrophils/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Neutrophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "C00256",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C00256/CD8+_naive/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD8+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "C0010K",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/Bisulfite-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   },
+   {
+      "SAMPLE_DESC_2" : "25145",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/25145/Plasma_cells/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Multiple myeloma"
+   },
+   {
+      "SAMPLE_DESC_2" : "S007SK",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S007SK/Macrophage_M1/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S007SK/Macrophage_M1/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S007SK/Macrophage_M1/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S007SK/Macrophage_M1/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M1"
+   },
+   {
+      "SAMPLE_DESC_2" : "C07015",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/CMP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CMP"
+   },
+   {
+      "SAMPLE_DESC_2" : "S000SB",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000SB/CLP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CLP"
+   },
+   {
+      "SAMPLE_DESC_2" : "C07015",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/MEP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MEP"
+   },
+   {
+      "SAMPLE_DESC_2" : "C00256",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C00256/Effector_Memory_CD8_T_cells/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Effector Memory CD8 T cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C006MU",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006MU/EB/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "EB"
+   },
+   {
+      "SAMPLE_DESC_2" : "C002UU",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/CLP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CLP"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001NB",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001NB/Naive_B_cells/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Naive B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "S004BT",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/MK/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/MK/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/MK/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/MK/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/MK/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/MK/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/MK/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/MK/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/MK/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MK"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 289",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia MC2392"
+   },
+   {
+      "SAMPLE_DESC_2" : "C0068L",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0068L/Naive_B_cells/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Naive B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C0062X",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0062X/NK_cells/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0062X/NK_cells/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0062X/NK_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0062X/NK_cells/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0062X/NK_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NK cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00198",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00198/MK/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MK"
+   },
+   {
+      "SAMPLE_DESC_2" : "C005PS",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Monocytes/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Monocytes/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Monocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Monocytes/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Monocytes/Bisulfite-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Monocytes/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Monocytes/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Monocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Monocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/Monocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 286",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_286/Acute_myeloid_leukemia/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_286/AcuteMyeloidLeukemia/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_286/Acute_myeloid_leukemia/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia MC2884"
+   },
+   {
+      "SAMPLE_DESC_2" : "S001FX",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001FX/HSC/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "HSC"
+   },
+   {
+      "SAMPLE_DESC_2" : "C12012",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C12012/Neutrophils/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C12012/Neutrophils/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C12012/Neutrophils/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C12012/Neutrophils/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C12012/Neutrophils/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C12012/Neutrophils/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C12012/Neutrophils/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C12012/Neutrophils/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Neutrophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "U-266",
+      "SAMPLE_DESC_1" : "Cell Line",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/NA/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/NA/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/NA/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/NA/ChIP-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/NA/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/NA/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/NA/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/NA/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/NA/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NA"
+   },
+   {
+      "SAMPLE_DESC_2" : "C003VO",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C003VO/CD8+_naive/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD8+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "K-562",
+      "SAMPLE_DESC_1" : "Cell Line",
+      "ftp_path" : {
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/K-562/NA/DNase-Hypersensitivity",
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/K-562/NA/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/K-562/NA/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/K-562/NA/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/K-562/NA/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/K-562/NA/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/K-562/NA/ChIP-Seq"
+      },
+      "got_data" : {
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NA"
+   },
+   {
+      "SAMPLE_DESC_2" : "DG-75",
+      "SAMPLE_DESC_1" : "Cell Line",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/NA/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/NA/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/NA/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/NA/ChIP-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/NA/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/NA/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/NA/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/NA/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/NA/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "NA"
+   },
+   {
+      "SAMPLE_DESC_2" : "C07015",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/MPP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MPP"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 284",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Monocytes,lymphocytes/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Monocytes,lymphocytes/Bisulfite-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_284/Acute_promyelocytic_leukemia/ChIP-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27ac" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute promyelocytic leukemia CTR"
+   },
+   {
+      "SAMPLE_DESC_2" : "C0011I",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Neutrophils/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Neutrophils/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Neutrophils/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Neutrophils/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Neutrophils/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Neutrophils/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Neutrophils/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Neutrophils/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0011I/Neutrophils/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Neutrophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "C002TW",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002TW/Central_memory_CD4_T_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002TW/Central_memory_CD4_T_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "Input" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Central memory CD4 T cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C003UQ",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C003UQ/Effector_Memory_CD8_T_cells/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C003UQ/Effector_Memory_CD8_T_cells/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C003UQ/Effector_Memory_CD8_T_cells/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C003UQ/Effector_Memory_CD8_T_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Effector Memory CD8 T cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "C002TW",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002TW/CD4+_naive/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002TW/CD4+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002TW/CD4+_naive/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002TW/CD4+_naive/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002TW/CD4+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002TW/CD4+_naive/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C002TW/CD4+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD4+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "S006VI",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006VI/Macrophage_M2/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006VI/Macrophage_M2/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006VI/Macrophage_M2/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006VI/Macrophage_M2/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006VI/Macrophage_M2/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S006VI/Macrophage_M2/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M2"
+   },
+   {
+      "SAMPLE_DESC_2" : "C002UU",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/HSC/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "HSC"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00390",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M1/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M1/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M1/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00390/Macrophage_M1/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M1"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00BS4",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BS4/Macrophage_M2/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BS4/Macrophage_M2/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BS4/Macrophage_M2/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BS4/Macrophage_M2/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BS4/Macrophage_M2/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BS4/Macrophage_M2/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BS4/Macrophage_M2/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M2"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 289",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/pz_289/Monocytes,lymphocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia CTR"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00BHQ",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00BHQ/Macrophage_M0/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00BHQ/Macrophage_M0/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00BHQ/Macrophage_M0/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00BHQ/Macrophage_M0/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00BHQ/Macrophage_M0/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00BHQ/Macrophage_M0/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M0"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001UY",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Monocytes/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Monocytes/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Monocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Monocytes/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Monocytes/Bisulfite-Seq",
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Monocytes/DNase-Hypersensitivity",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Monocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Monocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Monocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "DNase-Hypersensitivity" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   },
+   {
+      "SAMPLE_DESC_2" : "C00264",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/Monocytes/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/Monocytes/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/Monocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/Monocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/Monocytes/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/Monocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/Monocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   },
+   {
+      "SAMPLE_DESC_2" : "S007G7",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007G7/CD4+_naive/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007G7/CD4+_naive/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007G7/CD4+_naive/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S007G7/CD4+_naive/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CD4+ naive"
+   },
+   {
+      "SAMPLE_DESC_2" : "C000S5",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Neutrophils/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Neutrophils/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Neutrophils/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Neutrophils/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Neutrophils/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Neutrophils/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Neutrophils/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Neutrophils/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C000S5/Neutrophils/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Neutrophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "S001FX",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001FX/MPP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "MPP"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 286",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_286/AcuteMyeloidLeukemia/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_286/Acute_myeloid_leukemia/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K36me3" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia SAHA"
+   },
+   {
+      "SAMPLE_DESC_2" : "S00BKK",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BKK/Eosinophils/ChIP-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BKK/Eosinophils/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BKK/Eosinophils/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BKK/Eosinophils/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BKK/Eosinophils/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BKK/Eosinophils/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S00BKK/Eosinophils/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Eosinophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "S001HT",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001HT/Naive_B_cells/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/S001HT/Naive_B_cells/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Naive B cells"
+   },
+   {
+      "SAMPLE_DESC_2" : "T11/8",
+      "SAMPLE_DESC_1" : "Tonsil",
+      "ftp_path" : {
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Tonsil/T11/8/germinal_center_B_cells/Bisulfite-Seq"
+      },
+      "got_data" : {
+         "Bisulfite-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "-"
+   },
+   {
+      "SAMPLE_DESC_2" : "C006UE",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C006UE/Macrophage_M0/DNase-Hypersensitivity"
+      },
+      "got_data" : {
+         "DNase-Hypersensitivity" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Macrophage M0"
+   },
+   {
+      "SAMPLE_DESC_2" : "pz 286",
+      "SAMPLE_DESC_1" : "Bone marrow",
+      "ftp_path" : {
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_286/Acute_myeloid_leukemia/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_286/AcuteMyeloidLeukemia/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_286/Acute_myeloid_leukemia/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_286/Acute_myeloid_leukemia/ChIP-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/pz_286/AcuteMyeloidLeukemia/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H3K4me3" : "Yes",
+         "H3K4me1" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Acute myeloid leukemia CTR"
+   },
+   {
+      "SAMPLE_DESC_2" : "C07002",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07002/CMP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "CMP"
+   },
+   {
+      "SAMPLE_DESC_2" : "C000XW",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C000XW/Neutrophils/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Neutrophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "C001UY",
+      "SAMPLE_DESC_1" : "Peripheral blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Neutrophils/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Neutrophils/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Neutrophils/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Neutrophils/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Neutrophils/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Neutrophils/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Neutrophils/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Neutrophils/ChIP-Seq",
+         "H2A.Zac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Neutrophils/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C001UY/Neutrophils/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "Input" : "Yes",
+         "H2A.Zac" : "Yes",
+         "H3K4me3" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Neutrophils"
+   },
+   {
+      "SAMPLE_DESC_2" : "C002UU",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/GMP/RNA-Seq"
+      },
+      "got_data" : {
+         "RNA-Seq" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "GMP"
+   },
+   {
+      "SAMPLE_DESC_2" : "S000RD",
+      "SAMPLE_DESC_1" : "Cord blood",
+      "ftp_path" : {
+         "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/Monocytes/ChIP-Seq",
+         "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/Monocytes/RNA-Seq",
+         "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/Monocytes/ChIP-Seq",
+         "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/Monocytes/ChIP-Seq",
+         "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/Monocytes/Bisulfite-Seq",
+         "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/Monocytes/ChIP-Seq",
+         "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/Monocytes/ChIP-Seq",
+         "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/Monocytes/ChIP-Seq",
+         "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/Monocytes/ChIP-Seq"
+      },
+      "got_data" : {
+         "H3K9me3" : "Yes",
+         "RNA-Seq" : "Yes",
+         "H3K4me1" : "Yes",
+         "H3K27ac" : "Yes",
+         "Bisulfite-Seq" : "Yes",
+         "H3K27me3" : "Yes",
+         "H3K36me3" : "Yes",
+         "H3K4me3" : "Yes",
+         "Input" : "Yes"
+      },
+      "SAMPLE_DESC_3" : "Monocytes"
+   }
+]
