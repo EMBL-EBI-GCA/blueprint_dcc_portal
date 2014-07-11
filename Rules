@@ -21,6 +21,9 @@ compile '*' do
     # don’t filter stylesheets
   elsif item.binary?
     # don’t filter binary items
+  elsif item[:layout]
+    filter :erb
+    layout item[:layout]
   else
     filter :erb
     layout 'default'
