@@ -1,50 +1,74 @@
 function init_facetlize() {
+  
+  var popup_template =
+        '<div class="entry_data">' +
+         '<h1><%= obj.SAMPLE_DESC_1 %> <%= obj.SAMPLE_DESC_2 %>  <%= obj.SAMPLE_DESC_3 %> </h1>' +
+         '<h2><%= dt %></h2>' +
+         '<ul>'+
+         '<li><a href="<%= obj.ftp_path[dt] %>">Go to FTP site</a></li>' +
+         '<% if (obj.ega_path && obj.ega_path[dt]) { %> '+
+           '<li><a href="<%= obj.ega_path[dt] %>">Go to raw data (EGA)</a></li>'+
+         '<% } %>' +
+         '<% if (obj.ena_path && obj.ena_path[dt]) { %> '+
+           '<li><a href="<%= obj.ena_path[dt] %>">Go to raw data (ENA)</a></li>'+
+         '<% } %>' +
+         '<% if (obj.reactome && obj.reactome[dt]) { %> '+
+           '<li><a class="to_reactome" href="<%= obj.reactome[dt] %>">View in Reactome</a></li>'+
+         '<% } %>' +
+         '</ul>'+
+        '</div>';
+  
+  
   $.getJSON("../experiments.json", function(data) {
     var item_template =
+    '<% var datatypes = ["Bisulfite-Seq","DNase-Hypersensitivity","RNA-Seq","Input","H3K4me3","H3K4me1","H3K9me3","H3K27ac","H3K27me3","H3K36me3"] %>' +
     '<tr class="item">' +
-      '<td><%= obj.sample_desc_1 %></td>' +
-      '<td><%= obj.sample_desc_2 %></td>' +
-      '<td><%= obj.sample_desc_3 %></td>' +
-      '<td><%= obj.sample_desc_3 %></td>' +
-			<th class="assays"><div><span>Bisulfite</span></div></th>
-			<th class="assays"><div><span>DNaseI</span></div></th>
-			<th class="assays"><div><span>RNA</span></div></th>
-			<th class="assays"><div><span>Input</span></div></th>
-			<th class="assays"><div><span>H3K4me3</span></div></th>
-			<th class="assays"><div><span>H3K4me1</span></div></th>
-			<th class="assays"><div><span>H3K9me3</span></div></th>
-			<th class="assays"><div><span>H3K27ac</span></div></th>
-			<th class="assays"><div><span>H3K27me3</span></div></th>
-			<th class="assays"><div><span>H3K36me3</span></div></th>
+      '<td><%= obj.SAMPLE_DESC_1 %></td>' +
+      '<td><%= obj.SAMPLE_DESC_2 %></td>' +
+      '<td><%= obj.SAMPLE_DESC_3 %></td>' +
+      '<% _.each(datatypes, function(dt) { %> <td class="assays"><% if (obj.got_data[dt]) { %>' + 
+      '<a class="show_popup" href="#">&#x25cf;</a>' +
+      popup_template +
+      '<% } %></td> <% }); %>' +
     '</tr>';
     settings = {
       items: data,
       facets: {
-        'project': 'Project',
-        'status': 'Status',
-        'md_species': 'Species',
-        'md_disease': 'Disease',
-        'md_donor_health_status': 'Health Status',
-        'md_tissue_type': 'Tissue',
-        'md_cell_type': 'Cell Type',
+        'SAMPLE_DESC_1': 'Sample Description (1)',
+        'SAMPLE_DESC_2': 'Sample Description (2)',
+        'SAMPLE_DESC_3': 'Sample Description (3)'
       },
       resultSelector: '#results',
       facetSelector: '#facets',
       resultTemplate: item_template,
       paginationCount: 50,
       orderByOptions: {
-        'accession': 'Accession',
-        'project': 'Project',
-        'species': 'Species',
-        'auto_desc': 'Description'
+        'SAMPLE_DESC_1': 'Sample Description (1)',
+        'SAMPLE_DESC_2': 'Sample Description (2)',
+        'SAMPLE_DESC_3': 'Sample Description (3)'
       }
     };
-
+    // show the popup content 
+    $("#facet_content").delegate('.show_popup','click', function(event){
+      event.preventDefault();
+      var target = $(event.target);
+      var popup_content = target.siblings(".entry_data");      
+      $.fancybox.open(popup_content);
+    });
+    //open a new window to load the data into reactome
+    $("#facet_content").delegate('a.to_reactome','click', function(event){
+      var target = $(event.target);
+      var url = target.attr("href");
+      var real_url = 'to_reactome#'+encodeURIComponent(url);
+      window.open(real_url,'_blank');
+    });
     // use them!
     $.facetelize(settings);
     $("#loading").hide();
-    $("#facet_content").show();
+    $("#facet_content").show();    
   });
 }
+
+
 
 $(document).ready(init_facetlize);

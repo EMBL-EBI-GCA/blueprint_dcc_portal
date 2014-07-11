@@ -7,6 +7,9 @@
 	margin:0;
 	padding:0;
 }
+.entry_data {
+  display: none;
+}
 
 body {
   background: #fff;
