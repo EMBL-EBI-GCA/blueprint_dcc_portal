@@ -132,3 +132,10 @@ footer {
   height: 15px;
   font-size: 10px;
 }
+
+.chart_wrapper {
+  margin: 15px auto;
+  width: 320px;
+  height: 240px;
+  text-align: center;
+}

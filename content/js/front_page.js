@@ -1,55 +1,30 @@
-$().ready(function(){
+$().ready(function() {
   $.get("/experiment_counts.json", function(data) {
 
-    //var labels = _.keys(data).sort();
-    //var counts = [];
+    var labels = _.keys(data).sort();
+    var counts = [];
 
-    //for (var i = 0; i < labels.length; i++) {
-      counts[i] = data[labels[i]];
+    for (var i = 0; i < labels.length; i++) {
+      var count = [labels[i],data[labels[i]]];
+      counts[i] = count;
     }
 
-    var counts = [55, 20, 13, 32, 5, 1, 2, 10];
-    var labels =  ["%%.%% - Enterprise Users", "IE Users"];
-
-    var r = Raphael("raphael_holder");
-
-    pie = r.piechart(10, 10, 100, counts, {
-      legend: labels,
-      legendpos: "west"
-    });
-
-    r.text(320, 100, "Experiment Counts").attr({
-      font: "20px sans-serif"
-    });
-
-    pie.hover(function() {
-      this.sector.stop();
-      this.sector.scale(1.1, 1.1, this.cx, this.cy);
-
-      if (this.label) {
-        this.label[0].stop();
-        this.label[0].attr({
-          r: 7.5
-        });
-        this.label[1].attr({
-          "font-weight": 800
-        });
+    var plot1 = jQuery.jqplot ('chart_container', [counts], 
+      { 
+        seriesDefaults: {
+          // Make this a pie chart.
+          renderer: jQuery.jqplot.PieRenderer, 
+          rendererOptions: {
+            // Put data labels on the pie slices.
+            // By default, labels show the percentage of the slice.
+            showDataLabels: true
+          }
+        }, 
+        legend: { show:true, location: 'e' },
+        title: 'Data summary'
       }
-    },
-    function() {
-      this.sector.animate({
-        transform: 's1 1 ' + this.cx + ' ' + this.cy
-      }, 500, "bounce");
+    );
 
-      if (this.label) {
-        this.label[0].animate({
-          r: 5
-        }, 500, "bounce");
-        this.label[1].attr({
-          "font-weight": 400
-        });
-      }
-    });
   });
 
 });
