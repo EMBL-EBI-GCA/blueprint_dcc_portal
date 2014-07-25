@@ -29,13 +29,13 @@ The fragment size is modelled using the PhantomPeakQualTools R script:
 
 ##Peak Calling
 
-MACS2 (CORRECT_VERSION) is used for peak calling with the fragment size predicted by PhantomPeakQualTools. We used both the standard method of running and the -broad flag depending on the mark in question
+MACS2 (2.0.10.20131216) is used for peak calling with the fragment size predicted by PhantomPeakQualTools. We used both the standard method of running and the -broad flag depending on the mark in question
 
 Command line used:
 
-    macs2 callpeak -t chip.bam -n a_sensible_name --gsize hs -c input.bam --nomodel --shiftsize=half fragment size --broad
+    macs2 callpeak -t chip.bam -n a_sensible_name --gsize hs -c input.bam --nomodel --shiftsize=half_fragment_size --broad
 
-    macs2 callpeak -t chip.bam -n a_sensible_name --gsize hs -c input.bam --nomodel --shiftsize=half fragment size
+    macs2 callpeak -t chip.bam -n a_sensible_name --gsize hs -c input.bam --nomodel --shiftsize=half_fragment_size
 
 The marks where -broad were used are
 
@@ -48,10 +48,14 @@ The default marks are
 
  1. H3K27ac
  2. H3K4me3
+ 3. H3K9/14ac
+ 4. H2A.Zac
 
 ##Wiggle plots
 
-Align2RawSignal / Wiggler
+Signal plots are produced using align2RawSignal using the fragment size predicted by PhantomPeakQualTools. Sex specific fasta and [umap](http://ftp.ebi.ac.uk/pub/databases/blueprint/reference/mappability/) files are used.
+
+    align2rawsignal -i=chip.bam -of=bg -o=chip.bg -l fragment_size -s=/path/to/fasta_files -u=/path/to/umap_files
 
 ##Links
 
