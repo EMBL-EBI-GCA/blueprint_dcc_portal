@@ -5,6 +5,9 @@
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/25145/Multiple_myeloma/Bisulfite-Seq/CNAG"
       },
+      "archive_path" : {
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000934"
+      },
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
       },
@@ -15,6 +18,9 @@
       "SAMPLE_DESC_1" : "Bone marrow",
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/25386/Multiple_myeloma/Bisulfite-Seq/CNAG"
+      },
+      "archive_path" : {
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000672"
       },
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
@@ -27,6 +33,9 @@
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG"
       },
+      "archive_path" : {
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000649"
+      },
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
       },
@@ -38,6 +47,9 @@
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/precursor_lymphocyte_of_B_lineage/Bisulfite-Seq/CNAG"
       },
+      "archive_path" : {
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000710"
+      },
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
       },
@@ -48,6 +60,9 @@
       "SAMPLE_DESC_1" : "Bone marrow",
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG"
+      },
+      "archive_path" : {
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000672"
       },
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
@@ -67,6 +82,16 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/Sporadic_Burkitt_lymphoma/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/Sporadic_Burkitt_lymphoma/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297434",
+         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX333837",
+         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297411",
+         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297416",
+         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297420",
+         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297441",
+         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297408",
+         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297448"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -77,17 +102,7 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Sporadic Burkitt lymphoma",
-      "ena_path" : {
-         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297434",
-         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX333837",
-         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297411",
-         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297416",
-         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297420",
-         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297441",
-         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297408",
-         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297448"
-      }
+      "SAMPLE_DESC_3" : "Sporadic Burkitt lymphoma"
    },
    {
       "SAMPLE_DESC_2" : "DG-75",
@@ -103,6 +118,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297436",
+         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX298128",
+         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297414",
+         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297417",
+         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX246038",
+         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297422",
+         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297443",
+         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297407",
+         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297450"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -114,18 +140,7 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Sporadic Burkitt lymphoma",
-      "ena_path" : {
-         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297436",
-         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX298128",
-         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297414",
-         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297417",
-         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX246038",
-         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297422",
-         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297443",
-         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297407",
-         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297450"
-      }
+      "SAMPLE_DESC_3" : "Sporadic Burkitt lymphoma"
    },
    {
       "SAMPLE_DESC_2" : "JVM-2",
@@ -140,6 +155,16 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/Mantle_cell_lymphoma/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/Mantle_cell_lymphoma/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297432",
+         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX333836",
+         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297413",
+         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297415",
+         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297429",
+         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297439",
+         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297405",
+         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297446"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -150,17 +175,7 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Mantle cell lymphoma, indolent",
-      "ena_path" : {
-         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297432",
-         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX333836",
-         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297413",
-         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297415",
-         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297429",
-         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297439",
-         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297405",
-         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297446"
-      }
+      "SAMPLE_DESC_3" : "Mantle cell lymphoma, indolent"
    },
    {
       "SAMPLE_DESC_2" : "KARPAS-422",
@@ -176,6 +191,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297437",
+         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX298126",
+         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297423",
+         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297426",
+         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX337094",
+         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297430",
+         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297444",
+         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297425",
+         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297451"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -187,18 +213,7 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Diffuse large B cell lymphoma GCB t(14;18)-positive",
-      "ena_path" : {
-         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297437",
-         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX298126",
-         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297423",
-         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297426",
-         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX337094",
-         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297430",
-         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297444",
-         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297425",
-         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297451"
-      }
+      "SAMPLE_DESC_3" : "Diffuse large B cell lymphoma GCB t(14;18)-positive"
    },
    {
       "SAMPLE_DESC_2" : "SU-DHL-5",
@@ -214,6 +229,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297438",
+         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX333838",
+         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297424",
+         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297428",
+         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX337095",
+         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297431",
+         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297445",
+         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297427",
+         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297452"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -225,18 +251,7 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Diffuse large B cell lymphoma GCB t(14;18) negative",
-      "ena_path" : {
-         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297438",
-         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX333838",
-         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297424",
-         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297428",
-         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX337095",
-         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297431",
-         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297445",
-         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297427",
-         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297452"
-      }
+      "SAMPLE_DESC_3" : "Diffuse large B cell lymphoma GCB t(14;18) negative"
    },
    {
       "SAMPLE_DESC_2" : "U-266",
@@ -252,6 +267,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297435",
+         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX298127",
+         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297410",
+         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297418",
+         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX297502",
+         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297421",
+         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297442",
+         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297406",
+         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297449"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -263,18 +289,7 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Multiple myeloma",
-      "ena_path" : {
-         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297435",
-         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX298127",
-         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297410",
-         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297418",
-         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX297502",
-         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297421",
-         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297442",
-         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297406",
-         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297449"
-      }
+      "SAMPLE_DESC_3" : "Multiple myeloma"
    },
    {
       "SAMPLE_DESC_2" : "Z-138",
@@ -290,6 +305,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297433",
+         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX298129",
+         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297412",
+         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297453",
+         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX246037",
+         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297419",
+         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297440",
+         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297409",
+         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297447"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -301,24 +327,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Mantle cell lymphoma, aggressive",
-      "ena_path" : {
-         "H3K9me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297433",
-         "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX298129",
-         "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297412",
-         "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297453",
-         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX246037",
-         "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297419",
-         "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297440",
-         "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297409",
-         "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297447"
-      }
+      "SAMPLE_DESC_3" : "Mantle cell lymphoma, aggressive"
    },
    {
       "SAMPLE_DESC_2" : "C000WY",
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C000WY/megakaryocyte-erythroid_progenitor_cell/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -338,6 +356,17 @@
          "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/mature_neutrophil/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/mature_neutrophil/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/mature_neutrophil/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -364,6 +393,15 @@
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -381,6 +419,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -391,6 +432,9 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/granulocyte_monocyte_progenitor_cell/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -403,6 +447,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000919"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -413,6 +460,9 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/hematopoietic_stem_cell/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -430,6 +480,15 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -455,6 +514,17 @@
          "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/mature_neutrophil/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/mature_neutrophil/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/mature_neutrophil/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000391",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -484,6 +554,18 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000941",
+         "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000905",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -511,6 +593,16 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000912",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000921",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -529,6 +621,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006MU/erythroblast/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000911"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -540,6 +635,10 @@
       "ftp_path" : {
          "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006NS/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/DNase-Hypersensitivity/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006NS/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000942",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
       "got_data" : {
          "DNase-Hypersensitivity" : "Yes",
@@ -553,6 +652,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006NS/erythroblast/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000911"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -563,6 +665,9 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006PO/erythroblast/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -575,6 +680,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07002/common_myeloid_progenitor/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -585,6 +693,9 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07002/granulocyte_monocyte_progenitor_cell/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -597,6 +708,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07002/megakaryocyte-erythroid_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000915"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -607,6 +721,9 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/common_myeloid_progenitor/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -619,6 +736,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -629,6 +749,9 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/megakaryocyte-erythroid_progenitor_cell/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000915"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -641,6 +764,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C12001/common_myeloid_progenitor/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -652,6 +778,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C12001/granulocyte_monocyte_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000922"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -662,6 +791,9 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C12001/megakaryocyte-erythroid_progenitor_cell/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -682,6 +814,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000941",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -701,6 +844,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000SB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000918"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -711,6 +857,9 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000903"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -723,6 +872,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00198/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -733,6 +885,9 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001FX/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -745,6 +900,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001QB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -756,6 +914,9 @@
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001QB/hematopoietic_stem_cell/RNA-Seq/NCMLS_CU"
       },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000939"
+      },
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
@@ -766,6 +927,9 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0025C/hematopoietic_stem_cell/RNA-Seq/NCMLS_CU"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000939"
       },
       "got_data" : {
          "RNA-Seq" : "Yes"
@@ -783,6 +947,15 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/erythroblast/ChIP-Seq/NCMLS",
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/erythroblast/ChIP-Seq/NCMLS",
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/erythroblast/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -808,6 +981,17 @@
          "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/erythroblast/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/erythroblast/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/erythroblast/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000911",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000909",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -836,6 +1020,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000916",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000903",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000916",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000916",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000932",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000916",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000916",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000916",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000916"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -861,6 +1056,15 @@
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/alternatively_activated_macrophage/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -877,6 +1081,9 @@
       "SAMPLE_DESC_1" : "Tonsil",
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Tonsil/T11_8/Probable_tonsillitis/Bisulfite-Seq/CNAG"
+      },
+      "archive_path" : {
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000710"
       },
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
@@ -896,6 +1103,17 @@
          "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000941",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -924,6 +1142,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000935",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -950,6 +1179,17 @@
          "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
+         "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000674",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
       "got_data" : {
          "RNA-Seq" : "Yes",
@@ -978,6 +1218,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/mature_neutrophil/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/mature_neutrophil/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000935",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1003,6 +1254,16 @@
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000905",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -1030,6 +1291,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/mature_neutrophil/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/mature_neutrophil/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000935",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1056,6 +1328,17 @@
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000941",
+         "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000905",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -1085,6 +1368,18 @@
          "H2A.Zac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H2A.Zac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1111,6 +1406,15 @@
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002Q1/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002Q1/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1134,6 +1438,15 @@
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002TW/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002TW/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1151,6 +1464,10 @@
       "ftp_path" : {
          "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C00408/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C00408/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000674",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913"
       },
       "got_data" : {
          "DNase-Hypersensitivity" : "Yes",
@@ -1172,6 +1489,18 @@
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C004SQ/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C004SQ/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "H3K9/14ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C004SQ/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000941",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K9/14ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -1201,6 +1530,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000929",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000933",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000929",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000923",
+         "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000931",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000929",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000929",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000929",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000929"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1226,6 +1566,16 @@
          "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C12012/mature_neutrophil/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C12012/mature_neutrophil/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C12012/mature_neutrophil/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -1253,6 +1603,18 @@
          "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000908",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000914",
+         "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000926",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -1282,6 +1644,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001S7/inflammatory_macrophage/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001S7/inflammatory_macrophage/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000908",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000914",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1308,6 +1681,17 @@
          "H3K36me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S0022I/inflammatory_macrophage/ChIP-Seq/NCMLS",
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S0022I/inflammatory_macrophage/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S0022I/inflammatory_macrophage/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000908",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000914",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -1336,6 +1720,17 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00622/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00622/alternatively_activated_macrophage/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000937",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000920",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1361,6 +1756,15 @@
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S006VI/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S006VI/alternatively_activated_macrophage/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1383,6 +1787,15 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925"
       },
       "got_data" : {
          "H3K9me3" : "Yes",
@@ -1407,6 +1820,15 @@
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BKK/mature_eosinophil/ChIP-Seq/NCMLS",
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BKK/mature_eosinophil/ChIP-Seq/NCMLS"
       },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000906",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000906",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000906",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000906",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000906",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000906",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000906"
+      },
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1429,6 +1851,15 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BS4/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BS4/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BS4/alternatively_activated_macrophage/ChIP-Seq/NCMLS"
+      },
+      "archive_path" : {
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938"
       },
       "got_data" : {
          "H3K9me3" : "Yes",

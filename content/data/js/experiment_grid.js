@@ -6,11 +6,8 @@ function init_facetlize() {
          '<h2><%= dt %></h2>' +
          '<ul>'+
          '<li><a href="<%= obj.ftp_path[dt] %>">Go to FTP site</a></li>' +
-         '<% if (obj.ega_path && obj.ega_path[dt]) { %> '+
-           '<li><a href="<%= obj.ega_path[dt] %>">Go to raw data (EGA)</a></li>'+
-         '<% } %>' +
-         '<% if (obj.ena_path && obj.ena_path[dt]) { %> '+
-           '<li><a href="<%= obj.ena_path[dt] %>">Go to raw data (ENA)</a></li>'+
+         '<% if (obj.archive_path && obj.archive_path[dt]) { %> '+
+           '<li><a class="to_archive" href="<%= obj.archive_path[dt] %>">Go to data archive</a></li>'+
          '<% } %>' +
          '<% if (obj.reactome && obj.reactome[dt]) { %> '+
            '<li><a class="to_reactome" href="<%= obj.reactome[dt] %>">View in Reactome</a></li>'+
