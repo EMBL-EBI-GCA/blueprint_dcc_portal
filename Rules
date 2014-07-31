@@ -12,6 +12,7 @@
 #   “content/about.html”). To select all children, grandchildren, … of an
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
+# let compile rule do nothing
 
 compile '*' do
   if item[:extension] == 'md'

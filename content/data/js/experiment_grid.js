@@ -31,18 +31,18 @@ function init_facetlize() {
     settings = {
       items: data,
       facets: {
-        'SAMPLE_DESC_1': 'Sample Description (1)',
-        'SAMPLE_DESC_2': 'Sample Description (2)',
-        'SAMPLE_DESC_3': 'Sample Description (3)'
+        'SAMPLE_DESC_1': 'Group',
+        'SAMPLE_DESC_3': 'Sub-group',
+        'SAMPLE_DESC_2': 'Name'
       },
       resultSelector: '#results',
       facetSelector: '#facets',
       resultTemplate: item_template,
       paginationCount: 50,
       orderByOptions: {
-        'SAMPLE_DESC_1': 'Sample Description (1)',
-        'SAMPLE_DESC_2': 'Sample Description (2)',
-        'SAMPLE_DESC_3': 'Sample Description (3)'
+        'SAMPLE_DESC_1': 'Group',
+        'SAMPLE_DESC_3': 'Sub-group',
+        'SAMPLE_DESC_2': 'Name'
       }
     };
     // show the popup content 
