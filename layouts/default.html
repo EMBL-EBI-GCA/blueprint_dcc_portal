@@ -1,0 +1,83 @@
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+	<!--<![endif]-->
+	<head>
+		<!-- Basic Page Needs
+	================================================== -->
+		<meta charset="utf-8">
+		<title>
+			Blueprint Epigenome DCC- <%= @item[:title] %>
+		</title>
+		<meta name="description" content="Blueprint Data Site">
+		<meta name="author" content="Blueprint Consortium"><!-- Mobile Specific Metas
+	================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!-- CSS
+	================================================== -->
+		<link rel="stylesheet" href="/stylesheets/base.css" type="text/css">
+		<link rel="stylesheet" href="/stylesheets/skeleton.css" type="text/css">
+		<link rel="stylesheet" href="/stylesheets/layout.css" type="text/css">
+		<link rel="stylesheet" href="/stylesheets/docs.css" type="text/css"><!--[if lt IE 9]>
+		<script src="/js/html5shim.js"></script>
+	<![endif]-->
+		<!-- Favicons
+	================================================== -->
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png"><!--[if lte IE 8]>
+	<script src="/js/jquery-1.11.1.min.js"></script>
+	<![endif]-->
+		<!--[if gt IE 8]>
+	<script src="/js/jquery-2.1.1.min.js"></script>
+	<![endif]-->
+		<!--[if !IE]> -->
+		<script src="/js/jquery-2.1.1.min.js" type="text/javascript">
+</script><!-- <![endif]-->
+
+		<script src="/js/underscore-min.js" type="text/javascript">
+</script>
+		<script src="/js/facetedsearch.js" type="text/javascript">
+</script>
+		<link rel="stylesheet" href="/js/fancybox/jquery_fancybox.css" type="text/css" media="screen">
+		<script type="text/javascript" src="/js/fancybox/jquery_fancybox_pack.js">
+</script><!--[if lt IE 9]><script type="text/javascript" src=""/js/jqPlot/excanvas.min.js"></script><![endif]-->
+
+		<script type="text/javascript" src="/js/jqPlot/jquery.jqplot.min.js">
+</script>
+		<script type="text/javascript" src="/js/jqPlot/plugins/jqplot_pieRenderer.min.js">
+</script>
+		<link rel="stylesheet" type="text/css" href="/js/jqPlot/jquery_jqplot_min_css.css">
+		<meta name="generator" content="nanoc &lt;%= Nanoc::VERSION %&gt;">
+	</head>
+	<body>
+		<!-- Primary Page Layout
+	================================================== -->
+
+		<div class="container">
+			<div class="three columns sidebar">
+				<%= render 'nav' %>
+				&nbsp;
+			</div>
+			
+			<div class="twelve columns offset-by-one content">
+					<header>
+									<h1><%= @item[:title] %></h1>
+								</header>
+					<hr class="large" />
+					 <%= yield %>
+			</div>
+
+		</div>
+
+
+			
+			
+		</div><!-- container -->
+		<!-- End Document
+================================================== -->
+	</body>
+</html>
