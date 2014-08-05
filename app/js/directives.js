@@ -198,17 +198,47 @@ uiFacet.directive('uiFacet', function() {
   return {
     restrict: 'E',
     template: 
-      '<div class="panel panel-default facet">' + '<div class="panel-heading"><h3  class="panel-title">{{title}}</h3></div>' + '<div class="panel-body"><ul class="nav nav-pills"><li ng-repeat="item in termContainer.terms"  ng-class="{active: selected.hasOwnProperty(item.term)}"><a ng-click="handleClick($event)" ui-facet-value="{{item.term}}">{{item.term}} <span class="badge">{{item.count}}</span></a></li></ul></div>' + '</div>',
+      '<div class="panel panel-default facet">'
+        +'<div class="panel-heading"><h3 class="panel-title">{{title}}</h3></div>'
+        +'<div class="panel-body">'
+          +'<ul class="nav nav-pills" ng-class="{collapsed: collapsed}">'
+            +'<li ng-repeat="item in termContainer.terms" ng-class="{active: selected.hasOwnProperty(item.term)}">'
+              +'<a ng-click="handleClick($event)" ui-facet-value="{{item.term}}">{{item.term}} <span class="badge">{{item.count}}</span></a>'
+            +'</li>'
+          +'</ul>'
+          +'<button type="button" class="btn btn-xs btn-primary" ng-show="buttonRequired" ng-click="toggleCollapse()">{{buttonText}}</button>'
+        +'</div>'
+      +'</div>',
     scope: {
       title: '@',
       property: '@'
     },
     require: '^uiFacets',
     link: function(scope, element, attrs, parentController) {
+      scope.collapsed = true;
+      scope.buttonText = '+'
+      scope.buttonRequired = false;
+      
+      scope.list = element.find("ul").first();
       parentController.addFacet(scope);
+  
+      scope.$watch('list')
+      
+      scope.toggleCollapse = function(){
+        scope.collapsed = !scope.collapsed;
+        if (scope.collapsed){
+          scope.buttonText = '+';
+        }
+        else {
+          scope.buttonText = '-';
+        }
+      }
 
       scope.$parent.$watch('items', function() {
         scope.termContainer = parentController.getTerms(scope.property);
+        if (scope.list.prop('scrollHeight') > scope.list.height() ){
+          scope.buttonRequired = true;
+        }        
       });
     },
     controller: function($scope) {

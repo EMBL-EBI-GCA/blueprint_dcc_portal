@@ -3,11 +3,13 @@
   max-width: 250px;
   max-height: 250px;
 }
-.facet {
+.facet ul.collapsed{
   max-height: 200px;
   overflow: hidden;
 }
-
+.facet button {
+  float: right;
+}
 a.download {
   font-size: 1.3em;
   font-weight: bolder;
@@ -21,7 +23,7 @@ a.download {
   font-size: 12px;
 }
 
-.nav-spacer {height:35px;}
+.nav-spacer {height:60px;}
 
 /*angular ui bootstrap css fix see http://angular-ui.github.io/bootstrap/*/
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }

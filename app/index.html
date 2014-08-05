@@ -28,14 +28,9 @@
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-  
 
-		
-		
-	
-	  
 	     <!-- Fixed navbar -->
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div id="topnav-bar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
    <div class="container">
      <div class="navbar-header">
        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -77,11 +72,12 @@
      </div><!--/.nav-collapse -->
    </div>
   </div>
+  
+  <div class="nav-spacer"></div>
+  
   <div class="view-container container" role="main">
   			<div ng-view class="view-frame"></div>
-  
-
-	</div>	
+  </div>	
   
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>
