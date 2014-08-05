@@ -23,12 +23,13 @@ directives.directive('reactome', function($http,$window) {
     controller: function($scope, $http, $window) {
       $scope.reactomeLoad = function($event) {
         if (!$scope.href) {
+		  $event.stopPropagation();
           $http
-            .post('http://www.reactome.org/AnalysisService/identifiers/projection?pageSize=0&page=1', $scope.url)
+            .post('http://www.reactome.org/AnalysisService/identifiers/projection?pageSize=0&page=1', $scope.url, {headers:{"Content-Type": "text/plain" }})
             .success(function(data) {
               var token = data.summary.token;
               var newUrl = "http://www.reactome.org/PathwayBrowser/#DTAB=AN&TOOL=AT&ANALYSIS=" + token;
-              $scope.url = href;
+              $scope.href = newUrl;
               $scope.text = "View in Reactome";
               $window.open(newUrl);
               
@@ -37,7 +38,7 @@ directives.directive('reactome', function($http,$window) {
               $scope.href= "";
               console.log("failed to load url in reactome", $scope.url, $)
             });
-            $event.stopPropagation();
+           
         }
         
       };
