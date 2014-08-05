@@ -1,4 +1,3 @@
-dcc_portal
-==========
+#DCC portal
 
-Simple portal site for project data coordination center
+An angularjs based portal for Blueprint.

@@ -1,0 +1,55 @@
+/* app css stylesheet */
+.chart {
+  max-width: 250px;
+  max-height: 250px;
+}
+.facet {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+a.download {
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+
+.area.fill.progress {
+  fill:rgb(107, 174, 214);
+}
+.area.axis text{
+  font-size: 12px;
+}
+
+.nav-spacer {height:35px;}
+
+/*angular ui bootstrap css fix see http://angular-ui.github.io/bootstrap/*/
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+
+/* experiment grid styles */
+table.experiments th.assays{
+  height: 80px;
+  white-space: nowrap;
+}      
+table.experiments th.assays > div {
+  -ms-transform:translate(23px, -1px) rotate(315deg);
+  -moz-transform:translate(23px, -1px) rotate(315deg);
+  -webkit-transform:translate(23px, -1px) rotate(315deg);
+  -o-transform:translate(23px, -1px) rotate(315deg);
+  transform:translate(23px, -1px) rotate(315deg);
+  width: 30px;
+}
+table.experiments th.assays > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
+table.experiments td.assays {
+  text-align: center;
+}
+
+table.experiments td.assays a {
+  color: #058dc7;
+  font-size: 20px;
+  text-decoration:none;
+}

@@ -1,0 +1,81 @@
+<div class="row">
+	<h2>File list</h2>
+	<hr/>
+</div>
+
+<div class="row" ui-facets items="items">
+  <div class="col-md-3">
+    <!--Sidebar content-->
+
+    Search: <input ng-model="query">
+		<br/>
+    Sort by:
+    <select ng-model="orderProp">
+			<option value="CENTER_NAME">Proudction group</option>
+			<option value="LIBRARY_STRATEGY">Assay</option>
+			<option value="EXPERIMENT_TYPE">Experiment type</option>
+      <option value="SAMPLE_DESC_1">Group</option>
+			<option value="SAMPLE_DESC_3">Sub-group</option>
+			<option value="SAMPLE_DESC_2">Name</option>
+			<option value="DONOR_SEX">Sex</option>
+			<option value="TYPE">Type</option>
+    </select>
+		<br/>
+		<ui-facets-clear text="Clear filters"></ui-facets-clear>
+		
+			<ui-facet property="CENTER_NAME" title="Production group"></ui-facet>
+			<ui-facet property="LIBRARY_STRATEGY" title="Assay"></ui-facet>
+			<ui-facet property="EXPERIMENT_TYPE" title="Experiment type"></ui-facet>
+      <ui-facet property="SAMPLE_DESC_1" title="Group"></ui-facet>
+			<ui-facet property="SAMPLE_DESC_3" title="Sub-group"></ui-facet>
+			<ui-facet property="SAMPLE_DESC_2" title="Name"></ui-facet>
+			<ui-facet property="DONOR_SEX" title="Sex"></ui-facet>
+			<ui-facet property="FILE_TYPE" title="Type"></ui-facet>
+  </div>
+  <div class="col-md-9">
+    <!--Body content-->
+		<pagination 
+			total-items="items.length"
+			ng-model="currentPage"
+			items-per-page="pageSize"
+			max-size="numPages"
+			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
+		<table class=" table table-striped">
+			<thead>
+				<tr>
+		      <th class="reg" /> 
+		      <th class="reg">Type</th>
+					<th class="reg">Group</th>
+					<th class="reg">Sub-group</th>
+					<th class="reg">Name</th>					
+		      <th class="reg">Sex</th> 
+		      <th class="reg">Library strategy</th> 
+		      <th class="reg">Experiment type</th> 
+		      <th class="reg">Center name</th>
+				</tr>
+			</thead>
+			<tbody id="results">				
+				<tr ng-repeat="item in items | filter:query | orderBy:orderProp | pager:currentPage:pageSize">
+					
+		      <td><a class="download" ng-href="{{item.FILE}}" title="Download file">&#8659;</a></td>
+		      <td>{{item.FILE_TYPE}}</td>
+		      <td>{{item.SAMPLE_DESC_1}}</td>
+		      <td>{{item.SAMPLE_DESC_2}} </td>
+		      <td>{{item.SAMPLE_DESC_3}}</td>
+		      <td>{{item.DONOR_SEX}}</td>
+		      <td>{{item.LIBRARY_STRATEGY}}</td>
+		      <td>{{item.EXPERIMENT_TYPE}}</td>
+		      <td>{{item.CENTER_NAME}}</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<pagination 
+			total-items="items.length"
+			ng-model="currentPage"
+			items-per-page="pageSize"
+			max-size="numPages"
+			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
+	</div>
+</div>
+

@@ -1,0 +1,70 @@
+<div class="row">
+	<h2>Experiment grid</h2>
+	<hr/>
+</div>
+
+<div class="row" ui-facets items="items">
+  <div class="col-md-3">
+    <!--Sidebar content-->
+
+    Search: <input ng-model="query">
+		<br/>
+    Sort by:
+    <select ng-model="orderProp">
+      <option value="SAMPLE_DESC_1">Group</option>
+			<option value="SAMPLE_DESC_3">Sub-group</option>
+			<option value="SAMPLE_DESC_2">Name</option>
+    </select>
+		<br/>
+		
+		<ui-facets-clear text="Clear filters"></ui-facets-clear>
+		<ui-facet title="Group" property="SAMPLE_DESC_1"></ui-facet>
+		<ui-facet title="Sub-group" property="SAMPLE_DESC_3"></ui-facet>
+		<ui-facet title="Name" property="SAMPLE_DESC_2"></ui-facet>
+  </div>
+  <div class="col-md-9">
+    <!--Body content-->
+		<pagination 
+			total-items="items.length"
+			ng-model="currentPage"
+			items-per-page="pageSize"
+			max-size="numPages"
+			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
+		<table class="experiments table table-striped">
+			<thead>
+				<tr>
+					<th class="reg">Group</th>
+					<th class="reg">Sub-group</th>
+					<th class="reg">Name</th>					
+					<th class="assays"><div><span>Bisulfite</span></div></th>
+					<th class="assays"><div><span>DNaseI</span></div></th>
+					<th class="assays"><div><span>RNA</span></div></th>
+					<th class="assays"><div><span>Input</span></div></th>
+					<th class="assays"><div><span>H3K4me3</span></div></th>
+					<th class="assays"><div><span>H3K4me1</span></div></th>
+					<th class="assays"><div><span>H3K9me3</span></div></th>
+					<th class="assays"><div><span>H3K27ac</span></div></th>
+					<th class="assays"><div><span>H3K27me3</span></div></th>
+					<th class="assays"><div><span>H3K36me3</span></div></th>
+				</tr>
+			</thead>
+			<tbody id="results">				
+				<tr ng-repeat="item in items | filter:query | orderBy:orderProp | pager:currentPage:pageSize">
+						<td>{{item.SAMPLE_DESC_1}}</td>
+						<td>{{item.SAMPLE_DESC_3}}</td>
+						<td>{{item.SAMPLE_DESC_2}}</td>
+						<td ng-repeat="dt in datatypes" class="assays">
+							<a ng-if="item.got_data[dt]" class="show_popup" href="#">&#x25cf;</a>
+						</td>
+				</tr>
+			</tbody>
+		</table>
+		<pagination 
+			total-items="items.length"
+			ng-model="currentPage"
+			items-per-page="pageSize"
+			max-size="numPages"
+			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
+	</div>
+</div>
+

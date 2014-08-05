@@ -1,0 +1,51 @@
+{
+    "counts": {
+        "_type": "terms", 
+        "missing": 0, 
+        "other": 0, 
+        "terms": [
+            {
+                "count": 26, 
+                "term": "BS-Seq"
+            }, 
+            {
+                "count": 271, 
+                "term": "ChIP-Seq"
+            }, 
+            {
+                "count": 16, 
+                "term": "DNase-Seq"
+            }, 
+            {
+                "count": 54, 
+                "term": "RNA-Seq"
+            }
+        ], 
+        "total": 4
+    }, 
+    "progress": {
+        "_type": "date_histogram", 
+        "entries": [
+            {
+                "count": 28, 
+                "time": 1362096000
+            }, 
+            {
+                "count": 120, 
+                "time": 1371427200
+            }, 
+            {
+                "count": 171, 
+                "time": 1380499200
+            }, 
+            {
+                "count": 259, 
+                "time": 1394755200
+            }, 
+            {
+                "count": 367, 
+                "time": 1407715200
+            }
+        ]
+    }
+}
