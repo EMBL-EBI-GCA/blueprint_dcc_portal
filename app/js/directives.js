@@ -3,44 +3,46 @@
 /* Directives */
 var directives = angular.module('dccPortal.directives', []);
 
-directives.directive('reactome', function($http,$window) {
+directives.directive('reactome', function($http, $window) {
   return {
     restrict: 'E',
     scope: {
       url: '='
     },
     link: function(scope, element, attrs, controller) {
-      scope.init = function(){
+      scope.init = function() {
         scope.text = "Load in Reactome";
         scope.href = "";
       }
-     
+
       //reset the state if the url changes
       scope.$watch('url', function() {
-         scope.init();
+        scope.init();
       });
     },
     controller: function($scope, $http, $window) {
       $scope.reactomeLoad = function($event) {
         if (!$scope.href) {
-		  $event.stopPropagation();
-          $http
-            .post('http://www.reactome.org/AnalysisService/identifiers/projection?pageSize=0&page=1', $scope.url, {headers:{"Content-Type": "text/plain" }})
-            .success(function(data) {
-              var token = data.summary.token;
-              var newUrl = "http://www.reactome.org/PathwayBrowser/#DTAB=AN&TOOL=AT&ANALYSIS=" + token;
-              $scope.href = newUrl;
-              $scope.text = "View in Reactome";
-              $window.open(newUrl);
-              
-            }).error(function(data, status, headers, config) {
-              $scope.text = "Failed to load";
-              $scope.href= "";
-              console.log("failed to load url in reactome", $scope.url, $)
-            });
-           
+          $event.stopPropagation();
+          $http.post('http://www.reactome.org/AnalysisService/identifiers/projection?pageSize=0&page=1', $scope.url, {
+            headers: {
+              "Content-Type": "text/plain"
+            }
+          }).success(function(data) {
+            var token = data.summary.token;
+            var newUrl = "http://www.reactome.org/PathwayBrowser/#DTAB=AN&TOOL=AT&ANALYSIS=" + token;
+            $scope.href = newUrl;
+            $scope.text = "View in Reactome";
+            $window.open(newUrl);
+
+          }).error(function(data, status, headers, config) {
+            $scope.text = "Failed to load";
+            $scope.href = "";
+            console.log("failed to load url in reactome", $scope.url, $)
+          });
+
         }
-        
+
       };
     },
     template: '<a href="{{href}}" target="_blank" ng-click="reactomeLoad($event)">{{text}}</a>'
@@ -134,28 +136,28 @@ uiFacet.directive('uiFacets', function() {
             var facet = $scope.facets[j];
 
             var facetMatch = facet.match(item);
-            var itemHasProperty = item.hasOwnProperty(facet.property);
-            var itemVal;
-
-            if (itemHasProperty) {
-              itemVal = item[facet.property].toString();
+            var itemVals = facet.getVals(item);
+            //var itemHasProperty = item.hasOwnProperty(facet.property);
+            //var itemVal;
+            if (!facetMatch) {
+              match = false;
             }
+
 
             if (!newTerms.hasOwnProperty(facet.property)) {
               newTerms[facet.property] = {};
             }
+            if (itemVals) {
+              for (var index in itemVals) {
+                var itemVal = itemVals[index];
+                if (itemVal && !newTerms[facet.property].hasOwnProperty(itemVal)) {
+                  newTerms[facet.property][itemVal] = 0;
+                }
 
-            if (itemHasProperty && !newTerms[facet.property].hasOwnProperty(itemVal)) {
-              newTerms[facet.property][itemVal] = 0;
+                propValHolder[facet.property] = itemVal;                
+              }
             }
 
-            if (itemHasProperty) {
-              propValHolder[facet.property] = itemVal;
-            }
-
-            if (!facetMatch) {
-              match = false;
-            }
           }
 
           if (match) {
@@ -197,18 +199,7 @@ uiFacet.directive('uiFacetsClear', function() {
 uiFacet.directive('uiFacet', function() {
   return {
     restrict: 'E',
-    template: 
-      '<div class="panel panel-default facet">'
-        +'<div class="panel-heading"><h3 class="panel-title">{{title}}</h3></div>'
-        +'<div class="panel-body">'
-          +'<ul class="nav nav-pills" ng-class="{collapsed: collapsed}">'
-            +'<li ng-repeat="item in termContainer.terms" ng-class="{active: selected.hasOwnProperty(item.term)}">'
-              +'<a ng-click="handleClick($event)" ui-facet-value="{{item.term}}">{{item.term}} <span class="badge">{{item.count}}</span></a>'
-            +'</li>'
-          +'</ul>'
-          +'<button type="button" class="btn btn-xs btn-primary" ng-show="buttonRequired" ng-click="toggleCollapse()">{{buttonText}}</button>'
-        +'</div>'
-      +'</div>',
+    template: '<div class="panel panel-default facet">' + '<div class="panel-heading"><h3 class="panel-title">{{title}}</h3></div>' + '<div class="panel-body">' + '<ul class="nav nav-pills" ng-class="{collapsed: collapsed}">' + '<li ng-repeat="item in termContainer.terms" ng-class="{active: selected.hasOwnProperty(item.term)}">' + '<a ng-click="handleClick($event)" ui-facet-value="{{item.term}}">{{item.term}} <span class="badge">{{item.count}}</span></a>' + '</li>' + '</ul>' + '<button type="button" class="btn btn-xs btn-primary" ng-show="buttonRequired" ng-click="toggleCollapse()">{{buttonText}}</button>' + '</div>' + '</div>',
     scope: {
       title: '@',
       property: '@'
@@ -218,27 +209,26 @@ uiFacet.directive('uiFacet', function() {
       scope.collapsed = true;
       scope.buttonText = '+'
       scope.buttonRequired = false;
-      
+
       scope.list = element.find("ul").first();
       parentController.addFacet(scope);
-  
+
       scope.$watch('list')
-      
-      scope.toggleCollapse = function(){
+
+      scope.toggleCollapse = function() {
         scope.collapsed = !scope.collapsed;
-        if (scope.collapsed){
+        if (scope.collapsed) {
           scope.buttonText = '+';
-        }
-        else {
+        } else {
           scope.buttonText = '-';
         }
       }
 
       scope.$parent.$watch('items', function() {
         scope.termContainer = parentController.getTerms(scope.property);
-        if (scope.list.prop('scrollHeight') > scope.list.height() ){
+        if (scope.list.prop('scrollHeight') > scope.list.height()) {
           scope.buttonRequired = true;
-        }        
+        }
       });
     },
     controller: function($scope) {
@@ -263,20 +253,46 @@ uiFacet.directive('uiFacet', function() {
           $scope.selectedValues = newSelection;
         }
       };
-
+      $scope.getVals = function(item) {
+        if (!item.hasOwnProperty($scope.property)) {
+          return null;
+        }
+        var val = item[$scope.property];
+        if (val === null) {
+          return null;
+        }
+        if (val instanceof Array) {
+          return val;
+        }
+        if (typeof val == 'string' || val instanceof String || typeof val == 'number' || val instanceof Number || typeof val == 'boolean' || val instanceof Boolean) {
+          return [val];
+        }
+        var vals = [];
+        for (var p in val) {
+          if (val.hasOwnProperty(p)) {
+            vals.push(p);
+          }
+        }
+        return vals;
+      }
       $scope.match = function(item) {
         if (!$scope.selectedValues || $scope.selectedValues.length === 0) {
           return true;
         }
 
-        if (!item.hasOwnProperty($scope.property)) {
+        var vals = $scope.getVals(item);
+
+        if (valls === null) {
           return false;
         }
-        var itemVal = item[$scope.property].toString();
 
-        for (var i = 0, vl = $scope.selectedValues.length; i < vl; i++) {
-          if (itemVal == $scope.selectedValues[i]) {
-            return true;
+        for (var v in val) {
+          var itemVal = v.toString();
+
+          for (var i = 0, vl = $scope.selectedValues.length; i < vl; i++) {
+            if (itemVal == $scope.selectedValues[i]) {
+              return true;
+            }
           }
         }
 
