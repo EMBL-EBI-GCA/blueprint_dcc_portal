@@ -282,12 +282,12 @@ uiFacet.directive('uiFacet', function() {
 
         var vals = $scope.getVals(item);
 
-        if (valls === null) {
+        if (vals === null) {
           return false;
         }
 
-        for (var v in val) {
-          var itemVal = v.toString();
+        for (var v in vals) {
+          var itemVal = vals[v].toString();
 
           for (var i = 0, vl = $scope.selectedValues.length; i < vl; i++) {
             if (itemVal == $scope.selectedValues[i]) {
