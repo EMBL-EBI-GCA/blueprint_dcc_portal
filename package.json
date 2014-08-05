@@ -1,10 +1,10 @@
 {
-  "name": "angular-seed",
+  "name": "dcc-portal",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
-  "license": "MIT",
+  "description": "A data portal for Blueprint",
+  "repository": "https://github.com/davidrichardson/dcc_portal",
+  "license": "Apache 2",
   "devDependencies": {
     "karma": "~0.10",
     "protractor": "~0.20.1",
