@@ -10,6 +10,7 @@ var dccPortal = angular.module('dccPortal', [
   'dccPortal.directives',
   'dccPortal.controllers',
   'uiFacets',
+  'ui.bootstrap',
   'dangle',
   'markdown'
 ]);
