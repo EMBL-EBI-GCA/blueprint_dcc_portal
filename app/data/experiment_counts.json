@@ -1,8 +1,5 @@
 {
     "counts": {
-        "_type": "terms", 
-        "missing": 0, 
-        "other": 0, 
         "terms": [
             {
                 "count": 26, 
@@ -24,27 +21,26 @@
         "total": 4
     }, 
     "progress": {
-        "_type": "date_histogram", 
-        "entries": [
+        "terms": [
             {
                 "count": 28, 
-                "time": 1362096000
+                "term": "March 2013"
             }, 
             {
                 "count": 120, 
-                "time": 1371427200
+                "term": "June 2013"
             }, 
             {
                 "count": 171, 
-                "time": 1380499200
+                "term": "September 2013"
             }, 
             {
                 "count": 259, 
-                "time": 1394755200
+                "term": "March 2014"
             }, 
             {
                 "count": 367, 
-                "time": 1407715200
+                "term": "August 2014"
             }
         ]
     }

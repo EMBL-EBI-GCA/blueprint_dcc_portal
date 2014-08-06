@@ -14,12 +14,12 @@
 		<h2 class="panel-title">Data summary</h2>
 	</div>
 	<div class="panel-body">
-  	<div class="col-md-4">
+  	<div class="col-md-6">
 			<fs:donut outer-radius="200" inner-radius="75" bind="stats.counts"></fs:donut>	
 			<p>Release composition by assay type</p>		
 		</div>
-		<div class="col-md-8">
-			<fs:area bind="stats.progress" height="300" width="1280" label="Experiment count" interpolate="true" class="progress" point-radius="10"></fs:area>
+		<div class="col-md-6">
+			<fs:column bind="stats.progress" height="600" width="630" label="Experiments"></fs:column>
 			<p>Number of experiments per release</p>		
 		</div>
 	</div>
