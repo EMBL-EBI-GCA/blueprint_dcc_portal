@@ -199,7 +199,19 @@ uiFacet.directive('uiFacetsClear', function() {
 uiFacet.directive('uiFacet', function() {
   return {
     restrict: 'E',
-    template: '<div class="panel panel-default facet">' + '<div class="panel-heading"><h3 class="panel-title">{{title}}</h3></div>' + '<div class="panel-body">' + '<ul class="nav nav-pills" ng-class="{collapsed: collapsed}">' + '<li ng-repeat="item in termContainer.terms" ng-class="{active: selected.hasOwnProperty(item.term)}">' + '<a ng-click="handleClick($event)" ui-facet-value="{{item.term}}">{{item.term}} <span class="badge">{{item.count}}</span></a>' + '</li>' + '</ul>' + '<button type="button" class="btn btn-xs btn-primary" ng-show="buttonRequired" ng-click="toggleCollapse()">{{buttonText}}</button>' + '</div>' + '</div>',
+    template: 
+    '<div class="facet">' 
+      + '<ul class="list-group" ng-class="{collapsed: collapsed}">'
+        + '<li class="list-group-item heading">'
+          + '<h3 class="panel-title">{{title}}</h3>'
+          +'<button type="button" class="btn btn-xs btn-primary" ng-show="buttonRequired" ng-click="toggleCollapse()">{{buttonText}}</button>'
+        +'</li>'
+        + '<li ng-repeat="item in termContainer.terms" class="list-group-item facet-term" ng-class="{active: selected.hasOwnProperty(item.term)}" ng-click="handleClick($event)" ui-facet-value="{{item.term}}">'
+          + '{{item.term}} <span class="badge">{{item.count}}</span>' 
+        + '</li>'
+    + '</ul>'
+    + ''
+    + '</div>',
     scope: {
       title: '@',
       property: '@'
