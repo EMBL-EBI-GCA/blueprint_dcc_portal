@@ -138,8 +138,10 @@ uiFacet.directive('uiFacets', function() {
           for (var j = 0, fl = $scope.facets.length; j < fl; j++) {
             var facet = $scope.facets[j];
 
-            var facetMatch = facet.match(item);
-            var itemVals = facet.getVals(item);
+            var facetResults = facet.match(item);
+            
+            var facetMatch = facetResults.match;
+            var itemVals = facetResults.vals;
             //var itemHasProperty = item.hasOwnProperty(facet.property);
             //var itemVal;
             if (!facetMatch) {
@@ -150,14 +152,18 @@ uiFacet.directive('uiFacets', function() {
             if (!newTerms.hasOwnProperty(facet.property)) {
               newTerms[facet.property] = {};
             }
-            if (itemVals) {
+            if (itemVals != null) {
               for (var index in itemVals) {
                 var itemVal = itemVals[index];
+                
                 if (itemVal && !newTerms[facet.property].hasOwnProperty(itemVal)) {
                   newTerms[facet.property][itemVal] = 0;
                 }
-
-                propValHolder[facet.property] = itemVal;                
+                
+                if (!propValHolder[facet.property]){
+                  propValHolder[facet.property] = [];
+                }
+                propValHolder[facet.property].push(itemVal);                
               }
             }
 
@@ -168,9 +174,13 @@ uiFacet.directive('uiFacets', function() {
 
             for (var k = 0, kl = $scope.facets.length; k < fl; k++) {
               var prop = $scope.facets[k].property;
+              
               if (propValHolder.hasOwnProperty(prop)) {
-                var val = propValHolder[prop];
-                newTerms[prop][val]++;
+                var vals = propValHolder[prop];
+                for (var n = 0, nl = vals.length; n < nl; n++){
+                  var val = vals[n];
+                  newTerms[prop][val]++;
+                }
               }
             }
           }
@@ -291,13 +301,15 @@ uiFacet.directive('uiFacet', function() {
         return vals;
       }
       $scope.match = function(item) {
+        var vals = $scope.getVals(item);
+        var results = {vals: vals, match: true};
+        
         if (!$scope.selectedValues || $scope.selectedValues.length === 0) {
-          return true;
+          return results;
         }
 
-        var vals = $scope.getVals(item);
-
         if (vals === null) {
+          results.match = false;
           return false;
         }
 
@@ -306,12 +318,13 @@ uiFacet.directive('uiFacet', function() {
 
           for (var i = 0, vl = $scope.selectedValues.length; i < vl; i++) {
             if (itemVal == $scope.selectedValues[i]) {
-              return true;
+              results.match = true;
+              return results;
             }
           }
         }
-
-        return false;
+        results.match = false;
+        return results;
       };
       $scope.clearState = function() {
         $scope.selected = {};
