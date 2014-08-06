@@ -11,8 +11,9 @@ directives.directive('reactome', function($http, $window) {
     },
     link: function(scope, element, attrs, controller) {
       scope.init = function() {
-        scope.text = "Load in Reactome";
+        scope.text = "Load";
         scope.href = "";
+        scope.loaded = false;
       }
 
       //reset the state if the url changes
@@ -21,10 +22,10 @@ directives.directive('reactome', function($http, $window) {
       });
     },
     controller: function($scope, $http, $window) {
-      $scope.reactomeLoad = function($event) {
+      $scope.reactomeClick = function() {
         if (!$scope.href) {
-          $event.stopPropagation();
-          $http.post('http://www.reactome.org/AnalysisService/identifiers/projection?pageSize=0&page=1', $scope.url, {
+          $scope.text='Loading...'
+          $http.post('http://www.reactome.org/AnalysisService/identifiers/url/projection?pageSize=0&page=1', $scope.url, {
             headers: {
               "Content-Type": "text/plain"
             }
@@ -32,11 +33,12 @@ directives.directive('reactome', function($http, $window) {
             var token = data.summary.token;
             var newUrl = "http://www.reactome.org/PathwayBrowser/#DTAB=AN&TOOL=AT&ANALYSIS=" + token;
             $scope.href = newUrl;
-            $scope.text = "View in Reactome";
-            $window.open(newUrl);
-
+            $scope.loaded= true;
+            $scope.text = "View";
+            $window.open(newUrl,'_blank');
+            
           }).error(function(data, status, headers, config) {
-            $scope.text = "Failed to load";
+            $scope.text = "Error";
             $scope.href = "";
             console.log("failed to load url in reactome", $scope.url, $)
           });
@@ -45,7 +47,8 @@ directives.directive('reactome', function($http, $window) {
 
       };
     },
-    template: '<a href="{{href}}" target="_blank" ng-click="reactomeLoad($event)">{{text}}</a>'
+    template: '<button class="btn btn-xs btn-primary" ng-hide="loaded" ng-click="reactomeClick()">{{text}}</button>'+
+    '<a class="btn btn-xs btn-success" ng-show="loaded" ng-href="{{href}}" target="_blank">{{text}}</button>'
   }
 });
 
