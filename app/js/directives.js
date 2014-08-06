@@ -283,7 +283,7 @@ uiFacet.directive('uiFacet', function() {
           return null;
         }
         var val = item[$scope.property];
-        if (val === null) {
+        if (val === null || val == "") {
           return null;
         }
         if (val instanceof Array) {
