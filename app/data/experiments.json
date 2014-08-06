@@ -1,77 +1,110 @@
 [
    {
-      "SAMPLE_DESC_2" : "25145",
       "SAMPLE_DESC_1" : "Bone marrow",
+      "DISEASE" : "Multiple myeloma",
+      "CELL_TYPE" : "Plasma cell",
+      "TISSUE_TYPE" : "Bone marrow",
+      "SAMPLE_DESC_2" : "25145",
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/25145/Multiple_myeloma/Bisulfite-Seq/CNAG"
       },
       "archive_path" : {
-         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000934"
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000649"
       },
+      "DONOR_ID" : "25145",
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Multiple myeloma"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "Multiple myeloma",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "25386",
       "SAMPLE_DESC_1" : "Bone marrow",
+      "DISEASE" : "Multiple myeloma",
+      "CELL_TYPE" : "Plasma cell",
+      "TISSUE_TYPE" : "Bone marrow",
+      "SAMPLE_DESC_2" : "25386",
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/25386/Multiple_myeloma/Bisulfite-Seq/CNAG"
       },
       "archive_path" : {
-         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000672"
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000934"
       },
+      "DONOR_ID" : "25386",
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Multiple myeloma"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "Multiple myeloma",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "F2012-2912",
       "SAMPLE_DESC_1" : "Bone marrow",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "hematopoietic multipotent progenitor cell",
+      "TISSUE_TYPE" : "Bone marrow",
+      "SAMPLE_DESC_2" : "F2012-2912",
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG"
       },
       "archive_path" : {
-         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000649"
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000710"
       },
+      "DONOR_ID" : "F2012-2912",
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "hematopoietic multipotent progenitor cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "hematopoietic multipotent progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "F2012-2912",
       "SAMPLE_DESC_1" : "Bone marrow",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "precursor lymphocyte of B lineage",
+      "TISSUE_TYPE" : "Bone marrow",
+      "SAMPLE_DESC_2" : "F2012-2912",
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/precursor_lymphocyte_of_B_lineage/Bisulfite-Seq/CNAG"
       },
       "archive_path" : {
          "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000710"
       },
+      "DONOR_ID" : "F2012-2912",
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "precursor lymphocyte of B lineage"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "precursor lymphocyte of B lineage",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "MO7071",
       "SAMPLE_DESC_1" : "Bone marrow",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "Plasma cell",
+      "TISSUE_TYPE" : "Bone marrow",
+      "SAMPLE_DESC_2" : "MO7071",
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG"
       },
       "archive_path" : {
-         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000672"
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000927"
       },
+      "DONOR_ID" : "MO7071",
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Plasma cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "Plasma cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "BL-2",
       "SAMPLE_DESC_1" : "Cell Line",
+      "DISEASE" : "Sporadic Burkitt lymphoma",
+      "CELL_TYPE" : "",
+      "TISSUE_TYPE" : "",
+      "SAMPLE_DESC_2" : "BL-2",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/Sporadic_Burkitt_lymphoma/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/Sporadic_Burkitt_lymphoma/RNA-Seq/NCMLS",
@@ -92,6 +125,7 @@
          "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297408",
          "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297448"
       },
+      "DONOR_ID" : "",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -102,11 +136,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Sporadic Burkitt lymphoma"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "Sporadic Burkitt lymphoma",
+      "CELL_LINE" : "BL-2"
    },
    {
-      "SAMPLE_DESC_2" : "DG-75",
       "SAMPLE_DESC_1" : "Cell Line",
+      "DISEASE" : "Sporadic Burkitt lymphoma",
+      "CELL_TYPE" : "",
+      "TISSUE_TYPE" : "",
+      "SAMPLE_DESC_2" : "DG-75",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/RNA-Seq/NCMLS",
@@ -129,6 +168,7 @@
          "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297407",
          "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297450"
       },
+      "DONOR_ID" : "",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -140,11 +180,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Sporadic Burkitt lymphoma"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "Sporadic Burkitt lymphoma",
+      "CELL_LINE" : "DG-75"
    },
    {
-      "SAMPLE_DESC_2" : "JVM-2",
       "SAMPLE_DESC_1" : "Cell Line",
+      "DISEASE" : "Mantle cell lymphoma",
+      "CELL_TYPE" : "",
+      "TISSUE_TYPE" : "",
+      "SAMPLE_DESC_2" : "JVM-2",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/Mantle_cell_lymphoma/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/Mantle_cell_lymphoma/RNA-Seq/NCMLS",
@@ -165,6 +210,7 @@
          "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297405",
          "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297446"
       },
+      "DONOR_ID" : "",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -175,11 +221,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Mantle cell lymphoma, indolent"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "Mantle cell lymphoma",
+      "CELL_LINE" : "JVM-2"
    },
    {
-      "SAMPLE_DESC_2" : "KARPAS-422",
       "SAMPLE_DESC_1" : "Cell Line",
+      "DISEASE" : "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma",
+      "CELL_TYPE" : "",
+      "TISSUE_TYPE" : "",
+      "SAMPLE_DESC_2" : "KARPAS-422",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/RNA-Seq/NCMLS",
@@ -202,6 +253,7 @@
          "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297425",
          "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297451"
       },
+      "DONOR_ID" : "",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -213,11 +265,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Diffuse large B cell lymphoma GCB t(14;18)-positive"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma",
+      "CELL_LINE" : "KARPAS-422"
    },
    {
-      "SAMPLE_DESC_2" : "SU-DHL-5",
       "SAMPLE_DESC_1" : "Cell Line",
+      "DISEASE" : "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma",
+      "CELL_TYPE" : "",
+      "TISSUE_TYPE" : "",
+      "SAMPLE_DESC_2" : "SU-DHL-5",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/RNA-Seq/NCMLS",
@@ -240,6 +297,7 @@
          "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297427",
          "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297452"
       },
+      "DONOR_ID" : "",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -251,11 +309,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Diffuse large B cell lymphoma GCB t(14;18) negative"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma",
+      "CELL_LINE" : "SU-DHL-5"
    },
    {
-      "SAMPLE_DESC_2" : "U-266",
       "SAMPLE_DESC_1" : "Cell Line",
+      "DISEASE" : "Multiple myeloma",
+      "CELL_TYPE" : "",
+      "TISSUE_TYPE" : "",
+      "SAMPLE_DESC_2" : "U-266",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/RNA-Seq/NCMLS",
@@ -278,6 +341,7 @@
          "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297406",
          "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297449"
       },
+      "DONOR_ID" : "",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -289,11 +353,36 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Multiple myeloma"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "Multiple myeloma",
+      "CELL_LINE" : "U-266"
    },
    {
-      "SAMPLE_DESC_2" : "Z-138",
       "SAMPLE_DESC_1" : "Cell Line",
+      "DISEASE" : "Mantle cell lymphoma, aggressive",
+      "CELL_TYPE" : "",
+      "TISSUE_TYPE" : "",
+      "SAMPLE_DESC_2" : "Z-138",
+      "ftp_path" : {
+         "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS"
+      },
+      "archive_path" : {
+         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX246037"
+      },
+      "DONOR_ID" : "",
+      "got_data" : {
+         "DNase-Hypersensitivity" : "Yes"
+      },
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "Mantle cell lymphoma, aggressive",
+      "CELL_LINE" : "Z-138"
+   },
+   {
+      "SAMPLE_DESC_1" : "Cell Line",
+      "DISEASE" : "Mantle cell lymphoma",
+      "CELL_TYPE" : "",
+      "TISSUE_TYPE" : "",
+      "SAMPLE_DESC_2" : "Z-138",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS",
@@ -310,12 +399,13 @@
          "RNA-Seq" : "http://www.ebi.ac.uk/ena/data/view/ERX298129",
          "H3K4me1" : "http://www.ebi.ac.uk/ena/data/view/ERX297412",
          "H3K27ac" : "http://www.ebi.ac.uk/ena/data/view/ERX297453",
-         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX246037",
+         "DNase-Hypersensitivity" : "http://www.ebi.ac.uk/ena/data/view/ERX297500",
          "H3K27me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297419",
          "H3K36me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297440",
          "H3K4me3" : "http://www.ebi.ac.uk/ena/data/view/ERX297409",
          "Input" : "http://www.ebi.ac.uk/ena/data/view/ERX297447"
       },
+      "DONOR_ID" : "",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -327,25 +417,36 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Mantle cell lymphoma, aggressive"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "Mantle cell lymphoma",
+      "CELL_LINE" : "Z-138"
    },
    {
-      "SAMPLE_DESC_2" : "C000WY",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "megakaryocyte-erythroid progenitor cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C000WY",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C000WY/megakaryocyte-erythroid_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C000WY",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "megakaryocyte-erythroid progenitor cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "megakaryocyte-erythroid progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C00184",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "mature neutrophil",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C00184",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/mature_neutrophil/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/mature_neutrophil/RNA-Seq/MPIMG",
@@ -359,15 +460,16 @@
       },
       "archive_path" : {
          "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
-         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
          "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
-         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930"
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
+      "DONOR_ID" : "C00184",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -379,11 +481,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "mature neutrophil"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "mature neutrophil",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C00264",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C00264",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
@@ -394,14 +501,15 @@
          "H3K27ac" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00264/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
       },
       "archive_path" : {
-         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913"
       },
+      "DONOR_ID" : "C00264",
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -411,67 +519,96 @@
          "H3K4me1" : "Yes",
          "H3K27ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C002UU",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "common lymphoid progenitor",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C002UU",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C002UU",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "common lymphoid progenitor"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "common lymphoid progenitor",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C002UU",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "granulocyte monocyte progenitor cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C002UU",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/granulocyte_monocyte_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C002UU",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "granulocyte monocyte progenitor cell"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "granulocyte monocyte progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C002UU",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "hematopoietic multipotent progenitor cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C002UU",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000919"
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C002UU",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "hematopoietic multipotent progenitor cell"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "hematopoietic multipotent progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C002UU",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "hematopoietic stem cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C002UU",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002UU/hematopoietic_stem_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C002UU",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "hematopoietic stem cell"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "hematopoietic stem cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C002YM",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD8-positive, alpha-beta T cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C002YM",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C002YM/CD8-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
@@ -490,6 +627,7 @@
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936"
       },
+      "DONOR_ID" : "C002YM",
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -499,11 +637,16 @@
          "H3K4me1" : "Yes",
          "H3K27ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD8-positive, alpha-beta T cell"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "CD8-positive, alpha-beta T cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C004GD",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "mature neutrophil",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C004GD",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/mature_neutrophil/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/mature_neutrophil/RNA-Seq/MPIMG",
@@ -516,16 +659,17 @@
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/mature_neutrophil/ChIP-Seq/NCMLS"
       },
       "archive_path" : {
-         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000391",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
          "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
          "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
+      "DONOR_ID" : "C004GD",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -537,11 +681,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "mature neutrophil"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "mature neutrophil",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C005PS",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C005PS",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG",
@@ -555,17 +704,18 @@
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
       },
       "archive_path" : {
-         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
-         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000941",
          "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000905",
-         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913"
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
+      "DONOR_ID" : "C005PS",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -578,11 +728,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C0066P",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD8-positive, alpha-beta T cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C0066P",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8-positive_alpha-beta_T_cell/RNA-Seq/MPIMG",
@@ -603,6 +758,7 @@
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936"
       },
+      "DONOR_ID" : "C0066P",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -613,25 +769,36 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD8-positive, alpha-beta T cell"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "CD8-positive, alpha-beta T cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C006MU",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "erythroblast",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C006MU",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006MU/erythroblast/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000911"
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C006MU",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "erythroblast"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "erythroblast",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C006NS",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C006NS",
       "ftp_path" : {
          "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006NS/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/DNase-Hypersensitivity/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006NS/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/RNA-Seq/NCMLS_CU"
@@ -640,169 +807,241 @@
          "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000942",
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C006NS",
       "got_data" : {
          "DNase-Hypersensitivity" : "Yes",
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C006NS",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "erythroblast",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C006NS",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006NS/erythroblast/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000911"
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C006NS",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "erythroblast"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "erythroblast",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C006PO",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "erythroblast",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C006PO",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006PO/erythroblast/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C006PO",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "erythroblast"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "erythroblast",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C07002",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "common myeloid progenitor",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C07002",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07002/common_myeloid_progenitor/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C07002",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "common myeloid progenitor"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "common myeloid progenitor",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C07002",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "granulocyte monocyte progenitor cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C07002",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07002/granulocyte_monocyte_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C07002",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "granulocyte monocyte progenitor cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "granulocyte monocyte progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C07002",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "megakaryocyte-erythroid progenitor cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C07002",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07002/megakaryocyte-erythroid_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000915"
       },
+      "DONOR_ID" : "C07002",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "megakaryocyte-erythroid progenitor cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "megakaryocyte-erythroid progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C07015",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "common myeloid progenitor",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C07015",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/common_myeloid_progenitor/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C07015",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "common myeloid progenitor"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "common myeloid progenitor",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C07015",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "hematopoietic multipotent progenitor cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C07015",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000919"
       },
+      "DONOR_ID" : "C07015",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "hematopoietic multipotent progenitor cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "hematopoietic multipotent progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C07015",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "megakaryocyte-erythroid progenitor cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C07015",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/megakaryocyte-erythroid_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000915"
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C07015",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "megakaryocyte-erythroid progenitor cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "megakaryocyte-erythroid progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C12001",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "common myeloid progenitor",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C12001",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C12001/common_myeloid_progenitor/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C12001",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "common myeloid progenitor"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "common myeloid progenitor",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C12001",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "granulocyte monocyte progenitor cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C12001",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C12001/granulocyte_monocyte_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000922"
       },
+      "DONOR_ID" : "C12001",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "granulocyte monocyte progenitor cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "granulocyte monocyte progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C12001",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "megakaryocyte-erythroid progenitor cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "C12001",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C12001/megakaryocyte-erythroid_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "C12001",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "megakaryocyte-erythroid progenitor cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "megakaryocyte-erythroid progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S000RD",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S000RD",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG",
@@ -816,15 +1055,16 @@
       },
       "archive_path" : {
          "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
-         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000941",
          "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913"
       },
+      "DONOR_ID" : "S000RD",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -836,109 +1076,156 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S000SB",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "common lymphoid progenitor",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S000SB",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000SB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000918"
       },
+      "DONOR_ID" : "S000SB",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "common lymphoid progenitor"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "common lymphoid progenitor",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S0018A",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S0018A",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0018A/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000903"
       },
+      "DONOR_ID" : "S0018A",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S00198",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S00198",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00198/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "S00198",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S001FX",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "hematopoietic multipotent progenitor cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S001FX",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001FX/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "S001FX",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "hematopoietic multipotent progenitor cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "hematopoietic multipotent progenitor cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S001QB",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "common lymphoid progenitor",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S001QB",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001QB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000745"
       },
+      "DONOR_ID" : "S001QB",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "common lymphoid progenitor"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "common lymphoid progenitor",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S001QB",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "hematopoietic stem cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S001QB",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S001QB/hematopoietic_stem_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000939"
       },
+      "DONOR_ID" : "S001QB",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "hematopoietic stem cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "hematopoietic stem cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S0025C",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "hematopoietic stem cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S0025C",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S0025C/hematopoietic_stem_cell/RNA-Seq/NCMLS_CU"
       },
       "archive_path" : {
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000939"
       },
+      "DONOR_ID" : "S0025C",
       "got_data" : {
          "RNA-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "hematopoietic stem cell"
+      "DONOR_SEX" : "Unknown",
+      "SAMPLE_DESC_3" : "hematopoietic stem cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S002R5",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "erythroblast",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S002R5",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/erythroblast/ChIP-Seq/NCMLS",
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002R5/erythroblast/ChIP-Seq/NCMLS",
@@ -957,6 +1244,7 @@
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924"
       },
+      "DONOR_ID" : "S002R5",
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -966,11 +1254,16 @@
          "H3K4me1" : "Yes",
          "H3K27ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "erythroblast"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "erythroblast",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S002S3",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "erythroblast",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S002S3",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/erythroblast/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S002S3/erythroblast/RNA-Seq/MPIMG",
@@ -993,6 +1286,7 @@
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000924"
       },
+      "DONOR_ID" : "S002S3",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1004,11 +1298,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "erythroblast"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "erythroblast",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S004BT",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S004BT",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/RNA-Seq/MPIMG",
@@ -1031,6 +1330,7 @@
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000916",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000916"
       },
+      "DONOR_ID" : "S004BT",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1042,11 +1342,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S00C1H",
       "SAMPLE_DESC_1" : "Cord blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "alternatively activated macrophage",
+      "TISSUE_TYPE" : "Cord blood",
+      "SAMPLE_DESC_2" : "S00C1H",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
@@ -1065,6 +1370,7 @@
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938"
       },
+      "DONOR_ID" : "S00C1H",
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1074,25 +1380,36 @@
          "H3K4me1" : "Yes",
          "H3K27ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "alternatively activated macrophage"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "alternatively activated macrophage",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "T11/8",
       "SAMPLE_DESC_1" : "Tonsil",
+      "DISEASE" : "Probable tonsillitis",
+      "CELL_TYPE" : "germinal center B cell",
+      "TISSUE_TYPE" : "Tonsil",
+      "SAMPLE_DESC_2" : "T11/8",
       "ftp_path" : {
          "Bisulfite-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Tonsil/T11_8/Probable_tonsillitis/Bisulfite-Seq/CNAG"
       },
       "archive_path" : {
          "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000710"
       },
+      "DONOR_ID" : "T11/8",
       "got_data" : {
          "Bisulfite-Seq" : "Yes"
       },
-      "SAMPLE_DESC_3" : "Probable tonsillitis"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "Probable tonsillitis",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C000S5",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C000S5",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG",
@@ -1109,12 +1426,13 @@
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000941",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
          "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
+      "DONOR_ID" : "C000S5",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1126,11 +1444,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C000S5",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "mature neutrophil",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C000S5",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/RNA-Seq/MPIMG",
@@ -1143,16 +1466,17 @@
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS"
       },
       "archive_path" : {
-         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
-         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000935",
-         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930"
       },
+      "DONOR_ID" : "C000S5",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1164,11 +1488,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "mature neutrophil"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "mature neutrophil",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C0010K",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C0010K",
       "ftp_path" : {
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG",
          "H3K4me1" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
@@ -1181,16 +1510,17 @@
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
       },
       "archive_path" : {
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
          "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000674",
-         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
+      "DONOR_ID" : "C0010K",
       "got_data" : {
          "RNA-Seq" : "Yes",
          "H3K4me1" : "Yes",
@@ -1202,11 +1532,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C0010K",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "mature neutrophil",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C0010K",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/mature_neutrophil/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/mature_neutrophil/RNA-Seq/MPIMG",
@@ -1219,16 +1554,17 @@
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/mature_neutrophil/ChIP-Seq/NCMLS"
       },
       "archive_path" : {
-         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
-         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000935",
-         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
-         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930"
       },
+      "DONOR_ID" : "C0010K",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1240,11 +1576,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "mature neutrophil"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "mature neutrophil",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C0011I",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C0011I",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG",
@@ -1263,8 +1604,9 @@
          "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000905",
          "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913"
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
+      "DONOR_ID" : "C0011I",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1275,11 +1617,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C0011I",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "mature neutrophil",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C0011I",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/mature_neutrophil/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/mature_neutrophil/RNA-Seq/MPIMG",
@@ -1292,7 +1639,7 @@
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/mature_neutrophil/ChIP-Seq/NCMLS"
       },
       "archive_path" : {
-         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
@@ -1300,8 +1647,9 @@
          "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
-         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930"
       },
+      "DONOR_ID" : "C0011I",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1313,11 +1661,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "mature neutrophil"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "mature neutrophil",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C001UY",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C001UY",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG",
@@ -1330,16 +1683,17 @@
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
       },
       "archive_path" : {
-         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
-         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000941",
-         "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000905",
+         "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000674",
          "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
+      "DONOR_ID" : "C001UY",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1351,11 +1705,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C001UY",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "mature neutrophil",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C001UY",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG",
@@ -1369,17 +1728,18 @@
          "H3K4me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/ChIP-Seq/NCMLS"
       },
       "archive_path" : {
-         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
+         "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
-         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
-         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000935",
+         "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
          "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
-         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H2A.Zac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676"
       },
+      "DONOR_ID" : "C001UY",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1392,11 +1752,16 @@
          "H2A.Zac" : "Yes",
          "H3K4me3" : "Yes"
       },
-      "SAMPLE_DESC_3" : "mature neutrophil"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "mature neutrophil",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C002Q1",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD4-positive, alpha-beta T cell",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C002Q1",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002Q1/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002Q1/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
@@ -1415,6 +1780,7 @@
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925"
       },
+      "DONOR_ID" : "C002Q1",
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1424,11 +1790,16 @@
          "H3K4me1" : "Yes",
          "H3K27ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD4-positive, alpha-beta T cell"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "CD4-positive, alpha-beta T cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C002TW",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD4-positive, alpha-beta T cell",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C002TW",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002TW/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002TW/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
@@ -1447,6 +1818,7 @@
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925"
       },
+      "DONOR_ID" : "C002TW",
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1456,11 +1828,16 @@
          "H3K4me1" : "Yes",
          "H3K27ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD4-positive, alpha-beta T cell"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "CD4-positive, alpha-beta T cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C00408",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C00408",
       "ftp_path" : {
          "DNase-Hypersensitivity" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C00408/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS",
          "Input" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C00408/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS"
@@ -1469,15 +1846,21 @@
          "DNase-Hypersensitivity" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000674",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913"
       },
+      "DONOR_ID" : "C00408",
       "got_data" : {
          "DNase-Hypersensitivity" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C004SQ",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C004SQ",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C004SQ/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C004SQ/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG",
@@ -1493,15 +1876,16 @@
       "archive_path" : {
          "H3K9me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
          "RNA-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000675",
-         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000941",
+         "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "Bisulfite-Seq" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000673",
          "H3K27me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
-         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
-         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913",
+         "H3K36me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
+         "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000676",
          "H3K9/14ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000913"
       },
+      "DONOR_ID" : "C004SQ",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1514,11 +1898,16 @@
          "H3K4me3" : "Yes",
          "H3K9/14ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C005VG",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "macrophage",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C005VG",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/RNA-Seq/MPIMG",
@@ -1541,6 +1930,7 @@
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000929",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000929"
       },
+      "DONOR_ID" : "C005VG",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1552,11 +1942,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "macrophage"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "macrophage",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "C12012",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "mature neutrophil",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "C12012",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C12012/mature_neutrophil/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C12012/mature_neutrophil/RNA-Seq/MPIMG",
@@ -1577,6 +1972,7 @@
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930"
       },
+      "DONOR_ID" : "C12012",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1587,11 +1983,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "mature neutrophil"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "mature neutrophil",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S001MJ",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "inflammatory macrophage",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "S001MJ",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/RNA-Seq/MPIMG",
@@ -1616,6 +2017,7 @@
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940"
       },
+      "DONOR_ID" : "S001MJ",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1628,11 +2030,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "inflammatory macrophage"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "inflammatory macrophage",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S001S7",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "inflammatory macrophage",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "S001S7",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001S7/inflammatory_macrophage/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001S7/inflammatory_macrophage/RNA-Seq/MPIMG",
@@ -1655,6 +2062,7 @@
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940"
       },
+      "DONOR_ID" : "S001S7",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1666,11 +2074,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "inflammatory macrophage"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "inflammatory macrophage",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S0022I",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "inflammatory macrophage",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "S0022I",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S0022I/inflammatory_macrophage/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S0022I/inflammatory_macrophage/RNA-Seq/MPIMG",
@@ -1693,6 +2106,7 @@
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000940"
       },
+      "DONOR_ID" : "S0022I",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1704,11 +2118,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "inflammatory macrophage"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "inflammatory macrophage",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S00622",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "alternatively activated macrophage",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "S00622",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00622/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
          "RNA-Seq" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00622/alternatively_activated_macrophage/RNA-Seq/MPIMG",
@@ -1731,6 +2150,7 @@
          "H3K4me3" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
          "Input" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938"
       },
+      "DONOR_ID" : "S00622",
       "got_data" : {
          "H3K9me3" : "Yes",
          "RNA-Seq" : "Yes",
@@ -1742,11 +2162,16 @@
          "H3K4me3" : "Yes",
          "Input" : "Yes"
       },
-      "SAMPLE_DESC_3" : "alternatively activated macrophage"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "alternatively activated macrophage",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S006VI",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "alternatively activated macrophage",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "S006VI",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S006VI/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S006VI/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
@@ -1765,6 +2190,7 @@
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938"
       },
+      "DONOR_ID" : "S006VI",
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1774,11 +2200,16 @@
          "H3K4me1" : "Yes",
          "H3K27ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "alternatively activated macrophage"
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "alternatively activated macrophage",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S007DD",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "CD4-positive, alpha-beta T cell",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "S007DD",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
@@ -1797,6 +2228,7 @@
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925"
       },
+      "DONOR_ID" : "S007DD",
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1806,11 +2238,16 @@
          "H3K4me1" : "Yes",
          "H3K27ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "CD4-positive, alpha-beta T cell"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "CD4-positive, alpha-beta T cell",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S00BKK",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "mature eosinophil",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "S00BKK",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BKK/mature_eosinophil/ChIP-Seq/NCMLS",
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BKK/mature_eosinophil/ChIP-Seq/NCMLS",
@@ -1829,6 +2266,7 @@
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000906",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000906"
       },
+      "DONOR_ID" : "S00BKK",
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1838,11 +2276,16 @@
          "H3K4me1" : "Yes",
          "H3K27ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "mature eosinophil"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "mature eosinophil",
+      "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_2" : "S00BS4",
       "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "CELL_TYPE" : "alternatively activated macrophage",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "S00BS4",
       "ftp_path" : {
          "H3K9me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BS4/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
          "H3K27me3" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BS4/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
@@ -1861,6 +2304,7 @@
          "H3K4me1" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938",
          "H3K27ac" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000938"
       },
+      "DONOR_ID" : "S00BS4",
       "got_data" : {
          "H3K9me3" : "Yes",
          "H3K27me3" : "Yes",
@@ -1870,6 +2314,8 @@
          "H3K4me1" : "Yes",
          "H3K27ac" : "Yes"
       },
-      "SAMPLE_DESC_3" : "alternatively activated macrophage"
+      "DONOR_SEX" : "Female",
+      "SAMPLE_DESC_3" : "alternatively activated macrophage",
+      "CELL_LINE" : ""
    }
 ]
