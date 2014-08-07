@@ -41,7 +41,6 @@ controllers.controller('HomeCtrl', ['$scope', 'SummaryStats',
     stats.$promise.then(function(data) {
       $scope.stats = data;
     });
-    $scope.reactomeUrl = 'http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cord_blood/S004BT/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/RNA-Seq/MPIMG/S004BT12.gene_quantification.gem_grape_crg.20140218.reactome.txt';
   }
 ]);
 
