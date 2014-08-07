@@ -1,4 +1,7 @@
 /* app css stylesheet */
+.footer img.logo {
+  height: 50px;
+}
 .chart {
   max-width: 250px;
   max-height: 250px;
