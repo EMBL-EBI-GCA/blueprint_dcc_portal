@@ -1,0 +1,98 @@
+{
+   "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000916",
+   "experiment" : {
+      "EXPERIMENT_ID" : "EGAX00001171935",
+      "attributes" : {
+         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
+            "7 min; 30 sec ON/ 30 sec OFF"
+         ],
+         "EXPERIMENT_TYPE" : [
+            "ChIP-Seq Input"
+         ],
+         "CHIP_PROTOCOL_CHROMATIN_AMOUNT" : [
+            "500.000 cells = 33,33 µl"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Chromatin was extracted using the histone protocol. Cells are crosslinked 10 min in 1% formaldehyde. Washed twice in PBS and dissolved in shearing buffer (containing 1% SDS), such that the final concentration is 15*10^6 cells/ml."
+         ],
+         "CHIP_PROTOCOL" : [
+            "Input"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "184"
+         ],
+         "EXTRACTION_PROTOCOL_TYPE_OF_SONICATOR" : [
+            "Bioruptor NGS (UCD-600)"
+         ]
+      },
+      "ASSAY_TYPE" : "ChIP-Seq"
+   },
+   "archive" : "EGA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/ChIP-Seq/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "CS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/S004BT/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/ChIP-Seq/NCMLS/S004BTH2.Input.wiggler.20140513.bw"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "S004BTH2",
+      "SAMPLE_ID" : "EGAN00001107634",
+      "attributes" : {
+         "DISEASE" : [
+            "None"
+         ],
+         "CULTURE_CONDITIONS" : [
+            "http://www.blueprint-epigenome.eu/index.cfm?p=7BF8A4B6-F4FE-861A-2AD57A08D63D0B58"
+         ],
+         "CELL_TYPE" : [
+            "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "DONOR ID" : [
+            "S004BT"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CL_0002026;http://purl.obolibrary.org/obo/UBERON_0012168"
+         ],
+         "GENDER" : [
+            "female"
+         ],
+         "DONOR_ID" : [
+            "S004BT"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
+            "http://www.blueprint-epigenome.eu/index.cfm?p=7BF8A4B6-F4FE-861A-2AD57A08D63D0B58"
+         ],
+         "MARKERS" : [
+            "CD41+ CD42+"
+         ],
+         "DONOR_HEALTH_STATUS" : [
+            "NA"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "NIHR Cambridge BioResource"
+         ],
+         "TISSUE_TYPE" : [
+            "Cord blood"
+         ],
+         "PHENOTYPE" : [
+            "CL:0002026;EFO:0000761;UBERON:0012168"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell Culture"
+         ],
+         "DONOR_SEX" : [
+            "Female"
+         ],
+         "DONOR_ETHNICITY" : [
+            "NA"
+         ]
+      }
+   }
+}

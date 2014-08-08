@@ -4,14 +4,14 @@
 
 var services = angular.module('dccPortal.services', ['ngResource']);
 
-services.factory('Experiment', ['$resource',
+services.factory('List', ['$resource',
   function($resource) {
-    return $resource('data/:experimentId.json', {}, {
+    return $resource('data/:name.json', {}, {
       //default to load all experiments if no id is supplied
       query: {
         method: 'GET',
         params: {
-          experimentId: 'experiments'
+          name: 'experiments'
         },
         isArray: true
       }
@@ -19,23 +19,15 @@ services.factory('Experiment', ['$resource',
   }
 ]);
 
-services.factory('File', ['$resource',
+services.factory('Item', ['$resource',
   function($resource) {
-    return $resource('data/files.json', {}, {
+    return $resource('data/:name.json', {}, {
       query: {
         method: 'GET',
-        isArray: true
-      }
-    });
-  }
-]);
-
-services.factory('SummaryStats', ['$resource',
-  function($resource) {
-    return $resource('data/experiment_counts.json', {}, {
-      query: {
-        method: 'GET',
-        isArray: false
+        isArray: false,
+        params: {
+          name: 'experiment_counts'
+        }
       }
     });
   }

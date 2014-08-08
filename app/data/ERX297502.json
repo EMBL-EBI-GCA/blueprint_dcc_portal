@@ -1,0 +1,91 @@
+{
+   "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX297502",
+   "experiment" : {
+      "EXPERIMENT_ID" : "ERX297502",
+      "attributes" : {
+         "DNASE_PROTOCOL" : [
+            "DNaseI treatment was done for 3 minutes and reaction was stopped with stop buffer ( 50mM Tris-HCl, pH 8, 100mM NaCl, 0.10% SDS, 100mM EDTA, pH 8.0, 1mM Spermidine, 0.3mM Spermine), sample was further fractionated on 9% Sucrose gradient for  24hrs/25000rpm at 16ºC."
+         ],
+         "EXPERIMENT_TYPE" : [
+            "Chromatin Accessibility"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "149"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Nuclei were isolated from respective cells using Buffer A (15mM NaCl,60mM KCl,1mM EDTA, pH 8.0,0.5mM EGTA, pH 8.0,15mM Tris-HCl, pH 8.0,0.5mM Spermidine ) supplemented with 0.015% IGEPAL CA-630 detergent."
+         ]
+      },
+      "ASSAY_TYPE" : "DNase-Hypersensitivity"
+   },
+   "archive" : "ENA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/DNase-Hypersensitivity/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/DNase-Hypersensitivity/NCMLS/BP_U-266_d01.DNase.hotspot_v3.20130819.bb"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/DNase-Hypersensitivity/NCMLS/BP_U-266_d01.DNase.hotspot_v3.20130819.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/DNase-Hypersensitivity/NCMLS/BP_U-266_d01.DNase.hotspot_v3_peaks.20130819.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/DNase-Hypersensitivity/NCMLS/BP_U-266_d01.DNase.wiggler.20130819.bw"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "U-266_d01",
+      "attributes" : {
+         "DIFFERENTIATION_METHOD" : [
+            "Drexler HG chapter 16 Establishment and culture of leukemia-lymphoma cell in Cancer Cell Culture Methods and Protocols 2nd Edition Springer Berlin pp 181 to 200 in 2011"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "DISEASE" : [
+            "Multiple myeloma"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "DSMZ"
+         ],
+         "BATCH" : [
+            "NA"
+         ],
+         "LINEAGE" : [
+            "NA"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Cell Line"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "ÃŠhttp://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0026764"
+         ],
+         "ENA-CHECKLIST" : [
+            "ERC000011"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CLO_0009457"
+         ],
+         "PASSAGE" : [
+            "NA"
+         ],
+         "SEX" : [
+            "Male"
+         ],
+         "DIFFERENTIATION_STAGE" : [
+            "Plasma cell"
+         ],
+         "MEDIUM" : [
+            "RPMI 1640 + 20%FBS + 1% Glutamine"
+         ],
+         "LINE" : [
+            "U-266"
+         ]
+      }
+   }
+}

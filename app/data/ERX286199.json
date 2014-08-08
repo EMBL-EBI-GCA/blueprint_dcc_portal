@@ -1,0 +1,101 @@
+{
+   "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000942",
+   "experiment" : {
+      "EXPERIMENT_ID" : "EGAX00001125981",
+      "attributes" : {
+         "DNASE_PROTOCOL" : [
+            "DNaseI treatment was done for 3 minutes and reaction was stopped with stop buffer ( 50mM Tris-HCl, pH 8, 100mM NaCl, 0.10% SDS, 100mM EDTA, pH 8.0, 1mM Spermidine, 0.3mM Spermine), sample was further fractionated on 9% Sucrose gradient for  24hrs/25000rpm at 16ºC."
+         ],
+         "EXPERIMENT_TYPE" : [
+            "Chromatin Accessibility"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "179"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Nuclei were isolated from respective cells using Buffer A (15mM NaCl,60mM KCl,1mM EDTA, pH 8.0,0.5mM EGTA, pH 8.0,15mM Tris-HCl, pH 8.0,0.5mM Spermidine ) supplemented with 0.015% IGEPAL CA-630 detergent."
+         ]
+      },
+      "ASSAY_TYPE" : "DNase-Hypersensitivity"
+   },
+   "archive" : "EGA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C006NS/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/DNase-Hypersensitivity/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C006NS/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/DNase-Hypersensitivity/NCMLS/C006NS47.DNase.hotspot_v3.20130819.bb"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C006NS/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/DNase-Hypersensitivity/NCMLS/C006NS47.DNase.hotspot_v3.20130819.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C006NS/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/DNase-Hypersensitivity/NCMLS/C006NS47.DNase.hotspot_v3_peaks.20130819.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C006NS/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/DNase-Hypersensitivity/NCMLS/C006NS47.DNase.wiggler.20130819.bw"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "C006NS47",
+      "SAMPLE_ID" : "EGAN00001091939",
+      "attributes" : {
+         "DISEASE" : [
+            "None"
+         ],
+         "CULTURE_CONDITIONS" : [
+            "http://www.blueprint-epigenome.eu/index.cfm?p=7BF8A4B6-F4FE-861A-2AD57A08D63D0B58"
+         ],
+         "CELL_TYPE" : [
+            "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "DONOR ID" : [
+            "C006NS"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CL_0002026;http://purl.obolibrary.org/obo/UBERON_0012168"
+         ],
+         "GENDER" : [
+            "male"
+         ],
+         "DONOR_ID" : [
+            "C006NS"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
+            "http://www.blueprint-epigenome.eu/index.cfm?p=7BF8A4B6-F4FE-861A-2AD57A08D63D0B58"
+         ],
+         "MARKERS" : [
+            "CD41+ CD42+"
+         ],
+         "DONOR_HEALTH_STATUS" : [
+            "NA"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "NIHR Cambridge BioResource"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell Culture"
+         ],
+         "TISSUE_TYPE" : [
+            "Cord blood"
+         ],
+         "PHENOTYPE" : [
+            "CL:0002026;EFO:0000761;UBERON:0012168"
+         ],
+         "DONOR_SEX" : [
+            "Male"
+         ],
+         "DONOR_ETHNICITY" : [
+            "NA"
+         ]
+      }
+   }
+}

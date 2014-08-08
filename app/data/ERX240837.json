@@ -1,0 +1,101 @@
+{
+   "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000929",
+   "experiment" : {
+      "EXPERIMENT_ID" : "EGAX00001096723",
+      "attributes" : {
+         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
+            "3x 10 min; 30 sec ON/ 30 sec OFF"
+         ],
+         "EXPERIMENT_TYPE" : [
+            "ChIP-Seq Input"
+         ],
+         "CHIP_PROTOCOL_CHROMATIN_AMOUNT" : [
+            "500.000 cells = 33,33 µl"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Chromatin was extracted using the histone protocol. Cells are crosslinked 10 min in 1% formaldehyde. Washed twice in PBS and dissolved in shearing buffer (containing 1% SDS), such that the final concentration is 15*10^6 cells/ml."
+         ],
+         "CHIP_PROTOCOL" : [
+            "Input"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "204"
+         ],
+         "EXTRACTION_PROTOCOL_TYPE_OF_SONICATOR" : [
+            "Bioruptor Plus (UCD-300)"
+         ]
+      },
+      "ASSAY_TYPE" : "ChIP-Seq"
+   },
+   "archive" : "EGA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/ChIP-Seq/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "CS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/ChIP-Seq/NCMLS/C005VGH1.Input.wiggler.20130819.bw"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "C005VGH1",
+      "SAMPLE_ID" : "EGAN00001091901",
+      "attributes" : {
+         "DISEASE" : [
+            "None"
+         ],
+         "CULTURE_CONDITIONS" : [
+            "http://www.blueprint-epigenome.eu/UserFiles/file/Protocols/UCAM_BluePrint_Macrophage.pdf"
+         ],
+         "CELL_TYPE" : [
+            "macrophage"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "DONOR ID" : [
+            "C005VG"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CL_0000235;http://purl.obolibrary.org/obo/UBERON_0013756"
+         ],
+         "GENDER" : [
+            "male"
+         ],
+         "DONOR_ID" : [
+            "C005VG"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
+            "http://www.blueprint-epigenome.eu/UserFiles/file/Protocols/UCAM_BluePrint_Macrophage.pdf"
+         ],
+         "MARKERS" : [
+            "http://www.blueprint-epigenome.eu/index.cfm?p=7BF8A4B6-F4FE-861A-2AD57A08D63D0B58"
+         ],
+         "DONOR_HEALTH_STATUS" : [
+            "NA"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "DONOR_AGE" : [
+            "60 - 65"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "NIHR Cambridge BioResource"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell Culture"
+         ],
+         "TISSUE_TYPE" : [
+            "Venous blood"
+         ],
+         "PHENOTYPE" : [
+            "CL:0000235;EFO:0000761;UBERON:0013756"
+         ],
+         "DONOR_SEX" : [
+            "Male"
+         ],
+         "DONOR_ETHNICITY" : [
+            "NA"
+         ]
+      }
+   }
+}

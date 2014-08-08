@@ -1,0 +1,149 @@
+{
+   "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000919",
+   "experiment" : {
+      "EXPERIMENT_ID" : "EGAX00001065545",
+      "attributes" : {
+         "CDNA_PREPARATION_PCR_NUMBER_CYCLES" : [
+            "20"
+         ],
+         "EXPERIMENT_TYPE" : [
+            "mRNA-seq"
+         ],
+         "LIBRARY_GENERATION_PCR_POLYMERASE_TYPE" : [
+            "Phusion High-Fidelity DNA Polymerase (Finnzymes)"
+         ],
+         "LIBRARY_GENERATION_PCR_F_PRIMER_SEQUENCE" : [
+            "AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT"
+         ],
+         "LIBRARY_GENERATION_CDNA_FRAGMENTATION" : [
+            "Full-length cDNA was sheared using Bioruptor sonicator, conditions: sample volume 75 ul, 30 high power cycles of 30”"
+         ],
+         "LIBRARY_GENERATION_PCR_THERMOCYCLING_PROGRAM" : [
+            "30\" 98ºC, [40\" 98ºC, 30\" 65ºC, 30\" 72ºC]14 cycles,  5' 72ºC, hold 4ºC"
+         ],
+         "LIBRARY_GENERATION_PCR_TEMPLATE_CONC" : [
+            "NA"
+         ],
+         "CDNA_PREPARATION_REVERSE_TRANSCRIPTION_PROTOCOL" : [
+            "SMARTer Ultra Low RNA Kit for Illumina Sequencing, Clontech Laboratories version:PR0X3693"
+         ],
+         "LIBRARY_GENERATION_PCR_R_PRIMER_SEQUENCE" : [
+            "CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT"
+         ],
+         "LIBRARY_GENERATION_PCR_PRIMER_CONC" : [
+            "25µM"
+         ],
+         "LIBRARY_GENERATION_PCR_PRODUCT_ISOLATION_PROTOCOL" : [
+            "PCR Purification Kit using  MinElute  column (Qiagen)"
+         ],
+         "LIBRARY_GENERATION_PROTOCOL" : [
+            "30ul Sheared cDNA was end repaired and a 3' A overhangh was created using Klenow exo (3’ to 5’ exo minus) ( (New England Biolabs)) for 30 minutes at 37ºC. The cDNA was purified using the MinElute Reaction Cleanup Kit (Qiagen)according to manufacturers recommendations. PE adapters (Illumina, San Diego, CA) were ligated to the cDNA at room temperature for 15 minutes with T4 DNA ligase (Promega). Adapter-ligated cDNA was purified using the Minelute Reaction Cleanup Kit(Qiagen). Size selection was performed using the 2% E-Gel SizeSelect Agarose Gels and a 100 bp DNA marker according to manufacturers recommendations.  Adapter-ligated DNA molecules were enriched by PCR with reaction composition: 36 µl DNA, 10 µl 5x HF Phusion buffer 1.5 µl dNTP mix (10mM each) 1 µl PE PCR primer 1.0, 1 µl PE PCR primer 2.0, 0.5 µl Phusion polymerase (1 U)"
+         ],
+         "LIBRARY_GENERATION_PCR_NUMBER_CYCLES" : [
+            "14"
+         ],
+         "CDNA_PREPARATION_INITIAL_RNA_QNTY" : [
+            "100pg"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "RNA was extracted using Trizol reagent(Invitrogen) and purified with RNeasy Minelute kit(Qiagen)."
+         ],
+         "READ_STRAND" : [
+            "NA"
+         ],
+         "LIBRARY_GENERATION_3'ADAPTER_SEQUENCE" : [
+            "P-GATCGGAAGAGCGGTTCAGCAGGAATGCCGAG"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "200-300"
+         ],
+         "LIBRARY_GENERATION_5'ADAPTER_SEQUENCE" : [
+            "ACACTCTTTCCCTACACGACGCTCTTCCGATCT"
+         ]
+      },
+      "ASSAY_TYPE" : "RNA-Seq"
+   },
+   "archive" : "EGA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C07015/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU",
+   "files" : [
+      {
+         "FILE_TYPE" : "RNA_GENE_QUANT_CBR",
+         "REACTOME_PATH" : "blueprint/data/homo_sapiens/Cord_blood/C07015/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU/C07015T1.gene_quantification.cbr_mmseq.20140106.reactome.txt",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C07015/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU/C07015T1.gene_quantification.cbr_mmseq.20140106.gff.gz"
+      },
+      {
+         "FILE_TYPE" : "RNA_GENE_QUANT_CBR",
+         "REACTOME_PATH" : "blueprint/data/homo_sapiens/Cord_blood/C07015/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU/C07015T1.gene_quantification.cbr_mmseq.20140106.reactome.txt",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C07015/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU/C07015T1.gene_quantification.cbr_mmseq.20140106.tsv"
+      },
+      {
+         "FILE_TYPE" : "RNA_SIGNAL_CRG",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C07015/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU/C07015T1.RNA-Seq.gem_grape_crg.20140106.bw"
+      },
+      {
+         "FILE_TYPE" : "RNA_TRANSCRIPT_QUANT_CBR",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C07015/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU/C07015T1.transcript_quantification.cbr_mmseq.20140106.gff.gz"
+      },
+      {
+         "FILE_TYPE" : "RNA_TRANSCRIPT_QUANT_CBR",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C07015/hematopoietic_multipotent_progenitor_cell/RNA-Seq/NCMLS_CU/C07015T1.transcript_quantification.cbr_mmseq.20140106.tsv"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "C07015T1",
+      "SAMPLE_ID" : "EGAN00001068106",
+      "attributes" : {
+         "DISEASE" : [
+            "None"
+         ],
+         "CELL_TYPE" : [
+            "hematopoietic multipotent progenitor cell"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "DONOR ID" : [
+            "C07015"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CL_0000837;http://purl.obolibrary.org/obo/UBERON_0012168"
+         ],
+         "GENDER" : [
+            "unknown"
+         ],
+         "DONOR_ID" : [
+            "C07015"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
+            "NA"
+         ],
+         "MARKERS" : [
+            "Lin- CD34+ CD38- CD90- CD45RA-"
+         ],
+         "DONOR_HEALTH_STATUS" : [
+            "NA"
+         ],
+         "MOLECULE" : [
+            "polyA RNA"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "NIHR Cambridge BioResource"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell"
+         ],
+         "TISSUE_TYPE" : [
+            "Cord blood"
+         ],
+         "PHENOTYPE" : [
+            "CL:0000837;EFO:0000761;UBERON:0012168"
+         ],
+         "DONOR_SEX" : [
+            "Unknown"
+         ],
+         "DONOR_ETHNICITY" : [
+            "NA"
+         ]
+      }
+   }
+}

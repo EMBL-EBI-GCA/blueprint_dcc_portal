@@ -1,0 +1,131 @@
+{
+   "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+   "experiment" : {
+      "EXPERIMENT_ID" : "EGAX00001091698",
+      "attributes" : {
+         "CHIP_ANTIBODY" : [
+            "H3K36me3"
+         ],
+         "CHIP_PROTOCOL_BEAD_TYPE" : [
+            "magnetic beads A and G"
+         ],
+         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
+            "3x 10 min; 30 sec ON/ 30 sec OFF"
+         ],
+         "CHIP_ANTIBODY_CATALOG" : [
+            "BP grade"
+         ],
+         "CHIP_PROTOCOL_BEAD_AMOUNT" : [
+            "20 µl"
+         ],
+         "EXPERIMENT_TYPE" : [
+            "Histone H3K36me3"
+         ],
+         "CHIP_ANTIBODY_LOT" : [
+            "A1847-001P"
+         ],
+         "CHIP_PROTOCOL_ANTIBODY_AMOUNT" : [
+            "0,5 µg"
+         ],
+         "CHIP_PROTOCOL_CHROMATIN_AMOUNT" : [
+            "5x 100.000 cells = 5x 6,7 µl"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Chromatin was extracted using the histone protocol. Cells are crosslinked 10 min in 1% formaldehyde. Washed twice in PBS and dissolved in shearing buffer (containing 1% SDS), such that the final concentration is 15*10^6 cells/ml."
+         ],
+         "CHIP_PROTOCOL" : [
+            "Histone protocol: 100.000 cells per ChIP (5x) and pool at the end. Overnight incubation of chromatin with antibody. 1 hour incubation in the morning with A/G magnetic beads. Wash once with buffer 1, and twice with buffer 2 and 3 at 4 degrees. Elute 20 min with elution buffer at RT. Descrosslink 4 hours at 65 degrees. Purify by column purification."
+         ],
+         "CHIP_ANTIBODY_PROVIDER" : [
+            "Diagenode"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "184"
+         ],
+         "EXTRACTION_PROTOCOL_TYPE_OF_SONICATOR" : [
+            "Bioruptor Plus (UCD-300)"
+         ]
+      },
+      "ASSAY_TYPE" : "ChIP-Seq"
+   },
+   "archive" : "EGA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002Q1/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "CS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C002Q1/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/C002Q1H1.H3K36me3.wiggler.20130415.bw"
+      },
+      {
+         "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C002Q1/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/C002Q1H1.H3K36me3.ppqt_macs2_broad_v2.20130415.bb"
+      },
+      {
+         "FILE_TYPE" : "CS_BROAD_MACS2",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C002Q1/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/C002Q1H1.H3K36me3.ppqt_macs2_broad_v2.20130415.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "CS_BROAD_MACS2",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C002Q1/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/C002Q1H1.H3K36me3.ppqt_macs2_broad_v2.20130415.xls.gz"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "C002Q1H1",
+      "SAMPLE_ID" : "EGAN00001076187",
+      "attributes" : {
+         "DISEASE" : [
+            "None"
+         ],
+         "CELL_TYPE" : [
+            "CD4-positive, alpha-beta T cell"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "DONOR ID" : [
+            "C002Q1"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CL_0000624;http://purl.obolibrary.org/obo/UBERON_0013756"
+         ],
+         "GENDER" : [
+            "male"
+         ],
+         "DONOR_ID" : [
+            "C002Q1"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
+            "NA"
+         ],
+         "MARKERS" : [
+            "CD3+ CD4+ CD45RA+"
+         ],
+         "DONOR_HEALTH_STATUS" : [
+            "NA"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "DONOR_AGE" : [
+            "50 - 55"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "NIHR Cambridge BioResource"
+         ],
+         "TISSUE_TYPE" : [
+            "Venous blood"
+         ],
+         "PHENOTYPE" : [
+            "CL:0000624;EFO:0000761;UBERON:0013756"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell"
+         ],
+         "DONOR_SEX" : [
+            "Male"
+         ],
+         "DONOR_ETHNICITY" : [
+            "Northern European"
+         ]
+      }
+   }
+}

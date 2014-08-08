@@ -1,0 +1,121 @@
+{
+   "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX297437",
+   "experiment" : {
+      "EXPERIMENT_ID" : "ERX297437",
+      "attributes" : {
+         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
+            "3x 10 min; 30 sec ON/ 30 sec OFF"
+         ],
+         "CHIP_ANTIBODY" : [
+            "H3K9me3"
+         ],
+         "CHIP_PROTOCOL_BEAD_TYPE" : [
+            "magnetic beads A and G"
+         ],
+         "CHIP_ANTIBODY_CATALOG" : [
+            "pAb-056-050"
+         ],
+         "CHIP_PROTOCOL_BEAD_AMOUNT" : [
+            "20 µl"
+         ],
+         "EXPERIMENT_TYPE" : [
+            "Histone H3K9me3"
+         ],
+         "CHIP_PROTOCOL_ANTIBODY_AMOUNT" : [
+            "2,0 µg"
+         ],
+         "CHIP_ANTIBODY_LOT" : [
+            "A1671-001P"
+         ],
+         "CHIP_PROTOCOL_CHROMATIN_AMOUNT" : [
+            "5x 100.000 cells = 5x 6,7 µl"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Chromatin was extracted using the histone protocol. Cells are crosslinked 10 min in 1% formaldehyde. Washed twice in PBS and dissolved in shearing buffer (containing 1% SDS), such that the final concentration is 15*10^6 cells/ml."
+         ],
+         "CHIP_PROTOCOL" : [
+            "Transcription factor protocol: 100.000 cells per ChIP (5x) and pool at the end. Overnight incubation of chromatin with antibody and A/G magnetic beads. Wash twice with buffer 1, once with buffer 2 and 3 and twice with buffer 4 at 4 degrees. Elute 20 min with elution buffer at RT. Descrosslink 4 hours at 65 degrees. Purify by column purification."
+         ],
+         "CHIP_ANTIBODY_PROVIDER" : [
+            "Diagenode"
+         ],
+         "EXTRACTION_PROTOCOL_TYPE_OF_SONICATOR" : [
+            "Bioruptor Plus (UCD-300)"
+         ]
+      },
+      "ASSAY_TYPE" : "ChIP-Seq"
+   },
+   "archive" : "ENA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "CS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_KARPAS-422_c01.H3K9me3.wiggler.20130819.bw"
+      },
+      {
+         "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_KARPAS-422_c01.H3K9me3.ppqt_macs2_broad_v2.20130819.bb"
+      },
+      {
+         "FILE_TYPE" : "CS_BROAD_MACS2",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_KARPAS-422_c01.H3K9me3.ppqt_macs2_broad_v2.20130819.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "CS_BROAD_MACS2",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_KARPAS-422_c01.H3K9me3.ppqt_macs2_broad_v2.20130819.xls.gz"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "KARPAS-422_c01",
+      "attributes" : {
+         "GENETIC_CHARACTERISTICS" : [
+            "t(14;18)-positive"
+         ],
+         "DISEASE" : [
+            "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma"
+         ],
+         "BATCH" : [
+            "NA"
+         ],
+         "LINEAGE" : [
+            "NA"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C1333295"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CLO_0007066"
+         ],
+         "PASSAGE" : [
+            "NA"
+         ],
+         "SEX" : [
+            "Female"
+         ],
+         "MEDIUM" : [
+            "RPMI 1640 + 20%FBS + 1% Glutamine"
+         ],
+         "LINE" : [
+            "KARPAS-422"
+         ],
+         "DIFFERENTIATION_METHOD" : [
+            "Drexler HG chapter 16 Establishment and culture of leukemia-lymphoma cell in Cancer Cell Culture Methods and Protocols 2nd Edition Springer Berlin pp 181 to 200 in 2011"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "DSMZ"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Cell Line"
+         ],
+         "ENA-CHECKLIST" : [
+            "ERC000011"
+         ],
+         "DIFFERENTIATION_STAGE" : [
+            "B cell"
+         ]
+      }
+   }
+}

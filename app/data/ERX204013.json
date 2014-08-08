@@ -1,0 +1,162 @@
+{
+   "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000935",
+   "experiment" : {
+      "EXPERIMENT_ID" : "EGAX00001086969",
+      "attributes" : {
+         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
+            "NA"
+         ],
+         "EXPERIMENT_TYPE" : [
+            "DNA Methylation"
+         ],
+         "DNA_PREPARATION_POST-LIGATION_FRAGMENT_SIZE_SELECTION" : [
+            "Separation by electrophoresis on a 2% agarose gel followed by excision of 140-210 bp fragments"
+         ],
+         "LIBRARY_GENERATION_PCR_POLYMERASE_TYPE" : [
+            "Pfu Turbo Cx Hotstart DNA Polymerase (Agilent  Technologies)"
+         ],
+         "LIBRARY_GENERATION_PCR_F_PRIMER_SEQUENCE" : [
+            "The sequence is Illumina property - kit"
+         ],
+         "LIBRARY_GENERATION_PCR_THERMOCYCLING_PROGRAM" : [
+            "95ºC 2min, 98ºC 30s, 98ºC 15s, 60º 30s, 72º 2min, 72ºC 10min, 4ºC  ∞"
+         ],
+         "BISULFITE_CONVERSION_PROTOCOL" : [
+            "Two rounds of: 5min 95ºC, 25min 60ºC, 5min 95ºC, 85min(1h25min) 60ºC, 5min 95ºC, 175min(2h55min) 60ºC, Indefinite 20ºC"
+         ],
+         "LIBRARY_GENERATION_PCR_TEMPLATE_CONC" : [
+            "Not determined"
+         ],
+         "DNA_PREPARATION_ADAPTOR_LIGATION_PROTOCOL" : [
+            "NONE"
+         ],
+         "LIBRARY_GENERATION_PCR_PRIMER_CONC" : [
+            "Illumina property - kit"
+         ],
+         "LIBRARY_GENERATION_PCR_R_PRIMER_SEQUENCE" : [
+            "The sequence is Illumina property - kit"
+         ],
+         "LIBRARY_GENERATION_PCR_PRODUCT_ISOLATION_PROTOCOL" : [
+            "AMPure XP (Beckman Coulter)"
+         ],
+         "BISULFITE_CONVERSION_PERCENT" : [
+            "Above 99%, determined in silico"
+         ],
+         "LIBRARY_GENERATION_PCR_NUMBER_CYCLES" : [
+            "7"
+         ],
+         "DNA_PREPARATION_INITIAL_DNA_QNTY" : [
+            "2ug"
+         ],
+         "DNA_PREPARATION_FRAGMENT_SIZE_RANGE" : [
+            "150-300bp"
+         ],
+         "DNA_PREPARATION_ADAPTOR_SEQUENCE" : [
+            "5’ AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT\n5’ GATCGGAAGAGCACACGTCTGAACTCCAGTCACXXXXXXATCTCGTATGCCGTCTTCTGCTTG\nOligonucleotide sequences © 2007‐2011 Illumina, Inc. All rights reserved."
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "BP_DNA_small_scale_v1 http://www.blueprint-epigenome.eu/"
+         ],
+         "EXTRACTION_PROTOCOL_TYPE_OF_SONICATOR" : [
+            "NA"
+         ]
+      },
+      "ASSAY_TYPE" : "Bisulfite-Seq"
+   },
+   "archive" : "EGA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/Bisulfite-Seq/CNAG",
+   "files" : [
+      {
+         "FILE_TYPE" : "BS_METH_TABLE_CYTOSINES_CNAG",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/Bisulfite-Seq/CNAG/C000S5A2bs.all_cytosines.bs_call.20130222.txt.gz"
+      },
+      {
+         "FILE_TYPE" : "BS_METH_TABLE_CYTOSINES_CNAG",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/Bisulfite-Seq/CNAG/C000S5A2bs.cpgs.bs_call.20130222.txt.gz"
+      },
+      {
+         "FILE_TYPE" : "BS_METH_CALL_CNAG",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/Bisulfite-Seq/CNAG/C000S5A2bs.CPG_methylation_calls.bs_call.20130415.bw"
+      },
+      {
+         "FILE_TYPE" : "BS_METH_SD_CNAG",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/Bisulfite-Seq/CNAG/C000S5A2bs.CPG_methylation_sd.bs_call.20130415.bw"
+      },
+      {
+         "FILE_TYPE" : "BS_HYPER_METH_BB_CNAG",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/Bisulfite-Seq/CNAG/C000S5A2bs.hyper_meth.bs_call.20130415.bb"
+      },
+      {
+         "FILE_TYPE" : "BS_HYPER_METH_BED_CNAG",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/Bisulfite-Seq/CNAG/C000S5A2bs.hyper_meth.bs_call.20130415.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "BS_HYPO_METH_BB_CNAG",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/Bisulfite-Seq/CNAG/C000S5A2bs.hypo_meth.bs_call.20130415.bb"
+      },
+      {
+         "FILE_TYPE" : "BS_HYPO_METH_BED_CNAG",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/Bisulfite-Seq/CNAG/C000S5A2bs.hypo_meth.bs_call.20130415.bed.gz"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "C000S5A2bs",
+      "SAMPLE_ID" : "EGAN00001092671",
+      "attributes" : {
+         "DISEASE" : [
+            "None"
+         ],
+         "CELL_TYPE" : [
+            "mature neutrophil"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "DONOR ID" : [
+            "C000S5"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CL_0000096;http://purl.obolibrary.org/obo/UBERON_0013756"
+         ],
+         "GENDER" : [
+            "male"
+         ],
+         "DONOR_ID" : [
+            "C000S5"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
+            "NA"
+         ],
+         "MARKERS" : [
+            "CD66b+ CD16+"
+         ],
+         "DONOR_HEALTH_STATUS" : [
+            "NA"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "DONOR_AGE" : [
+            "65 - 70"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "NIHR Cambridge BioResource"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell"
+         ],
+         "TISSUE_TYPE" : [
+            "Venous blood"
+         ],
+         "PHENOTYPE" : [
+            "CL:0000096;EFO:0000761;UBERON:0013756"
+         ],
+         "DONOR_SEX" : [
+            "Male"
+         ],
+         "DONOR_ETHNICITY" : [
+            "Northern European"
+         ]
+      }
+   }
+}

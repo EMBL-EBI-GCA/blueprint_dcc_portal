@@ -1,0 +1,104 @@
+{
+   "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000931",
+   "experiment" : {
+      "EXPERIMENT_ID" : "EGAX00001125987",
+      "attributes" : {
+         "DNASE_PROTOCOL" : [
+            "DNaseI treatment was done for 3 minutes and reaction was stopped with stop buffer ( 50mM Tris-HCl, pH 8, 100mM NaCl, 0.10% SDS, 100mM EDTA, pH 8.0, 1mM Spermidine, 0.3mM Spermine), sample was further fractionated on 9% Sucrose gradient for  24hrs/25000rpm at 16ºC."
+         ],
+         "EXPERIMENT_TYPE" : [
+            "Chromatin Accessibility"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "129"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Nuclei were isolated from respective cells using Buffer A (15mM NaCl,60mM KCl,1mM EDTA, pH 8.0,0.5mM EGTA, pH 8.0,15mM Tris-HCl, pH 8.0,0.5mM Spermidine ) supplemented with 0.015% IGEPAL CA-630 detergent."
+         ]
+      },
+      "ASSAY_TYPE" : "DNase-Hypersensitivity"
+   },
+   "archive" : "EGA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/DNase-Hypersensitivity/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/DNase-Hypersensitivity/NCMLS/C005VG45.DNase.hotspot_v3.20130819.bb"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/DNase-Hypersensitivity/NCMLS/C005VG45.DNase.hotspot_v3.20130819.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/DNase-Hypersensitivity/NCMLS/C005VG45.DNase.hotspot_v3_peaks.20130819.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/DNase-Hypersensitivity/NCMLS/C005VG45.DNase.wiggler.20130819.bw"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "C005VG45",
+      "SAMPLE_ID" : "EGAN00001091903",
+      "attributes" : {
+         "DISEASE" : [
+            "None"
+         ],
+         "CULTURE_CONDITIONS" : [
+            "http://www.blueprint-epigenome.eu/UserFiles/file/Protocols/UCAM_BluePrint_Macrophage.pdf"
+         ],
+         "CELL_TYPE" : [
+            "macrophage"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "DONOR ID" : [
+            "C005VG"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CL_0000235;http://purl.obolibrary.org/obo/UBERON_0013756"
+         ],
+         "GENDER" : [
+            "male"
+         ],
+         "DONOR_ID" : [
+            "C005VG"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
+            "http://www.blueprint-epigenome.eu/UserFiles/file/Protocols/UCAM_BluePrint_Macrophage.pdf"
+         ],
+         "MARKERS" : [
+            "http://www.blueprint-epigenome.eu/index.cfm?p=7BF8A4B6-F4FE-861A-2AD57A08D63D0B58"
+         ],
+         "DONOR_HEALTH_STATUS" : [
+            "NA"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "DONOR_AGE" : [
+            "60 - 65"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "NIHR Cambridge BioResource"
+         ],
+         "TISSUE_TYPE" : [
+            "Venous blood"
+         ],
+         "PHENOTYPE" : [
+            "CL:0000235;EFO:0000761;UBERON:0013756"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell Culture"
+         ],
+         "DONOR_SEX" : [
+            "Male"
+         ],
+         "DONOR_ETHNICITY" : [
+            "NA"
+         ]
+      }
+   }
+}

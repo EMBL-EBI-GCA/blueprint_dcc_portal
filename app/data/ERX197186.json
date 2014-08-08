@@ -1,0 +1,98 @@
+{
+   "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
+   "experiment" : {
+      "EXPERIMENT_ID" : "EGAX00001084821",
+      "attributes" : {
+         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
+            "3x 10 min; 30 sec ON/ 30 sec OFF"
+         ],
+         "EXPERIMENT_TYPE" : [
+            "ChIP-Seq Input"
+         ],
+         "CHIP_PROTOCOL_CHROMATIN_AMOUNT" : [
+            "500.000 cells = 33,33 µl"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Chromatin was extracted using the histone protocol. Cells are crosslinked 10 min in 1% formaldehyde. Washed twice in PBS and dissolved in shearing buffer (containing 1% SDS), such that the final concentration is 15*10^6 cells/ml."
+         ],
+         "CHIP_PROTOCOL" : [
+            "Input"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "184"
+         ],
+         "EXTRACTION_PROTOCOL_TYPE_OF_SONICATOR" : [
+            "Bioruptor Plus (UCD-300)"
+         ]
+      },
+      "ASSAY_TYPE" : "ChIP-Seq"
+   },
+   "archive" : "EGA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002TW/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "CS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C002TW/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/C002TWH1.Input.wiggler.20130415.bw"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "C002TWH1",
+      "SAMPLE_ID" : "EGAN00001076188",
+      "attributes" : {
+         "DISEASE" : [
+            "None"
+         ],
+         "CELL_TYPE" : [
+            "CD4-positive, alpha-beta T cell"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "DONOR ID" : [
+            "C002TW"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CL_0000624;http://purl.obolibrary.org/obo/UBERON_0013756"
+         ],
+         "GENDER" : [
+            "male"
+         ],
+         "DONOR_ID" : [
+            "C002TW"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
+            "NA"
+         ],
+         "MARKERS" : [
+            "CD3+ CD4+ CD45RA+"
+         ],
+         "DONOR_HEALTH_STATUS" : [
+            "NA"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "DONOR_AGE" : [
+            "45 - 50"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "NIHR Cambridge BioResource"
+         ],
+         "TISSUE_TYPE" : [
+            "Venous blood"
+         ],
+         "PHENOTYPE" : [
+            "CL:0000624;EFO:0000761;UBERON:0013756"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell"
+         ],
+         "DONOR_SEX" : [
+            "Male"
+         ],
+         "DONOR_ETHNICITY" : [
+            "Northern European"
+         ]
+      }
+   }
+}

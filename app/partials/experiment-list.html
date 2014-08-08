@@ -18,7 +18,7 @@
 		<br/>
 		
 		<ui-facets-clear text="Clear filters"></ui-facets-clear>
-		<ui-facet title="Experiment" property="got_data"></ui-facet>
+		<ui-facet title="Experiment" property="data"></ui-facet>
 		<ui-facet title="Cell type" property="CELL_TYPE"></ui-facet>
 		<ui-facet title="Cell line" property="CELL_LINE"></ui-facet>
 		<ui-facet title="Tissue" property="TISSUE_TYPE"></ui-facet>
@@ -57,7 +57,7 @@
 						<td>{{item.SAMPLE_DESC_3}}</td>
 						<td>{{item.SAMPLE_DESC_2}}</td>
 						<td ng-repeat="dt in datatypes" class="assays">
-							<a ng-if="item.got_data[dt]" class="show_popup" href="#">&#x25cf;</a>
+							<a ng-if="item.data[dt]" href="#/experiments/{{item.data[dt]}}">&#x25cf;</a>
 						</td>
 				</tr>
 			</tbody>

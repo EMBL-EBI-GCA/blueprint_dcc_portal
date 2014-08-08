@@ -1,0 +1,94 @@
+{
+   "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX337095",
+   "experiment" : {
+      "EXPERIMENT_ID" : "ERX337095",
+      "attributes" : {
+         "DNASE_PROTOCOL" : [
+            "DNaseI treatment was done for 3 minutes and reaction was stopped with stop buffer ( 50mM Tris-HCl, pH 8, 100mM NaCl, 0.10% SDS, 100mM EDTA, pH 8.0, 1mM Spermidine, 0.3mM Spermine), sample was further fractionated on 9% Sucrose gradient for  24hrs/25000rpm at 16ºC."
+         ],
+         "EXPERIMENT_TYPE" : [
+            "Chromatin Accessibility"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "270"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Nuclei were isolated from respective cells using Buffer A (15mM NaCl,60mM KCl,1mM EDTA, pH 8.0,0.5mM EGTA, pH 8.0,15mM Tris-HCl, pH 8.0,0.5mM Spermidine ) supplemented with 0.015% IGEPAL CA-630 detergent."
+         ]
+      },
+      "ASSAY_TYPE" : "DNase-Hypersensitivity"
+   },
+   "archive" : "ENA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/DNase-Hypersensitivity/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/DNase-Hypersensitivity/NCMLS/bp_SU-DHL-5_d01.DNase.hotspot_v3.20131126.bb"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/DNase-Hypersensitivity/NCMLS/bp_SU-DHL-5_d01.DNase.hotspot_v3.20131126.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/DNase-Hypersensitivity/NCMLS/bp_SU-DHL-5_d01.DNase.hotspot_v3_peaks.20131126.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/DNase-Hypersensitivity/NCMLS/bp_SU-DHL-5_d01.DNase.wiggler.20131126.bw"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "SU-DHL-5_d01",
+      "attributes" : {
+         "GENETIC_CHARACTERISTICS" : [
+            "t(14;18) negative"
+         ],
+         "DISEASE" : [
+            "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma"
+         ],
+         "BATCH" : [
+            "NA"
+         ],
+         "LINEAGE" : [
+            "NA"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C1333295"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://www.ebi.ac.uk/efo/EFO_0002356"
+         ],
+         "PASSAGE" : [
+            "NA"
+         ],
+         "SEX" : [
+            "Female"
+         ],
+         "MEDIUM" : [
+            "RPMI 1640 + 10%FBS + 1% Glutamine"
+         ],
+         "LINE" : [
+            "SU-DHL-5"
+         ],
+         "DIFFERENTIATION_METHOD" : [
+            "\"Drexler HG chapter 16 Establishment and culture of leukemia-lymphoma cell in Cancer Cell Culture Methods and Protocols 2nd Edition Springer Berlin pp 181 to 200 in 2011\""
+         ],
+         "MOLECULE" : [
+            "total RNA"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "DSMZ"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Cell Line"
+         ],
+         "ENA-CHECKLIST" : [
+            "ERC000011"
+         ],
+         "DIFFERENTIATION_STAGE" : [
+            "B cell"
+         ]
+      }
+   }
+}

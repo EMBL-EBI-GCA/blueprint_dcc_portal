@@ -1,0 +1,57 @@
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h2 class="panel-title">Experiment</h2>
+	</div>
+	<div class="panel-body">
+		<dl>
+			<dt>Assay type</dt>
+			<dd>{{data.experiment.ASSAY_TYPE}}</dd>
+			<dt>Archive ID</dt>
+			<dd>{{data.experiment.ASSAY_TYPE}}</dd>
+			<dt ng-repeat-start="(name, values) in data.experiment.attributes">{{name}}</dt>
+			<dd ng-repeat-end ng-repeat="value in values">{{value}}</dd>
+		</dl>
+	</div>
+</div>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h2 class="panel-title">Sample </h2>
+	</div>
+	<div class="panel-body">
+		<dl>
+			<dt>Sample name</dt>
+			<dd>{{data.sample.sample_name}}</dd>
+			<dt>Archive ID</dt>
+			<dd>{{data.sample.SAMPLE_ID}}</dd>
+			<dt ng-repeat-start="(name, values) in data.sample.attributes">{{name}}</dt>
+			<dd ng-repeat-end ng-repeat="value in values">{{value}}</dd>
+		</dl>
+	</div>
+</div>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h2 class="panel-title">Data</h2>
+	</div>
+	<div class="panel-body">
+  	
+		<table class="table table-striped">
+			<thead><tr>
+				<th>Data type</th>
+				<th>File</th>
+				<th>Protocol</th>
+				<th>Link</th>
+			</tr></thead>
+			<tbody>
+				<tr ng-repeat="file in data.files">
+					<td>{{file.FILE_TYPE}}</td>
+					<td>{{file.FILE_NAME}}</td>
+					<td>{{file.PROTOCOL}}</td>
+					<td>{{file.PATH}} {{file.REACTOME_PATH}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

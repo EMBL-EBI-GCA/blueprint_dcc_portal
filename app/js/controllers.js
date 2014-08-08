@@ -5,9 +5,11 @@
 var controllers = angular.module('dccPortal.controllers', []);
 
 /* Experiment List */
-controllers.controller('ExperimentListCtrl', ['$scope', 'Experiment',
-  function($scope, Experiment) {
-    $scope.items = Experiment.query();
+controllers.controller('ExperimentListCtrl', ['$scope', 'List',
+  function($scope, List) {
+    $scope.items = List.query({
+      name: 'experiments'
+    });
     $scope.items.$promise.then(function(data) {
       $scope.items = data;
     });
@@ -19,10 +21,20 @@ controllers.controller('ExperimentListCtrl', ['$scope', 'Experiment',
   }
 ]);
 
+controllers.controller('ExperimentDetailCtrl', ['$scope', '$routeParams', 'Item',
+  function($scope, $routeParams, Item) {
+    $scope.data = Item.get({
+      name: $routeParams.experimentId
+    });
+  }
+]);
+
 /* File List */
-controllers.controller('FileListCtrl', ['$scope', 'File',
-  function($scope, File) {
-    $scope.items = File.query();
+controllers.controller('FileListCtrl', ['$scope', 'List',
+  function($scope, List) {
+    $scope.items = List.query({
+      name: 'files'
+    });
     $scope.items.$promise.then(function(data) {
       $scope.items = data;
     });
@@ -34,12 +46,28 @@ controllers.controller('FileListCtrl', ['$scope', 'File',
 ]);
 
 /* Home */
-controllers.controller('HomeCtrl', ['$scope', 'SummaryStats',
-  function($scope, SummaryStats) {
-    $scope.stats = {};
-    var stats = SummaryStats.query();
-    stats.$promise.then(function(data) {
-      $scope.stats = data;
+controllers.controller('HomeCtrl', ['$scope', 'List', 'Item',
+  function($scope, List, Item) {
+    $scope.counts = {
+      terms: List.query({
+        name: 'experiment_count'
+      })
+    };
+    $scope.progress = {
+      terms: List.query({
+        name: 'progress'
+      })
+    };
+
+    $scope.counts.terms.$promise.then(function(data) {
+      $scope.counts = {
+        terms: data
+      };
+    });
+    $scope.progress.terms.$promise.then(function(data) {
+      $scope.progress = {
+        terms: data
+      };
     });
   }
 ]);
@@ -51,6 +79,6 @@ controllers.controller('MarkdownCtrl', ['$scope', '$routeParams', '$http',
       responseType: 'text'
     }).success(function(data) {
       $scope.content = data;
-    }); 
+    });
   }
 ]);

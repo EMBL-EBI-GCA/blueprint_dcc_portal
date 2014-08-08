@@ -1,0 +1,18 @@
+[
+   {
+      "count" : 26,
+      "term" : "Bisulfite-Seq"
+   },
+   {
+      "count" : 271,
+      "term" : "ChIP-Seq"
+   },
+   {
+      "count" : 16,
+      "term" : "DNase-Hypersensitivity"
+   },
+   {
+      "count" : 54,
+      "term" : "RNA-Seq"
+   }
+]

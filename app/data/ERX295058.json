@@ -1,0 +1,155 @@
+{
+   "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000918",
+   "experiment" : {
+      "EXPERIMENT_ID" : "EGAX00001127653",
+      "attributes" : {
+         "EXPERIMENT_TYPE" : [
+            "mRNA-seq"
+         ],
+         "LIBRARY_GENERATION_FRAGMENTATION" : [
+            "Full-length cDNA was sheared using Bioruptor sonicator, conditions: sample volume 75 ul, 30 high power cycles of 30â"
+         ],
+         "LIBRARY_GENERATION_PCR_POLYMERASE_TYPE" : [
+            "Kapa High-Fidelity DNA Polymerase (Kapa Biosystems)"
+         ],
+         "LIBRARY_GENERATION_PCR_F_PRIMER_SEQUENCE" : [
+            "AATGATACGGCGACCACCGAGATCTACAC"
+         ],
+         "PREPARATION_INITIAL_RNA_QNTY" : [
+            "2ng"
+         ],
+         "LIBRARY_GENERATION_PCR_THERMOCYCLING_PROGRAM" : [
+            "30\" 98ÂºC, [40\" 98ÂºC, 30\" 65ÂºC, 30\" 72ÂºC]10 cycles,  5' 72ÂºC, hold 4ÂºC"
+         ],
+         "AMPLIFIED" : [
+            "TRUE"
+         ],
+         "LIBRARY_GENERATION_PCR_TEMPLATE_CONC" : [
+            "NA"
+         ],
+         "LIBRARY_GENERATION_PCR_R_PRIMER_SEQUENCE" : [
+            "CAAGCAGAAGACGGCATACGAGAT"
+         ],
+         "LIBRARY_GENERATION_PCR_PRIMER_CONC" : [
+            "25ÂµM"
+         ],
+         "LIBRARY_GENERATION_PCR_PRODUCT_ISOLATION_PROTOCOL" : [
+            "PCR Purification Kit using  MinElute  column (Qiagen)"
+         ],
+         "LIBRARY_GENERATION_PROTOCOL" : [
+            "30mg Sheared cDNA was end repaired and a 3' A overhang was created using Klenow exo (3â to 5â exo minus) ( (New England Biolabs)) for 30 minutes at 37ÂºC. The cDNA was purified using the MinElute Reaction Cleanup Kit (Qiagen)according to manufacturers recommendations. Nexflex adapter (BiooScientific, TX, USA) was ligated to the cDNA at room temperature for 15 minutes with T4 DNA ligase (Promega). Adapter-ligated cDNA was purified using the Minelute Reaction Cleanup Kit(Qiagen). Size selection was performed using the 2% E-Gel SizeSelect Agarose Gels and a 100 bp DNA marker according to manufacturers recommendations.  Adapter-ligated DNA molecules were enriched by PCR with reaction composition: 23 Âµl DNA,  2 Âµl PE PCR primer mix 25 ml Kapa HiFi polymerase (Ready Mix)"
+         ],
+         "LIBRARY_GENERATION_PCR_NUMBER_CYCLES" : [
+            "10"
+         ],
+         "PREPARATION_PCR_NUMBER_CYCLES" : [
+            "20"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "RNA was extracted using Trizol reagent(Invitrogen) and purified with RNeasy Minelute kit(Qiagen)."
+         ],
+         "READ_STRAND" : [
+            "NA"
+         ],
+         "TEMPLATE_TYPE" : [
+            "cDNA"
+         ],
+         "LIBRARY_GENERATION_3'ADAPTER_SEQUENCE" : [
+            "NA"
+         ],
+         "PREPARATION_REVERSE_TRANSCRIPTION_PROTOCOL" : [
+            "SMARTer Ultra Low RNA Kit for Illumina Sequencing, Clontech Laboratories version:PR0X3696"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "290-350"
+         ],
+         "LIBRARY_GENERATION_5'ADAPTER_SEQUENCE" : [
+            "NA"
+         ]
+      },
+      "ASSAY_TYPE" : "RNA-Seq"
+   },
+   "archive" : "EGA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000SB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU",
+   "files" : [
+      {
+         "FILE_TYPE" : "RNA_GENE_QUANT_CBR",
+         "REACTOME_PATH" : "blueprint/data/homo_sapiens/Cord_blood/S000SB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU/S000SBB3.gene_quantification.cbr_mmseq.20140106.reactome.txt",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/S000SB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU/S000SBB3.gene_quantification.cbr_mmseq.20140106.gff.gz"
+      },
+      {
+         "FILE_TYPE" : "RNA_GENE_QUANT_CBR",
+         "REACTOME_PATH" : "blueprint/data/homo_sapiens/Cord_blood/S000SB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU/S000SBB3.gene_quantification.cbr_mmseq.20140106.reactome.txt",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/S000SB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU/S000SBB3.gene_quantification.cbr_mmseq.20140106.tsv"
+      },
+      {
+         "FILE_TYPE" : "RNA_SIGNAL_CRG",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/S000SB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU/S000SBB3.RNA-Seq.gem_grape_crg.20140106.bw"
+      },
+      {
+         "FILE_TYPE" : "RNA_TRANSCRIPT_QUANT_CBR",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/S000SB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU/S000SBB3.transcript_quantification.cbr_mmseq.20140106.gff.gz"
+      },
+      {
+         "FILE_TYPE" : "RNA_TRANSCRIPT_QUANT_CBR",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/S000SB/common_lymphoid_progenitor/RNA-Seq/NCMLS_CU/S000SBB3.transcript_quantification.cbr_mmseq.20140106.tsv"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "S000SBB3",
+      "SAMPLE_ID" : "EGAN00001095777",
+      "attributes" : {
+         "DISEASE" : [
+            "None"
+         ],
+         "CELL_TYPE" : [
+            "common lymphoid progenitor"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "DONOR ID" : [
+            "S000SB"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CL_0000051;http://purl.obolibrary.org/obo/UBERON_0012168"
+         ],
+         "GENDER" : [
+            "male"
+         ],
+         "DONOR_ID" : [
+            "S000SB"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
+            "NA"
+         ],
+         "MARKERS" : [
+            "Lin- CD34+ CD38+ CD10+ CD45RA+"
+         ],
+         "DONOR_HEALTH_STATUS" : [
+            "NA"
+         ],
+         "MOLECULE" : [
+            "polyA RNA"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "NIHR Cambridge BioResource"
+         ],
+         "TISSUE_TYPE" : [
+            "Cord blood"
+         ],
+         "PHENOTYPE" : [
+            "CL:0000051;EFO:0000761;UBERON:0012168"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell"
+         ],
+         "DONOR_SEX" : [
+            "Male"
+         ],
+         "DONOR_ETHNICITY" : [
+            "NA"
+         ]
+      }
+   }
+}

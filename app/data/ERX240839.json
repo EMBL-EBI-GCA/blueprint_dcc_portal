@@ -1,0 +1,95 @@
+{
+   "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000936",
+   "experiment" : {
+      "EXPERIMENT_ID" : "EGAX00001096725",
+      "attributes" : {
+         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
+            "3x 10 min; 30 sec ON/ 30 sec OFF"
+         ],
+         "EXPERIMENT_TYPE" : [
+            "ChIP-Seq Input"
+         ],
+         "CHIP_PROTOCOL_CHROMATIN_AMOUNT" : [
+            "500.000 cells = 33,33 µl"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Chromatin was extracted using the histone protocol. Cells are crosslinked 10 min in 1% formaldehyde. Washed twice in PBS and dissolved in shearing buffer (containing 1% SDS), such that the final concentration is 15*10^6 cells/ml."
+         ],
+         "CHIP_PROTOCOL" : [
+            "Input"
+         ],
+         "LIBRARY_GENERATION_FRAGMENT_SIZE_RANGE" : [
+            "199"
+         ],
+         "EXTRACTION_PROTOCOL_TYPE_OF_SONICATOR" : [
+            "Bioruptor Plus (UCD-300)"
+         ]
+      },
+      "ASSAY_TYPE" : "ChIP-Seq"
+   },
+   "archive" : "EGA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "CS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C0066P/CD8-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/C0066PH1.Input.wiggler.20130819.bw"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "C0066PH1",
+      "SAMPLE_ID" : "EGAN00001091925",
+      "attributes" : {
+         "DISEASE" : [
+            "None"
+         ],
+         "CELL_TYPE" : [
+            "CD8-positive, alpha-beta T cell"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "DONOR ID" : [
+            "C0066P"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://purl.obolibrary.org/obo/CL_0000625;http://purl.obolibrary.org/obo/UBERON_0012168"
+         ],
+         "GENDER" : [
+            "female"
+         ],
+         "DONOR_ID" : [
+            "C0066P"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
+            "NA"
+         ],
+         "MARKERS" : [
+            "CD3+ CD8+ CD45RA+"
+         ],
+         "DONOR_HEALTH_STATUS" : [
+            "NA"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "NIHR Cambridge BioResource"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell"
+         ],
+         "TISSUE_TYPE" : [
+            "Cord blood"
+         ],
+         "PHENOTYPE" : [
+            "CL:0000625;EFO:0000761;UBERON:0012168"
+         ],
+         "DONOR_SEX" : [
+            "Female"
+         ],
+         "DONOR_ETHNICITY" : [
+            "NA"
+         ]
+      }
+   }
+}

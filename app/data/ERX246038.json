@@ -1,0 +1,75 @@
+{
+   "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX246038",
+   "experiment" : {
+      "EXPERIMENT_ID" : "ERX246038",
+      "attributes" : {
+         "DNASE_PROTOCOL" : [
+            "DNaseI treatment was done for 3 minutes and reaction was stopped with stop buffer ( 50mM Tris-HCl, pH 8, 100mM NaCl, 0.10% SDS, 100mM EDTA, pH 8.0, 1mM Spermidine, 0.3mM Spermine), sample was further fractionated on 9% Sucrose gradient for  24hrs/25000rpm at 16ºC."
+         ],
+         "EXPERIMENT_TYPE" : [
+            "Chromatin Accessibility"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Nuclei were isolated from respective cells using Buffer A (15mM NaCl,60mM KCl,1mM EDTA, pH 8.0,0.5mM EGTA, pH 8.0,15mM Tris-HCl, pH 8.0,0.5mM Spermidine ) supplemented with 0.015% IGEPAL CA-630 detergent."
+         ]
+      },
+      "ASSAY_TYPE" : "DNase-Hypersensitivity"
+   },
+   "archive" : "ENA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3.20140513.bb"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3.20140513.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3_peaks.20140513.bed.gz"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "DG-75_d01",
+      "attributes" : {
+         "DIFFERENTIATION_METHOD" : [
+            "\"Drexler HG chapter 16 Establishment and culture of leukemia-lymphoma cell in Cancer Cell Culture Methods and Protocols 2nd Edition Springer Berlin pp 181 to 200 in 2011\""
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "DISEASE" : [
+            "Sporadic Burkitt lymphoma"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "DSMZ"
+         ],
+         "BATCH" : [
+            "NA"
+         ],
+         "LINEAGE" : [
+            "NA"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Cell Line"
+         ],
+         "PASSAGE" : [
+            "NA"
+         ],
+         "SEX" : [
+            "Male"
+         ],
+         "DIFFERENTIATION_STAGE" : [
+            "B cell"
+         ],
+         "LINE" : [
+            "DG-75"
+         ],
+         "MEDIUM" : [
+            "RPMI 1640 + 10%FBS + 1% Glutamine"
+         ]
+      }
+   }
+}

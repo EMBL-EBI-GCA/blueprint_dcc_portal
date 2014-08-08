@@ -1,0 +1,88 @@
+{
+   "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX297500",
+   "experiment" : {
+      "EXPERIMENT_ID" : "ERX297500",
+      "attributes" : {
+         "DNASE_PROTOCOL" : [
+            "DNaseI treatment was done for 3 minutes and reaction was stopped with stop buffer ( 50mM Tris-HCl, pH 8, 100mM NaCl, 0.10% SDS, 100mM EDTA, pH 8.0, 1mM Spermidine, 0.3mM Spermine), sample was further fractionated on 9% Sucrose gradient for  24hrs/25000rpm at 16ºC."
+         ],
+         "EXPERIMENT_TYPE" : [
+            "Chromatin Accessibility"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Nuclei were isolated from respective cells using Buffer A (15mM NaCl,60mM KCl,1mM EDTA, pH 8.0,0.5mM EGTA, pH 8.0,15mM Tris-HCl, pH 8.0,0.5mM Spermidine ) supplemented with 0.015% IGEPAL CA-630 detergent."
+         ]
+      },
+      "ASSAY_TYPE" : "DNase-Hypersensitivity"
+   },
+   "archive" : "ENA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS",
+   "files" : [
+      {
+         "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS/BP_Z-138_d01.DNase.hotspot_v3.20130819.bb"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS/BP_Z-138_d01.DNase.hotspot_v3.20130819.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS/BP_Z-138_d01.DNase.hotspot_v3_peaks.20130819.bed.gz"
+      },
+      {
+         "FILE_TYPE" : "DS_WIGGLER",
+         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS/BP_Z-138_d01.DNase.wiggler.20130819.bw"
+      }
+   ],
+   "sample" : {
+      "sample_name" : "Z-138_d01",
+      "attributes" : {
+         "DIFFERENTIATION_METHOD" : [
+            "Drexler HG chapter 16 Establishment and culture of leukemia-lymphoma cell in Cancer Cell Culture Methods and Protocols 2nd Edition Springer Berlin pp 181 to 200 in 2011"
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "DISEASE" : [
+            "Mantle cell lymphoma"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "WP4_Bergmann_Siebert_Martin-Subero"
+         ],
+         "BATCH" : [
+            "NA"
+         ],
+         "LINEAGE" : [
+            "NA"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Cell Line"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C2853894"
+         ],
+         "ENA-CHECKLIST" : [
+            "ERC000011"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            "http://www.ebi.ac.uk/efo/EFO_0001639"
+         ],
+         "PASSAGE" : [
+            "NA"
+         ],
+         "SEX" : [
+            "Male"
+         ],
+         "DIFFERENTIATION_STAGE" : [
+            "B cell"
+         ],
+         "MEDIUM" : [
+            "RPMI 1640 + 10%FBS"
+         ],
+         "LINE" : [
+            "Z-138"
+         ]
+      }
+   }
+}
