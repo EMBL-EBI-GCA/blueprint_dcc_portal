@@ -6,18 +6,8 @@
 <div class="row" ui-facets items="items">
   <div class="col-md-3">
     <!--Sidebar content-->
-
-    Search: <input ng-model="query">
-		<br/>
-    Sort by:
-    <select ng-model="orderProp">
-      <option value="SAMPLE_DESC_1">Group</option>
-			<option value="SAMPLE_DESC_3">Sub-group</option>
-			<option value="SAMPLE_DESC_2">Name</option>
-    </select>
-		<br/>
-		
 		<ui-facets-clear text="Clear filters"></ui-facets-clear>
+		
 		<ui-facet title="Experiment" property="data"></ui-facet>
 		<ui-facet title="Cell type" property="CELL_TYPE"></ui-facet>
 		<ui-facet title="Cell line" property="CELL_LINE"></ui-facet>
@@ -33,22 +23,18 @@
 			items-per-page="pageSize"
 			max-size="numPages"
 			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
+			
+			<div class="facet-filter">
+	    Search: <input ng-model="query">
+			</div>
 		<table class="experiments table table-striped">
 			<thead>
-				<tr>
-					<th class="reg">Group</th>
-					<th class="reg">Sub-group</th>
-					<th class="reg">Name</th>					
-					<th class="assays"><div><span>Bisulfite</span></div></th>
-					<th class="assays"><div><span>DNaseI</span></div></th>
-					<th class="assays"><div><span>RNA</span></div></th>
-					<th class="assays"><div><span>Input</span></div></th>
-					<th class="assays"><div><span>H3K4me3</span></div></th>
-					<th class="assays"><div><span>H3K4me1</span></div></th>
-					<th class="assays"><div><span>H3K9me3</span></div></th>
-					<th class="assays"><div><span>H3K27ac</span></div></th>
-					<th class="assays"><div><span>H3K27me3</span></div></th>
-					<th class="assays"><div><span>H3K36me3</span></div></th>
+				<tr class="slanted">
+					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_1'),sortDesc: (orderProp == '-SAMPLE_DESC_1')}" ng-click="order('SAMPLE_DESC_1')">Group</th>
+					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_3'),sortDesc: (orderProp == '-SAMPLE_DESC_3')}" ng-click="order('SAMPLE_DESC_3')">Sub-group</th>
+					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_2'),sortDesc: (orderProp == '-SAMPLE_DESC_2')}" ng-click="order('SAMPLE_DESC_2')">Name</th>
+					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'DONOR_SEX'),sortDesc: (orderProp == '-DONOR_SEX')}" ng-click="order('DONOR_SEX')">Sex</th>					
+					<th class="assays" ng-repeat="dt in datatypes"><div><span>{{dt}}</span></div></th>
 				</tr>
 			</thead>
 			<tbody id="results">				
@@ -56,6 +42,7 @@
 						<td>{{item.SAMPLE_DESC_1}}</td>
 						<td>{{item.SAMPLE_DESC_3}}</td>
 						<td>{{item.SAMPLE_DESC_2}}</td>
+						<td>{{item.DONOR_SEX}}</td>
 						<td ng-repeat="dt in datatypes" class="assays">
 							<a ng-if="item.data[dt]" href="#/experiments/{{item.data[dt]}}">&#x25cf;</a>
 						</td>

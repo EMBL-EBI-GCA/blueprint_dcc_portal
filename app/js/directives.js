@@ -3,6 +3,16 @@
 /* Directives */
 var directives = angular.module('dccPortal.directives', []);
 
+directives.directive('download', function() {
+  return {
+    restrict: 'E',
+    scope: {
+      href: '@'
+    },
+    template: '<a class="download" ng-href="{{href}}" title="Download file">&#8659;</a>'
+  }
+});
+
 directives.directive('reactome', function($http, $window) {
   return {
     restrict: 'E',
@@ -11,9 +21,11 @@ directives.directive('reactome', function($http, $window) {
     },
     link: function(scope, element, attrs, controller) {
       scope.init = function() {
-        scope.text = "Load";
+        scope.text = "Load in Reactome";
         scope.href = "";
-        scope.loaded = false;
+        scope.state = false;
+        scope.errored = false;
+        scope.success = false;
       }
 
       //reset the state if the url changes
@@ -24,7 +36,7 @@ directives.directive('reactome', function($http, $window) {
     controller: function($scope, $http, $window) {
       $scope.reactomeClick = function() {
         if (!$scope.href) {
-          $scope.text='Loading...'
+          $scope.text = 'Loading...'
           $http.post('http://www.reactome.org/AnalysisService/identifiers/url/projection?pageSize=0&page=1', $scope.url, {
             headers: {
               "Content-Type": "text/plain"
@@ -33,22 +45,21 @@ directives.directive('reactome', function($http, $window) {
             var token = data.summary.token;
             var newUrl = "http://www.reactome.org/PathwayBrowser/#DTAB=AN&TOOL=AT&ANALYSIS=" + token;
             $scope.href = newUrl;
-            $scope.loaded= true;
-            $scope.text = "View";
-            $window.open(newUrl,'_blank');
-            
+            $scope.loaded = true;
+            $scope.text = "View in Reactome";
+            $window.open(newUrl, '_blank');
+
           }).error(function(data, status, headers, config) {
             $scope.text = "Error";
             $scope.href = "";
+            $scope.loaded = true;
+            $scope.errored = true;
             console.log("failed to load url in reactome", $scope.url, $)
           });
-
         }
-
       };
     },
-    template: '<button class="btn btn-xs btn-primary" ng-hide="loaded" ng-click="reactomeClick()">{{text}}</button>'+
-    '<a class="btn btn-xs btn-success" ng-show="loaded" ng-href="{{href}}" target="_blank">{{text}}</button>'
+    template: '<button class="btn btn-xs btn-primary" ng-hide="loaded" ng-click="reactomeClick()">{{text}}</button>' + '<a class="btn btn-xs btn-success" ng-show="success" ng-href="{{href}}" target="_blank">{{text}}</a>' + '<button class="btn btn-xs btn-warning" ng-show="errored">{{text}}</button>'
   }
 });
 
@@ -139,7 +150,7 @@ uiFacet.directive('uiFacets', function() {
             var facet = $scope.facets[j];
 
             var facetResults = facet.match(item);
-            
+
             var facetMatch = facetResults.match;
             var itemVals = facetResults.vals;
             //var itemHasProperty = item.hasOwnProperty(facet.property);
@@ -155,15 +166,15 @@ uiFacet.directive('uiFacets', function() {
             if (itemVals != null) {
               for (var index in itemVals) {
                 var itemVal = itemVals[index];
-                
+
                 if (itemVal && !newTerms[facet.property].hasOwnProperty(itemVal)) {
                   newTerms[facet.property][itemVal] = 0;
                 }
-                
-                if (!propValHolder[facet.property]){
+
+                if (!propValHolder[facet.property]) {
                   propValHolder[facet.property] = [];
                 }
-                propValHolder[facet.property].push(itemVal);                
+                propValHolder[facet.property].push(itemVal);
               }
             }
 
@@ -174,10 +185,10 @@ uiFacet.directive('uiFacets', function() {
 
             for (var k = 0, kl = $scope.facets.length; k < fl; k++) {
               var prop = $scope.facets[k].property;
-              
+
               if (propValHolder.hasOwnProperty(prop)) {
                 var vals = propValHolder[prop];
-                for (var n = 0, nl = vals.length; n < nl; n++){
+                for (var n = 0, nl = vals.length; n < nl; n++) {
                   var val = vals[n];
                   newTerms[prop][val]++;
                 }
@@ -206,25 +217,13 @@ uiFacet.directive('uiFacetsClear', function() {
         parentController.clearFilters();
       };
     },
-    template: '<button ng-click="clearParent($event)">{{text}}</button>'
+    template: '<button class="btn btn-primary" ng-click="clearParent($event)">{{text}}</button>'
   };
 });
 uiFacet.directive('uiFacet', function() {
   return {
     restrict: 'E',
-    template: 
-    '<div class="facet">' 
-      + '<ul class="list-group" ng-class="{collapsed: collapsed}">'
-        + '<li class="list-group-item heading">'
-          + '<h3 class="panel-title">{{title}}</h3>'
-          +'<button type="button" class="btn btn-xs btn-primary" ng-show="buttonRequired" ng-click="toggleCollapse()">{{buttonText}}</button>'
-        +'</li>'
-        + '<li ng-repeat="item in termContainer.terms" class="list-group-item facet-term" ng-class="{active: selected.hasOwnProperty(item.term)}" ng-click="handleClick($event)" ui-facet-value="{{item.term}}">'
-          + '{{item.term}} <span class="badge">{{item.count}}</span>' 
-        + '</li>'
-    + '</ul>'
-    + ''
-    + '</div>',
+    template: '<div class="facet">' + '<ul class="list-group" ng-class="{collapsed: collapsed}">' + '<li class="list-group-item heading">' + '<h3 class="panel-title">{{title}}</h3>' + '<button type="button" class="btn btn-xs btn-primary" ng-show="buttonRequired" ng-click="toggleCollapse()">{{buttonText}}</button>' + '</li>' + '<li ng-repeat="item in termContainer.terms" class="list-group-item facet-term" ng-class="{active: selected.hasOwnProperty(item.term)}" ng-click="handleClick($event)" ui-facet-value="{{item.term}}">' + '{{item.term}} <span class="badge">{{item.count}}</span>' + '</li>' + '</ul>' + '' + '</div>',
     scope: {
       title: '@',
       property: '@'
@@ -302,8 +301,11 @@ uiFacet.directive('uiFacet', function() {
       }
       $scope.match = function(item) {
         var vals = $scope.getVals(item);
-        var results = {vals: vals, match: true};
-        
+        var results = {
+          vals: vals,
+          match: true
+        };
+
         if (!$scope.selectedValues || $scope.selectedValues.length === 0) {
           return results;
         }

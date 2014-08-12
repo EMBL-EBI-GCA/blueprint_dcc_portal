@@ -1,55 +1,65 @@
+<h1>Experiment summary for {{data.experiment.EXPERIMENT_ID}}</h1>
+<hr/>
+<h2>{{data.experiment.ASSAY_TYPE}} - {{data.experiment.EXPERIMENT_TYPE}}</h2>
+<h2>{{data.sample.SAMPLE_DESC_1}} / {{data.sample.SAMPLE_DESC_3}} / {{data.sample.SAMPLE_DESC_2}}</h2>
+<p>
+	Raw data available from <a ng-href="{{data.archive_url}}">{{data.archive}}</a>
+	<br/>
+	{{data.files.length}} <a ng-click="goToElement('files')">files</a> for this experiment
+</p>
 
-<div class="panel panel-default">
+
+<div id="experiment" class="panel panel-default">
 	<div class="panel-heading">
-		<h2 class="panel-title">Experiment</h2>
+		<h2 class="panel-title">Experiment {{data.experiment.EXPERIMENT_ID}} - {{data.experiment.ASSAY_TYPE}} ({{data.experiment.EXPERIMENT_TYPE}}) </h2>
 	</div>
 	<div class="panel-body">
 		<dl>
-			<dt>Assay type</dt>
-			<dd>{{data.experiment.ASSAY_TYPE}}</dd>
-			<dt>Archive ID</dt>
-			<dd>{{data.experiment.ASSAY_TYPE}}</dd>
 			<dt ng-repeat-start="(name, values) in data.experiment.attributes">{{name}}</dt>
 			<dd ng-repeat-end ng-repeat="value in values">{{value}}</dd>
 		</dl>
 	</div>
 </div>
 
-<div class="panel panel-default">
+<div id="sample" class="panel panel-default">
 	<div class="panel-heading">
-		<h2 class="panel-title">Sample </h2>
+		<h2 class="panel-title">Sample {{data.sample.SAMPLE_ID}} - {{data.sample.sample_name}}</h2>
 	</div>
 	<div class="panel-body">
 		<dl>
-			<dt>Sample name</dt>
-			<dd>{{data.sample.sample_name}}</dd>
-			<dt>Archive ID</dt>
-			<dd>{{data.sample.SAMPLE_ID}}</dd>
 			<dt ng-repeat-start="(name, values) in data.sample.attributes">{{name}}</dt>
-			<dd ng-repeat-end ng-repeat="value in values">{{value}}</dd>
+			<dd ng-repeat-end ng-repeat="value in values">
+				<a ng-if="value.url" ng-href="{{value.url}}">{{value.label}}</a>
+				<span ng-if="!value.url">{{value}}</span>
+			</dd>
 		</dl>
 	</div>
 </div>
 
-<div class="panel panel-default">
+<div id="files" class="panel panel-default">
 	<div class="panel-heading">
-		<h2 class="panel-title">Data</h2>
+		<h2 class="panel-title">Files</h2>
 	</div>
 	<div class="panel-body">
   	
 		<table class="table table-striped">
 			<thead><tr>
 				<th>Data type</th>
-				<th>File</th>
+				<th>Format</th>
+				<th>Size</th>
+				<th>Group</th>
 				<th>Protocol</th>
-				<th>Link</th>
+				<th colspan="2"></th>
 			</tr></thead>
 			<tbody>
-				<tr ng-repeat="file in data.files">
-					<td>{{file.FILE_TYPE}}</td>
-					<td>{{file.FILE_NAME}}</td>
-					<td>{{file.PROTOCOL}}</td>
-					<td>{{file.PATH}} {{file.REACTOME_PATH}}</td>
+				<tr ng-repeat="file in data.files">					
+					<td>{{file.TYPE}}</td>
+					<td>{{file.FORMAT}}</td>
+					<td>{{file.SIZE}}</td>
+					<td>{{file.ANALYSIS_GROUP}}</td>
+					<td><a class="btn btn-link" ng-href="#/md/{{file.PROTOCOL_DOC}}">View</td>
+					<td><download href="{{file.PATH}}"/></td>
+					<td><span ng-if="file.REACTOME_PATH"><reactome url="file.REACTOME_PATH"></reactome></span></td>
 				</tr>
 			</tbody>
 		</table>

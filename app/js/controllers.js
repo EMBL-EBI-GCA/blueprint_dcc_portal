@@ -13,19 +13,30 @@ controllers.controller('ExperimentListCtrl', ['$scope', 'List',
     $scope.items.$promise.then(function(data) {
       $scope.items = data;
     });
-    $scope.datatypes = ["Bisulfite-Seq", "DNase-Hypersensitivity", "RNA-Seq", "Input", "H3K4me3", "H3K4me1", "H3K9me3", "H3K27ac", "H3K27me3", "H3K36me3"];
+    $scope.datatypes = ["Bisulfite-Seq", "DNase-Seq", "RNA-Seq", "ChIP Input", "H3K4me3", "H3K4me1", "H3K9me3", "H3K27ac", "H3K27me3", "H3K36me3","H2A.Zac","H3K9/14ac"];
     $scope.orderProp = 'SAMPLE_DESC_1';
     $scope.numPages = 5;
-    $scope.pageSize = 10;
+    $scope.pageSize = 20;
     $scope.currentPage = 1;
+    $scope.order = function(order){
+      if ($scope.orderProp == order){
+        $scope.orderProp = '-'+order;
+      }
+      else {
+        $scope.orderProp = order;
+      }
+    } 
   }
 ]);
 
-controllers.controller('ExperimentDetailCtrl', ['$scope', '$routeParams', 'Item',
-  function($scope, $routeParams, Item) {
+controllers.controller('ExperimentDetailCtrl', ['$scope', '$routeParams', 'Item', function($scope, $routeParams, Item) {
     $scope.data = Item.get({
       name: $routeParams.experimentId
     });
+    $scope.goToElement = function(elementId) {
+      var $target = $('#'+elementId);
+      $("body").animate({scrollTop: $target.offset().top}, "slow");
+    };
   }
 ]);
 
@@ -42,6 +53,14 @@ controllers.controller('FileListCtrl', ['$scope', 'List',
     $scope.numPages = 5;
     $scope.pageSize = 10;
     $scope.currentPage = 1;
+    $scope.order = function(order){
+      if ($scope.orderProp == order){
+        $scope.orderProp = '-'+order;
+      }
+      else {
+        $scope.orderProp = order;
+      }
+    } 
   }
 ]);
 

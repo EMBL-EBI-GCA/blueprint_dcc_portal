@@ -6,32 +6,17 @@
 <div class="row" ui-facets items="items">
   <div class="col-md-3">
     <!--Sidebar content-->
-
-    Search: <input ng-model="query">
-		<br/>
-    Sort by:
-    <select ng-model="orderProp">
-			<option value="CENTER_NAME">Proudction group</option>
-			<option value="LIBRARY_STRATEGY">Assay</option>
-			<option value="EXPERIMENT_TYPE">Experiment type</option>
-      <option value="SAMPLE_DESC_1">Group</option>
-			<option value="SAMPLE_DESC_3">Sub-group</option>
-			<option value="SAMPLE_DESC_2">Name</option>
-			<option value="DONOR_SEX">Sex</option>
-			<option value="TYPE">Type</option>
-    </select>
-		<br/>
-		<ui-facets-clear text="Clear filters"></ui-facets-clear>
+  		<ui-facets-clear text="Clear filters"></ui-facets-clear>
 		
-			<ui-facet property="CENTER_NAME" title="Production group"></ui-facet>
-			<ui-facet property="LIBRARY_STRATEGY" title="Assay"></ui-facet>
-			<ui-facet property="EXPERIMENT_TYPE" title="Experiment type"></ui-facet>
-      <ui-facet property="SAMPLE_DESC_1" title="Group"></ui-facet>
-			<ui-facet property="SAMPLE_DESC_3" title="Sub-group"></ui-facet>
-			<ui-facet property="SAMPLE_DESC_2" title="Name"></ui-facet>
-			<ui-facet property="DONOR_SEX" title="Sex"></ui-facet>
-			<ui-facet property="FILE_TYPE" title="Type"></ui-facet>
+			<ui-facet title="Experiment" property="DATA_LABEL"></ui-facet>
+			<ui-facet title="Type" property="TYPE"></ui-facet>
+			<ui-facet title="Cell type" property="CELL_TYPE"></ui-facet>
+			<ui-facet title="Cell line" property="CELL_LINE"></ui-facet>
+			<ui-facet title="Tissue" property="TISSUE_TYPE"></ui-facet>
+			<ui-facet title="Sex" property="DONOR_SEX"></ui-facet>
+			<ui-facet title="Donor" property="DONOR_ID"></ui-facet>
   </div>
+	
   <div class="col-md-9">
     <!--Body content-->
 		<pagination 
@@ -40,32 +25,41 @@
 			items-per-page="pageSize"
 			max-size="numPages"
 			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
-		<table class=" table table-striped">
+
+			<div class="facet-filter">
+	    Search: <input ng-model="query">
+			</div>
+		<table class="table table-striped">
 			<thead>
 				<tr>
-		      <th class="reg" /> 
-		      <th class="reg">Type</th>
-					<th class="reg">Group</th>
-					<th class="reg">Sub-group</th>
-					<th class="reg">Name</th>					
-		      <th class="reg">Sex</th> 
-		      <th class="reg">Library strategy</th> 
-		      <th class="reg">Experiment type</th> 
-		      <th class="reg">Center name</th>
+		      <th/>									 
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_1'),sortDesc: (orderProp == '-SAMPLE_DESC_1')}" ng-click="order('SAMPLE_DESC_1')">Group</th>
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_3'),sortDesc: (orderProp == '-SAMPLE_DESC_3')}" ng-click="order('SAMPLE_DESC_3')">Sub-group</th>
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_2'),sortDesc: (orderProp == '-SAMPLE_DESC_2')}" ng-click="order('SAMPLE_DESC_2')">Name</th>					
+		      <th class="sort" ng-class="{sortAsc: (orderProp == 'DONOR_SEX'),sortDesc: (orderProp == '-DONOR_SEX')}" ng-click="order('DONOR_SEX')">Sex</th>
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'DATA_LABEL'),sortDesc: (orderProp == '-DATA_LABEL')}" ng-click="order('DATA_LABEL')">Experiment</th> 
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'TYPE'),sortDesc: (orderProp == '-TYPE')}" ng-click="order('TYPE')">Type</th>
+		      <th class="sort" ng-class="{sortAsc: (orderProp == 'FORMAT'),sortDesc: (orderProp == '-FORMAT')}" ng-click="order('FORMAT')">Format</th>
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'SIZE'),sortDesc: (orderProp == '-SIZE')}" ng-click="order('SIZE')">Size</th>
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'ANALYSIS_GROUP'),sortDesc: (orderProp == '-ANALYSIS_GROUP')}" ng-click="order('ANALYSIS_GROUP')">Group</th>
+					<th>Protocol</th>
+					<th>Metadata</th>
 				</tr>
 			</thead>
 			<tbody id="results">				
 				<tr ng-repeat="item in items | filter:query | orderBy:orderProp | pager:currentPage:pageSize">
-					
-		      <td><a class="download" ng-href="{{item.FILE}}" title="Download file">&#8659;</a></td>
-		      <td>{{item.FILE_TYPE}}</td>
+		      <td><download href="{{item.PATH}}"/></td>
 		      <td>{{item.SAMPLE_DESC_1}}</td>
-		      <td>{{item.SAMPLE_DESC_2}} </td>
 		      <td>{{item.SAMPLE_DESC_3}}</td>
+		      <td>{{item.SAMPLE_DESC_2}}</td>
 		      <td>{{item.DONOR_SEX}}</td>
-		      <td>{{item.LIBRARY_STRATEGY}}</td>
-		      <td>{{item.EXPERIMENT_TYPE}}</td>
-		      <td>{{item.CENTER_NAME}}</td>
+					<td>{{item.DATA_LABEL}}</td>
+		      <td>{{item.TYPE}}</td>
+					<td>{{item.FORMAT}}</td>
+					<td>{{item.SIZE}}</td>
+					<td>{{item.ANALYSIS_GROUP}}</td>
+					<td><a class="btn btn-link" ng-href="#/md/{{item.PROTOCOL_DOC}}">View</td>
+					<td><a class="btn btn-link" ng-href="#/experiments/{{item.EXPERIMENT_ID}}">View</td>
 				</tr>
 			</tbody>
 		</table>
@@ -77,5 +71,6 @@
 			max-size="numPages"
 			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
 	</div>
+
 </div>
 
