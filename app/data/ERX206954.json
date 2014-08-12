@@ -1,6 +1,7 @@
 {
    "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "mRNA-seq",
       "EXPERIMENT_ID" : "EGAX00001088531",
       "attributes" : {
          "MRNA_PREPARATION_INITIAL_MRNA_QNTY" : [
@@ -18,19 +19,16 @@
          "LIBRARY_GENERATION_PCR_POLYMERASE_TYPE" : [
             "The PCR Master Mix from the TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011) is used for library amplification PCR"
          ],
-         "ENA-SUBMISSION-TOOL" : [
-            "SRA-Webin"
-         ],
          "LIBRARY_GENERATION_PCR_THERMOCYCLING_PROGRAM" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011). 98°C for 30 seconds. 10-15 cycles (depending of qPCR Results) of: 98°C for 10 seconds, 60°C for 30 seconds, 72°C for 30 seconds, 72°C for 5 minutes. Hold at 10°C"
          ],
          "RNA_PREPARATION_5'_RNA_ADAPTER_LIGATION_PROTOCOL" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
-         "RNA_PREPARATION_3'_RNA_ADAPTER_SEQUENCE" : [
+         "RNA_PREPARATION_5'_RNA_ADAPTER_SEQUENCE" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
-         "RNA_PREPARATION_5'_RNA_ADAPTER_SEQUENCE" : [
+         "RNA_PREPARATION_3'_RNA_ADAPTER_SEQUENCE" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
          "LIBRARY_GENERATION_PCR_TEMPLATE_CONC" : [
@@ -48,11 +46,11 @@
          "RNA_PREPARATION_REVERSE_TRANSCRIPTION_PRIMER_SEQUENCE" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
-         "LIBRARY_GENERATION_PCR_NUMBER_CYCLES" : [
-            "10-15"
-         ],
          "RNA_PREPARATION_REVERSE_TRANSCRIPTION_PROTOCOL" : [
             "As described in Sultan et al. (BBRC, 2012)"
+         ],
+         "LIBRARY_GENERATION_PCR_NUMBER_CYCLES" : [
+            "10-15"
          ],
          "RNA_PREPARATION_3'_RNA ADAPTER_LIGATION_PROTOCOL" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
@@ -82,41 +80,100 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG",
    "files" : [
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "68M",
+         "NAME" : "C005PS12.contigs.gem_grape_crg.20130415.bed",
          "FILE_TYPE" : "RNA_CONTIGS_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.contigs.gem_grape_crg.20130415.bed"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Contigs",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.contigs.gem_grape_crg.20130415.bed",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "7863afd6504f83f32fd316e8f1efdfa9"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "94M",
+         "NAME" : "C005PS12.exon_quantification.gem_grape_crg.20130415.gff",
          "FILE_TYPE" : "RNA_EXON_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.exon_quantification.gem_grape_crg.20130415.gff"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Exons)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.exon_quantification.gem_grape_crg.20130415.gff",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "2420e62949c426071d2cb2306444ce89"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "9.3M",
+         "NAME" : "C005PS12.gene_quantification.gem_grape_crg.20130415.gff",
          "FILE_TYPE" : "RNA_GENE_QUANT_CRG",
-         "REACTOME_PATH" : "blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.gene_quantification.gem_grape_crg.20130415.reactome.txt",
-         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.gene_quantification.gem_grape_crg.20130415.gff"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Genes)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.gene_quantification.gem_grape_crg.20130415.gff",
+         "REACTOME_PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.gene_quantification.gem_grape_crg.20130415.reactome.txt",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "de5358f6e5d275ecec857c51cc11c927"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "19M",
+         "NAME" : "C005PS12.intron_quantification.gem_grape_crg.20130415.gtf",
          "FILE_TYPE" : "RNA_INTRON_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.intron_quantification.gem_grape_crg.20130415.gtf"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Introns)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.intron_quantification.gem_grape_crg.20130415.gtf",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "d3fd4e35c89ab2e6d4075a2423d717a6"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "20M",
+         "NAME" : "C005PS12.junction_quantification.gem_grape_crg.20130415.gtf",
          "FILE_TYPE" : "RNA_JUNCTIONS_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.junction_quantification.gem_grape_crg.20130415.gtf"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Splice junction quantification",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.junction_quantification.gem_grape_crg.20130415.gtf",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "88d61e391804e4bca7ad8bd5f6d3c641"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "203M",
+         "NAME" : "C005PS12.minusStrand.gem_grape_crg.20130415.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.minusStrand.gem_grape_crg.20130415.bw"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.minusStrand.gem_grape_crg.20130415.bw",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "9cb4fbe92244d7565854e36b3aab6bc2"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "215M",
+         "NAME" : "C005PS12.plusStrand.gem_grape_crg.20130415.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.plusStrand.gem_grape_crg.20130415.bw"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.plusStrand.gem_grape_crg.20130415.bw",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "bd33a3d783fe46a08813c893974aa8dd"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "36M",
+         "NAME" : "C005PS12.transcript_quantification.gem_grape_crg.20130415.gtf",
          "FILE_TYPE" : "RNA_TRANSCRIPT_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.transcript_quantification.gem_grape_crg.20130415.gtf"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Transcripts)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C005PS/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C005PS12.transcript_quantification.gem_grape_crg.20130415.gtf",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "d11d5da80bd460f6aa13088946e74d5f"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "C005PS",
+      "SAMPLE_DESC_1" : "Cord blood",
       "sample_name" : "C005PS12",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
       "SAMPLE_ID" : "EGAN00001095919",
       "attributes" : {
          "DISEASE" : [
@@ -132,7 +189,14 @@
             "C005PS"
          ],
          "SAMPLE_ONTOLOGY_URI" : [
-            "http://purl.obolibrary.org/obo/CL_0002057;http://purl.obolibrary.org/obo/UBERON_0012168"
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0002057",
+               "label" : "CL_0002057"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0012168",
+               "label" : "UBERON_0012168"
+            }
          ],
          "GENDER" : [
             "female"
@@ -157,9 +221,6 @@
          ],
          "TISSUE_TYPE" : [
             "Cord blood"
-         ],
-         "PHENOTYPE" : [
-            "CL:0002057;EFO:0000761;UBERON:0012168"
          ],
          "BIOMATERIAL_TYPE" : [
             "Primary Cell"

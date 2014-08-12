@@ -1,6 +1,7 @@
 {
    "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000904",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "mRNA-seq",
       "EXPERIMENT_ID" : "EGAX00001070722",
       "attributes" : {
          "MRNA_PREPARATION_INITIAL_MRNA_QNTY" : [
@@ -18,19 +19,16 @@
          "LIBRARY_GENERATION_PCR_POLYMERASE_TYPE" : [
             "The PCR Master Mix from the TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011) is used for library amplification PCR"
          ],
-         "ENA-SUBMISSION-TOOL" : [
-            "SRA-Webin"
-         ],
          "LIBRARY_GENERATION_PCR_THERMOCYCLING_PROGRAM" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011). 98°C for 30 seconds. 10-15 cycles (depending of qPCR Results) of: 98°C for 10 seconds, 60°C for 30 seconds, 72°C for 30 seconds, 72°C for 5 minutes. Hold at 10°C"
          ],
          "RNA_PREPARATION_5'_RNA_ADAPTER_LIGATION_PROTOCOL" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
-         "RNA_PREPARATION_3'_RNA_ADAPTER_SEQUENCE" : [
+         "RNA_PREPARATION_5'_RNA_ADAPTER_SEQUENCE" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
-         "RNA_PREPARATION_5'_RNA_ADAPTER_SEQUENCE" : [
+         "RNA_PREPARATION_3'_RNA_ADAPTER_SEQUENCE" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
          "LIBRARY_GENERATION_PCR_TEMPLATE_CONC" : [
@@ -48,11 +46,11 @@
          "RNA_PREPARATION_REVERSE_TRANSCRIPTION_PRIMER_SEQUENCE" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
-         "LIBRARY_GENERATION_PCR_NUMBER_CYCLES" : [
-            "10-15"
-         ],
          "RNA_PREPARATION_REVERSE_TRANSCRIPTION_PROTOCOL" : [
             "As described in Sultan et al. (BBRC, 2012)"
+         ],
+         "LIBRARY_GENERATION_PCR_NUMBER_CYCLES" : [
+            "10-15"
          ],
          "RNA_PREPARATION_3'_RNA ADAPTER_LIGATION_PROTOCOL" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
@@ -82,41 +80,100 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG",
    "files" : [
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "54M",
+         "NAME" : "C001UYB1.contigs.gem_grape_crg.20130415.bed",
          "FILE_TYPE" : "RNA_CONTIGS_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.contigs.gem_grape_crg.20130415.bed"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Contigs",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.contigs.gem_grape_crg.20130415.bed",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "d47a283a7e0b10727d6a868643f0f00f"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "94M",
+         "NAME" : "C001UYB1.exon_quantification.gem_grape_crg.20130415.gff",
          "FILE_TYPE" : "RNA_EXON_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.exon_quantification.gem_grape_crg.20130415.gff"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Exons)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.exon_quantification.gem_grape_crg.20130415.gff",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "43744e439aeab80b08e46a54ec04810b"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "9.4M",
+         "NAME" : "C001UYB1.gene_quantification.gem_grape_crg.20130415.gff",
          "FILE_TYPE" : "RNA_GENE_QUANT_CRG",
-         "REACTOME_PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.gene_quantification.gem_grape_crg.20130415.reactome.txt",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.gene_quantification.gem_grape_crg.20130415.gff"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Genes)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.gene_quantification.gem_grape_crg.20130415.gff",
+         "REACTOME_PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.gene_quantification.gem_grape_crg.20130415.reactome.txt",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "4293457e9c4382ec792b2b5504b8ff79"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "18M",
+         "NAME" : "C001UYB1.intron_quantification.gem_grape_crg.20130415.gtf",
          "FILE_TYPE" : "RNA_INTRON_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.intron_quantification.gem_grape_crg.20130415.gtf"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Introns)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.intron_quantification.gem_grape_crg.20130415.gtf",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "364a7bfe021a19a8b19e9f37e0e2c501"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "17M",
+         "NAME" : "C001UYB1.junction_quantification.gem_grape_crg.20130415.gtf",
          "FILE_TYPE" : "RNA_JUNCTIONS_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.junction_quantification.gem_grape_crg.20130415.gtf"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Splice junction quantification",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.junction_quantification.gem_grape_crg.20130415.gtf",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "cf1a7f228ff7c9c40f860a928887c8be"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "223M",
+         "NAME" : "C001UYB1.minusStrand.gem_grape_crg.20130415.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.minusStrand.gem_grape_crg.20130415.bw"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.minusStrand.gem_grape_crg.20130415.bw",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "3e3c4a5c25bd5886c9f80e2b6c7b2aa4"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "236M",
+         "NAME" : "C001UYB1.plusStrand.gem_grape_crg.20130415.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.plusStrand.gem_grape_crg.20130415.bw"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.plusStrand.gem_grape_crg.20130415.bw",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "b711ca3b8f33d5fe7e14871f01eab27f"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "36M",
+         "NAME" : "C001UYB1.transcript_quantification.gem_grape_crg.20130415.gtf",
          "FILE_TYPE" : "RNA_TRANSCRIPT_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.transcript_quantification.gem_grape_crg.20130415.gtf"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Transcripts)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG/C001UYB1.transcript_quantification.gem_grape_crg.20130415.gtf",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "52cc757fe01f64106e8007cf850fc9da"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "C001UY",
+      "SAMPLE_DESC_1" : "Venous blood",
       "sample_name" : "C001UYB1",
+      "SAMPLE_DESC_3" : "mature neutrophil",
       "SAMPLE_ID" : "EGAN00001070038",
       "attributes" : {
          "DISEASE" : [
@@ -132,7 +189,14 @@
             "C001UY"
          ],
          "SAMPLE_ONTOLOGY_URI" : [
-            "http://purl.obolibrary.org/obo/CL_0000096;http://purl.obolibrary.org/obo/UBERON_0013756"
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000096",
+               "label" : "CL_0000096"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013756",
+               "label" : "UBERON_0013756"
+            }
          ],
          "GENDER" : [
             "male"
@@ -160,9 +224,6 @@
          ],
          "TISSUE_TYPE" : [
             "Venous blood"
-         ],
-         "PHENOTYPE" : [
-            "CL:0000096;EFO:0000761;UBERON:0013756"
          ],
          "BIOMATERIAL_TYPE" : [
             "Primary Cell"

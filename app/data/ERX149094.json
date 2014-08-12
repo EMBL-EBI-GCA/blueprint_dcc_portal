@@ -1,6 +1,7 @@
 {
    "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000930",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "Histone H3K36me3",
       "EXPERIMENT_ID" : "EGAX00001069000",
       "attributes" : {
          "CHIP_ANTIBODY" : [
@@ -52,24 +53,55 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS",
    "files" : [
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "1.1G",
+         "NAME" : "C000S5H1.H3K36me3.wiggler.20130415.bw",
          "FILE_TYPE" : "CS_WIGGLER",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS/C000S5H1.H3K36me3.wiggler.20130415.bw"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Normalized signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS/C000S5H1.H3K36me3.wiggler.20130415.bw",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "88357f61743181b544c28edd961f0991"
       },
       {
+         "FORMAT" : "BigBed",
+         "SIZE" : "1.7M",
+         "NAME" : "C000S5H1.H3K36me3.ppqt_macs2_broad_v2.20130415.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS/C000S5H1.H3K36me3.ppqt_macs2_broad_v2.20130415.bb"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS/C000S5H1.H3K36me3.ppqt_macs2_broad_v2.20130415.bb",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "5e123a03cd1d722324e911b454246469"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "2.2M",
+         "NAME" : "C000S5H1.H3K36me3.ppqt_macs2_broad_v2.20130415.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS/C000S5H1.H3K36me3.ppqt_macs2_broad_v2.20130415.bed.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS/C000S5H1.H3K36me3.ppqt_macs2_broad_v2.20130415.bed.gz",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "e86f8ef59f3cad3bc8bc1cc756425101"
       },
       {
+         "FORMAT" : "Text",
+         "SIZE" : "2.5M",
+         "NAME" : "C000S5H1.H3K36me3.ppqt_macs2_broad_v2.20130415.xls.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS/C000S5H1.H3K36me3.ppqt_macs2_broad_v2.20130415.xls.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/mature_neutrophil/ChIP-Seq/NCMLS/C000S5H1.H3K36me3.ppqt_macs2_broad_v2.20130415.xls.gz",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "8f5233878d36f849250e01e761ce0694"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "C000S5",
+      "SAMPLE_DESC_1" : "Venous blood",
       "sample_name" : "C000S5H1",
+      "SAMPLE_DESC_3" : "mature neutrophil",
       "SAMPLE_ID" : "EGAN00001069996",
       "attributes" : {
          "DISEASE" : [
@@ -85,7 +117,14 @@
             "C000S5"
          ],
          "SAMPLE_ONTOLOGY_URI" : [
-            "http://purl.obolibrary.org/obo/CL_0000096;http://purl.obolibrary.org/obo/UBERON_0013756"
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000096",
+               "label" : "CL_0000096"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013756",
+               "label" : "UBERON_0013756"
+            }
          ],
          "GENDER" : [
             "male"
@@ -113,9 +152,6 @@
          ],
          "TISSUE_TYPE" : [
             "Venous blood"
-         ],
-         "PHENOTYPE" : [
-            "CL:0000096;EFO:0000761;UBERON:0013756"
          ],
          "BIOMATERIAL_TYPE" : [
             "Primary Cell"

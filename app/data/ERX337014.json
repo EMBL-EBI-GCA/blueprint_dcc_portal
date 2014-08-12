@@ -1,6 +1,7 @@
 {
    "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000925",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "Histone H3K36me3",
       "EXPERIMENT_ID" : "EGAX00001138904",
       "attributes" : {
          "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
@@ -52,24 +53,55 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
    "files" : [
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "1.1G",
+         "NAME" : "S007DDH2.H3K36me3.wiggler.20140106.bw",
          "FILE_TYPE" : "CS_WIGGLER",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/S007DDH2.H3K36me3.wiggler.20140106.bw"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Normalized signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/S007DDH2.H3K36me3.wiggler.20140106.bw",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "de78b07a20ff29cdaadf7f7ea7a15f2f"
       },
       {
+         "FORMAT" : "BigBed",
+         "SIZE" : "835K",
+         "NAME" : "S007DDH2.H3K36me3.ppqt_macs2_broad_v2.20140106.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/S007DDH2.H3K36me3.ppqt_macs2_broad_v2.20140106.bb"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/S007DDH2.H3K36me3.ppqt_macs2_broad_v2.20140106.bb",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "3addafd7d67563104168c58797046e3f"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "976K",
+         "NAME" : "S007DDH2.H3K36me3.ppqt_macs2_broad_v2.20140106.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/S007DDH2.H3K36me3.ppqt_macs2_broad_v2.20140106.bed.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/S007DDH2.H3K36me3.ppqt_macs2_broad_v2.20140106.bed.gz",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "00401e0a6576b4ff2d5ace811faa1498"
       },
       {
+         "FORMAT" : "Text",
+         "SIZE" : "1.2M",
+         "NAME" : "S007DDH2.H3K36me3.ppqt_macs2_broad_v2.20140106.xls.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/S007DDH2.H3K36me3.ppqt_macs2_broad_v2.20140106.xls.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS/S007DDH2.H3K36me3.ppqt_macs2_broad_v2.20140106.xls.gz",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "f87a5af14dc3736dff37bc6efa622bee"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "S007DD",
+      "SAMPLE_DESC_1" : "Venous blood",
       "sample_name" : "S007DDH2",
+      "SAMPLE_DESC_3" : "CD4-positive, alpha-beta T cell",
       "SAMPLE_ID" : "EGAN00001107822",
       "attributes" : {
          "DISEASE" : [
@@ -85,7 +117,14 @@
             "S007DD"
          ],
          "SAMPLE_ONTOLOGY_URI" : [
-            "http://purl.obolibrary.org/obo/CL_0000624;http://purl.obolibrary.org/obo/UBERON_0013756"
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000624",
+               "label" : "CL_0000624"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013756",
+               "label" : "UBERON_0013756"
+            }
          ],
          "GENDER" : [
             "female"
@@ -111,14 +150,11 @@
          "BIOMATERIAL_PROVIDER" : [
             "NIHR Cambridge BioResource"
          ],
-         "BIOMATERIAL_TYPE" : [
-            "Primary Cell"
-         ],
          "TISSUE_TYPE" : [
             "Venous blood"
          ],
-         "PHENOTYPE" : [
-            "CL:0000624;EFO:0000761;UBERON:0013756"
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell"
          ],
          "DONOR_SEX" : [
             "Female"

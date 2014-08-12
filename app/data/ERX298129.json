@@ -1,6 +1,7 @@
 {
    "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX298129",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "mRNA-seq",
       "EXPERIMENT_ID" : "ERX298129",
       "attributes" : {
          "EXPERIMENT_TYPE" : [
@@ -67,33 +68,78 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS",
    "files" : [
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "60M",
+         "NAME" : "BP_Z-138_r01.contigs.gem_grape_crg.20131126.bed",
          "FILE_TYPE" : "RNA_CONTIGS_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.contigs.gem_grape_crg.20131126.bed"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Contigs",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.contigs.gem_grape_crg.20131126.bed",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "b2d44fdf628e0b1239800538fa02a1c4"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "94M",
+         "NAME" : "BP_Z-138_r01.exon_quantification.gem_grape_crg.20131126.gff",
          "FILE_TYPE" : "RNA_EXON_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.exon_quantification.gem_grape_crg.20131126.gff"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Exons)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.exon_quantification.gem_grape_crg.20131126.gff",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "470e95b752a8c5a1a2a3a9ecdd65eac5"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "9.4M",
+         "NAME" : "BP_Z-138_r01.gene_quantification.gem_grape_crg.20131126.gff",
          "FILE_TYPE" : "RNA_GENE_QUANT_CRG",
-         "REACTOME_PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.gene_quantification.gem_grape_crg.20131126.reactome.txt",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.gene_quantification.gem_grape_crg.20131126.gff"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Genes)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.gene_quantification.gem_grape_crg.20131126.gff",
+         "REACTOME_PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.gene_quantification.gem_grape_crg.20131126.reactome.txt",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "1142161645d52d9e40461afb5701ed6f"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "52M",
+         "NAME" : "BP_Z-138_r01.minusStrand.gem_grape_crg.20131126.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.minusStrand.gem_grape_crg.20131126.bw"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.minusStrand.gem_grape_crg.20131126.bw",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "9eaab23202eb0336ccea41afa8bee805"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "50M",
+         "NAME" : "BP_Z-138_r01.plusStrand.gem_grape_crg.20131126.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.plusStrand.gem_grape_crg.20131126.bw"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.plusStrand.gem_grape_crg.20131126.bw",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "75247e988acc659819b6d564b74722b9"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "36M",
+         "NAME" : "BP_Z-138_r01.transcript_quantification.gem_grape_crg.20131126.gtf",
          "FILE_TYPE" : "RNA_TRANSCRIPT_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.transcript_quantification.gem_grape_crg.20131126.gtf"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Transcripts)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/RNA-Seq/NCMLS/BP_Z-138_r01.transcript_quantification.gem_grape_crg.20131126.gtf",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "6adf5f9f971ede6ae9b1e0cbc96360b1"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "Z-138",
+      "SAMPLE_DESC_1" : "Cell Line",
       "sample_name" : "Z-138_r01",
+      "SAMPLE_DESC_3" : "Mantle cell lymphoma",
       "attributes" : {
          "DIFFERENTIATION_METHOD" : [
             "Drexler HG chapter 16 Establishment and culture of leukemia-lymphoma cell in Cancer Cell Culture Methods and Protocols 2nd Edition Springer Berlin pp 181 to 200 in 2011"
@@ -117,13 +163,16 @@
             "Cell Line"
          ],
          "DISEASE_ONTOLOGY_URI" : [
-            "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C2853894"
-         ],
-         "ENA-CHECKLIST" : [
-            "ERC000011"
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C2853894",
+               "label" : "C2853894"
+            }
          ],
          "SAMPLE_ONTOLOGY_URI" : [
-            "http://www.ebi.ac.uk/efo/EFO_0001639"
+            {
+               "url" : "http://www.ebi.ac.uk/efo/EFO_0001639",
+               "label" : "EFO_0001639"
+            }
          ],
          "PASSAGE" : [
             "NA"

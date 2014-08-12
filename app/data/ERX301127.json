@@ -1,6 +1,7 @@
 {
    "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000927",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "DNA Methylation",
       "EXPERIMENT_ID" : "EGAX00001128259",
       "attributes" : {
          "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
@@ -67,77 +68,99 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG",
    "files" : [
       {
-         "FILE_TYPE" : "BS_METH_TABLE_CYTOSINES_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.all_cytosines.bs_call.20140106.txt.gz"
-      },
-      {
-         "FILE_TYPE" : "BS_METH_TABLE_CYTOSINES_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.cpgs.bs_call.20140106.txt.gz"
-      },
-      {
+         "FORMAT" : "BigWig",
+         "SIZE" : "131M",
+         "NAME" : "G202.CPG_methylation_calls.bs_call.20140106.bw",
          "FILE_TYPE" : "BS_METH_CALL_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.CPG_methylation_calls.bs_call.20140106.bw"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Methylation signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.CPG_methylation_calls.bs_call.20140106.bw",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "894acba403b821b0064a127887cf7743"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "138M",
+         "NAME" : "G202.CPG_methylation_sd.bs_call.20140106.bw",
          "FILE_TYPE" : "BS_METH_SD_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.CPG_methylation_sd.bs_call.20140106.bw"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Std. Dev of methylation signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.CPG_methylation_sd.bs_call.20140106.bw",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "143b4cc76726512c88ff79259380cc7a"
       },
       {
+         "FORMAT" : "BigBed",
+         "SIZE" : "15M",
+         "NAME" : "G202.hyper_meth.bs_call.20140106.bb",
          "FILE_TYPE" : "BS_HYPER_METH_BB_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.hyper_meth.bs_call.20140106.bb"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Hyper-methylated regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.hyper_meth.bs_call.20140106.bb",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "03444134d0baa01e81b7b8481efce606"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "38M",
+         "NAME" : "G202.hyper_meth.bs_call.20140106.bed.gz",
          "FILE_TYPE" : "BS_HYPER_METH_BED_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.hyper_meth.bs_call.20140106.bed.gz"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Hyper-methylated regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.hyper_meth.bs_call.20140106.bed.gz",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "83904f528073654dd770c8850902a226"
       },
       {
+         "FORMAT" : "BigBed",
+         "SIZE" : "5.1M",
+         "NAME" : "G202.hypo_meth.bs_call.20140106.bb",
          "FILE_TYPE" : "BS_HYPO_METH_BB_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.hypo_meth.bs_call.20140106.bb"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Hypo-methylated regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.hypo_meth.bs_call.20140106.bb",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "6bd2d54a12d09c740e6c045a999d328a"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "13M",
+         "NAME" : "G202.hypo_meth.bs_call.20140106.bed.gz",
          "FILE_TYPE" : "BS_HYPO_METH_BED_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.hypo_meth.bs_call.20140106.bed.gz"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Hypo-methylated regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/MO7071/Plasma_cell/Bisulfite-Seq/CNAG/G202.hypo_meth.bs_call.20140106.bed.gz",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "3789e9be305cf4fb3b80c5c35b7ea626"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "MO7071",
+      "SAMPLE_DESC_1" : "Bone marrow",
       "sample_name" : "G202",
+      "SAMPLE_DESC_3" : "Plasma cell",
       "SAMPLE_ID" : "EGAN00001170522",
       "attributes" : {
-         "DISEASE" : [
-            "None"
-         ],
-         "CELL_TYPE" : [
-            "Plasma cell"
-         ],
-         "DISEASE_ONTOLOGY_URI" : [
-            "NA"
-         ],
-         "SAMPLE_ONTOLOGY_URI" : [
-            "http://purl.obolibrary.org/obo/CL_0000786"
-         ],
-         "DONOR_ID" : [
-            "MO7071"
-         ],
-         "PASSAGE_IF_EXPANDED" : [
-            "NA"
-         ],
          "MARKERS" : [
             "CD138+"
          ],
          "DONOR_HEALTH_STATUS" : [
             "NA"
          ],
+         "DONOR_AGE" : [
+            "20 - 30"
+         ],
          "MOLECULE" : [
             "genomic DNA"
          ],
-         "DONOR_AGE" : [
-            "20 - 30"
+         "DISEASE" : [
+            "None"
          ],
          "BIOMATERIAL_PROVIDER" : [
             "Felipe Prosper,University of Navarra in collaboration with Jose I. Martin-Subero,  Institut d'Investigacions Biomediques August Pi i Sunyer"
          ],
-         "PHENOTYPE" : [
-            "CL_0000786;EFO:0000761;UBERON_0002371"
+         "CELL_TYPE" : [
+            "Plasma cell"
          ],
          "BIOMATERIAL_TYPE" : [
             "Primary Cell"
@@ -145,13 +168,25 @@
          "TISSUE_TYPE" : [
             "Bone marrow"
          ],
-         "ENA-CHECKLIST" : [
-            "ERC000026"
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000786",
+               "label" : "CL_0000786"
+            }
+         ],
+         "DONOR_ID" : [
+            "MO7071"
          ],
          "DONOR_SEX" : [
             "Unknown"
          ],
          "DONOR_ETHNICITY" : [
+            "NA"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
             "NA"
          ]
       }

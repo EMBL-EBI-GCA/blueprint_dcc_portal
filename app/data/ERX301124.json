@@ -1,6 +1,7 @@
 {
    "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000917",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "DNA Methylation",
       "EXPERIMENT_ID" : "EGAX00001128256",
       "attributes" : {
          "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
@@ -67,91 +68,125 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG",
    "files" : [
       {
-         "FILE_TYPE" : "BS_METH_TABLE_CYTOSINES_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.all_cytosines.bs_call.20140106.txt.gz"
-      },
-      {
-         "FILE_TYPE" : "BS_METH_TABLE_CYTOSINES_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.cpgs.bs_call.20140106.txt.gz"
-      },
-      {
+         "FORMAT" : "BigWig",
+         "SIZE" : "122M",
+         "NAME" : "G199.CPG_methylation_calls.bs_call.20140106.bw",
          "FILE_TYPE" : "BS_METH_CALL_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.CPG_methylation_calls.bs_call.20140106.bw"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Methylation signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.CPG_methylation_calls.bs_call.20140106.bw",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "6ebe16f3588f10cc42a5a611ca4befed"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "150M",
+         "NAME" : "G199.CPG_methylation_sd.bs_call.20140106.bw",
          "FILE_TYPE" : "BS_METH_SD_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.CPG_methylation_sd.bs_call.20140106.bw"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Std. Dev of methylation signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.CPG_methylation_sd.bs_call.20140106.bw",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "db85e22212ca3863b4c4b52b172253aa"
       },
       {
+         "FORMAT" : "BigBed",
+         "SIZE" : "5.0M",
+         "NAME" : "G199.hyper_meth.bs_call.20140106.bb",
          "FILE_TYPE" : "BS_HYPER_METH_BB_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.hyper_meth.bs_call.20140106.bb"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Hyper-methylated regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.hyper_meth.bs_call.20140106.bb",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "4c9ab6048477516756221cb408db0b72"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "20M",
+         "NAME" : "G199.hyper_meth.bs_call.20140106.bed.gz",
          "FILE_TYPE" : "BS_HYPER_METH_BED_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.hyper_meth.bs_call.20140106.bed.gz"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Hyper-methylated regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.hyper_meth.bs_call.20140106.bed.gz",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "4ec3cb2aa66564979bc953283d7cab9d"
       },
       {
+         "FORMAT" : "BigBed",
+         "SIZE" : "816K",
+         "NAME" : "G199.hypo_meth.bs_call.20140106.bb",
          "FILE_TYPE" : "BS_HYPO_METH_BB_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.hypo_meth.bs_call.20140106.bb"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Hypo-methylated regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.hypo_meth.bs_call.20140106.bb",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "61b83f38fa99d50028163ac64a5c81ef"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "4.7M",
+         "NAME" : "G199.hypo_meth.bs_call.20140106.bed.gz",
          "FILE_TYPE" : "BS_HYPO_METH_BED_CNAG",
-         "PATH" : "blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.hypo_meth.bs_call.20140106.bed.gz"
+         "ANALYSIS_GROUP" : "CNAG",
+         "TYPE" : "Hypo-methylated regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Bone_marrow/F2012-2912/hematopoietic_multipotent_progenitor_cell/Bisulfite-Seq/CNAG/G199.hypo_meth.bs_call.20140106.bed.gz",
+         "PROTOCOL_DOC" : "bs_seq",
+         "MD5" : "1f3395092af6f7a885f16341b7be1477"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "F2012-2912",
+      "SAMPLE_DESC_1" : "Bone marrow",
       "sample_name" : "G199",
+      "SAMPLE_DESC_3" : "hematopoietic multipotent progenitor cell",
       "SAMPLE_ID" : "EGAN00001170519",
       "attributes" : {
-         "DISEASE" : [
-            "None"
-         ],
-         "CELL_TYPE" : [
-            "hematopoietic multipotent progenitor cell"
-         ],
-         "DISEASE_ONTOLOGY_URI" : [
-            "NA"
-         ],
-         "SAMPLE_ONTOLOGY_URI" : [
-            "http://purl.obolibrary.org/obo/CL_0000837"
-         ],
-         "DONOR_ID" : [
-            "F2012-2912"
-         ],
-         "PASSAGE_IF_EXPANDED" : [
-            "NA"
-         ],
          "MARKERS" : [
             "CD34++,CD19-"
          ],
          "DONOR_HEALTH_STATUS" : [
             "Presumed healthy"
          ],
+         "DONOR_AGE" : [
+            "22 weeks post conception"
+         ],
          "MOLECULE" : [
             "genomic DNA"
          ],
-         "DONOR_AGE" : [
-            "22 weeks post conception"
+         "DISEASE" : [
+            "None"
          ],
          "BIOMATERIAL_PROVIDER" : [
             "Joseph Wiemels, University of California San Francisco in collaboration with Jose I. Martin-Subero, Institut d'Investigacions Biomediques August Pi i Sunyer"
          ],
-         "PHENOTYPE" : [
-            "CL_0000837;EFO:0000761;UBERON_0002371"
-         ],
-         "BIOMATERIAL_TYPE" : [
-            "Primary Cell"
+         "CELL_TYPE" : [
+            "hematopoietic multipotent progenitor cell"
          ],
          "TISSUE_TYPE" : [
             "Bone marrow"
          ],
-         "ENA-CHECKLIST" : [
-            "ERC000026"
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell"
+         ],
+         "DISEASE_ONTOLOGY_URI" : [
+            "NA"
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000837",
+               "label" : "CL_0000837"
+            }
+         ],
+         "DONOR_ID" : [
+            "F2012-2912"
          ],
          "DONOR_SEX" : [
             "Unknown"
          ],
          "DONOR_ETHNICITY" : [
+            "NA"
+         ],
+         "PASSAGE_IF_EXPANDED" : [
             "NA"
          ]
       }

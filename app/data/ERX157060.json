@@ -1,6 +1,7 @@
 {
    "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000928",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "mRNA-seq",
       "EXPERIMENT_ID" : "EGAX00001070721",
       "attributes" : {
          "MRNA_PREPARATION_INITIAL_MRNA_QNTY" : [
@@ -18,19 +19,16 @@
          "LIBRARY_GENERATION_PCR_POLYMERASE_TYPE" : [
             "The PCR Master Mix from the TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011) is used for library amplification PCR"
          ],
-         "ENA-SUBMISSION-TOOL" : [
-            "SRA-Webin"
-         ],
          "LIBRARY_GENERATION_PCR_THERMOCYCLING_PROGRAM" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011). 98°C for 30 seconds. 10-15 cycles (depending of qPCR Results) of: 98°C for 10 seconds, 60°C for 30 seconds, 72°C for 30 seconds, 72°C for 5 minutes. Hold at 10°C"
          ],
          "RNA_PREPARATION_5'_RNA_ADAPTER_LIGATION_PROTOCOL" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
-         "RNA_PREPARATION_3'_RNA_ADAPTER_SEQUENCE" : [
+         "RNA_PREPARATION_5'_RNA_ADAPTER_SEQUENCE" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
-         "RNA_PREPARATION_5'_RNA_ADAPTER_SEQUENCE" : [
+         "RNA_PREPARATION_3'_RNA_ADAPTER_SEQUENCE" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
          "LIBRARY_GENERATION_PCR_TEMPLATE_CONC" : [
@@ -48,11 +46,11 @@
          "RNA_PREPARATION_REVERSE_TRANSCRIPTION_PRIMER_SEQUENCE" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
          ],
-         "LIBRARY_GENERATION_PCR_NUMBER_CYCLES" : [
-            "10-15"
-         ],
          "RNA_PREPARATION_REVERSE_TRANSCRIPTION_PROTOCOL" : [
             "As described in Sultan et al. (BBRC, 2012)"
+         ],
+         "LIBRARY_GENERATION_PCR_NUMBER_CYCLES" : [
+            "10-15"
          ],
          "RNA_PREPARATION_3'_RNA ADAPTER_LIGATION_PROTOCOL" : [
             "As described in TruSeq RNA Sample Preparation v2 Guide (Illumina, Aug. 2011)"
@@ -82,41 +80,100 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG",
    "files" : [
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "78M",
+         "NAME" : "C001UYB4.contigs.gem_grape_crg.20130415.bed",
          "FILE_TYPE" : "RNA_CONTIGS_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.contigs.gem_grape_crg.20130415.bed"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Contigs",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.contigs.gem_grape_crg.20130415.bed",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "47ad55e180f487720df028e4c510ad0d"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "94M",
+         "NAME" : "C001UYB4.exon_quantification.gem_grape_crg.20130415.gff",
          "FILE_TYPE" : "RNA_EXON_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.exon_quantification.gem_grape_crg.20130415.gff"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Exons)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.exon_quantification.gem_grape_crg.20130415.gff",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "ee4b3b7bc56faed9a7030deae28e4fc9"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "9.4M",
+         "NAME" : "C001UYB4.gene_quantification.gem_grape_crg.20130415.gff",
          "FILE_TYPE" : "RNA_GENE_QUANT_CRG",
-         "REACTOME_PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.gene_quantification.gem_grape_crg.20130415.reactome.txt",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.gene_quantification.gem_grape_crg.20130415.gff"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Genes)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.gene_quantification.gem_grape_crg.20130415.gff",
+         "REACTOME_PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.gene_quantification.gem_grape_crg.20130415.reactome.txt",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "4efc1b0286d9fc278241b767a93e38d9"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "19M",
+         "NAME" : "C001UYB4.intron_quantification.gem_grape_crg.20130415.gtf",
          "FILE_TYPE" : "RNA_INTRON_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.intron_quantification.gem_grape_crg.20130415.gtf"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Introns)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.intron_quantification.gem_grape_crg.20130415.gtf",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "eb1cd3685e28e22624e363737b311ea5"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "21M",
+         "NAME" : "C001UYB4.junction_quantification.gem_grape_crg.20130415.gtf",
          "FILE_TYPE" : "RNA_JUNCTIONS_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.junction_quantification.gem_grape_crg.20130415.gtf"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Splice junction quantification",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.junction_quantification.gem_grape_crg.20130415.gtf",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "f4dcfc9b7e054e2e41cf8f901526f9a2"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "218M",
+         "NAME" : "C001UYB4.minusStrand.gem_grape_crg.20130415.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.minusStrand.gem_grape_crg.20130415.bw"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.minusStrand.gem_grape_crg.20130415.bw",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "a6d22216d0ac2c60bc053caef024dff9"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "230M",
+         "NAME" : "C001UYB4.plusStrand.gem_grape_crg.20130415.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.plusStrand.gem_grape_crg.20130415.bw"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.plusStrand.gem_grape_crg.20130415.bw",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "65bba77e6cf77017ce2d98b3864aef58"
       },
       {
+         "FORMAT" : "GFF",
+         "SIZE" : "36M",
+         "NAME" : "C001UYB4.transcript_quantification.gem_grape_crg.20130415.gtf",
          "FILE_TYPE" : "RNA_TRANSCRIPT_QUANT_CRG",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.transcript_quantification.gem_grape_crg.20130415.gtf"
+         "ANALYSIS_GROUP" : "CRG",
+         "TYPE" : "Transcription quantification (Transcripts)",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C001UYB4.transcript_quantification.gem_grape_crg.20130415.gtf",
+         "PROTOCOL_DOC" : "rna_seq",
+         "MD5" : "63e389acae583118ed6db41f5e1a2c11"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "C001UY",
+      "SAMPLE_DESC_1" : "Venous blood",
       "sample_name" : "C001UYB4",
+      "SAMPLE_DESC_3" : "CD14-positive, CD16-negative classical monocyte",
       "SAMPLE_ID" : "EGAN00001070040",
       "attributes" : {
          "DISEASE" : [
@@ -132,7 +189,14 @@
             "C001UY"
          ],
          "SAMPLE_ONTOLOGY_URI" : [
-            "http://purl.obolibrary.org/obo/CL_0002057;http://purl.obolibrary.org/obo/UBERON_0013756"
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0002057",
+               "label" : "CL_0002057"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013756",
+               "label" : "UBERON_0013756"
+            }
          ],
          "GENDER" : [
             "male"
@@ -160,9 +224,6 @@
          ],
          "TISSUE_TYPE" : [
             "Venous blood"
-         ],
-         "PHENOTYPE" : [
-            "CL:0002057;EFO:0000761;UBERON:0013756"
          ],
          "BIOMATERIAL_TYPE" : [
             "Primary Cell"

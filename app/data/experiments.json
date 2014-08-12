@@ -4,9 +4,9 @@
       "DISEASE" : "None",
       "data" : {
          "H3K9me3" : "ERX406922",
+         "ChIP Input" : "ERX406950",
          "H3K27me3" : "ERX406921",
          "H3K36me3" : "ERX406913",
-         "Input" : "ERX406950",
          "H3K4me3" : "ERX406960",
          "H3K4me1" : "ERX406920",
          "H3K27ac" : "ERX406931"
@@ -56,9 +56,9 @@
          "H3K4me1" : "ERX197193",
          "H3K27ac" : "ERX300743",
          "Bisulfite-Seq" : "ERX242613",
+         "ChIP Input" : "ERX197192",
          "H3K27me3" : "ERX197194",
          "H3K36me3" : "ERX223444",
-         "Input" : "ERX197192",
          "H2A.Zac" : "ERX300652",
          "H3K4me3" : "ERX197197"
       },
@@ -89,9 +89,9 @@
       "DISEASE" : "None",
       "data" : {
          "H3K9me3" : "ERX337034",
+         "ChIP Input" : "ERX406906",
          "H3K27me3" : "ERX337010",
          "H3K36me3" : "ERX337014",
-         "Input" : "ERX406906",
          "H3K4me3" : "ERX300696",
          "H3K4me1" : "ERX337033",
          "H3K27ac" : "ERX337023"
@@ -126,11 +126,11 @@
          "RNA-Seq" : "ERX298129",
          "H3K4me1" : "ERX297412",
          "H3K27ac" : "ERX297453",
-         "DNase-Hypersensitivity" : "ERX297500",
          "H3K27me3" : "ERX297419",
+         "ChIP Input" : "ERX297447",
+         "DNase-Seq" : "ERX297500",
          "H3K36me3" : "ERX297440",
-         "H3K4me3" : "ERX297409",
-         "Input" : "ERX297447"
+         "H3K4me3" : "ERX297409"
       },
       "CELL_TYPE" : "",
       "TISSUE_TYPE" : "",
@@ -150,9 +150,9 @@
          "H3K27ac" : "ERX300740",
          "Bisulfite-Seq" : "ERX242609",
          "H3K27me3" : "ERX223449",
+         "ChIP Input" : "ERX223451",
          "H3K36me3" : "ERX223447",
-         "H3K4me3" : "ERX223446",
-         "Input" : "ERX223451"
+         "H3K4me3" : "ERX223446"
       },
       "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
       "TISSUE_TYPE" : "Cord blood",
@@ -170,11 +170,11 @@
          "RNA-Seq" : "ERX298126",
          "H3K4me1" : "ERX297423",
          "H3K27ac" : "ERX297426",
-         "DNase-Hypersensitivity" : "ERX337094",
          "H3K27me3" : "ERX297430",
+         "ChIP Input" : "ERX297451",
+         "DNase-Seq" : "ERX337094",
          "H3K36me3" : "ERX297444",
-         "H3K4me3" : "ERX297425",
-         "Input" : "ERX297451"
+         "H3K4me3" : "ERX297425"
       },
       "CELL_TYPE" : "",
       "TISSUE_TYPE" : "",
@@ -208,9 +208,9 @@
          "H3K27ac" : "ERX300680",
          "Bisulfite-Seq" : "ERX353595",
          "H3K27me3" : "ERX300728",
+         "ChIP Input" : "ERX300717",
          "H3K36me3" : "ERX300681",
-         "H3K4me3" : "ERX300720",
-         "Input" : "ERX300717"
+         "H3K4me3" : "ERX300720"
       },
       "CELL_TYPE" : "inflammatory macrophage",
       "TISSUE_TYPE" : "Venous blood",
@@ -238,7 +238,7 @@
       "SAMPLE_DESC_1" : "Cord blood",
       "DISEASE" : "None",
       "data" : {
-         "DNase-Hypersensitivity" : "ERX286199",
+         "DNase-Seq" : "ERX286199",
          "RNA-Seq" : "ERX295086"
       },
       "CELL_TYPE" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
@@ -259,9 +259,9 @@
          "H3K27ac" : "ERX149097",
          "Bisulfite-Seq" : "ERX204016",
          "H3K27me3" : "ERX149111",
+         "ChIP Input" : "ERX149096",
          "H3K36me3" : "ERX149101",
-         "H3K4me3" : "ERX149100",
-         "Input" : "ERX149096"
+         "H3K4me3" : "ERX149100"
       },
       "CELL_TYPE" : "mature neutrophil",
       "TISSUE_TYPE" : "Venous blood",
@@ -276,9 +276,9 @@
       "DISEASE" : "None",
       "data" : {
          "H3K9me3" : "ERX406917",
+         "ChIP Input" : "ERX406949",
          "H3K27me3" : "ERX406916",
          "H3K36me3" : "ERX406914",
-         "Input" : "ERX406949",
          "H3K4me3" : "ERX406945",
          "H3K4me1" : "ERX406915",
          "H3K27ac" : "ERX406930"
@@ -299,10 +299,10 @@
          "RNA-Seq" : "ERX157057",
          "H3K4me1" : "ERX197177",
          "H3K27ac" : "ERX197160",
-         "DNase-Hypersensitivity" : "ERX197155",
          "H3K27me3" : "ERX197179",
-         "H3K4me3" : "ERX197165",
-         "Input" : "ERX197159"
+         "ChIP Input" : "ERX197159",
+         "DNase-Seq" : "ERX197155",
+         "H3K4me3" : "ERX197165"
       },
       "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
       "TISSUE_TYPE" : "Venous blood",
@@ -322,9 +322,9 @@
          "H3K27ac" : "ERX406951",
          "Bisulfite-Seq" : "ERX353596",
          "H3K27me3" : "ERX300711",
+         "ChIP Input" : "ERX337056",
          "H3K36me3" : "ERX300709",
-         "H3K4me3" : "ERX300734",
-         "Input" : "ERX337056"
+         "H3K4me3" : "ERX300734"
       },
       "CELL_TYPE" : "erythroblast",
       "TISSUE_TYPE" : "Cord blood",
@@ -344,9 +344,9 @@
          "H3K27ac" : "ERX149095",
          "Bisulfite-Seq" : "ERX204013",
          "H3K27me3" : "ERX149104",
+         "ChIP Input" : "ERX149092",
          "H3K36me3" : "ERX149094",
-         "H3K4me3" : "ERX149093",
-         "Input" : "ERX149092"
+         "H3K4me3" : "ERX149093"
       },
       "CELL_TYPE" : "mature neutrophil",
       "TISSUE_TYPE" : "Venous blood",
@@ -392,11 +392,11 @@
          "RNA-Seq" : "ERX326139",
          "H3K4me1" : "ERX300658",
          "Bisulfite-Seq" : "ERX353591",
-         "DNase-Hypersensitivity" : "ERX286205",
          "H3K27me3" : "ERX300661",
+         "ChIP Input" : "ERX240837",
+         "DNase-Seq" : "ERX286205",
          "H3K36me3" : "ERX337020",
-         "H3K4me3" : "ERX240842",
-         "Input" : "ERX240837"
+         "H3K4me3" : "ERX240842"
       },
       "CELL_TYPE" : "macrophage",
       "TISSUE_TYPE" : "Venous blood",
@@ -416,9 +416,9 @@
          "H3K27ac" : "ERX173536",
          "Bisulfite-Seq" : "ERX204011",
          "H3K27me3" : "ERX295067",
+         "ChIP Input" : "ERX173526",
          "H3K36me3" : "ERX173537",
-         "H3K4me3" : "ERX173529",
-         "Input" : "ERX173526"
+         "H3K4me3" : "ERX173529"
       },
       "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
       "TISSUE_TYPE" : "Venous blood",
@@ -437,9 +437,9 @@
          "H3K4me1" : "ERX173530",
          "H3K27ac" : "ERX173525",
          "H3K27me3" : "ERX173531",
+         "ChIP Input" : "ERX173524",
          "H3K36me3" : "ERX173528",
-         "H3K4me3" : "ERX173527",
-         "Input" : "ERX173524"
+         "H3K4me3" : "ERX173527"
       },
       "CELL_TYPE" : "mature neutrophil",
       "TISSUE_TYPE" : "Venous blood",
@@ -454,9 +454,9 @@
       "DISEASE" : "None",
       "data" : {
          "H3K9me3" : "ERX223443",
+         "ChIP Input" : "ERX197183",
          "H3K27me3" : "ERX223442",
          "H3K36me3" : "ERX223440",
-         "Input" : "ERX197183",
          "H3K4me3" : "ERX197180",
          "H3K4me1" : "ERX223441",
          "H3K27ac" : "ERX197184"
@@ -477,11 +477,11 @@
          "RNA-Seq" : "ERX333838",
          "H3K4me1" : "ERX297424",
          "H3K27ac" : "ERX297428",
-         "DNase-Hypersensitivity" : "ERX337095",
          "H3K27me3" : "ERX297431",
+         "ChIP Input" : "ERX297452",
+         "DNase-Seq" : "ERX337095",
          "H3K36me3" : "ERX297445",
-         "H3K4me3" : "ERX297427",
-         "Input" : "ERX297452"
+         "H3K4me3" : "ERX297427"
       },
       "CELL_TYPE" : "",
       "TISSUE_TYPE" : "",
@@ -496,9 +496,9 @@
       "DISEASE" : "None",
       "data" : {
          "H3K9me3" : "ERX337008",
+         "ChIP Input" : "ERX337060",
          "H3K27me3" : "ERX337007",
          "H3K36me3" : "ERX337006",
-         "Input" : "ERX337060",
          "H3K4me3" : "ERX300695",
          "H3K4me1" : "ERX406908",
          "H3K27ac" : "ERX337022"
@@ -562,9 +562,9 @@
          "H3K4me1" : "ERX297411",
          "H3K27ac" : "ERX297416",
          "H3K27me3" : "ERX297420",
+         "ChIP Input" : "ERX297448",
          "H3K36me3" : "ERX297441",
-         "H3K4me3" : "ERX297408",
-         "Input" : "ERX297448"
+         "H3K4me3" : "ERX297408"
       },
       "CELL_TYPE" : "",
       "TISSUE_TYPE" : "",
@@ -596,11 +596,11 @@
          "H3K4me1" : "ERX197190",
          "H3K27ac" : "ERX197174",
          "Bisulfite-Seq" : "ERX204012",
-         "DNase-Hypersensitivity" : "ERX197156",
          "H3K27me3" : "ERX197191",
+         "ChIP Input" : "ERX197166",
+         "DNase-Seq" : "ERX197156",
          "H3K36me3" : "ERX197176",
-         "H3K4me3" : "ERX197167",
-         "Input" : "ERX197166"
+         "H3K4me3" : "ERX197167"
       },
       "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
       "TISSUE_TYPE" : "Venous blood",
@@ -643,9 +643,9 @@
       "DISEASE" : "None",
       "data" : {
          "H3K9me3" : "ERX300679",
+         "ChIP Input" : "ERX337057",
          "H3K27me3" : "ERX300727",
          "H3K36me3" : "ERX300712",
-         "Input" : "ERX337057",
          "H3K4me3" : "ERX300721",
          "H3K4me1" : "ERX300713",
          "H3K27ac" : "ERX406952"
@@ -677,9 +677,9 @@
       "DISEASE" : "None",
       "data" : {
          "H3K9me3" : "ERX197210",
+         "ChIP Input" : "ERX197185",
          "H3K27me3" : "ERX197209",
          "H3K36me3" : "ERX223437",
-         "Input" : "ERX197185",
          "H3K4me3" : "ERX197201",
          "H3K4me1" : "ERX197208",
          "H3K27ac" : "ERX197202"
@@ -702,9 +702,9 @@
          "H3K27ac" : "ERX197164",
          "Bisulfite-Seq" : "ERX242608",
          "H3K27me3" : "ERX207025",
+         "ChIP Input" : "ERX197163",
          "H3K36me3" : "ERX207023",
-         "H3K4me3" : "ERX207030",
-         "Input" : "ERX197163"
+         "H3K4me3" : "ERX207030"
       },
       "CELL_TYPE" : "mature neutrophil",
       "TISSUE_TYPE" : "Cord blood",
@@ -738,9 +738,9 @@
          "H3K27ac" : "ERX232227",
          "Bisulfite-Seq" : "ERX204015",
          "H3K27me3" : "ERX149108",
+         "ChIP Input" : "ERX149098",
          "H3K36me3" : "ERX149106",
-         "H3K4me3" : "ERX149105",
-         "Input" : "ERX149098"
+         "H3K4me3" : "ERX149105"
       },
       "CELL_TYPE" : "mature neutrophil",
       "TISSUE_TYPE" : "Venous blood",
@@ -749,20 +749,6 @@
       "DONOR_SEX" : "Female",
       "SAMPLE_DESC_3" : "mature neutrophil",
       "CELL_LINE" : ""
-   },
-   {
-      "SAMPLE_DESC_1" : "Cell Line",
-      "DISEASE" : "Mantle cell lymphoma, aggressive",
-      "data" : {
-         "DNase-Hypersensitivity" : "ERX246037"
-      },
-      "CELL_TYPE" : "",
-      "TISSUE_TYPE" : "",
-      "SAMPLE_DESC_2" : "Z-138",
-      "DONOR_ID" : "",
-      "DONOR_SEX" : "Male",
-      "SAMPLE_DESC_3" : "Mantle cell lymphoma, aggressive",
-      "CELL_LINE" : "Z-138"
    },
    {
       "SAMPLE_DESC_1" : "Cord blood",
@@ -825,9 +811,9 @@
       "DISEASE" : "None",
       "data" : {
          "H3K9me3" : "ERX190912",
+         "ChIP Input" : "ERX190911",
          "H3K27me3" : "ERX190921",
          "H3K36me3" : "ERX190919",
-         "Input" : "ERX190911",
          "H3K4me3" : "ERX190913",
          "H3K4me1" : "ERX190920",
          "H3K27ac" : "ERX190914"
@@ -864,9 +850,9 @@
          "H3K27ac" : "ERX337055",
          "Bisulfite-Seq" : "ERX353594",
          "H3K27me3" : "ERX300706",
+         "ChIP Input" : "ERX300716",
          "H3K36me3" : "ERX300705",
-         "H3K4me3" : "ERX300682",
-         "Input" : "ERX300716"
+         "H3K4me3" : "ERX300682"
       },
       "CELL_TYPE" : "inflammatory macrophage",
       "TISSUE_TYPE" : "Venous blood",
@@ -884,11 +870,11 @@
          "RNA-Seq" : "ERX298128",
          "H3K4me1" : "ERX297414",
          "H3K27ac" : "ERX297417",
-         "DNase-Hypersensitivity" : "ERX246038",
          "H3K27me3" : "ERX297422",
+         "ChIP Input" : "ERX297450",
+         "DNase-Seq" : "ERX297501",
          "H3K36me3" : "ERX297443",
-         "H3K4me3" : "ERX297407",
-         "Input" : "ERX297450"
+         "H3K4me3" : "ERX297407"
       },
       "CELL_TYPE" : "",
       "TISSUE_TYPE" : "",
@@ -916,8 +902,8 @@
       "SAMPLE_DESC_1" : "Venous blood",
       "DISEASE" : "None",
       "data" : {
-         "DNase-Hypersensitivity" : "ERX197157",
-         "Input" : "ERX232468"
+         "DNase-Seq" : "ERX197157",
+         "ChIP Input" : "ERX232468"
       },
       "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
       "TISSUE_TYPE" : "Venous blood",
@@ -936,10 +922,10 @@
          "H3K4me1" : "ERX197181",
          "H3K27ac" : "ERX197162",
          "Bisulfite-Seq" : "ERX204014",
-         "DNase-Hypersensitivity" : "ERX197158",
          "H3K27me3" : "ERX197204",
-         "H3K4me3" : "ERX197168",
-         "Input" : "ERX197161"
+         "ChIP Input" : "ERX197161",
+         "DNase-Seq" : "ERX197158",
+         "H3K4me3" : "ERX197168"
       },
       "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
       "TISSUE_TYPE" : "Venous blood",
@@ -954,9 +940,9 @@
       "DISEASE" : "None",
       "data" : {
          "H3K9me3" : "ERX223439",
+         "ChIP Input" : "ERX197186",
          "H3K27me3" : "ERX197214",
          "H3K36me3" : "ERX197217",
-         "Input" : "ERX197186",
          "H3K4me3" : "ERX197211",
          "H3K4me1" : "ERX223438",
          "H3K27ac" : "ERX197215"
@@ -992,9 +978,9 @@
          "H3K4me1" : "ERX190918",
          "H3K27ac" : "ERX190917",
          "Bisulfite-Seq" : "ERX242611",
+         "ChIP Input" : "ERX190915",
          "H3K27me3" : "ERX190923",
          "H3K36me3" : "ERX190922",
-         "Input" : "ERX190915",
          "H3K4me3" : "ERX190916",
          "H3K9/14ac" : "ERX300677"
       },
@@ -1015,11 +1001,11 @@
          "H3K4me1" : "ERX207020",
          "H3K27ac" : "ERX207018",
          "Bisulfite-Seq" : "ERX242612",
-         "DNase-Hypersensitivity" : "ERX286202",
+         "DNase-Seq" : "ERX286202",
          "H3K27me3" : "ERX207021",
+         "ChIP Input" : "ERX207033",
          "H3K36me3" : "ERX207019",
-         "H3K4me3" : "ERX207017",
-         "Input" : "ERX207033"
+         "H3K4me3" : "ERX207017"
       },
       "CELL_TYPE" : "CD14-positive, CD16-negative classical monocyte",
       "TISSUE_TYPE" : "Cord blood",
@@ -1051,11 +1037,11 @@
          "RNA-Seq" : "ERX298127",
          "H3K4me1" : "ERX297410",
          "H3K27ac" : "ERX297418",
-         "DNase-Hypersensitivity" : "ERX297502",
          "H3K27me3" : "ERX297421",
+         "ChIP Input" : "ERX297449",
+         "DNase-Seq" : "ERX297502",
          "H3K36me3" : "ERX297442",
-         "H3K4me3" : "ERX297406",
-         "Input" : "ERX297449"
+         "H3K4me3" : "ERX297406"
       },
       "CELL_TYPE" : "",
       "TISSUE_TYPE" : "",
@@ -1075,9 +1061,9 @@
          "H3K27ac" : "ERX337015",
          "Bisulfite-Seq" : "ERX353601",
          "H3K27me3" : "ERX300694",
+         "ChIP Input" : "ERX337059",
          "H3K36me3" : "ERX300738",
-         "H3K4me3" : "ERX300686",
-         "Input" : "ERX337059"
+         "H3K4me3" : "ERX300686"
       },
       "CELL_TYPE" : "alternatively activated macrophage",
       "TISSUE_TYPE" : "Venous blood",
@@ -1097,9 +1083,9 @@
          "H3K27ac" : "ERX207032",
          "Bisulfite-Seq" : "ERX242610",
          "H3K27me3" : "ERX207028",
+         "ChIP Input" : "ERX207015",
          "H3K36me3" : "ERX207027",
-         "H3K4me3" : "ERX207031",
-         "Input" : "ERX207015"
+         "H3K4me3" : "ERX207031"
       },
       "CELL_TYPE" : "mature neutrophil",
       "TISSUE_TYPE" : "Cord blood",
@@ -1138,29 +1124,6 @@
       "CELL_LINE" : ""
    },
    {
-      "SAMPLE_DESC_1" : "Venous blood",
-      "DISEASE" : "None",
-      "data" : {
-         "H3K9me3" : "ERX300671",
-         "RNA-Seq" : "ERX326141",
-         "H3K4me1" : "ERX300674",
-         "H3K27ac" : "ERX300663",
-         "Bisulfite-Seq" : "ERX353599",
-         "DNase-Hypersensitivity" : "ERX286200",
-         "H3K27me3" : "ERX300670",
-         "H3K36me3" : "ERX300673",
-         "H3K4me3" : "ERX300707",
-         "Input" : "ERX300715"
-      },
-      "CELL_TYPE" : "inflammatory macrophage",
-      "TISSUE_TYPE" : "Venous blood",
-      "SAMPLE_DESC_2" : "S001MJ",
-      "DONOR_ID" : "S001MJ",
-      "DONOR_SEX" : "Male",
-      "SAMPLE_DESC_3" : "inflammatory macrophage",
-      "CELL_LINE" : ""
-   },
-   {
       "SAMPLE_DESC_1" : "Cord blood",
       "DISEASE" : "None",
       "data" : {
@@ -1175,13 +1138,36 @@
       "CELL_LINE" : ""
    },
    {
+      "SAMPLE_DESC_1" : "Venous blood",
+      "DISEASE" : "None",
+      "data" : {
+         "H3K9me3" : "ERX300671",
+         "RNA-Seq" : "ERX326141",
+         "H3K4me1" : "ERX300674",
+         "H3K27ac" : "ERX300663",
+         "Bisulfite-Seq" : "ERX353599",
+         "DNase-Seq" : "ERX286200",
+         "H3K27me3" : "ERX300670",
+         "ChIP Input" : "ERX300715",
+         "H3K36me3" : "ERX300673",
+         "H3K4me3" : "ERX300707"
+      },
+      "CELL_TYPE" : "inflammatory macrophage",
+      "TISSUE_TYPE" : "Venous blood",
+      "SAMPLE_DESC_2" : "S001MJ",
+      "DONOR_ID" : "S001MJ",
+      "DONOR_SEX" : "Male",
+      "SAMPLE_DESC_3" : "inflammatory macrophage",
+      "CELL_LINE" : ""
+   },
+   {
       "SAMPLE_DESC_1" : "Cord blood",
       "DISEASE" : "None",
       "data" : {
          "H3K9me3" : "ERX406956",
+         "ChIP Input" : "ERX406999",
          "H3K27me3" : "ERX406942",
          "H3K36me3" : "ERX406933",
-         "Input" : "ERX406999",
          "H3K4me3" : "ERX406946",
          "H3K4me1" : "ERX406941",
          "H3K27ac" : "ERX406932"
@@ -1231,9 +1217,9 @@
          "H3K4me1" : "ERX240845",
          "Bisulfite-Seq" : "ERX353592",
          "H3K27me3" : "ERX240846",
+         "ChIP Input" : "ERX240839",
          "H3K36me3" : "ERX240844",
-         "H3K4me3" : "ERX240832",
-         "Input" : "ERX240839"
+         "H3K4me3" : "ERX240832"
       },
       "CELL_TYPE" : "CD8-positive, alpha-beta T cell",
       "TISSUE_TYPE" : "Cord blood",
@@ -1252,9 +1238,9 @@
          "H3K4me1" : "ERX297413",
          "H3K27ac" : "ERX297415",
          "H3K27me3" : "ERX297429",
+         "ChIP Input" : "ERX297446",
          "H3K36me3" : "ERX297439",
-         "H3K4me3" : "ERX297405",
-         "Input" : "ERX297446"
+         "H3K4me3" : "ERX297405"
       },
       "CELL_TYPE" : "",
       "TISSUE_TYPE" : "",
@@ -1274,9 +1260,9 @@
          "H3K27ac" : "ERX406971",
          "Bisulfite-Seq" : "ERX353598",
          "H3K27me3" : "ERX300692",
+         "ChIP Input" : "ERX406948",
          "H3K36me3" : "ERX300687",
-         "H3K4me3" : "ERX300685",
-         "Input" : "ERX406948"
+         "H3K4me3" : "ERX300685"
       },
       "CELL_TYPE" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
       "TISSUE_TYPE" : "Cord blood",

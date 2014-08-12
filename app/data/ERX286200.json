@@ -1,6 +1,7 @@
 {
    "archive_url" : "https://www.ebi.ac.uk/ega/datasets/EGAD00001000926",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "Chromatin Accessibility",
       "EXPERIMENT_ID" : "EGAX00001125982",
       "attributes" : {
          "DNASE_PROTOCOL" : [
@@ -22,20 +23,44 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/DNase-Hypersensitivity/NCMLS",
    "files" : [
       {
+         "FORMAT" : "BigBed",
+         "SIZE" : "7.4M",
+         "NAME" : "S001MJ4A.DNase.hotspot_v3.20130819.bb",
          "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/DNase-Hypersensitivity/NCMLS/S001MJ4A.DNase.hotspot_v3.20130819.bb"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Hotspots",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/DNase-Hypersensitivity/NCMLS/S001MJ4A.DNase.hotspot_v3.20130819.bb",
+         "PROTOCOL_DOC" : "dnase_seq",
+         "MD5" : "a9998e3f9928ffd21f137d4cd404eb7f"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "4.1M",
+         "NAME" : "S001MJ4A.DNase.hotspot_v3.20130819.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/DNase-Hypersensitivity/NCMLS/S001MJ4A.DNase.hotspot_v3.20130819.bed.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Hotspots",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/DNase-Hypersensitivity/NCMLS/S001MJ4A.DNase.hotspot_v3.20130819.bed.gz",
+         "PROTOCOL_DOC" : "dnase_seq",
+         "MD5" : "55921f2f547a3f4453c932b438fa1d92"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "2.9M",
+         "NAME" : "S001MJ4A.DNase.hotspot_v3_peaks.20130819.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
-         "PATH" : "blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/DNase-Hypersensitivity/NCMLS/S001MJ4A.DNase.hotspot_v3_peaks.20130819.bed.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Hotspots",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001MJ/inflammatory_macrophage/DNase-Hypersensitivity/NCMLS/S001MJ4A.DNase.hotspot_v3_peaks.20130819.bed.gz",
+         "PROTOCOL_DOC" : "dnase_seq",
+         "MD5" : "46806ec325205381ea4bdb1d94deb1b8"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "S001MJ",
+      "SAMPLE_DESC_1" : "Venous blood",
       "sample_name" : "S001MJ4A",
+      "SAMPLE_DESC_3" : "inflammatory macrophage",
       "SAMPLE_ID" : "EGAN00001096962",
       "attributes" : {
          "DISEASE" : [
@@ -54,7 +79,14 @@
             "S001MJ"
          ],
          "SAMPLE_ONTOLOGY_URI" : [
-            "http://purl.obolibrary.org/obo/CL_0000863;http://purl.obolibrary.org/obo/UBERON_0013756"
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000863",
+               "label" : "CL_0000863"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013756",
+               "label" : "UBERON_0013756"
+            }
          ],
          "GENDER" : [
             "male"
@@ -80,14 +112,11 @@
          "BIOMATERIAL_PROVIDER" : [
             "NIHR Cambridge BioResource"
          ],
-         "TISSUE_TYPE" : [
-            "Venous blood"
-         ],
-         "PHENOTYPE" : [
-            "CL:0000863;EFO:0000761;UBERON:0013756"
-         ],
          "BIOMATERIAL_TYPE" : [
             "Primary Cell Culture"
+         ],
+         "TISSUE_TYPE" : [
+            "Venous blood"
          ],
          "DONOR_SEX" : [
             "Male"

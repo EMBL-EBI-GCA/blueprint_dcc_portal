@@ -1,6 +1,7 @@
 {
    "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX297410",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "Histone H3K4me1",
       "EXPERIMENT_ID" : "ERX297410",
       "attributes" : {
          "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
@@ -49,24 +50,55 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS",
    "files" : [
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "1.1G",
+         "NAME" : "BP_U-266_c01.H3K4me1.wiggler.20130819.bw",
          "FILE_TYPE" : "CS_WIGGLER",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS/BP_U-266_c01.H3K4me1.wiggler.20130819.bw"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Normalized signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS/BP_U-266_c01.H3K4me1.wiggler.20130819.bw",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "0cb79aa6e9d3f18f73f10634fcc7cb90"
       },
       {
+         "FORMAT" : "BigBed",
+         "SIZE" : "1.4M",
+         "NAME" : "BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS/BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.bb"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS/BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.bb",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "e3d77ce6fd55c764d56a5a82b428129a"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "2.1M",
+         "NAME" : "BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS/BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.bed.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS/BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.bed.gz",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "c6842f0dd640665c8be1e5dd6dbc5551"
       },
       {
+         "FORMAT" : "Text",
+         "SIZE" : "2.4M",
+         "NAME" : "BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.xls.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS/BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.xls.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS/BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.xls.gz",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "435c5831b9d38b3e171f03fff838bb29"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "U-266",
+      "SAMPLE_DESC_1" : "Cell Line",
       "sample_name" : "U-266_c01",
+      "SAMPLE_DESC_3" : "Multiple myeloma",
       "attributes" : {
          "DIFFERENTIATION_METHOD" : [
             "Drexler HG chapter 16 Establishment and culture of leukemia-lymphoma cell in Cancer Cell Culture Methods and Protocols 2nd Edition Springer Berlin pp 181 to 200 in 2011"
@@ -90,13 +122,16 @@
             "Cell Line"
          ],
          "DISEASE_ONTOLOGY_URI" : [
-            "ÃŠhttp://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0026764"
-         ],
-         "ENA-CHECKLIST" : [
-            "ERC000011"
+            {
+               "url" : "ÃŠhttp://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0026764",
+               "label" : "C0026764"
+            }
          ],
          "SAMPLE_ONTOLOGY_URI" : [
-            "http://purl.obolibrary.org/obo/CLO_0009457"
+            {
+               "url" : "http://purl.obolibrary.org/obo/CLO_0009457",
+               "label" : "CLO_0009457"
+            }
          ],
          "PASSAGE" : [
             "NA"

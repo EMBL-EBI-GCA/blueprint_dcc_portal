@@ -1,6 +1,7 @@
 {
    "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX297428",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "Histone H3K27ac",
       "EXPERIMENT_ID" : "ERX297428",
       "attributes" : {
          "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
@@ -49,54 +50,58 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS",
    "files" : [
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "1.2G",
+         "NAME" : "BP_SU-DHL-5_c01.H3K27ac.wiggler.20130819.bw",
          "FILE_TYPE" : "CS_WIGGLER",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_SU-DHL-5_c01.H3K27ac.wiggler.20130819.bw"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Normalized signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_SU-DHL-5_c01.H3K27ac.wiggler.20130819.bw",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "b5d7b22880141321d8e82e0df2d7d9cf"
       },
       {
+         "FORMAT" : "BigBed",
+         "SIZE" : "1005K",
+         "NAME" : "BP_SU-DHL-5_c01.H3K27ac.ppqt_macs2_v2.20130819.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BB",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_SU-DHL-5_c01.H3K27ac.ppqt_macs2_v2.20130819.bb"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_SU-DHL-5_c01.H3K27ac.ppqt_macs2_v2.20130819.bb",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "689070c6df4b188e76ca3b4c46f98670"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "1.2M",
+         "NAME" : "BP_SU-DHL-5_c01.H3K27ac.ppqt_macs2_v2.20130819.bed.gz",
          "FILE_TYPE" : "CS_MACS2",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_SU-DHL-5_c01.H3K27ac.ppqt_macs2_v2.20130819.bed.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_SU-DHL-5_c01.H3K27ac.ppqt_macs2_v2.20130819.bed.gz",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "522e64ee09770cfd1596df09c56006ed"
       },
       {
+         "FORMAT" : "Text",
+         "SIZE" : "1.4M",
+         "NAME" : "BP_SU-DHL-5_c01.H3K27ac.ppqt_macs2_v2.20130819.xls.gz",
          "FILE_TYPE" : "CS_MACS2",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_SU-DHL-5_c01.H3K27ac.ppqt_macs2_v2.20130819.xls.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Enriched regions",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS/BP_SU-DHL-5_c01.H3K27ac.ppqt_macs2_v2.20130819.xls.gz",
+         "PROTOCOL_DOC" : "chip_seq",
+         "MD5" : "9f8a0991c6068abaa7511dcd85d31817"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "SU-DHL-5",
+      "SAMPLE_DESC_1" : "Cell Line",
       "sample_name" : "SU-DHL-5_c01",
+      "SAMPLE_DESC_3" : "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma",
       "attributes" : {
          "GENETIC_CHARACTERISTICS" : [
             "t(14;18) negative"
-         ],
-         "DISEASE" : [
-            "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma"
-         ],
-         "BATCH" : [
-            "NA"
-         ],
-         "LINEAGE" : [
-            "NA"
-         ],
-         "DISEASE_ONTOLOGY_URI" : [
-            "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C1333295"
-         ],
-         "SAMPLE_ONTOLOGY_URI" : [
-            "http://www.ebi.ac.uk/efo/EFO_0002356"
-         ],
-         "PASSAGE" : [
-            "NA"
-         ],
-         "SEX" : [
-            "Female"
-         ],
-         "MEDIUM" : [
-            "RPMI 1640 + 10%FBS + 1% Glutamine"
-         ],
-         "LINE" : [
-            "SU-DHL-5"
          ],
          "DIFFERENTIATION_METHOD" : [
             "Drexler HG chapter 16 Establishment and culture of leukemia-lymphoma cell in Cancer Cell Culture Methods and Protocols 2nd Edition Springer Berlin pp 181 to 200 in 2011"
@@ -104,17 +109,47 @@
          "MOLECULE" : [
             "genomic DNA"
          ],
+         "DISEASE" : [
+            "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma"
+         ],
          "BIOMATERIAL_PROVIDER" : [
             "DSMZ"
+         ],
+         "BATCH" : [
+            "NA"
+         ],
+         "LINEAGE" : [
+            "NA"
          ],
          "BIOMATERIAL_TYPE" : [
             "Cell Line"
          ],
-         "ENA-CHECKLIST" : [
-            "ERC000011"
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C1333295",
+               "label" : "C1333295"
+            }
+         ],
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://www.ebi.ac.uk/efo/EFO_0002356",
+               "label" : "EFO_0002356"
+            }
+         ],
+         "PASSAGE" : [
+            "NA"
+         ],
+         "SEX" : [
+            "Female"
          ],
          "DIFFERENTIATION_STAGE" : [
             "B cell"
+         ],
+         "MEDIUM" : [
+            "RPMI 1640 + 10%FBS + 1% Glutamine"
+         ],
+         "LINE" : [
+            "SU-DHL-5"
          ]
       }
    }

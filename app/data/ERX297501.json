@@ -1,6 +1,7 @@
 {
    "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX297501",
    "experiment" : {
+      "EXPERIMENT_TYPE" : "Chromatin Accessibility",
       "EXPERIMENT_ID" : "ERX297501",
       "attributes" : {
          "DNASE_PROTOCOL" : [
@@ -19,24 +20,55 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS",
    "files" : [
       {
+         "FORMAT" : "BigBed",
+         "SIZE" : "1.6M",
+         "NAME" : "BP_DG-75_d01.DNase.hotspot_v3.20130819.bb",
          "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/BP_DG-75_d01.DNase.hotspot_v3.20130819.bb"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Hotspots",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/BP_DG-75_d01.DNase.hotspot_v3.20130819.bb",
+         "PROTOCOL_DOC" : "dnase_seq",
+         "MD5" : "9c8e8c65924ae4dbf515c79890a05b07"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "1.2M",
+         "NAME" : "BP_DG-75_d01.DNase.hotspot_v3.20130819.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/BP_DG-75_d01.DNase.hotspot_v3.20130819.bed.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Hotspots",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/BP_DG-75_d01.DNase.hotspot_v3.20130819.bed.gz",
+         "PROTOCOL_DOC" : "dnase_seq",
+         "MD5" : "90bada1ee376f8c33b8e2009e90250de"
       },
       {
+         "FORMAT" : "Bed",
+         "SIZE" : "872K",
+         "NAME" : "BP_DG-75_d01.DNase.hotspot_v3_peaks.20130819.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/BP_DG-75_d01.DNase.hotspot_v3_peaks.20130819.bed.gz"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Hotspots",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/BP_DG-75_d01.DNase.hotspot_v3_peaks.20130819.bed.gz",
+         "PROTOCOL_DOC" : "dnase_seq",
+         "MD5" : "140f0fe4304510805cf2e0359f3a6764"
       },
       {
+         "FORMAT" : "BigWig",
+         "SIZE" : "2.4G",
+         "NAME" : "BP_DG-75_d01.DNase.wiggler.20130819.bw",
          "FILE_TYPE" : "DS_WIGGLER",
-         "PATH" : "blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/BP_DG-75_d01.DNase.wiggler.20130819.bw"
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Normalized signal",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/BP_DG-75_d01.DNase.wiggler.20130819.bw",
+         "PROTOCOL_DOC" : "dnase_seq",
+         "MD5" : "92cb406445bfe93183675a32ccf8ea48"
       }
    ],
    "sample" : {
+      "SAMPLE_DESC_2" : "DG-75",
+      "SAMPLE_DESC_1" : "Cell Line",
       "sample_name" : "DG-75_d01",
+      "SAMPLE_DESC_3" : "Sporadic Burkitt lymphoma",
       "attributes" : {
          "DIFFERENTIATION_METHOD" : [
             "Drexler HG chapter 16 Establishment and culture of leukemia-lymphoma cell in Cancer Cell Culture Methods and Protocols 2nd Edition Springer Berlin pp 181 to 200 in 2011"
@@ -60,13 +92,16 @@
             "Cell Line"
          ],
          "DISEASE_ONTOLOGY_URI" : [
-            "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C1336077"
-         ],
-         "ENA-CHECKLIST" : [
-            "ERC000011"
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C1336077",
+               "label" : "C1336077"
+            }
          ],
          "SAMPLE_ONTOLOGY_URI" : [
-            "http://purl.obolibrary.org/obo/CLO_0002767"
+            {
+               "url" : "http://purl.obolibrary.org/obo/CLO_0002767",
+               "label" : "CLO_0002767"
+            }
          ],
          "PASSAGE" : [
             "NA"
