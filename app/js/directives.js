@@ -59,7 +59,7 @@ directives.directive('reactome', function($http, $window) {
         }
       };
     },
-    template: '<button class="btn btn-xs btn-primary" ng-hide="loaded" ng-click="reactomeClick()">{{text}}</button>' + '<a class="btn btn-xs btn-success" ng-show="success" ng-href="{{href}}" target="_blank">{{text}}</a>' + '<button class="btn btn-xs btn-warning" ng-show="errored">{{text}}</button>'
+    templateUrl: 'partials/reactome.html'
   }
 });
 
@@ -223,7 +223,7 @@ uiFacet.directive('uiFacetsClear', function() {
 uiFacet.directive('uiFacet', function() {
   return {
     restrict: 'E',
-    template: '<div class="facet">' + '<ul class="list-group" ng-class="{collapsed: collapsed}">' + '<li class="list-group-item heading">' + '<h3 class="panel-title">{{title}}</h3>' + '<button type="button" class="btn btn-xs btn-primary" ng-show="buttonRequired" ng-click="toggleCollapse()">{{buttonText}}</button>' + '</li>' + '<li ng-repeat="item in termContainer.terms" class="list-group-item facet-term" ng-class="{active: selected.hasOwnProperty(item.term)}" ng-click="handleClick($event)" ui-facet-value="{{item.term}}">' + '{{item.term}} <span class="badge">{{item.count}}</span>' + '</li>' + '</ul>' + '' + '</div>',
+    templateUrl: 'partials/uiFacet.html',
     scope: {
       title: '@',
       property: '@'
