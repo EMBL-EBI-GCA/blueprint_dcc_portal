@@ -9,7 +9,7 @@ directives.directive('download', function() {
     scope: {
       href: '@'
     },
-    template: '<a class="download" ng-href="{{href}}" title="Download file">&#8659;</a>'
+    template: '<a class="btn btn-link download" ng-href="{{href}}" title="Download file">&#8659;</a>'
   }
 });
 
