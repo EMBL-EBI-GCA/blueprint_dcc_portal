@@ -9,6 +9,7 @@
   		<ui-facets-clear text="Clear filters"></ui-facets-clear>
 		
 			<ui-facet title="Experiment" property="DATA_LABEL"></ui-facet>
+			<ui-facet title="Analysis provider" property="ANALYSIS_GROUP"></ui-facet>
 			<ui-facet title="Type" property="TYPE"></ui-facet>
 			<ui-facet title="Cell type" property="CELL_TYPE"></ui-facet>
 			<ui-facet title="Cell line" property="CELL_LINE"></ui-facet>
@@ -41,7 +42,7 @@
 					<th class="sort" ng-class="{sortAsc: (orderProp == 'TYPE'),sortDesc: (orderProp == '-TYPE')}" ng-click="order('TYPE')">Type</th>
 		      <th class="sort" ng-class="{sortAsc: (orderProp == 'FORMAT'),sortDesc: (orderProp == '-FORMAT')}" ng-click="order('FORMAT')">Format</th>
 					<th class="sort" ng-class="{sortAsc: (orderProp == 'SIZE'),sortDesc: (orderProp == '-SIZE')}" ng-click="order('SIZE')">Size</th>
-					<th class="sort" ng-class="{sortAsc: (orderProp == 'ANALYSIS_GROUP'),sortDesc: (orderProp == '-ANALYSIS_GROUP')}" ng-click="order('ANALYSIS_GROUP')">Group</th>
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'ANALYSIS_GROUP'),sortDesc: (orderProp == '-ANALYSIS_GROUP')}" ng-click="order('ANALYSIS_GROUP')"><abbr title="Analysis provider">AP</abbr></th>
 					<th>Protocol</th>
 					<th>Metadata</th>
 				</tr>
