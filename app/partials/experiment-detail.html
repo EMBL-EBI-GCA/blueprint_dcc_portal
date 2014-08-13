@@ -5,9 +5,40 @@
 <p>
 	Raw data available from <a ng-href="{{data.archive_url}}">{{data.archive}}</a>
 	<br/>
-	{{data.files.length}} <a ng-click="goToElement('files')">files</a> for this experiment
+	{{data.files.length}} files for this experiment.
+	<br/>
 </p>
 
+<div id="files" class="panel panel-default">
+	<div class="panel-heading">
+		<h2 class="panel-title">Files</h2>
+	</div>
+	<div class="panel-body">
+  	
+		<table class="table table-striped">
+			<thead><tr>
+				<th>Data type</th>
+				<th>Format</th>
+				<th>Size</th>
+				<th>Group</th>
+				<th>Protocol</th>
+				<th>Download</th>
+				<th/>
+			</tr></thead>
+			<tbody>
+				<tr ng-repeat="file in data.files">					
+					<td>{{file.TYPE}}</td>
+					<td>{{file.FORMAT}}</td>
+					<td>{{file.SIZE}}</td>
+					<td>{{file.ANALYSIS_GROUP}}</td>
+					<td><a class="btn btn-link" ng-href="#/md/{{file.PROTOCOL_DOC}}">View</td>
+					<td><download href="{{file.PATH}}"/></td>
+					<td><span ng-if="file.REACTOME_PATH"><reactome url="file.REACTOME_PATH"></reactome></span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
 
 <div id="experiment" class="panel panel-default">
 	<div class="panel-heading">
@@ -33,35 +64,5 @@
 				<span ng-if="!value.url">{{value}}</span>
 			</dd>
 		</dl>
-	</div>
-</div>
-
-<div id="files" class="panel panel-default">
-	<div class="panel-heading">
-		<h2 class="panel-title">Files</h2>
-	</div>
-	<div class="panel-body">
-  	
-		<table class="table table-striped">
-			<thead><tr>
-				<th>Data type</th>
-				<th>Format</th>
-				<th>Size</th>
-				<th>Group</th>
-				<th>Protocol</th>
-				<th colspan="2"></th>
-			</tr></thead>
-			<tbody>
-				<tr ng-repeat="file in data.files">					
-					<td>{{file.TYPE}}</td>
-					<td>{{file.FORMAT}}</td>
-					<td>{{file.SIZE}}</td>
-					<td>{{file.ANALYSIS_GROUP}}</td>
-					<td><a class="btn btn-link" ng-href="#/md/{{file.PROTOCOL_DOC}}">View</td>
-					<td><download href="{{file.PATH}}"/></td>
-					<td><span ng-if="file.REACTOME_PATH"><reactome url="file.REACTOME_PATH"></reactome></span></td>
-				</tr>
-			</tbody>
-		</table>
 	</div>
 </div>
