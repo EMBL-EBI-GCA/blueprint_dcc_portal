@@ -20,11 +20,11 @@ Our data is available both from the sequence archives and from our own FTP site,
 	<tbody>
 		<tr>
 			<td>Raw data</td>
-			<td>Data archives (<a href="https://www.ebi.ac.uk/ega"><abbr title="European Genome-phenome Archive">EGA</abbr></a> &amp; <a href="https://www.ebi.ac.uk/ena"><abbr title="European Nucleotide Archive">ENA</abbr></a>)			
+			<td>Data archives (<a href="https://www.ebi.ac.uk/ega/dacs/EGAC00001000135"><abbr title="European Genome-phenome Archive">EGA</abbr></a> &amp; <a href="https://www.ebi.ac.uk/ena"><abbr title="European Nucleotide Archive">ENA</abbr></a>)			
 		</tr>
 		<tr>
 			<td>Processed data</td>
-			<td><a href="ftp.ebi.ac.uk/pub/databases/blueprint">FTP site</a></td>
+			<td><a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint">FTP site</a></td>
 		</tr>
 		<tr>
 			<td>Data mining</td>
@@ -177,7 +177,7 @@ The FTP site has 3 major sections listed here and described in more detail below
 
 ###Data
 
-The data directory contains all processed data files as described in the above table. New files will be added each release. Subdirectories are organised by species, tissue type, donor, cell type, production center and data type. The filename format follows this general form:
+The data directory contains all processed data files as described in the above table. New files will be added each release. Subdirectories are organised by species, tissue type, donor, cell type, production centre and data type. The filename format follows this general form:
 
 <blockquote>
 	<tt><strong>sample_name</strong>.experiment.<strong>algorithm_or_pipeline_name</strong>.freeze_date.<strong>file_extension</strong></tt>
