@@ -107,12 +107,12 @@ table.experiments th.assays{
   white-space: nowrap;
 }      
 table.experiments th.assays > div {
-  -ms-transform:translate(23px, -1px) rotate(315deg);
-  -moz-transform:translate(23px, -1px) rotate(315deg);
-  -webkit-transform:translate(23px, -1px) rotate(315deg);
-  -o-transform:translate(23px, -1px) rotate(315deg);
-  transform:translate(23px, -1px) rotate(315deg);
-  width: 30px;
+  -ms-transform:translate(20px, 0px) rotate(315deg);
+  -moz-transform:translate(20px, 0px) rotate(315deg);
+  -webkit-transform:translate(20px, 0px) rotate(315deg);
+  -o-transform:translate(20px, 0px) rotate(315deg);
+  transform:translate(20px, 0px) rotate(315deg);
+  width: 25px;
 }
 table.experiments th.assays > div > span {
   border-bottom: 1px solid #ccc;
@@ -120,10 +120,12 @@ table.experiments th.assays > div > span {
 }
 table.experiments td.assays {
   text-align: center;
+  border-left: thin solid #ddd;
 }
 
 table.experiments td.assays a {
   color: #058dc7;
   font-size: 20px;
   text-decoration:none;
+  text-align: center;
 }
