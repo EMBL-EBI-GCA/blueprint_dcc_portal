@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C000S5/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1007M",
          "NAME" : "C000S5H2.H3K9me3.wiggler.20130415.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "47a11f3166c172aeb1863166b65c610a"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "1.4M",
          "NAME" : "C000S5H2.H3K9me3.ppqt_macs2_broad_v2.20130415.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -75,7 +75,7 @@
          "MD5" : "adebe62a7ebbdd1b753e966d7a255912"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.9M",
          "NAME" : "C000S5H2.H3K9me3.ppqt_macs2_broad_v2.20130415.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",

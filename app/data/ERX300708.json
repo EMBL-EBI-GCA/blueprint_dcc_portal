@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001S7/inflammatory_macrophage/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.1G",
          "NAME" : "S001S7H2.H3K4me1.wiggler.20130819.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "12fc18ba46e72ae0d32a914c4ce74758"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "2.5M",
          "NAME" : "S001S7H2.H3K4me1.ppqt_macs2_broad_v2.20130819.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -75,7 +75,7 @@
          "MD5" : "041daac101b9fc6c526c6de180674cb1"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "3.1M",
          "NAME" : "S001S7H2.H3K4me1.ppqt_macs2_broad_v2.20130819.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",

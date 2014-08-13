@@ -68,7 +68,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00622/alternatively_activated_macrophage/Bisulfite-Seq/CNAG",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "110M",
          "NAME" : "S0062252.CPG_methylation_calls.bs_call.20140106.bw",
          "FILE_TYPE" : "BS_METH_CALL_CNAG",
@@ -79,7 +79,7 @@
          "MD5" : "4b0c23d8ec8fe82e822810cf851896fd"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "129M",
          "NAME" : "S0062252.CPG_methylation_sd.bs_call.20140106.bw",
          "FILE_TYPE" : "BS_METH_SD_CNAG",
@@ -90,7 +90,7 @@
          "MD5" : "734635b9e95e89617688397462c57bc0"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "6.4M",
          "NAME" : "S0062252.hyper_meth.bs_call.20140106.bb",
          "FILE_TYPE" : "BS_HYPER_METH_BB_CNAG",
@@ -101,7 +101,7 @@
          "MD5" : "8172a567f9d4288fff5819eec207243d"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "23M",
          "NAME" : "S0062252.hyper_meth.bs_call.20140106.bed.gz",
          "FILE_TYPE" : "BS_HYPER_METH_BED_CNAG",
@@ -112,7 +112,7 @@
          "MD5" : "e005148b89f68790085126385191777f"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "890K",
          "NAME" : "S0062252.hypo_meth.bs_call.20140106.bb",
          "FILE_TYPE" : "BS_HYPO_METH_BB_CNAG",
@@ -123,7 +123,7 @@
          "MD5" : "a73cd47b8846fb8a2ae8ec8ad8366e1e"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "4.5M",
          "NAME" : "S0062252.hypo_meth.bs_call.20140106.bed.gz",
          "FILE_TYPE" : "BS_HYPO_METH_BED_CNAG",

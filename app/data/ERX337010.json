@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.1G",
          "NAME" : "S007DDH2.H3K27me3.wiggler.20140106.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "177ed4821ea0cba901a38ecac0ac3c1e"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "74K",
          "NAME" : "S007DDH2.H3K27me3.ppqt_macs2_broad_v2.20140106.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -75,7 +75,7 @@
          "MD5" : "116ad94d60b0cd8cfcef6dfb6b25ba1f"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "35K",
          "NAME" : "S007DDH2.H3K27me3.ppqt_macs2_broad_v2.20140106.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",
@@ -150,11 +150,11 @@
          "BIOMATERIAL_PROVIDER" : [
             "NIHR Cambridge BioResource"
          ],
-         "TISSUE_TYPE" : [
-            "Venous blood"
-         ],
          "BIOMATERIAL_TYPE" : [
             "Primary Cell"
+         ],
+         "TISSUE_TYPE" : [
+            "Venous blood"
          ],
          "DONOR_SEX" : [
             "Female"

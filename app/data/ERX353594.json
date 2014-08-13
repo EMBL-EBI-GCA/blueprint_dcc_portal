@@ -68,7 +68,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S001S7/inflammatory_macrophage/Bisulfite-Seq/CNAG",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "99M",
          "NAME" : "S001S753.CPG_methylation_calls.bs_call.20140106.bw",
          "FILE_TYPE" : "BS_METH_CALL_CNAG",
@@ -79,7 +79,7 @@
          "MD5" : "5ddbc9d5318a10110df839119735c675"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "121M",
          "NAME" : "S001S753.CPG_methylation_sd.bs_call.20140106.bw",
          "FILE_TYPE" : "BS_METH_SD_CNAG",
@@ -90,7 +90,7 @@
          "MD5" : "9502cd66ff522d3a45cc122378b74271"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "6.6M",
          "NAME" : "S001S753.hyper_meth.bs_call.20140106.bb",
          "FILE_TYPE" : "BS_HYPER_METH_BB_CNAG",
@@ -101,7 +101,7 @@
          "MD5" : "43b25a4214779433b355c34035813b6b"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "23M",
          "NAME" : "S001S753.hyper_meth.bs_call.20140106.bed.gz",
          "FILE_TYPE" : "BS_HYPER_METH_BED_CNAG",
@@ -112,7 +112,7 @@
          "MD5" : "55684623143e48e460ea4af7f7249b69"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "714K",
          "NAME" : "S001S753.hypo_meth.bs_call.20140106.bb",
          "FILE_TYPE" : "BS_HYPO_METH_BB_CNAG",
@@ -123,7 +123,7 @@
          "MD5" : "3ae84327ac9395e4486039668e824b70"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "3.8M",
          "NAME" : "S001S753.hypo_meth.bs_call.20140106.bed.gz",
          "FILE_TYPE" : "BS_HYPO_METH_BED_CNAG",
@@ -190,11 +190,11 @@
          "BIOMATERIAL_PROVIDER" : [
             "NIHR Cambridge BioResource"
          ],
-         "BIOMATERIAL_TYPE" : [
-            "Primary Cell Culture"
-         ],
          "TISSUE_TYPE" : [
             "Venous blood"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell Culture"
          ],
          "DONOR_SEX" : [
             "Female"

@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C005VG/macrophage/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.1G",
          "NAME" : "C005VGH1.H3K9me3.wiggler.20130819.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "1368fe5941bebd11f3cd24df9daed392"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "1.5M",
          "NAME" : "C005VGH1.H3K9me3.ppqt_macs2_broad_v2.20130819.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -75,7 +75,7 @@
          "MD5" : "8ae6f2b40e685810b0d472d380e251d7"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "2.1M",
          "NAME" : "C005VGH1.H3K9me3.ppqt_macs2_broad_v2.20130819.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",

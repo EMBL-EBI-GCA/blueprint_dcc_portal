@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.1G",
          "NAME" : "C001UYH1.H3K36me3.wiggler.20130415.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "81a7f3d36f58bbfad629d2a77f485325"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "1.1M",
          "NAME" : "C001UYH1.H3K36me3.ppqt_macs2_broad_v2.20130415.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -75,7 +75,7 @@
          "MD5" : "852f1f9ac3214050a3974ba19afc3494"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.5M",
          "NAME" : "C001UYH1.H3K36me3.ppqt_macs2_broad_v2.20130415.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",

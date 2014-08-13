@@ -23,7 +23,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "3.0M",
          "NAME" : "C0011I43.DNase.hotspot_v3.20130415.bb",
          "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
@@ -34,7 +34,7 @@
          "MD5" : "0b51d9f4c8277f3ada5baf8352781554"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.9M",
          "NAME" : "C0011I43.DNase.hotspot_v3.20130415.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
@@ -45,7 +45,7 @@
          "MD5" : "7d0851d94e05eb32c9da432a401e92f4"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.4M",
          "NAME" : "C0011I43.DNase.hotspot_v3_peaks.20130415.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
@@ -56,7 +56,7 @@
          "MD5" : "89b6d84f720c8b4714e955a7d147d235"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.4G",
          "NAME" : "C0011I43.DNase.wiggler.20130415.bw",
          "FILE_TYPE" : "DS_WIGGLER",

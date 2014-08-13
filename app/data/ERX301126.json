@@ -68,7 +68,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Tonsil/T11_8/Probable_tonsillitis/Bisulfite-Seq/CNAG",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "119M",
          "NAME" : "G201.CPG_methylation_calls.bs_call.20140106.bw",
          "FILE_TYPE" : "BS_METH_CALL_CNAG",
@@ -79,7 +79,7 @@
          "MD5" : "3315995cee47040fe212df34059f7536"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "134M",
          "NAME" : "G201.CPG_methylation_sd.bs_call.20140106.bw",
          "FILE_TYPE" : "BS_METH_SD_CNAG",
@@ -90,7 +90,7 @@
          "MD5" : "5d5310a6e70fe270bfc9dbe809a510a1"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "8.5M",
          "NAME" : "G201.hyper_meth.bs_call.20140106.bb",
          "FILE_TYPE" : "BS_HYPER_METH_BB_CNAG",
@@ -101,7 +101,7 @@
          "MD5" : "865e13c22ec3817af2b1202b5adf36db"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "27M",
          "NAME" : "G201.hyper_meth.bs_call.20140106.bed.gz",
          "FILE_TYPE" : "BS_HYPER_METH_BED_CNAG",
@@ -112,7 +112,7 @@
          "MD5" : "65bc6ac6176927f754c540c4cd273160"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "981K",
          "NAME" : "G201.hypo_meth.bs_call.20140106.bb",
          "FILE_TYPE" : "BS_HYPO_METH_BB_CNAG",
@@ -123,7 +123,7 @@
          "MD5" : "b1ee7dcc5b081590dc01a4820717b98e"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "5.1M",
          "NAME" : "G201.hypo_meth.bs_call.20140106.bed.gz",
          "FILE_TYPE" : "BS_HYPO_METH_BED_CNAG",

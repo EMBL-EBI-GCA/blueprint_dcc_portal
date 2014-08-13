@@ -50,7 +50,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.1G",
          "NAME" : "BP_U-266_c01.H3K4me1.wiggler.20130819.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -61,7 +61,7 @@
          "MD5" : "0cb79aa6e9d3f18f73f10634fcc7cb90"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "1.4M",
          "NAME" : "BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -72,7 +72,7 @@
          "MD5" : "e3d77ce6fd55c764d56a5a82b428129a"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "2.1M",
          "NAME" : "BP_U-266_c01.H3K4me1.ppqt_macs2_broad_v2.20130819.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",

@@ -68,7 +68,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0011I/mature_neutrophil/Bisulfite-Seq/CNAG",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "140M",
          "NAME" : "C0011IA3bs.CPG_methylation_calls.bs_call.20130415.bw",
          "FILE_TYPE" : "BS_METH_CALL_CNAG",
@@ -79,7 +79,7 @@
          "MD5" : "e3a8c00529bbd42b247023a649b1ce00"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "157M",
          "NAME" : "C0011IA3bs.CPG_methylation_sd.bs_call.20130415.bw",
          "FILE_TYPE" : "BS_METH_SD_CNAG",
@@ -90,7 +90,7 @@
          "MD5" : "e48c781e1cf524008dec0538e332e65b"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "6.6M",
          "NAME" : "C0011IA3bs.hyper_meth.bs_call.20130415.bb",
          "FILE_TYPE" : "BS_HYPER_METH_BB_CNAG",
@@ -101,7 +101,7 @@
          "MD5" : "25ec419b6f2cb104e673891bff908c51"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "22M",
          "NAME" : "C0011IA3bs.hyper_meth.bs_call.20130415.bed.gz",
          "FILE_TYPE" : "BS_HYPER_METH_BED_CNAG",
@@ -112,7 +112,7 @@
          "MD5" : "cc1433c01539ac41377fb0253ab89c7d"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "794K",
          "NAME" : "C0011IA3bs.hypo_meth.bs_call.20130415.bb",
          "FILE_TYPE" : "BS_HYPO_METH_BB_CNAG",
@@ -123,7 +123,7 @@
          "MD5" : "f1aa212a56390a94964930582513c226"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "6.3M",
          "NAME" : "C0011IA3bs.hypo_meth.bs_call.20130415.bed.gz",
          "FILE_TYPE" : "BS_HYPO_METH_BED_CNAG",

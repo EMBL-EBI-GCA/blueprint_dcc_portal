@@ -23,7 +23,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/DNase-Hypersensitivity/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "2.4M",
          "NAME" : "bp_SU-DHL-5_d01.DNase.hotspot_v3.20131126.bb",
          "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
@@ -34,7 +34,7 @@
          "MD5" : "28a045caa33e0310acaed66137691ec6"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.5M",
          "NAME" : "bp_SU-DHL-5_d01.DNase.hotspot_v3.20131126.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
@@ -45,7 +45,7 @@
          "MD5" : "1c6084b25366cc06354bb574aa742867"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.1M",
          "NAME" : "bp_SU-DHL-5_d01.DNase.hotspot_v3_peaks.20131126.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
@@ -56,7 +56,7 @@
          "MD5" : "fb9110cd57c8811f233ff2744e9e07c9"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.3G",
          "NAME" : "bp_SU-DHL-5_d01.DNase.wiggler.20131126.bw",
          "FILE_TYPE" : "DS_WIGGLER",

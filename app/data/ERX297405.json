@@ -50,7 +50,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/Mantle_cell_lymphoma/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "525M",
          "NAME" : "BP_JVM-2_c01.H3K4me3.wiggler.20130819.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -61,7 +61,7 @@
          "MD5" : "9918728bcb9422247b2dd8b1c3c19750"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "1.4M",
          "NAME" : "BP_JVM-2_c01.H3K4me3.ppqt_macs2_v2.20130819.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BB",
@@ -72,7 +72,7 @@
          "MD5" : "c930172c9770f47a87cb9bdc4040d340"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.7M",
          "NAME" : "BP_JVM-2_c01.H3K4me3.ppqt_macs2_v2.20130819.bed.gz",
          "FILE_TYPE" : "CS_MACS2",

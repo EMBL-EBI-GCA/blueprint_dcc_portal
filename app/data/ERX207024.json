@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C00184/mature_neutrophil/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1013M",
          "NAME" : "C00184H2.H3K4me1.wiggler.20130415.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "d3ca09dc0ce673ecd222f04a1b551cc1"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "1.7M",
          "NAME" : "C00184H2.H3K4me1.ppqt_macs2_broad_v2.20130415.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -75,7 +75,7 @@
          "MD5" : "782063bbe7feb51a200f4e0726fcb3e4"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "2.0M",
          "NAME" : "C00184H2.H3K4me1.ppqt_macs2_broad_v2.20130415.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",

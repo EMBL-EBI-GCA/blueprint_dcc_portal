@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C002Q1/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.1G",
          "NAME" : "C002Q1H1.H3K27ac.wiggler.20130415.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "3f6851000533394bcde5f85362f7255e"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "368K",
          "NAME" : "C002Q1H1.H3K27ac.ppqt_macs2_v2.20130415.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BB",
@@ -75,7 +75,7 @@
          "MD5" : "2c38d1de858b94e955bd04148b4f9c4e"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "329K",
          "NAME" : "C002Q1H1.H3K27ac.ppqt_macs2_v2.20130415.bed.gz",
          "FILE_TYPE" : "CS_MACS2",

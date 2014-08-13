@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BS4/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.1G",
          "NAME" : "S00BS4H1.H3K27me3.wiggler.20140513.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "084acb4cacf75ecc381b9c1b90f1f908"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "2.2M",
          "NAME" : "S00BS4H1.H3K27me3.ppqt_macs2_broad_v2.20140513.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -75,7 +75,7 @@
          "MD5" : "583b089a61b8f3f5b44b5652fce63d3a"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "2.7M",
          "NAME" : "S00BS4H1.H3K27me3.ppqt_macs2_broad_v2.20140513.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",

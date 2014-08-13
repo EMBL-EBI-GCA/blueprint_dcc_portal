@@ -68,7 +68,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/SU-DHL-5/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/RNA-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "37M",
          "NAME" : "bp_SU-DHL-5_r01.contigs.gem_grape_crg.20131126.bed",
          "FILE_TYPE" : "RNA_CONTIGS_CRG",
@@ -102,7 +102,7 @@
          "MD5" : "1988eff434b6bc5ef472933587241f97"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "36M",
          "NAME" : "bp_SU-DHL-5_r01.minusStrand.gem_grape_crg.20131126.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
@@ -113,7 +113,7 @@
          "MD5" : "d256ee08b8f55dd6232fda93af4b1776"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "35M",
          "NAME" : "bp_SU-DHL-5_r01.plusStrand.gem_grape_crg.20131126.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",

@@ -32,7 +32,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S006VI/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.2G",
          "NAME" : "S006VIH1.Input.wiggler.20140106.bw",
          "FILE_TYPE" : "CS_WIGGLER",

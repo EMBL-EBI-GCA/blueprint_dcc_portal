@@ -23,7 +23,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/DNase-Hypersensitivity/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "3.4M",
          "NAME" : "BP_U-266_d01.DNase.hotspot_v3.20130819.bb",
          "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
@@ -34,7 +34,7 @@
          "MD5" : "e5621b16a01f1a1e3e8c8bcc0ededee5"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "2.2M",
          "NAME" : "BP_U-266_d01.DNase.hotspot_v3.20130819.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
@@ -45,7 +45,7 @@
          "MD5" : "32d878339ba36ba2105061883ade5f59"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.5M",
          "NAME" : "BP_U-266_d01.DNase.hotspot_v3_peaks.20130819.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
@@ -56,7 +56,7 @@
          "MD5" : "be65e34b816d9767f8d21b9cd746bc60"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.8G",
          "NAME" : "BP_U-266_d01.DNase.wiggler.20130819.bw",
          "FILE_TYPE" : "DS_WIGGLER",

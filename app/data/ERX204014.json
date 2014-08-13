@@ -68,7 +68,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "148M",
          "NAME" : "C001UYA3bs.CPG_methylation_calls.bs_call.20130415.bw",
          "FILE_TYPE" : "BS_METH_CALL_CNAG",
@@ -79,7 +79,7 @@
          "MD5" : "8f657384ae535a130d26cfb52847a041"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "164M",
          "NAME" : "C001UYA3bs.CPG_methylation_sd.bs_call.20130415.bw",
          "FILE_TYPE" : "BS_METH_SD_CNAG",
@@ -90,7 +90,7 @@
          "MD5" : "1611eaba50e29198c56a5e1ff5f6f53e"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "5.8M",
          "NAME" : "C001UYA3bs.hyper_meth.bs_call.20130415.bb",
          "FILE_TYPE" : "BS_HYPER_METH_BB_CNAG",
@@ -101,7 +101,7 @@
          "MD5" : "30c85094df71662bcfde8783c58d9b34"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "21M",
          "NAME" : "C001UYA3bs.hyper_meth.bs_call.20130415.bed.gz",
          "FILE_TYPE" : "BS_HYPER_METH_BED_CNAG",
@@ -112,7 +112,7 @@
          "MD5" : "cccaca498b0b1e246e7303f756d8b741"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "822K",
          "NAME" : "C001UYA3bs.hypo_meth.bs_call.20130415.bb",
          "FILE_TYPE" : "BS_HYPO_METH_BB_CNAG",
@@ -123,7 +123,7 @@
          "MD5" : "87850480570eea9e9edce7693ada7af7"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "6.6M",
          "NAME" : "C001UYA3bs.hypo_meth.bs_call.20130415.bed.gz",
          "FILE_TYPE" : "BS_HYPO_METH_BED_CNAG",

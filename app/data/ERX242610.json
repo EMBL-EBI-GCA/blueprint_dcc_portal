@@ -68,7 +68,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/C004GD/mature_neutrophil/Bisulfite-Seq/CNAG",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "146M",
          "NAME" : "C004GD51.CPG_methylation_calls.bs_call.20130415.bw",
          "FILE_TYPE" : "BS_METH_CALL_CNAG",
@@ -79,7 +79,7 @@
          "MD5" : "5ba2482a03798eaff7881627923bd9f4"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "161M",
          "NAME" : "C004GD51.CPG_methylation_sd.bs_call.20130415.bw",
          "FILE_TYPE" : "BS_METH_SD_CNAG",
@@ -90,7 +90,7 @@
          "MD5" : "75d35eb0f60571c5877f150f1ac9783e"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "6.2M",
          "NAME" : "C004GD51.hyper_meth.bs_call.20130415.bb",
          "FILE_TYPE" : "BS_HYPER_METH_BB_CNAG",
@@ -101,7 +101,7 @@
          "MD5" : "2962646f0a639ad86cbd575502768a9d"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "22M",
          "NAME" : "C004GD51.hyper_meth.bs_call.20130415.bed.gz",
          "FILE_TYPE" : "BS_HYPER_METH_BED_CNAG",
@@ -112,7 +112,7 @@
          "MD5" : "a4cb36ac8c8f08ef1c98951b8fb11612"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "787K",
          "NAME" : "C004GD51.hypo_meth.bs_call.20130415.bb",
          "FILE_TYPE" : "BS_HYPO_METH_BB_CNAG",
@@ -123,7 +123,7 @@
          "MD5" : "0b1c976f98b11d8dd61e452604fea5ed"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "6.3M",
          "NAME" : "C004GD51.hypo_meth.bs_call.20130415.bed.gz",
          "FILE_TYPE" : "BS_HYPO_METH_BED_CNAG",

@@ -50,7 +50,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "970M",
          "NAME" : "BP_KARPAS-422_c01.H3K36me3.wiggler.20130819.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -61,7 +61,7 @@
          "MD5" : "bf1dc5b839fd4ef33000871cd28c167f"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "1.1M",
          "NAME" : "BP_KARPAS-422_c01.H3K36me3.ppqt_macs2_broad_v2.20130819.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -72,7 +72,7 @@
          "MD5" : "c5d6763bb075bd62b097afa02ad7507a"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.6M",
          "NAME" : "BP_KARPAS-422_c01.H3K36me3.ppqt_macs2_broad_v2.20130819.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",

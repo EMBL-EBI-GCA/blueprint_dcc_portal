@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "742M",
          "NAME" : "S000RDH2.H3K4me3.wiggler.20130415.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "09e1a67b9400bab0c841ab08cd4f98e1"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "856K",
          "NAME" : "S000RDH2.H3K4me3.ppqt_macs2_v2.20130415.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BB",
@@ -75,7 +75,7 @@
          "MD5" : "b90c9d2306f5f2f6cd7f1e901f0711e6"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "903K",
          "NAME" : "S000RDH2.H3K4me3.ppqt_macs2_v2.20130415.bed.gz",
          "FILE_TYPE" : "CS_MACS2",
@@ -147,11 +147,11 @@
          "BIOMATERIAL_PROVIDER" : [
             "NIHR Cambridge BioResource"
          ],
-         "BIOMATERIAL_TYPE" : [
-            "Primary Cell"
-         ],
          "TISSUE_TYPE" : [
             "Cord blood"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell"
          ],
          "DONOR_SEX" : [
             "Male"

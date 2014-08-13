@@ -68,7 +68,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/JVM-2/Mantle_cell_lymphoma/RNA-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "31M",
          "NAME" : "bp_JVM-2_r01.contigs.gem_grape_crg.20131126.bed",
          "FILE_TYPE" : "RNA_CONTIGS_CRG",
@@ -102,7 +102,7 @@
          "MD5" : "c4097b9cda8a66908377543b36807c07"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "20M",
          "NAME" : "bp_JVM-2_r01.minusStrand.gem_grape_crg.20131126.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
@@ -113,7 +113,7 @@
          "MD5" : "e553b8f2ef7fa7a2dc0f7cdd8eea98e9"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "20M",
          "NAME" : "bp_JVM-2_r01.plusStrand.gem_grape_crg.20131126.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",

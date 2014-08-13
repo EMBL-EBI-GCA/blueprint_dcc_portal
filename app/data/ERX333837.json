@@ -68,7 +68,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/BL-2/Sporadic_Burkitt_lymphoma/RNA-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "18M",
          "NAME" : "bp_BL-2_r01.contigs.gem_grape_crg.20131126.bed",
          "FILE_TYPE" : "RNA_CONTIGS_CRG",
@@ -102,7 +102,7 @@
          "MD5" : "c11f179ad38744c9a30d0a72c91d3ee8"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "4.4M",
          "NAME" : "bp_BL-2_r01.minusStrand.gem_grape_crg.20131126.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
@@ -113,7 +113,7 @@
          "MD5" : "80daebfea005f93a27d45fcdef5a2dfb"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "4.3M",
          "NAME" : "bp_BL-2_r01.plusStrand.gem_grape_crg.20131126.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
@@ -174,20 +174,20 @@
                "label" : "EFO_0001639"
             }
          ],
-         "PASSAGE" : [
-            "NA"
-         ],
          "SEX" : [
             "Male"
+         ],
+         "PASSAGE" : [
+            "NA"
          ],
          "DIFFERENTIATION_STAGE" : [
             "B cell"
          ],
-         "MEDIUM" : [
-            "RPMI 1640 + 10%FBS + 1% Glutamine"
-         ],
          "LINE" : [
             "BL-2"
+         ],
+         "MEDIUM" : [
+            "RPMI 1640 + 10%FBS + 1% Glutamine"
          ]
       }
    }

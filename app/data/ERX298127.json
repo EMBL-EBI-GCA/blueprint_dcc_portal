@@ -68,7 +68,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/U-266/Multiple_myeloma/RNA-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "45M",
          "NAME" : "BP_U-266_r01.contigs.gem_grape_crg.20131126.bed",
          "FILE_TYPE" : "RNA_CONTIGS_CRG",
@@ -102,7 +102,7 @@
          "MD5" : "1e1a35f0169adaad6c8c078dfae1197d"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "17M",
          "NAME" : "BP_U-266_r01.minusStrand.gem_grape_crg.20131126.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
@@ -113,7 +113,7 @@
          "MD5" : "acedcaff12a02aa980c2b104a02a2125"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "17M",
          "NAME" : "BP_U-266_r01.plusStrand.gem_grape_crg.20131126.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",

@@ -32,7 +32,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S007DD/CD4-positive_alpha-beta_T_cell/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.2G",
          "NAME" : "S007DDH2.Input.wiggler.20140513.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -96,11 +96,11 @@
          "BIOMATERIAL_PROVIDER" : [
             "NIHR Cambridge BioResource"
          ],
-         "TISSUE_TYPE" : [
-            "Venous blood"
-         ],
          "BIOMATERIAL_TYPE" : [
             "Primary Cell"
+         ],
+         "TISSUE_TYPE" : [
+            "Venous blood"
          ],
          "DONOR_SEX" : [
             "Female"

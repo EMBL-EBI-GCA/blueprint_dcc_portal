@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S00C1H/alternatively_activated_macrophage/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.2G",
          "NAME" : "S00C1HH1.H3K27me3.wiggler.20140513.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "b4f3f93e39201cdf0b1f77845b2edc0d"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "41K",
          "NAME" : "S00C1HH1.H3K27me3.ppqt_macs2_broad_v2.20140513.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -75,7 +75,7 @@
          "MD5" : "7fde2d575f7b091cd91800faaff1fda0"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "11K",
          "NAME" : "S00C1HH1.H3K27me3.ppqt_macs2_broad_v2.20140513.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",

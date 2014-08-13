@@ -80,7 +80,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C001UY/mature_neutrophil/RNA-Seq/MPIMG",
    "files" : [
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "54M",
          "NAME" : "C001UYB1.contigs.gem_grape_crg.20130415.bed",
          "FILE_TYPE" : "RNA_CONTIGS_CRG",
@@ -136,7 +136,7 @@
          "MD5" : "cf1a7f228ff7c9c40f860a928887c8be"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "223M",
          "NAME" : "C001UYB1.minusStrand.gem_grape_crg.20130415.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",
@@ -147,7 +147,7 @@
          "MD5" : "3e3c4a5c25bd5886c9f80e2b6c7b2aa4"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "236M",
          "NAME" : "C001UYB1.plusStrand.gem_grape_crg.20130415.bw",
          "FILE_TYPE" : "RNA_SIGNAL_CRG",

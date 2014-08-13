@@ -4,14 +4,14 @@
       "EXPERIMENT_TYPE" : "Histone H3K9me3",
       "EXPERIMENT_ID" : "EGAX00001128205",
       "attributes" : {
-         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
-            "7 min; 30 sec ON/ 30 sec OFF"
-         ],
          "CHIP_ANTIBODY" : [
             "H3K9me3"
          ],
          "CHIP_PROTOCOL_BEAD_TYPE" : [
             "magnetic beads A and G"
+         ],
+         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
+            "7 min; 30 sec ON/ 30 sec OFF"
          ],
          "CHIP_ANTIBODY_CATALOG" : [
             "pAb-056-050"
@@ -22,11 +22,11 @@
          "EXPERIMENT_TYPE" : [
             "Histone H3K9me3"
          ],
-         "CHIP_PROTOCOL_ANTIBODY_AMOUNT" : [
-            "2,0 µg"
-         ],
          "CHIP_ANTIBODY_LOT" : [
             "A1671-001P"
+         ],
+         "CHIP_PROTOCOL_ANTIBODY_AMOUNT" : [
+            "2,0 µg"
          ],
          "CHIP_PROTOCOL_CHROMATIN_AMOUNT" : [
             "5x 100.000 cells = 5x 6,7 µl"
@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S004BT/CD34-negative_CD41-positive_CD42-positive_megakaryocyte_cell/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.1G",
          "NAME" : "S004BTH2.H3K9me3.wiggler.20130819.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "5f1b39c7c7d67d35e303e07d9434fa26"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "56K",
          "NAME" : "S004BTH2.H3K9me3.ppqt_macs2_broad_v2.20130819.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -75,7 +75,7 @@
          "MD5" : "9f5eaef8986c9907bfc781016a2a016b"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "3.8K",
          "NAME" : "S004BTH2.H3K9me3.ppqt_macs2_broad_v2.20130819.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",

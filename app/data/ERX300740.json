@@ -4,14 +4,14 @@
       "EXPERIMENT_TYPE" : "Histone H3K27ac",
       "EXPERIMENT_ID" : "EGAX00001128252",
       "attributes" : {
+         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
+            "3x 10 min; 30 sec ON/ 30 sec OFF"
+         ],
          "CHIP_ANTIBODY" : [
             "H3K27ac"
          ],
          "CHIP_PROTOCOL_BEAD_TYPE" : [
             "magnetic beads A and G"
-         ],
-         "EXTRACTION_PROTOCOL_SONICATION_CYCLES" : [
-            "3x 10 min; 30 sec ON/ 30 sec OFF"
          ],
          "CHIP_ANTIBODY_CATALOG" : [
             "BP grade"
@@ -22,11 +22,11 @@
          "EXPERIMENT_TYPE" : [
             "Histone H3K27ac"
          ],
-         "CHIP_ANTIBODY_LOT" : [
-            "A1723-0041d"
-         ],
          "CHIP_PROTOCOL_ANTIBODY_AMOUNT" : [
             "1,0 µg"
+         ],
+         "CHIP_ANTIBODY_LOT" : [
+            "A1723-0041d"
          ],
          "CHIP_PROTOCOL_CHROMATIN_AMOUNT" : [
             "5x 100.000 cells = 5x 6,7 µl"
@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cord_blood/S000RD/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.2G",
          "NAME" : "S000RDH2.H3K27ac.wiggler.20130819.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "55597c683f2d831fb72e73d2d1d53f6d"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "638K",
          "NAME" : "S000RDH2.H3K27ac.ppqt_macs2_v2.20130819.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BB",
@@ -75,7 +75,7 @@
          "MD5" : "6bd3b33e98067a4a1afc9c211d6dee30"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "662K",
          "NAME" : "S000RDH2.H3K27ac.ppqt_macs2_v2.20130819.bed.gz",
          "FILE_TYPE" : "CS_MACS2",
@@ -147,11 +147,11 @@
          "BIOMATERIAL_PROVIDER" : [
             "NIHR Cambridge BioResource"
          ],
-         "BIOMATERIAL_TYPE" : [
-            "Primary Cell"
-         ],
          "TISSUE_TYPE" : [
             "Cord blood"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Primary Cell"
          ],
          "DONOR_SEX" : [
             "Male"

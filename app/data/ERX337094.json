@@ -23,7 +23,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/KARPAS-422/Germinal_Center_B-Cell-Like_Diffuse_Large_B-Cell_Lymphoma/DNase-Hypersensitivity/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "1.9M",
          "NAME" : "bp_KARPAS-422_d01.DNase.hotspot_v3.20131126.bb",
          "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
@@ -34,7 +34,7 @@
          "MD5" : "bf460b87b6b761ab44ebe57cd6dafde7"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.1M",
          "NAME" : "bp_KARPAS-422_d01.DNase.hotspot_v3.20131126.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
@@ -45,7 +45,7 @@
          "MD5" : "0a18a94520bb6db066c5361206db8480"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "753K",
          "NAME" : "bp_KARPAS-422_d01.DNase.hotspot_v3_peaks.20131126.bed.gz",
          "FILE_TYPE" : "DS_HOTSPOT",
@@ -56,7 +56,7 @@
          "MD5" : "2bbdf9e6837b70104795e9ca79052a2b"
       },
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.6G",
          "NAME" : "bp_KARPAS-422_d01.DNase.wiggler.20131126.bw",
          "FILE_TYPE" : "DS_WIGGLER",

@@ -53,7 +53,7 @@
    "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/S00BKK/mature_eosinophil/ChIP-Seq/NCMLS",
    "files" : [
       {
-         "FORMAT" : "BigWig",
+         "FORMAT" : "bigWig",
          "SIZE" : "1.1G",
          "NAME" : "S00BKKH1.H3K36me3.wiggler.20140513.bw",
          "FILE_TYPE" : "CS_WIGGLER",
@@ -64,7 +64,7 @@
          "MD5" : "ca3c8ce51a8aaa65837edb39a1ca9763"
       },
       {
-         "FORMAT" : "BigBed",
+         "FORMAT" : "bigBed",
          "SIZE" : "1018K",
          "NAME" : "S00BKKH1.H3K36me3.ppqt_macs2_broad_v2.20140513.bb",
          "FILE_TYPE" : "CS_MACS_TRACK_BROAD_BB",
@@ -75,7 +75,7 @@
          "MD5" : "0e9f4123572826f5dd5f6f5c851ca303"
       },
       {
-         "FORMAT" : "Bed",
+         "FORMAT" : "BED",
          "SIZE" : "1.5M",
          "NAME" : "S00BKKH1.H3K36me3.ppqt_macs2_broad_v2.20140513.bed.gz",
          "FILE_TYPE" : "CS_BROAD_MACS2",
