@@ -1,5 +1,20 @@
 /* app css stylesheet */
 
+p {
+  text-align: justify;
+}
+
+/*Print icon*/
+div.print {
+  float: right;
+}
+div.print img {
+  height: 24px;
+}
+div.print a {
+  cursor: pointer;
+}
+
 /*Sort BG*/
 .sort {
   background-repeat: no-repeat;
@@ -11,7 +26,6 @@
 .slanted .sort {
     background-position: 98% 75%;
 }
-
 .sort.sortAsc {
 	background-image: url(../img/asc.gif);
 }

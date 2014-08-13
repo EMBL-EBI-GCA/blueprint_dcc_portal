@@ -19,7 +19,6 @@
 	<!-- html5 Boilerplate CSS -->
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
 
 	<!-- Dangle -->
 	<link rel="stylesheet" href="bower_components/dangle/css/dangle.css">
@@ -48,7 +47,9 @@
 
   <div ng-include src="'partials/nav.html'">					
 	</div>     
-  
+	<div class="print">
+  	<a><img src="img/printer.png" alt="Print this page"/></a>
+	</div>
   <div class="view-container container" role="main">
 		<div ng-view class="view-frame"></div>
 		<div class="footer col-md-12" ng-include src="'partials/footer.html'"></div>
@@ -57,15 +58,15 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
 
 	<!-- angular components -->
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-	<script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.min.js"></script>
+	<script src="bower_components/angular-resource/angular-resource.min.js"></script>
 	<script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
 
 	<!-- misc dependencies -->
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="bower_components/d3/d3.min.js"></script>
-	<script src="bower_components/dangle/dist/dangle.js"></script>
+	<script src="bower_components/dangle/dist/dangle.min.js"></script>
 	<script src="bower_components/showdown/compressed/showdown.js"></script>
 	<script src="bower_components/angular-markdown-filter/markdown.js"></script>
 	<script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
@@ -77,5 +78,6 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+  <script src="js/print.js"></script>
 </body>
 </html>
