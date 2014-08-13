@@ -3,11 +3,8 @@
 <h2>{{data.experiment.ASSAY_TYPE}} - {{data.experiment.EXPERIMENT_TYPE}}</h2>
 <h2>{{data.sample.SAMPLE_DESC_1}} / {{data.sample.SAMPLE_DESC_3}} / {{data.sample.SAMPLE_DESC_2}}</h2>
 <p>
-	Raw data available from <a ng-href="{{data.archive_url}}">{{data.archive}}</a>
-	<br/>
-	{{data.files.length}} files for this experiment.
-	<br/>
-</p>
+	Raw data available from <a ng-href="{{data.archive_url}}">{{data.archive}}</a>. <span ng-if="data.archive == 'EGA'">Access to this data will require an application to the data access committee.</span>
+	</p>
 
 <div id="files" class="panel panel-default">
 	<div class="panel-heading">
@@ -20,7 +17,7 @@
 				<th>Data type</th>
 				<th>Format</th>
 				<th>Size</th>
-				<th>Group</th>
+				<th>Analysis provider</th>
 				<th>Protocol</th>
 				<th>Download</th>
 				<th/>
