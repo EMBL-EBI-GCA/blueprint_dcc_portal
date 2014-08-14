@@ -65,146 +65,167 @@ directives.directive('reactome', function($http, $window) {
 
 
 var uiFacet = angular.module('uiFacets', []);
-uiFacet.directive('uiFacets', function() {
-  return {
-    restrict: 'A',
-    transclude: true,
-    scope: {
-      items: '='
-    },
-    link: function(scope, element, attrs, controller) {
-      scope.$watch('originalItems', function() {
-        controller.filter();
-      });
-      scope.$watch('originalItems.$resolved', function() {
-        controller.filter();
-      });
-    },
-    controller: function($scope) {
-      var controller = this;
-
-      controller.init = function() {
-        $scope.originalItems = $scope.items;
-        $scope.items = [];
-        $scope.facets = [];
-        $scope.terms = {};
-      }
-
-      controller.clearFilters = function() {
-        for (var i = 0, l = $scope.facets.length; i < l; i++) {
-          $scope.facets[i].clearState();
-        }
-      };
-
-      controller.addFacet = function(facet) {
-        $scope.facets.push(facet);
-        facet.$watch('selectedValues', function() {
+uiFacet.directive('uiFacets', ['$filter',
+  function() {
+    return {
+      restrict: 'A',
+      transclude: true,
+      scope: {
+        items: '='
+      },
+      link: function(scope, element, attrs, controller) {
+        scope.$watch('originalItems', function() {
           controller.filter();
         });
-      };
+        scope.$watch('originalItems.$resolved', function() {
+          controller.filter();
+        });
+      },
+      controller: function($scope,$filter) {
+        var controller = this;
 
-      //get possible values for a property
-      controller.getTerms = function(property) {
-        var termContainer = {
-          _type: "terms",
-          total: $scope.originalItems.length,
-          other: 0,
-          missing: 0
+        controller.init = function() {
+          $scope.originalItems = $scope.items;
+          $scope.items = [];
+          $scope.facets = [];
+          $scope.terms = {};
+          $scope.filters = [];
+        }
+
+        controller.clearFilters = function() {
+          for (var i = 0, l = $scope.facets.length; i < l; i++) {
+            $scope.facets[i].clearState();
+          }
         };
 
-        var counts = $scope.terms[property];
-        var tuples = [];
-        for (var k in counts) {
-          if (counts.hasOwnProperty(k)) {
-            var v = counts[k];
-            tuples.push({
-              term: k,
-              count: v
-            });
+        controller.addFacet = function(facet) {
+          $scope.facets.push(facet);
+          facet.$watch('selectedValues', function() {
+            controller.filter();
+          });
+        };
+        controller.addFilter = function(filter) {
+          $scope.filters.push(filter);
+          filter.$watch('value', function() {
+            controller.filter();
+          });
+        };
+
+        //get possible values for a property
+        controller.getTerms = function(property) {
+          var termContainer = {
+            _type: "terms",
+            total: $scope.originalItems.length,
+            other: 0,
+            missing: 0
+          };
+
+          var counts = $scope.terms[property];
+          var tuples = [];
+          for (var k in counts) {
+            if (counts.hasOwnProperty(k)) {
+              var v = counts[k];
+              tuples.push({
+                term: k,
+                count: v
+              });
+            }
           }
-        }
-        termContainer.terms = tuples.sort(function(a, b) {
-          if (a.count < b.count) return 1;
-          if (a.count > b.count) return -1;
-          return a.term.localeCompare(b.term);
-        });
+          termContainer.terms = tuples.sort(function(a, b) {
+            if (a.count < b.count) return 1;
+            if (a.count > b.count) return -1;
+            return a.term.localeCompare(b.term);
+          });
 
-        return termContainer;
-      };
+          return termContainer;
+        };
 
-      controller.filter = function() {
-        //filter the items based on the facets
-        //also collect the terms in the same pass
-        //terms are collected from all items and incremented on matches
-        var passedItems = [];
-        var newTerms = {};
+        controller.filter = function() {
+          //filter the items based on the facets
+          //also collect the terms in the same pass
+          //terms are collected from all items and incremented on matches
+          var passedItems = [];
+          var newTerms = {};
 
-        for (var i = 0, il = $scope.originalItems.length; i < il; i++) {
-          //check each item to see if it matches the filters in each facet
-          var item = $scope.originalItems[i];
-          var match = true;
-          var propValHolder = {};
+          for (var i = 0, il = $scope.originalItems.length; i < il; i++) {
+            //check each item to see if it matches the filters in each facet
+            var item = $scope.originalItems[i];
+            var match = true;
+            var propValHolder = {};
 
-          //check each facet until we find one it doesn't match
-          for (var j = 0, fl = $scope.facets.length; j < fl; j++) {
-            var facet = $scope.facets[j];
+            //check each facet until we find one it doesn't match
+            for (var j = 0, fl = $scope.facets.length; j < fl; j++) {
+              var facet = $scope.facets[j];
 
-            var facetResults = facet.match(item);
+              var facetResults = facet.match(item);
 
-            var facetMatch = facetResults.match;
-            var itemVals = facetResults.vals;
-            //var itemHasProperty = item.hasOwnProperty(facet.property);
-            //var itemVal;
-            if (!facetMatch) {
-              match = false;
+              var facetMatch = facetResults.match;
+              var itemVals = facetResults.vals;
+              //var itemHasProperty = item.hasOwnProperty(facet.property);
+              //var itemVal;
+              if (!facetMatch) {
+                match = false;
+              }
+
+
+              if (facet.property && !newTerms.hasOwnProperty(facet.property)) {
+                newTerms[facet.property] = {};
+              }
+              if (itemVals != null) {
+                for (var index in itemVals) {
+                  var itemVal = itemVals[index];
+
+                  if (itemVal && !newTerms[facet.property].hasOwnProperty(itemVal)) {
+                    newTerms[facet.property][itemVal] = 0;
+                  }
+
+                  if (!propValHolder[facet.property]) {
+                    propValHolder[facet.property] = [];
+                  }
+                  propValHolder[facet.property].push(itemVal);
+                }
+              }
+
             }
 
-
-            if (!newTerms.hasOwnProperty(facet.property)) {
-              newTerms[facet.property] = {};
-            }
-            if (itemVals != null) {
-              for (var index in itemVals) {
-                var itemVal = itemVals[index];
-
-                if (itemVal && !newTerms[facet.property].hasOwnProperty(itemVal)) {
-                  newTerms[facet.property][itemVal] = 0;
+            if (match) {
+              for (var p = 0, pl =$scope.filters.length; p < pl; p++){
+                var filterVal = $scope.filters[p].value;
+                if (!filterVal) break;
+                if ($filter('filter')([item], filterVal).length == 0) {
+                  match = false;
+                  break;
                 }
-
-                if (!propValHolder[facet.property]) {
-                  propValHolder[facet.property] = [];
-                }
-                propValHolder[facet.property].push(itemVal);
               }
             }
 
-          }
 
-          if (match) {
-            passedItems.push(item);
+            if (match) {
+              passedItems.push(item);
 
-            for (var k = 0, kl = $scope.facets.length; k < fl; k++) {
-              var prop = $scope.facets[k].property;
+              for (var k = 0, kl = $scope.facets.length; k < fl; k++) {
+                var prop = $scope.facets[k].property;
 
-              if (propValHolder.hasOwnProperty(prop)) {
-                var vals = propValHolder[prop];
-                for (var n = 0, nl = vals.length; n < nl; n++) {
-                  var val = vals[n];
-                  newTerms[prop][val]++;
+                if (propValHolder.hasOwnProperty(prop)) {
+                  var vals = propValHolder[prop];
+                  for (var n = 0, nl = vals.length; n < nl; n++) {
+                    var val = vals[n];
+                    newTerms[prop][val]++;
+                  }
                 }
               }
             }
           }
-        }
-        $scope.items = passedItems;
-        $scope.terms = newTerms;
-      };
-      controller.init();
-      controller.filter();
-    },
-    template: '<div class="ui-facets ng-transclude"></div>'
-  };
-});
+          $scope.items = passedItems;
+          $scope.terms = newTerms;
+        };
+        controller.init();
+        controller.filter();
+      },
+      template: '<div class="ui-facets ng-transclude"></div>'
+    };
+  }
+]);
 uiFacet.directive('uiFacetsClear', function() {
   return {
     restrict: 'E',
@@ -236,8 +257,6 @@ uiFacet.directive('uiFacet', function() {
 
       scope.list = element.find("ul").first();
       parentController.addFacet(scope);
-
-      scope.$watch('list')
 
       scope.toggleCollapse = function() {
         scope.collapsed = !scope.collapsed;
@@ -333,6 +352,18 @@ uiFacet.directive('uiFacet', function() {
         $scope.selectedValues = [];
       };
       $scope.clearState(); //initialise the facet
+    }
+  };
+});
+
+uiFacet.directive('uiFacetFilter', function() {
+  return {
+    restrict: 'E',
+    templateUrl: 'partials/uiFacetFilter.html',
+    require: '^uiFacets',
+    link: function(scope, element, attrs, parentController) {
+      parentController.addFilter(scope);
+      scope.value = '';
     }
   };
 });
