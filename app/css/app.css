@@ -4,6 +4,11 @@ p {
   text-align: justify;
 }
 
+/* spreadsheet download (file list)*/
+div.tsv_downlaod {
+  float: right;
+}
+
 /*Print icon*/
 div.print {
   float: right;
