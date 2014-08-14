@@ -96,6 +96,9 @@ uiFacet.directive('uiFacets', ['$filter',
           for (var i = 0, l = $scope.facets.length; i < l; i++) {
             $scope.facets[i].clearState();
           }
+          for (var i = 0, l = $scope.filters.length; i < l; i++) {
+            $scope.filters[i].value = '';
+          }
         };
 
         controller.addFacet = function(facet) {
