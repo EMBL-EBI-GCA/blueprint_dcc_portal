@@ -1,4 +1,9 @@
-#Contact
+#Help
+***
+
+
+
+##Contact
 
 For queries about access to data or analysis, please mail blueprint-info@ebi.ac.uk
 

@@ -1,5 +1,5 @@
 #Whole Genome Bisulphite Sequencing Pipeline
-
+***
 This describes the WGBS-Seq analysis performed for the Blueprint project
 
 ##Mapping

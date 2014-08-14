@@ -1,4 +1,5 @@
 #RNA-Seq Analysis Pipeline
+***
 
 The pipeline script executes several steps on the input sample. The steps are described in details below.
 

@@ -1,7 +1,6 @@
 #Data availability &amp; access
 ***
 
-
 ##Data Reuse
 
 The Blueprint consortium expects this data to be valuable to other researchers. In keeping with Fort Lauderdale principles, data users may use the data for many studies, but are expected to allow the data producers to make the first presentations and to publish the first paper with global analyses of the data. Our full data reuse statement is available [here](#/md/data_reuse).
@@ -38,7 +37,7 @@ Our data is available both from the sequence archives and from our own FTP site,
 			<td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/hub/hub.txt">UCSC browser</a></td>
 		</tr>
 		<tr>
-			<td><a href="http://grch37.ensembl.org/Homo_sapiens/Location/View?g=ENSG00000130544;contigviewbottom=url:http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/hub/hub.txt;format=DATAHUB;menu=Blueprint">Ensembl browser</a></td>
+			<td><a href="http://grch37.ensembl.org/Homo_sapiens/Location/View?g=ENSG00000130544;conti%20gviewbottom=url:http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/curren%20t_release/homo_sapiens/hub/hub.txt;format=DATAHUB;menu=Blueprint%20data">Ensembl browser</a></td>
 		</tr>
 	</tbody>
 </table>
