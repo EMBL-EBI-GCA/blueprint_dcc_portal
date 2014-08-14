@@ -12,6 +12,12 @@ Command line used:
 
     bwa aln -q 15 -t 2 grch37.fa input.fastq.gz > intermediate.sai ; bwa samse -r "read group information" grch37.fa intermediate.sai input.fastq.gz | samtools view -bS - > output.bam
 
+BAM files are sorted and then duplicates marked using picard:
+    
+    java -Xmx2048m -jar picard/SortSam.jar INPUT=input.bam OUTPUT=output.bam SORT_ORDER=coordinate VALIDATION_STRINGENCY=SILENT
+    java -Xmx2048m -jar picard/MarkDuplicates.jar INPUT=input.bam OUTPUT=output.bam METRICS_FILE=output.dup_metrics REMOVE_DUPLICATES=false ASSUME_SORTED=true VALIDATION_STRINGENCY=SILENT
+
+
 ##Filtering
 
 The output bam file was then filtered to remove reads with Mapping Quality less than 15
@@ -29,11 +35,10 @@ File paths in runall.tokens.txt were adjusted to our local implementation accord
 
 Hotspots runs were performed by modifying the variable _TAGS_ to point to the BAM file.
 
-If you have any questions about this process please email blueprint-info@ebi.ac.uk
-
 ##Links
 
 * [SAMtools](http://samtools.sourceforge.net)
 * [Reference Data Sets](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20130301/homo_sapiens/reference)
+* [Picard](http://picard.sourceforge.net/)
 * [BWA](http://bio-bwa.sourceforge.net/)
 * [Hotspot](http://www.uwencode.org/proj/hotspot-ptih/)

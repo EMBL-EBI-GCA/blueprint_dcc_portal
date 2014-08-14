@@ -7,8 +7,12 @@ The mapping was carried out using bwa 0.5.9 to a gender matched reference. Our r
 
 Command line used:
 
+    bwa aln -q 15 -t 2 grch37.fa input.fastq.gz > intermediate.sai ; bwa samse -R "read group information" grch37.fa intermediate.sai input.fastq.gz | samtools view -bS - > output.bam
 
-    bwa aln -q 15 -t 2 grch37.fa input.fastq.gz > intermediate.sai ; bwa samse -r "read group information" grch37.fa intermediate.sai input.fastq.gz | samtools view -bS - > output.bam
+BAM files are sorted and then duplicates marked using picard:
+    
+    java -Xmx2048m -jar picard/SortSam.jar INPUT=input.bam OUTPUT=output.bam SORT_ORDER=coordinate VALIDATION_STRINGENCY=SILENT
+    java -Xmx2048m -jar picard/MarkDuplicates.jar INPUT=input.bam OUTPUT=output.bam METRICS_FILE=output.dup_metrics REMOVE_DUPLICATES=false ASSUME_SORTED=true VALIDATION_STRINGENCY=SILENT
 
 
 ##Filtering
@@ -33,7 +37,7 @@ MACS2 (2.0.10.20131216) is used for peak calling with the fragment size predicte
 Command line used:
 
     macs2 callpeak -t chip.bam -n a_sensible_name --gsize hs -c input.bam --nomodel --shiftsize=half_fragment_size --broad
-
+		
     macs2 callpeak -t chip.bam -n a_sensible_name --gsize hs -c input.bam --nomodel --shiftsize=half_fragment_size
 
 The marks where -broad were used are
@@ -43,7 +47,7 @@ The marks where -broad were used are
  3. H3K9me3
  4. H3K4me1
 
-The default marks are
+The marks where -broad is omitted are
 
  1. H3K27ac
  2. H3K4me3
@@ -61,5 +65,6 @@ Signal plots are produced using align2RawSignal using the fragment size predicte
  * [SAMtools](http://samtools.sourceforge.net)
  * [Reference data](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20130301/homo_sapiens/reference)
  * [BWA](http://bio-bwa.sourceforge.net/)
+ * [Picard](http://picard.sourceforge.net/)
  * [MACS2](https://pypi.python.org/pypi/MACS2)
  * [PhantomPeakQualTools](http://code.google.com/p/phantompeakqualtools/)
