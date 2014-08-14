@@ -48,7 +48,7 @@
 				</tr>
 			</thead>
 			<tbody id="results">				
-				<tr ng-repeat="item in items | filter:query | orderBy:orderProp | pager:currentPage:pageSize">
+				<tr ng-repeat="item in items | orderBy:orderProp | pager:currentPage:pageSize">
 		      <td><download href="{{item.PATH}}"/></td>
 		      <td>{{item.SAMPLE_DESC_1}}</td>
 		      <td>{{item.SAMPLE_DESC_3}}</td>
