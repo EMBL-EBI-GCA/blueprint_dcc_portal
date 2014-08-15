@@ -1,3 +1,5 @@
-<button class="btn btn-xs btn-primary" ng-hide="loaded" ng-click="reactomeClick()">{{text}}</button>
-<a class="btn btn-xs btn-success" ng-show="loaded" ng-href="{{href}}" target="_blank">{{text}}</a>
-<button class="btn btn-xs btn-warning" ng-show="errored">{{text}}</button>
+<span class="reactome">
+	<button class="btn btn-xs btn-primary" ng-hide="loaded||errored" ng-click="reactomeClick()">{{text}}</button>
+	<a class="btn btn-xs btn-success" ng-show="loaded" ng-href="{{href}}" target="_blank">{{text}}</a>
+	<button class="btn btn-xs btn-warning" ng-show="errored">{{text}}</button>
+</span>

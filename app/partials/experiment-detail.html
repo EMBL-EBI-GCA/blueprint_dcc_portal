@@ -33,9 +33,9 @@
 					<td>{{file.FORMAT}}</td>
 					<td>{{file.SIZE}}</td>
 					<td>{{file.ANALYSIS_GROUP}}</td>
-					<td><a class="btn btn-link" ng-href="#/md/{{file.PROTOCOL_DOC}}">View</td>
-					<td><dcc-download href="{{file.PATH}}"/></td>
-					<td><span ng-if="file.REACTOME_PATH"><dcc-reactome url="file.REACTOME_PATH"></dcc-reactome></span></td>
+					<td><a class="btn btn-link" ng-href="#/md/{{file.PROTOCOL_DOC}}">View</td>					
+					<td><dcc-download url="file.PATH"></dcc-download></td>
+					<td><span ng-if="file.REACTOME_PATH"><dcc-reactome url="file.REACTOME_PATH"></dcc-reactome></span></td> 
 				</tr>
 			</tbody>
 		</table>

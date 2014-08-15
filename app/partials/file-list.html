@@ -55,7 +55,7 @@
 			</thead>
 			<tbody id="results">				
 				<tr ng-repeat="item in items | orderBy:orderProp | pager:currentPage:pageSize">
-		      <td><dcc-download href="{{item.PATH}}"/></td>
+		      <td><dcc-download url="item.PATH"></dcc-download></td>
 		      <td>{{item.SAMPLE_DESC_1}}</td>
 		      <td>{{item.SAMPLE_DESC_3}}</td>
 		      <td>{{item.SAMPLE_DESC_2}}</td>

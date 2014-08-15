@@ -7,9 +7,10 @@ directives.directive('dccDownload', function() {
   return {
     restrict: 'E',
     scope: {
-      href: '@'
+      url: '='
     },
-    template: '<a class="btn btn-link download" ng-href="{{href}}" title="Download file">&#8659;</a>'
+    replace: true,
+    template: '<a class="btn btn-link download" ng-href="{{url}}" title="Download file">&#8659;</a>'
   }
 });
 
@@ -19,13 +20,13 @@ directives.directive('dccReactome', function($http, $window) {
     scope: {
       url: '='
     },
+    replace: true,
     link: function(scope, element, attrs, controller) {
       scope.init = function() {
         scope.text = "Load in Reactome";
         scope.href = "";
-        scope.state = false;
         scope.errored = false;
-        scope.success = false;
+        scope.loaded = false;
       }
 
       //reset the state if the url changes
@@ -52,7 +53,7 @@ directives.directive('dccReactome', function($http, $window) {
           }).error(function(data, status, headers, config) {
             $scope.text = "Error";
             $scope.href = "";
-            $scope.loaded = true;
+            $scope.loaded = false;
             $scope.errored = true;
             console.log("failed to load url in reactome", $scope.url, $)
           });
