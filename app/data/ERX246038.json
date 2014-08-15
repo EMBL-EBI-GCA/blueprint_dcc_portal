@@ -1,5 +1,5 @@
 {
-   "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX246038",
+   "archive_url" : "http://www.ebi.ac.uk/ena/next_data/view/ERX246038",
    "experiment" : {
       "EXPERIMENT_TYPE" : "Chromatin Accessibility",
       "EXPERIMENT_ID" : "ERX246038",
@@ -17,7 +17,7 @@
       "ASSAY_TYPE" : "DNase-Hypersensitivity"
    },
    "archive" : "ENA",
-   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS",
    "files" : [
       {
          "FORMAT" : "BigBed",
@@ -26,7 +26,7 @@
          "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
          "ANALYSIS_GROUP" : "EMBL-EBI",
          "TYPE" : "Hotspots",
-         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3.20140513.bb",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3.20140513.bb",
          "PROTOCOL_DOC" : "dnase_seq",
          "MD5" : "348a70b80b1957a158619a626e74b22d"
       },
@@ -37,7 +37,7 @@
          "FILE_TYPE" : "DS_HOTSPOT",
          "ANALYSIS_GROUP" : "EMBL-EBI",
          "TYPE" : "Hotspots",
-         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3.20140513.bed.gz",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3.20140513.bed.gz",
          "PROTOCOL_DOC" : "dnase_seq",
          "MD5" : "845cd2a795ec55885196ff1e923cee19"
       },
@@ -48,7 +48,7 @@
          "FILE_TYPE" : "DS_HOTSPOT",
          "ANALYSIS_GROUP" : "EMBL-EBI",
          "TYPE" : "Hotspots",
-         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3_peaks.20140513.bed.gz",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3_peaks.20140513.bed.gz",
          "PROTOCOL_DOC" : "dnase_seq",
          "MD5" : "f655cf64ef7eddd52074525dc983e04a"
       }

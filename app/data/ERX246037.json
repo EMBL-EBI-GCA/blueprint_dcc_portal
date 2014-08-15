@@ -1,5 +1,5 @@
 {
-   "archive_url" : "http://www.ebi.ac.uk/ena/data/view/ERX246037",
+   "archive_url" : "http://www.ebi.ac.uk/ena/next_data/view/ERX246037",
    "experiment" : {
       "EXPERIMENT_TYPE" : "Chromatin Accessibility",
       "EXPERIMENT_ID" : "ERX246037",
@@ -17,7 +17,7 @@
       "ASSAY_TYPE" : "DNase-Hypersensitivity"
    },
    "archive" : "ENA",
-   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS",
    "files" : [
       {
          "FORMAT" : "BigBed",
@@ -26,7 +26,7 @@
          "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
          "ANALYSIS_GROUP" : "EMBL-EBI",
          "TYPE" : "Hotspots",
-         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS/Z-138_d01.DNase.hotspot_v3.20140513.bb",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS/Z-138_d01.DNase.hotspot_v3.20140513.bb",
          "PROTOCOL_DOC" : "dnase_seq",
          "MD5" : "1a660c33ab87796a70d931981761cc8e"
       },
@@ -37,7 +37,7 @@
          "FILE_TYPE" : "DS_HOTSPOT",
          "ANALYSIS_GROUP" : "EMBL-EBI",
          "TYPE" : "Hotspots",
-         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS/Z-138_d01.DNase.hotspot_v3.20140513.bed.gz",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS/Z-138_d01.DNase.hotspot_v3.20140513.bed.gz",
          "PROTOCOL_DOC" : "dnase_seq",
          "MD5" : "0d3e1deb7cf335ce175d35ca4684fdbc"
       },
@@ -48,7 +48,7 @@
          "FILE_TYPE" : "DS_HOTSPOT",
          "ANALYSIS_GROUP" : "EMBL-EBI",
          "TYPE" : "Hotspots",
-         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS/Z-138_d01.DNase.hotspot_v3_peaks.20140513.bed.gz",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/Z-138/Mantle_cell_lymphoma/DNase-Hypersensitivity/NCMLS/Z-138_d01.DNase.hotspot_v3_peaks.20140513.bed.gz",
          "PROTOCOL_DOC" : "dnase_seq",
          "MD5" : "c6c824c71d49fb70ced9bcf0f4fda776"
       }
