@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="dccPortal" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="dccPortal" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="dccPortal" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="dccPortal" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html lang="en" xmlns:ng="http://angularjs.org" xmlns:dcc="ignore-dcc" xmlns:ui="ignore-ui" xmlns:fs="ignore-fs" id="ng-app" ng-app="dccPortal" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" xmlns:ng="http://angularjs.org" xmlns:dcc="ignore-dcc" xmlns:ui="ignore-ui" xmlns:fs="ignore-fs" id="ng-app" ng-app="dccPortal" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" xmlns:ng="http://angularjs.org" xmlns:dcc="ignore-dcc" xmlns:ui="ignore-ui" xmlns:fs="ignore-fs" id="ng-app" ng-app="dccPortal" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" xmlns:ng="http://angularjs.org" xmlns:dcc="ignore-dcc" xmlns:ui="ignore-ui" xmlns:fs="ignore-fs" id="ng-app" ng-app="dccPortal" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Blueprint DCC Portal</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-	<script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
-	
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="bower_components/respond/dest/respond.min.js"></script>
+  <![endif]-->
+	<!--[if lte IE 8]>
+	  <script src=""bower_components/json2/json2.js"></script>
+  <![endif]-->	
+	<script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>	
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
@@ -26,6 +34,23 @@
 	<!-- our app css -->
   <link rel="stylesheet" href="css/app.css"/>
 	<link rel="shortcut icon" href="img/favicon.ico">
+
+
+	<!-- Help Old versions of IE handle custom elements -->	
+	<!--[if lte IE 8]>
+
+    <script>
+			document.createElement('dcc-download'); 
+			document.createElement('dcc-reactome'); 
+			document.createElement('pagination'); 
+			document.createElement('ui-facet'); 
+			document.createElement('ui-facet-filter'); 
+			document.createElement('ui-facets-clear');
+			document.createElement('fs-donut');
+			document.createElement('fs-column');
+    </script>
+  <![endif]-->
+	
 	
 	<!-- Analytics, uncomment me for live site
 	<script>
@@ -42,18 +67,25 @@
 </head>
 <body role="document">
   <!--[if lt IE 8]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<h1>Blueprint DCC Portal</h1>
+		<div>
+			<p>The Blueprint DCC portal is not compatible with your web browser. If possible, please <a href="http://browsehappy.com/">upgrade your browser</a>. If this is not possible, please contact blueprint-info@ebi.ac.uk.
+		</div>
   <![endif]-->
 
+<!--[if gte IE 8]><!--> 
   <div ng-include src="'partials/nav.html'">					
 	</div>     
-	<div class="print">
-  	<a><img src="img/printer.png" alt="Print this page"/></a>
-	</div>
+	
   <div class="view-container container" role="main">
+		<div class="print">
+	  	<a><img src="img/printer.png" alt="Print this page"/></a>
+		</div>
 		<div ng-view class="view-frame"></div>
 		<div class="footer col-md-12" ng-include src="'partials/footer.html'"></div>
-  </div>	
+  </div>
+<!--<![endif]-->
+	
   <!-- jQuery must be loaded before angular-->
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
 
@@ -63,10 +95,14 @@
 	<script src="bower_components/angular-resource/angular-resource.min.js"></script>
 	<script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
 
+	<!--[if gte IE 9]><!-->
+			<script src="bower_components/d3/d3.min.js"></script>
+			<script src="bower_components/dangle/dist/dangle.min.js"></script>
+	<!--<![endif]-->	 
+
 	<!-- misc dependencies -->
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="bower_components/d3/d3.min.js"></script>
-	<script src="bower_components/dangle/dist/dangle.min.js"></script>
+
 	<script src="bower_components/showdown/compressed/showdown.js"></script>
 	<script src="bower_components/angular-markdown-filter/markdown.js"></script>
 	<script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
@@ -79,5 +115,6 @@
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
   <script src="js/print.js"></script>
+	  
 </body>
 </html>

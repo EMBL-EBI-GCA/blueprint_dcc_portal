@@ -13,11 +13,13 @@
 	</div>
 	<div class="panel-body">
   	<div class="col-sm-6 col-md-6 col-lg-6">
-			<fs:donut outer-radius="200" inner-radius="75" bind="counts"></fs:donut>	
-			<p>Release composition by assay type</p>		
+			<fs-donut ng-show="supportsSvg" outer-radius="200" inner-radius="75" bind="counts"></fs-donut>
+			<img ng-hide="supportsSvg" src="img/release_composition.png" />	
+			<p>Release composition by assay type</p>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-6">
-			<fs:column bind="progress" height="600" width="630" label="Experiments"></fs:column>
+			<fs-column ng-show="supportsSvg" bind="progress" height="600" width="630" label="Experiments"></fs-column>
+			<img ng-hide="supportsSvg" src="img/release_progress.png"/>	
 			<p>Number of experiments per release</p>		
 		</div>
 	</div>

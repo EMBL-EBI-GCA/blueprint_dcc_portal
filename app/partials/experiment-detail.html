@@ -23,7 +23,7 @@
 				<th>Format</th>
 				<th>Size</th>
 				<th>Analysis provider</th>
-				<th>Protocol</th>
+				<th>Method</th>
 				<th>Download</th>
 				<th/>
 			</tr></thead>
@@ -34,8 +34,8 @@
 					<td>{{file.SIZE}}</td>
 					<td>{{file.ANALYSIS_GROUP}}</td>
 					<td><a class="btn btn-link" ng-href="#/md/{{file.PROTOCOL_DOC}}">View</td>
-					<td><download href="{{file.PATH}}"/></td>
-					<td><span ng-if="file.REACTOME_PATH"><reactome url="file.REACTOME_PATH"></reactome></span></td>
+					<td><dcc-download href="{{file.PATH}}"/></td>
+					<td><span ng-if="file.REACTOME_PATH"><dcc-reactome url="file.REACTOME_PATH"></dcc-reactome></span></td>
 				</tr>
 			</tbody>
 		</table>

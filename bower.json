@@ -11,12 +11,15 @@
         "dangle": null,
         "d3": "3.4.11",
         "angular-markdown-filter": null,
-        "angular-sanitize": "1.2.x"
+        "angular-sanitize": "1.2.x",
+        "jquery" : "1.11.1",
+        "respond": "1.4.2",
+        "json2": "3d7767b6b1"
     }, 
-    "description": "A starter project for AngularJS", 
+    "description": "A simple DCC portal using AngularJS", 
     "homepage": "https://github.com/davidrichardson/dcc_portal", 
     "license": "Apache2", 
     "name": "dcc-portal", 
     "private": true, 
-    "version": "0.0.0"
+    "version": "0.0.1"
 }

@@ -3,7 +3,7 @@
 /* Directives */
 var directives = angular.module('dccPortal.directives', []);
 
-directives.directive('download', function() {
+directives.directive('dccDownload', function() {
   return {
     restrict: 'E',
     scope: {
@@ -13,7 +13,7 @@ directives.directive('download', function() {
   }
 });
 
-directives.directive('reactome', function($http, $window) {
+directives.directive('dccReactome', function($http, $window) {
   return {
     restrict: 'E',
     scope: {

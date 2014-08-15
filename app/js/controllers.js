@@ -33,10 +33,9 @@ controllers.controller('ExperimentDetailCtrl', ['$scope', '$routeParams', 'Item'
     $scope.data = Item.get({
       name: $routeParams.experimentId
     });
-    $scope.goToElement = function(elementId) {
-      var $target = $('#'+elementId);
-      $("body").animate({scrollTop: $target.offset().top}, "slow");
-    };
+    $scope.data.$promise.then(function(exp){
+      $scope.data = exp;
+    });
   }
 ]);
 
@@ -65,8 +64,8 @@ controllers.controller('FileListCtrl', ['$scope', 'List',
 ]);
 
 /* Home */
-controllers.controller('HomeCtrl', ['$scope', 'List', 'Item',
-  function($scope, List, Item) {
+controllers.controller('HomeCtrl', ['$scope', 'List', 'Item','Modernizr',
+  function($scope, List, Item, Modernizr) {
     $scope.counts = {
       terms: List.query({
         name: 'experiment_count'
@@ -77,6 +76,7 @@ controllers.controller('HomeCtrl', ['$scope', 'List', 'Item',
         name: 'progress'
       })
     };
+    $scope.supportsSvg = Modernizr.svg;
 
     $scope.counts.terms.$promise.then(function(data) {
       $scope.counts = {
