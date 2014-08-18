@@ -10,7 +10,8 @@ hr {
 
 /* spreadsheet download (file list)*/
 div.tsv_downlaod {
-  float: right;
+  text-align: right;
+  clear: right;
 }
 
 /*Print icon*/
