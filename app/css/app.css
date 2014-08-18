@@ -64,8 +64,8 @@ div.print a {
 }
 
 /* push images in paragraphs over to the left */
-p .image{
-  margin: 5px;
+p .left-image{
+  margin: 0 5px 5px 0;
   float: left;
 }
 
