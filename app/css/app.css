@@ -52,7 +52,22 @@ div.print a {
   max-height: 250px;
 }
 /*footer images should all scale to the height of the blueprint logo, but keep their aspect ratio*/
-.footer img.logo {
+.footer div.logo {
+  text-align: center;
+}
+.footer div.logo:first-child {
+  text-align: left;
+}
+.footer div.logo:last-child {
+  text-align: right;
+}
+@media (max-width: 767px) { /* @screen-xs-max */
+  .footer div.logo {
+    text-align: center !important;
+    margin-bottom: 15px;
+  }
+}
+.footer div.logo img {
   height: 54px;
 }
 .footer  {
@@ -61,14 +76,6 @@ div.print a {
 }
 .footer .right{
   text-align: right;
-}
-.footer .right img{
-  float: right;
-}
-.footer .middle img{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 /* push images in paragraphs over to the left */
