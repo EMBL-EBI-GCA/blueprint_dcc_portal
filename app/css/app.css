@@ -15,13 +15,16 @@ div.tsv_downlaod {
 
 /*Print icon*/
 div.print {
-  float: right;
+  position: relative;
 }
 div.print img {
   height: 24px;
 }
 div.print a {
   cursor: pointer;
+  position: absolute;
+  margin: 7px;
+  right: 0;
 }
 
 /*Sort BG*/
@@ -138,4 +141,10 @@ table.experiments td.assays a {
   font-size: 20px;
   text-decoration:none;
   text-align: center;
+}
+
+@media print {
+  div.print {
+    display: none;
+  }
 }
