@@ -4,6 +4,10 @@ p {
   text-align: justify;
 }
 
+hr {
+  margin: 15px 0;
+}
+
 /* spreadsheet download (file list)*/
 div.tsv_downlaod {
   float: right;
