@@ -49,6 +49,7 @@ div.print a {
 }
 .footer  {
   font-size: 11px;
+  padding-bottom: 15px;
 }
 .footer .right{
   text-align: right;
