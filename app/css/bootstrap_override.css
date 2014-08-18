@@ -1,0 +1,11 @@
+.list-group-item {
+  padding-right: 50px;
+  cursor: pointer;
+}
+.list-group-item>.badge {
+  float: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 11px 5px;
+}
