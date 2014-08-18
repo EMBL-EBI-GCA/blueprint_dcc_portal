@@ -149,3 +149,15 @@ table.experiments td.assays a {
     display: none;
   }
 }
+
+@media (min-width: 992px) { /* @screen-md-min */
+  .fixd-width-lhs {
+    width: 350px;
+  }
+
+  .fixd-width-rhs {
+    float: none;
+    margin-left: 350px;
+    width: auto;
+  }
+}
