@@ -134,3 +134,8 @@ table.experiments td.assays a {
   text-decoration:none;
   text-align: center;
 }
+
+table.experiments td.hasdata:hover {
+  background-color: #b3d4fc;
+  cursor: pointer;
+}
