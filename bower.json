@@ -14,8 +14,7 @@
         "angular-sanitize": "1.2.x",
         "jquery" : "1.11.1",
         "respond": "1.4.2",
-        "json2": "3d7767b6b1",
-        "flxhr": "8f4bdee2ca"
+        "json2": "3d7767b6b1"
     }, 
     "description": "A simple DCC portal using AngularJS", 
     "homepage": "https://github.com/davidrichardson/dcc_portal", 
