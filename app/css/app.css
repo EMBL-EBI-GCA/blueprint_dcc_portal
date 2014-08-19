@@ -26,6 +26,7 @@ div.print a {
   position: absolute;
   margin: 7px;
   right: 0;
+  z-index: 100;
 }
 @media print {
   div.print {
