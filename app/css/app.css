@@ -4,20 +4,45 @@ p {
   text-align: justify;
 }
 
+hr {
+  margin: 15px 0;
+}
+
 /* spreadsheet download (file list)*/
 div.tsv_downlaod {
-  float: right;
+  text-align: right;
+  clear: right;
 }
 
 /*Print icon*/
 div.print {
-  float: right;
+  position: relative;
 }
 div.print img {
   height: 24px;
 }
 div.print a {
   cursor: pointer;
+  position: absolute;
+  margin: 7px;
+  right: 0;
+  z-index: 100;
+}
+@media print {
+  div.print {
+    display: none;
+  }
+}
+
+/* charts on the homepage */
+.homepage-chart {
+  max-width: 660px;
+  margin: 0 auto;
+  position: relative;
+  float: none;
+}
+.homepage-chart p {
+  text-align: center;
 }
 
 /*Sort BG*/
@@ -29,7 +54,7 @@ div.print a {
 }
 
 .slanted .sort {
-    background-position: 98% 75%;
+    background-position: right 58px;
 }
 .sort.sortAsc {
 	background-image: url(../img/asc.gif);
@@ -44,27 +69,37 @@ div.print a {
   max-height: 250px;
 }
 /*footer images should all scale to the height of the blueprint logo, but keep their aspect ratio*/
-.footer img.logo {
-  height: 54px;
+.footer div.logo {
+  text-align: center;
+}
+.footer div.logo:first-child {
+  text-align: left;
+}
+.footer div.logo:last-child {
+  text-align: right;
+}
+@media (max-width: 767px) { /* @screen-xs-max */
+  .footer div.logo {
+    text-align: center !important;
+    margin-bottom: 15px;
+  }
 }
 .footer  {
   font-size: 11px;
+  padding-bottom: 15px;
 }
 .footer .right{
   text-align: right;
 }
-.footer .right img{
-  float: right;
-}
-.footer .middle img{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+
+/* fixed height logo images */
+img.logo {
+  height: 54px;
 }
 
 /* push images in paragraphs over to the left */
-p .image{
-  margin: 5px;
+p .left-image{
+  margin: 0 5px 5px 0;
   float: left;
 }
 
@@ -107,7 +142,11 @@ body { padding-top: 60px; }
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 
 /* experiment grid styles */
+div.experiments-wrapper {
+  padding-right: 80px; /* to prevent slanting heading to overflow out of the page */
+}
 table.experiments th.assays{
+  width: 25px;
   height: 80px;
   white-space: nowrap;
 }      
@@ -117,7 +156,7 @@ table.experiments th.assays > div {
   -webkit-transform:translate(20px, 0px) rotate(315deg);
   -o-transform:translate(20px, 0px) rotate(315deg);
   transform:translate(20px, 0px) rotate(315deg);
-  width: 25px;
+  width: inherit;
 }
 table.experiments th.assays > div > span {
   border-bottom: 1px solid #ccc;
@@ -135,7 +174,27 @@ table.experiments td.assays a {
   text-align: center;
 }
 
-table.experiments td.hasdata:hover {
-  background-color: #b3d4fc;
-  cursor: pointer;
+/* layout for experiment and files page with fixed width lhs column */
+@media (min-width: 992px) { /* @screen-md-min */
+  .fixd-width-lhs {
+    width: 350px;
+  }
+
+  .fixd-width-rhs {
+    float: none;
+    margin-left: 350px;
+    width: auto;
+  }
+}
+
+/* logo to replace nav bar on printed page */
+.print-only-logo {
+  display: none;
+  padding: 0 15px 15px;
+}
+
+@media print {
+  .print-only-logo {
+    display: block;
+  }
 }

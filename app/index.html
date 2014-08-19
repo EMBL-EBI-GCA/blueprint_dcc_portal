@@ -34,6 +34,7 @@
 
 	<!-- our app css -->
   <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="css/bootstrap_override.css"/>
 	<link rel="shortcut icon" href="img/favicon.ico">
 
 
@@ -79,12 +80,12 @@
   <div ng-include src="'partials/nav.html'">					
 	</div>     
 	
-  <div class="view-container container" role="main">
+  <div class="view-container container-fluid" role="main">
 		<div class="print">
 	  	<a><img src="img/printer.png" alt="Print this page"/></a>
 		</div>
 		<div ng-view class="view-frame"></div>
-		<div class="footer col-md-12" ng-include src="'partials/footer.html'"></div>
+		<div class="footer" ng-include src="'partials/footer.html'"></div>
   </div>
 <!--<![endif]-->
 	

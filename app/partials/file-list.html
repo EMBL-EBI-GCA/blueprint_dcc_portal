@@ -1,16 +1,10 @@
-<div class="row">
+<div>
 	<h1>Files</h1>
-	<div class="tsv_downlaod">
-		<a href="data/blueprint_files.tsv">
-		Download .tsv
-	</a>
-	</div>
 	<hr/>
-
 </div>
 
 <div class="row" ui-facets items="items">
-  <div class="col-md-3">
+  <div class="col-md-3 fixd-width-lhs">
     <!--Sidebar content-->
   		<ui-facets-clear text="Clear filters"></ui-facets-clear>
 		
@@ -24,7 +18,7 @@
 			<ui-facet title="Donor" property="DONOR_ID"></ui-facet>
   </div>
 	
-  <div class="col-md-9">
+  <div class="col-md-9 fixd-width-rhs">
     <!--Body content-->
 		<pagination 
 			total-items="items.length"
@@ -36,6 +30,9 @@
 			<div class="facet-filter">
 	    Search: <ui-facet-filter></ui-facet-filter>
 			</div>
+      <div class="tsv_downlaod">
+        <a href="data/blueprint_files.tsv" class="btn btn-primary">Download .tsv</a>
+      </div>
 		<table class="table table-striped">
 			<thead>
 				<tr>
