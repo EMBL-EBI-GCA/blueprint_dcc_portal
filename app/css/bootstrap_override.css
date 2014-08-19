@@ -9,3 +9,6 @@
   top: 0;
   margin: 11px 5px;
 }
+.table>thead>tr>th.sort {
+  padding-right: 20px;
+}

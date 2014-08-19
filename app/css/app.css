@@ -37,7 +37,7 @@ div.print a {
 }
 
 .slanted .sort {
-    background-position: 98% 75%;
+    background-position: right 58px;
 }
 .sort.sortAsc {
 	background-image: url(../img/asc.gif);
