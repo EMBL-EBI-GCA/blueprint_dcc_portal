@@ -33,8 +33,8 @@
 					<td>{{file.FORMAT}}</td>
 					<td>{{file.SIZE}}</td>
 					<td>{{file.ANALYSIS_GROUP}}</td>
-					<td><a class="btn btn-link" ng-href="#/md/{{file.PROTOCOL_DOC}}">View</td>					
-					<td><dcc-download url="file.PATH"></dcc-download></td>
+					<td><a class="btn btn-link" ng-href="#/md/{{file.PROTOCOL_DOC}}">link</td>					
+					<td><span popover="Download {{file.TYPE}} as {{file.FORMAT}} file" popover-trigger="mouseenter"><dcc-download desc= url="{{file.PATH}}"></dcc-download></span></td>
 					<td><span ng-if="file.REACTOME_PATH"><dcc-reactome url="file.REACTOME_PATH"></dcc-reactome></span></td> 
 				</tr>
 			</tbody>

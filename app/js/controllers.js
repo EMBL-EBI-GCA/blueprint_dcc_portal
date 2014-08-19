@@ -25,7 +25,7 @@ controllers.controller('ExperimentListCtrl', ['$scope', 'List',
       else {
         $scope.orderProp = order;
       }
-    } 
+    };
   }
 ]);
 

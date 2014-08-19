@@ -55,7 +55,7 @@
 			</thead>
 			<tbody id="results">				
 				<tr ng-repeat="item in items | orderBy:orderProp | pager:currentPage:pageSize">
-		      <td><dcc-download url="item.PATH"></dcc-download></td>
+		      <td><span popover="Download {{item.TYPE}} as {{item.FORMAT}} file" popover-trigger="mouseenter"><dcc-download desc= url="{{item.PATH}}"></dcc-download></span></td>
 		      <td>{{item.SAMPLE_DESC_1}}</td>
 		      <td>{{item.SAMPLE_DESC_3}}</td>
 		      <td>{{item.SAMPLE_DESC_2}}</td>

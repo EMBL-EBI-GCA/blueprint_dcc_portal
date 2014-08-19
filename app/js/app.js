@@ -48,3 +48,12 @@ dccPortal.config(['$routeProvider',
     });
   }
 ]);
+
+
+
+$().ready(function() {
+  //Pass clicks on td through to any link it contains
+  $('body').on('click','td.hasdata',function(event){
+    $(event.target).find("a").click();
+  });
+});
