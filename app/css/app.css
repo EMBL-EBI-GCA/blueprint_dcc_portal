@@ -34,6 +34,17 @@ div.print a {
   }
 }
 
+/* charts on the homepage */
+.homepage-chart {
+  max-width: 660px;
+  margin: 0 auto;
+  position: relative;
+  float: none;
+}
+.homepage-chart p {
+  text-align: center;
+}
+
 /*Sort BG*/
 .sort {
   background-repeat: no-repeat;
