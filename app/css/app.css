@@ -72,15 +72,17 @@ div.print a {
     margin-bottom: 15px;
   }
 }
-.footer div.logo img {
-  height: 54px;
-}
 .footer  {
   font-size: 11px;
   padding-bottom: 15px;
 }
 .footer .right{
   text-align: right;
+}
+
+/* fixed height logo images */
+img.logo {
+  height: 54px;
 }
 
 /* push images in paragraphs over to the left */
@@ -170,5 +172,17 @@ table.experiments td.assays a {
     float: none;
     margin-left: 350px;
     width: auto;
+  }
+}
+
+/* logo to replace nav bar on printed page */
+.print-only-logo {
+  display: none;
+  padding: 0 15px 15px;
+}
+
+@media print {
+  .print-only-logo {
+    display: block;
   }
 }
