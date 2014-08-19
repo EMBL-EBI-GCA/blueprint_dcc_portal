@@ -27,6 +27,11 @@ div.print a {
   margin: 7px;
   right: 0;
 }
+@media print {
+  div.print {
+    display: none;
+  }
+}
 
 /*Sort BG*/
 .sort {
@@ -155,12 +160,7 @@ table.experiments td.assays a {
   text-align: center;
 }
 
-@media print {
-  div.print {
-    display: none;
-  }
-}
-
+/* layout for experiment and files page with fixed width lhs column */
 @media (min-width: 992px) { /* @screen-md-min */
   .fixd-width-lhs {
     width: 350px;
