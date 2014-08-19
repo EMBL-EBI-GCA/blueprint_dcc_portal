@@ -123,6 +123,9 @@ body { padding-top: 60px; }
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 
 /* experiment grid styles */
+div.experiments-wrapper {
+  padding-right: 80px; /* to prevent slanting heading to overflow out of the page */
+}
 table.experiments th.assays{
   width: 25px;
   height: 80px;
