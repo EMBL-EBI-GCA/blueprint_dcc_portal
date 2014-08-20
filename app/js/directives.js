@@ -38,14 +38,14 @@ directives.directive('dccReactome', function($http, $window) {
       $scope.reactomeClick = function() {
         if (!$scope.href) {
           $scope.text = 'Loading...';
-        
+
           var reactomeCorsBase = 'http://www.reactome.org/';
           //use our proxy for local servers.
-          if (window.XDomainRequest && !jQuery.support.cors){
+          if (window.XDomainRequest && !jQuery.support.cors) {
             reactomeCorsBase = '/reactome/';
           }
 
-          $http.post(reactomeCorsBase+'AnalysisService/identifiers/url/projection?pageSize=0&page=1', $scope.url, {
+          $http.post(reactomeCorsBase + 'AnalysisService/identifiers/url/projection?pageSize=0&page=1', $scope.url, {
             headers: {
               "Content-Type": "text/plain"
             }
@@ -74,8 +74,8 @@ directives.directive('dccReactome', function($http, $window) {
 
 
 var uiFacet = angular.module('uiFacets', []);
-uiFacet.directive('uiFacets', ['$filter',
-  function() {
+
+uiFacet.directive('uiFacets', ['$filter',  function() {
     return {
       restrict: 'A',
       transclude: true,
@@ -238,7 +238,7 @@ uiFacet.directive('uiFacets', ['$filter',
     };
   }
 ]);
-uiFacet.directive('uiFacetsClear', function() {
+uiFacet.directive('uiFacetsClear', [function() {
   return {
     restrict: 'E',
     replace: true,
@@ -253,10 +253,11 @@ uiFacet.directive('uiFacetsClear', function() {
     },
     template: '<button class="btn btn-primary" ng-click="clearParent($event)">{{text}}</button>'
   };
-});
-uiFacet.directive('uiFacet', function() {
+}]);
+uiFacet.directive('uiFacet', [function() {
   return {
     restrict: 'E',
+    replace: true,
     templateUrl: 'partials/uiFacet.html',
     scope: {
       title: '@',
@@ -367,9 +368,9 @@ uiFacet.directive('uiFacet', function() {
       $scope.clearState(); //initialise the facet
     }
   };
-});
+}]);
 
-uiFacet.directive('uiFacetFilter', function() {
+uiFacet.directive('uiFacetFilter', [function() {
   return {
     restrict: 'E',
     replace: true,
@@ -380,4 +381,4 @@ uiFacet.directive('uiFacetFilter', function() {
       scope.value = '';
     }
   };
-});
+}]);
