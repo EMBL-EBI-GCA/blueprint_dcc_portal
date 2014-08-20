@@ -44,9 +44,9 @@
 						<td>{{item.SAMPLE_DESC_3}}</td>
 						<td>{{item.SAMPLE_DESC_2}}</td>
 						<td>{{item.DONOR_SEX}}</td>
-						<td ng-repeat="dt in datatypes" class="assays" ng-class="{hasdata: item.data[dt]}" popover="{{dt}}" popover-trigger="mouseenter">
+						<td ng-repeat="dt in datatypes" class="assays" ng-class="{hasdata: item.data[dt]}">
 							<span ng-if="item.data[dt]">
-								<a href="#/experiments/{{item.data[dt]}}">&#x25cf;</a>
+								<a href="#/experiments/{{item.data[dt]}}" popover="{{dt}}" popover-trigger="mouseenter">&#x25cf;</a>
 						  </span>
 						</td>
 				</tr>

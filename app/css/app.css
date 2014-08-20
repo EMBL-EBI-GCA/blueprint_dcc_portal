@@ -172,6 +172,12 @@ table.experiments td.assays a {
   font-size: 20px;
   text-decoration:none;
   text-align: center;
+  margin: -8px;
+  line-height: 36px;
+  display: block;
+}
+table.experiments td.assays a:hover {
+  background-color: #b3d4fc;
 }
 
 /* layout for experiment and files page with fixed width lhs column */
