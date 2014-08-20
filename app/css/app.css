@@ -114,9 +114,12 @@ p .left-image{
 
 /*Partially collapsed facet list, overflow is used to detect if the show more button is required*/
 .facet ul.list-group.collapsed{
+  margin-left: -1px;
+  padding-left: 1px; /* padding and margin compensate each other, but are only here to force IE 8 to redraw the ul when collapsed class is removed */
   max-height: 250px;
   overflow: hidden;
 }
+
 /*Show hide button appears in the factet title bar*/
 .facet button {
   position: absolute;
