@@ -16,7 +16,7 @@ controllers.controller('ExperimentListCtrl', ['$scope', 'List',
     $scope.datatypes = ["Bisulfite-Seq", "DNase-Seq", "RNA-Seq", "ChIP Input", "H3K4me3", "H3K4me1", "H3K9me3", "H3K27ac", "H3K27me3", "H3K36me3","H2A.Zac","H3K9/14ac"];
     $scope.orderProp = 'SAMPLE_DESC_1';
     $scope.numPages = 5;
-    $scope.pageSize = 20;
+    $scope.pageSize = 25;
     $scope.currentPage = 1;
     $scope.order = function(order){
       if ($scope.orderProp == order){
@@ -50,7 +50,7 @@ controllers.controller('FileListCtrl', ['$scope', 'List',
     });
     $scope.orderProp = 'SAMPLE_DESC_1';
     $scope.numPages = 5;
-    $scope.pageSize = 10;
+    $scope.pageSize = 25;
     $scope.currentPage = 1;
     $scope.order = function(order){
       if ($scope.orderProp == order){
