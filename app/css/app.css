@@ -8,6 +8,12 @@ hr {
   margin: 15px 0;
 }
 
+/* svg fix for safari */
+svg {
+  height: 100%;
+  width: 100%;
+}
+
 /* spreadsheet download (file list)*/
 div.tsv_downlaod {
   text-align: right;
@@ -43,6 +49,9 @@ div.print a {
 }
 .homepage-chart p {
   text-align: center;
+}
+html[data-useragent*='MSIE 9'] .homepage-chart svg, html[data-useragent*='MSIE 10'] .homepage-chart svg {
+  height: 500px;
 }
 
 /*Sort BG*/
@@ -105,9 +114,12 @@ p .left-image{
 
 /*Partially collapsed facet list, overflow is used to detect if the show more button is required*/
 .facet ul.list-group.collapsed{
+  margin-left: -1px;
+  padding-left: 1px; /* padding and margin compensate each other, but are only here to force IE 8 to redraw the ul when collapsed class is removed */
   max-height: 250px;
   overflow: hidden;
 }
+
 /*Show hide button appears in the factet title bar*/
 .facet button {
   position: absolute;
@@ -145,11 +157,14 @@ body { padding-top: 60px; }
 div.experiments-wrapper {
   padding-right: 80px; /* to prevent slanting heading to overflow out of the page */
 }
+html[data-useragent*='MSIE 8'] div.experiments-wrapper {
+  padding-right: 0; /* not need in IE 8 since the heading are not slanting */
+}
 table.experiments th.assays{
   width: 25px;
   height: 80px;
   white-space: nowrap;
-}      
+}
 table.experiments th.assays > div {
   -ms-transform:translate(20px, 0px) rotate(315deg);
   -moz-transform:translate(20px, 0px) rotate(315deg);
@@ -162,9 +177,20 @@ table.experiments th.assays > div > span {
   border-bottom: 1px solid #ccc;
   padding: 5px 10px;
 }
+html[data-useragent*='MSIE 8'] table.experiments th.assays > div { /* for IE8 only */
+  font-size: 65%;
+  margin: 0 -8px;
+  padding: 2px;
+  width: auto;
+}
+html[data-useragent*='MSIE 8'] table.experiments th.assays > div > span {
+  border: none;
+  padding: 0;
+}
 table.experiments td.assays {
   text-align: center;
   border-left: thin solid #ddd;
+  overflow: hidden;
 }
 
 table.experiments td.assays a {
@@ -172,7 +198,8 @@ table.experiments td.assays a {
   font-size: 20px;
   text-decoration:none;
   text-align: center;
-  margin: -8px;
+  margin: -8px -8px -108px;
+  padding-bottom: 100px;
   line-height: 36px;
   display: block;
 }
