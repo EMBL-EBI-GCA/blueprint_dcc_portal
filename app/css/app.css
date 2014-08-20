@@ -154,6 +154,9 @@ body { padding-top: 60px; }
 div.experiments-wrapper {
   padding-right: 80px; /* to prevent slanting heading to overflow out of the page */
 }
+html[data-useragent*='MSIE 8'] div.experiments-wrapper {
+  padding-right: 0; /* not need in IE 8 since the heading are not slanting */
+}
 table.experiments th.assays{
   width: 25px;
   height: 80px;
