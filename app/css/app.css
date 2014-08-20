@@ -171,6 +171,16 @@ table.experiments th.assays > div > span {
   border-bottom: 1px solid #ccc;
   padding: 5px 10px;
 }
+html[data-useragent*='MSIE 8'] table.experiments th.assays > div { /* for IE8 only */
+  font-size: 65%;
+  margin: 0 -8px;
+  padding: 2px;
+  width: auto;
+}
+html[data-useragent*='MSIE 8'] table.experiments th.assays > div > span {
+  border: none;
+  padding: 0;
+}
 table.experiments td.assays {
   text-align: center;
   border-left: thin solid #ddd;
