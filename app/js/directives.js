@@ -36,38 +36,33 @@ directives.directive('dccReactome', function($http, $window) {
     },
     controller: function($scope, $http, $window) {
       $scope.reactomeClick = function() {
-        var reactomeBaseUrl = 'http://www.reactome.org/';
-        var reactomeAnalysis = 'AnalysisService/identifiers/url/projection?pageSize=0&page=1';
-        var reactomePathway =  'PathwayBrowser/#DTAB=AN&TOOL=AT&ANALYSIS=';
-                
         if (!$scope.href) {
-          $scope.text = 'Loading...'
+          $scope.text = 'Loading...';
+        
+          var reactomeCorsBase = 'http://www.reactome.org/';
+          //use our proxy for local servers.
+          if (window.XDomainRequest && !jQuery.support.cors){
+            reactomeCorsBase = '/reactome/';
+          }
 
-          $.ajax(reactomeBaseUrl+reactomeAnalysis, {
-            data: $scope.url,
-            processData: false,
-            type: "POST",
-            contentType: "text/plain",
-            success: function(response, status, jqXHR) {
-              // #2 data loaded into reactome, open new window using token
-              var token = response.summary.token;
-              var newUrl = reactomeBaseUrl+reactomePathway + token;
-              $scope.$apply(function() {
-                $scope.href = newUrl;
-                $scope.loaded = true;
-                $scope.text = "View in Reactome";
-                $window.open(newUrl, '_blank');
-              });
-            },
-            error: function(jqXHR, status) {
-              $scope.$apply(function() {
-                $scope.text = "Error";
-                $scope.href = "";
-                $scope.loaded = false;
-                $scope.errored = true;
-                console.log("failed to load url in reactome", $scope.url, status);
-              });
+          $http.post(reactomeCorsBase+'AnalysisService/identifiers/url/projection?pageSize=0&page=1', $scope.url, {
+            headers: {
+              "Content-Type": "text/plain"
             }
+          }).success(function(data) {
+            var token = data.summary.token;
+            var newUrl = "http://www.reactome.org/PathwayBrowser/#DTAB=AN&TOOL=AT&ANALYSIS=" + token;
+            $scope.href = newUrl;
+            $scope.loaded = true;
+            $scope.text = "View in Reactome";
+            $window.open(newUrl, '_blank');
+
+          }).error(function(data, status, headers, config) {
+            $scope.text = "Error";
+            $scope.href = "";
+            $scope.loaded = true;
+            $scope.errored = true;
+            console.log("failed to load url in reactome", $scope.url, $)
           });
         }
 
@@ -246,6 +241,7 @@ uiFacet.directive('uiFacets', ['$filter',
 uiFacet.directive('uiFacetsClear', function() {
   return {
     restrict: 'E',
+    replace: true,
     require: '^uiFacets',
     scope: {
       'text': '@'
@@ -376,6 +372,7 @@ uiFacet.directive('uiFacet', function() {
 uiFacet.directive('uiFacetFilter', function() {
   return {
     restrict: 'E',
+    replace: true,
     templateUrl: 'partials/uiFacetFilter.html',
     require: '^uiFacets',
     link: function(scope, element, attrs, parentController) {
