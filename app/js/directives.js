@@ -40,7 +40,7 @@ directives.directive('dccReactome', function($http, $window) {
           $scope.text = 'Loading...';
 
           var reactomeCorsBase = 'http://www.reactome.org/';
-          //use our proxy for local servers.
+          //use our proxy for browsers that require XDR for CORS
           if (window.XDomainRequest && !jQuery.support.cors) {
             reactomeCorsBase = '/reactome/';
           }
@@ -60,7 +60,7 @@ directives.directive('dccReactome', function($http, $window) {
           }).error(function(data, status, headers, config) {
             $scope.text = "Error";
             $scope.href = "";
-            $scope.loaded = true;
+            $scope.loaded = false;
             $scope.errored = true;
             console.log("failed to load url in reactome", $scope.url, $)
           });
