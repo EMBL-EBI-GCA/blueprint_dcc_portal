@@ -50,6 +50,9 @@ div.print a {
 .homepage-chart p {
   text-align: center;
 }
+html[data-useragent*='MSIE 9'] .homepage-chart svg, html[data-useragent*='MSIE 10'] .homepage-chart svg {
+  height: 500px;
+}
 
 /*Sort BG*/
 .sort {
@@ -155,7 +158,7 @@ table.experiments th.assays{
   width: 25px;
   height: 80px;
   white-space: nowrap;
-}      
+}
 table.experiments th.assays > div {
   -ms-transform:translate(20px, 0px) rotate(315deg);
   -moz-transform:translate(20px, 0px) rotate(315deg);
