@@ -44,7 +44,7 @@
   <div class="panel-body">
     <div class="col-sm-6 col-md-6 col-lg-6">
       <div class="homepage-chart col-sm-12 col-md-12 col-lg-12">
-        <fs-donut ng-show="supportsSvg" outer-radius="200" inner-radius="75" bind="counts"></fs-donut>
+        <fs-donut ng-show="supportsSvg" outer-radius="200" inner-radius="75" bind="counts" on-click="hackety"></fs-donut>
         <img ng-hide="supportsSvg" src="img/release_composition.png" />	
         <p>Release composition by assay type</p>
       </div>

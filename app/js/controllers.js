@@ -5,8 +5,8 @@
 var controllers = angular.module('dccPortal.controllers', []);
 
 /* Experiment List */
-controllers.controller('ExperimentListCtrl', ['$scope', 'List',
-  function($scope, List) {
+controllers.controller('ExperimentListCtrl', ['$scope', 'List','sharedProperty',
+  function($scope, List,sharedProperty) {
     $scope.items = List.query({
       name: 'experiments'
     });
@@ -14,6 +14,16 @@ controllers.controller('ExperimentListCtrl', ['$scope', 'List',
       $scope.items = data;
     });
     $scope.datatypes = ["Bisulfite-Seq", "DNase-Seq", "RNA-Seq", "ChIP Input", "H3K4me3", "H3K4me1", "H3K9me3", "H3K27ac", "H3K27me3", "H3K36me3","H2A.Zac","H3K9/14ac"];
+    
+    $scope.initialExpValues = [];
+    if (sharedProperty.getProperty() && sharedProperty.getProperty() == 'ChIP-Seq') {
+      $scope.initialExpValues = ["ChIP Input", "H3K4me3", "H3K4me1", "H3K9me3", "H3K27ac", "H3K27me3", "H3K36me3","H2A.Zac","H3K9/14ac"];
+    }
+    else if (sharedProperty.getProperty()) {
+      $scope.initialExpValues.push(sharedProperty.getProperty());
+    }
+    sharedProperty.clearProperty();
+    
     $scope.orderProp = 'SAMPLE_DESC_1';
     $scope.numPages = 5;
     $scope.pageSize = 25;
@@ -64,8 +74,8 @@ controllers.controller('FileListCtrl', ['$scope', 'List',
 ]);
 
 /* Home */
-controllers.controller('HomeCtrl', ['$scope', 'List', 'Item','Modernizr',
-  function($scope, List, Item, Modernizr) {
+controllers.controller('HomeCtrl', ['$scope', 'List', 'Item','Modernizr','$location','sharedProperty',
+  function($scope, List, Item, Modernizr,$location,sharedProperty) {
     $scope.counts = {
       terms: List.query({
         name: 'experiment_count'
@@ -88,6 +98,11 @@ controllers.controller('HomeCtrl', ['$scope', 'List', 'Item','Modernizr',
         terms: data
       };
     });
+    
+    $scope.hackety = function(field, term){
+      sharedProperty.setProperty(term);
+      $location.path('experiments');
+    }
   }
 ]);
 

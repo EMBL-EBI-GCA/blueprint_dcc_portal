@@ -32,3 +32,19 @@ services.factory('Item', ['$resource',
     });
   }
 ]);
+
+services.factory('sharedProperty',[function(){
+  var property = null;
+  
+  return {
+    getProperty: function() {
+      return property;
+    },
+    setProperty: function(value){
+      property = value;
+    },
+    clearProperty: function() {
+      property = null;
+    }
+  };
+}]);

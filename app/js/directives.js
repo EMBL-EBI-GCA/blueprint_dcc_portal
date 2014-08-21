@@ -19,7 +19,7 @@ directives.directive('dccReactome', function($http, $window) {
   return {
     restrict: 'E',
     scope: {
-      url: '='
+      url: '='     
     },
     replace: true,
     link: function(scope, element, attrs, controller) {
@@ -263,14 +263,15 @@ uiFacet.directive('uiFacet', [function() {
     templateUrl: 'partials/uiFacet.html',
     scope: {
       title: '@',
-      property: '@'
+      property: '@',
+      initialValues: '='
     },
     require: '^uiFacets',
     link: function(scope, element, attrs, parentController) {
       scope.collapsed = true;
       scope.buttonText = '+'
       scope.buttonRequired = false;
-
+      
       scope.list = element.find("ul").first();
       parentController.addFacet(scope);
 
@@ -363,11 +364,26 @@ uiFacet.directive('uiFacet', [function() {
         results.match = false;
         return results;
       };
-      $scope.clearState = function() {
-        $scope.selected = {};
-        $scope.selectedValues = [];
+      $scope.initState = function() {
+        $scope.selected = {};        
+        if ($scope.initialValues){
+          $scope.selectedValues = $scope.initialValues;
+          for (var i in $scope.selectedValues){
+            $scope.selected[ $scope.selectedValues[i] ] = true;
+          }
+          //$scope.initialValues.splice(0,$scope.initialValues.length);
+        }
+        else {
+          $scope.selectedValues = [];
+        }
       };
-      $scope.clearState(); //initialise the facet
+      $scope.clearState = function() {
+        if ($scope.initialValues) {
+          $scope.initialValues.splice(0,$scope.initialValues.length);
+        }
+        $scope.initState();
+      }
+      $scope.initState(); //initialise the facet
     }
   };
 }]);
