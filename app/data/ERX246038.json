@@ -1,0 +1,100 @@
+{
+   "archive_url" : "http://www.ebi.ac.uk/ena/next_data/view/ERX246038",
+   "experiment" : {
+      "EXPERIMENT_TYPE" : "Chromatin Accessibility",
+      "EXPERIMENT_ID" : "ERX246038",
+      "attributes" : {
+         "DNASE_PROTOCOL" : [
+            "DNaseI treatment was done for 3 minutes and reaction was stopped with stop buffer ( 50mM Tris-HCl, pH 8, 100mM NaCl, 0.10% SDS, 100mM EDTA, pH 8.0, 1mM Spermidine, 0.3mM Spermine), sample was further fractionated on 9% Sucrose gradient for  24hrs/25000rpm at 16ºC."
+         ],
+         "EXPERIMENT_TYPE" : [
+            "Chromatin Accessibility"
+         ],
+         "EXTRACTION_PROTOCOL" : [
+            "Nuclei were isolated from respective cells using Buffer A (15mM NaCl,60mM KCl,1mM EDTA, pH 8.0,0.5mM EGTA, pH 8.0,15mM Tris-HCl, pH 8.0,0.5mM Spermidine ) supplemented with 0.015% IGEPAL CA-630 detergent."
+         ]
+      },
+      "ASSAY_TYPE" : "DNase-Hypersensitivity"
+   },
+   "archive" : "ENA",
+   "ftp_path" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS",
+   "files" : [
+      {
+         "FORMAT" : "BigBed",
+         "SIZE" : "1.6M",
+         "NAME" : "DG-75_d01.DNase.hotspot_v3.20140513.bb",
+         "FILE_TYPE" : "DS_HOTSPOT_TRACK_BB",
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Hotspots",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3.20140513.bb",
+         "PROTOCOL_DOC" : "dnase_seq",
+         "MD5" : "348a70b80b1957a158619a626e74b22d"
+      },
+      {
+         "FORMAT" : "Bed",
+         "SIZE" : "1.2M",
+         "NAME" : "DG-75_d01.DNase.hotspot_v3.20140513.bed.gz",
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Hotspots",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3.20140513.bed.gz",
+         "PROTOCOL_DOC" : "dnase_seq",
+         "MD5" : "845cd2a795ec55885196ff1e923cee19"
+      },
+      {
+         "FORMAT" : "Bed",
+         "SIZE" : "872K",
+         "NAME" : "DG-75_d01.DNase.hotspot_v3_peaks.20140513.bed.gz",
+         "FILE_TYPE" : "DS_HOTSPOT",
+         "ANALYSIS_GROUP" : "EMBL-EBI",
+         "TYPE" : "Hotspots",
+         "PATH" : "http://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Cell_Line/DG-75/Sporadic_Burkitt_lymphoma/DNase-Hypersensitivity/NCMLS/DG-75_d01.DNase.hotspot_v3_peaks.20140513.bed.gz",
+         "PROTOCOL_DOC" : "dnase_seq",
+         "MD5" : "f655cf64ef7eddd52074525dc983e04a"
+      }
+   ],
+   "sample" : {
+      "SAMPLE_DESC_2" : "DG-75",
+      "SAMPLE_DESC_1" : "Cell Line",
+      "sample_name" : "DG-75_d01",
+      "SAMPLE_DESC_3" : "Sporadic Burkitt lymphoma",
+      "attributes" : {
+         "DIFFERENTIATION_METHOD" : [
+            "\"Drexler HG chapter 16 Establishment and culture of leukemia-lymphoma cell in Cancer Cell Culture Methods and Protocols 2nd Edition Springer Berlin pp 181 to 200 in 2011\""
+         ],
+         "MOLECULE" : [
+            "genomic DNA"
+         ],
+         "DISEASE" : [
+            "Sporadic Burkitt lymphoma"
+         ],
+         "BIOMATERIAL_PROVIDER" : [
+            "DSMZ"
+         ],
+         "BATCH" : [
+            "NA"
+         ],
+         "LINEAGE" : [
+            "NA"
+         ],
+         "BIOMATERIAL_TYPE" : [
+            "Cell Line"
+         ],
+         "PASSAGE" : [
+            "NA"
+         ],
+         "SEX" : [
+            "Male"
+         ],
+         "DIFFERENTIATION_STAGE" : [
+            "B cell"
+         ],
+         "LINE" : [
+            "DG-75"
+         ],
+         "MEDIUM" : [
+            "RPMI 1640 + 10%FBS + 1% Glutamine"
+         ]
+      }
+   }
+}
