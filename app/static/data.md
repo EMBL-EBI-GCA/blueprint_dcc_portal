@@ -34,21 +34,27 @@ Our data is available both from the sequence archives and from our own FTP site,
 			<td><a href="https://blueprint.genomatix.de">Genomatix browser</a></td>
 		</tr>
 		<tr>
-			<td><a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/hub/hub.txt">UCSC browser</a></td>
+			<td>Blueprint Track Hub on the <a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/hub/hub.txt">UCSC browser</a> </td>
 		</tr>
 		<tr>
-			<td><a href="http://grch37.ensembl.org/Homo_sapiens/Location/View?g=ENSG00000130544;conti%20gviewbottom=url:http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/curren%20t_release/homo_sapiens/hub/hub.txt;format=DATAHUB;menu=Blueprint%20data">Ensembl browser</a></td>
+			<td>Blueprint Track Hub on the <a href="http://grch37.ensembl.org/Homo_sapiens/Location/View?g=ENSG00000130544;conti%20gviewbottom=url:http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/curren%20t_release/homo_sapiens/hub/hub.txt;format=DATAHUB;menu=Blueprint%20data">Ensembl browser</a></td>
 		</tr>
 	</tbody>
 </table>
 
-We provide two web pages to help find data. The [experiment grid](#/experiments) provides links to the processed data and the archive links. The [file list](#/files) provides links to the processed data.
+We provide two web pages to help find data. The [experiments](#/experiments) page
+provides links to experiment pages. These describe a particular assay
+carried out on a particular sample, with links to both our processed
+data and raw data archiving. The [files](#/files) page holds table with a line per
+assay and sample with links to our processed data. The experiments and
+files pages can both be filtered by sample and experiment types using the left
+hand menus.
 
 
 
 ###Raw data
 
-The majority of samples sequenced by Blueprint are consented for release via a managed access system. To facilitate this we have archived the data in the <a href="https://www.ebi.ac.uk/ega"><abbr title="European Genome-phenome Archive">EGA</abbr></a>. Users can apply to download data. The process for this can be found on our Data Access Page. Data for samples that do not require managed access have been archived with the <a href="https://www.ebi.ac.uk/ena"><abbr title="European Nucleotide Archive">ENA</abbr></a>. In each case, links to the raw data can be found through the [experiment grid](#/experiments). 
+The majority of samples sequenced by Blueprint are consented for release via a managed access system. To facilitate this we have archived the data in the <a href="https://www.ebi.ac.uk/ega/dacs/EGAC00001000135"><abbr title="European Genome-phenome Archive">EGA</abbr></a>. Users can apply to download data. The process for this can be found on our Data Access Page. Data for samples that do not require managed access have been archived with the <a href="https://www.ebi.ac.uk/ena"><abbr title="European Nucleotide Archive">ENA</abbr></a>. In each case, links to the raw data can be found through the [experiment grid](#/experiments). 
 
 ###Processed data
 The alignments generated for our sequence data are also available from the EGA. All processed data types are available from our ftp site. The main types we make available are defined here:
@@ -68,7 +74,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    <td>Quantification</td>
 	    <td>GTF</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/RNA-Seq/C0010KB1.transcript_quantification.gem_grape_crg.20130415.gtf">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.transcript_quantification.gem_grape_crg.20130415.gtf">
 	      C0010K Monocyte transcript quantification</a>
 	    </td>
 	  </tr>
@@ -79,7 +85,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/RNA-Seq/C0010KB1.plusStrand.gem_grape_crg.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.plusStrand.gem_grape_crg.20130415.bw">
 	      C0010K Monocyte plus strand signal</a>
 	    </td>
 	  </tr>
@@ -90,7 +96,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/ChIP-Seq/C0010KH1.H3K4me1.bwa_filtered.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.H3K4me1.ppqt_macs2_broad.20130415.bb">
 	      C0010K Monocyte H3K4me1 peak calls</a>
 	    </td>
 	  </tr>
@@ -101,7 +107,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/ChIP-Seq/C0010KH1.H3K4me1.bwa_filtered.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.H3K4me1.wiggler.20130415.bw">
 	      C0010K Monocyte H3K4me1 signal</a>
 	    </td>
 	  </tr>
@@ -110,7 +116,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    <td>Hotspots</td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/DNase-Hypersensitivity/C0010K46.DNase.hotspot_v3.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.DNase.hotspot_v3.20130415.bb">
 	      C0010K Monocyte Dnase hotspots</a>
 	    </td>
 	  </tr>
@@ -121,7 +127,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/DNase-Hypersensitivity/C0010K46.DNase.hotspot_v3.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.DNase.wiggler.20130415.bw">
 	      C0010K Monocyte Dnase signal</a>
 	    </td>
 	  </tr>
@@ -134,7 +140,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/Bisulfite-Seq/C0010KA2bs.hypo_meth.bs_call.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.hypo_meth.bs_call.20130415.bb">
 	      C0010K Monocyte hypo methylation calls</a>
 	    </td>
 	  </tr>
@@ -147,7 +153,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/Bisulfite-Seq/C0010KA2bs.hyper_meth.bs_call.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.hyper_meth.bs_call.20130415.bb">
 	      C0010K Monocyte hyper methylation calls</a>
 	    </td>
 	  </tr>
@@ -156,11 +162,11 @@ The alignments generated for our sequence data are also available from the EGA. 
 	      WGS Bisulphite Seq
 	    </td>
 	    <td>
-	      Alignment Signal
+	      Methylation Signal
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Peripheral_blood/C0010K/Monocytes/Bisulfite-Seq/C0010KA2bs.CPG_methylation_calls.bs_call.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.CPG_methylation_calls.bs_call.20130415.bw">
 	      C0010K Monocyte methylation call signal</a>
 	    </td>
 	  </tr>
@@ -192,15 +198,15 @@ The freeze date in the filename should match the first freeze in which the file 
 
 ###Release
 
-Most recent release can be found at [current_release](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release). Each release directory contain an [index file](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/20130930.data.index) (list of all files for the specific release), description of analysis pipeline, Track Hub directory and a readme file describing the current index file.
+The most recent release can be found at [current_release](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release). Each release directory contain an [index file](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data_index/homo_sapiens/data.index) (list of all files for the specific release), description of analysis pipeline, Track Hub directory and a readme file describing the current index file.
 
 A description for the data index and each analysis pipeline can be found here:
 
- * [Data Index](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/README.20130930.data.index)
- * [Bisulphite-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/README_bisulphite_analysis_CNAG_20130930)
- * [ChIP-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/README_bisulphite_analysis_CNAG_20130930)
- * [Dnase-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/README_dnaseseq_analysis_20130930)
- * [RNA-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/README_rnaseq_analysis_crg_20130930)
+ * [Data Index](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data_index/homo_sapiensREADME.data.index)
+ * [Bisulphite-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/protocols/Analysis_protocols/README_bisulphite_analysis_CNAG)
+ * [ChIP-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/protocols/Analysis_protocols/README_chipseq_analysis_ebi)
+ * [Dnase-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/protocols/Analysis_protocols/README_dnaseseq_analysis_ebi)
+ * [RNA-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/protocols/Analysis_protocols/README_rnaseq_analysis_crg)
  
 ###Reference
 

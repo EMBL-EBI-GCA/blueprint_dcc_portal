@@ -5,7 +5,7 @@ The pipeline script executes several steps on the input sample. The steps are de
 
 Command line:
 
-    ### Blueprint RNAseq pipeline ###
+    ### BLUEPRINT RNAseq pipeline ###
     Run the RNAseq pipeline on one sample.
 
     Usage: ./blueprint.pipeline.sh -i FASTQ_FILE -g GENOME_FILE -a ANNOTATION_FILE [OPTION]...

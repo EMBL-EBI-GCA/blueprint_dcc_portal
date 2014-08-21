@@ -1,7 +1,7 @@
 #DNase I hypersensitivity Analysis Pipeline
 ***
 
-This describes the DNase-seq analysis performed for the blueprint project.
+This describes the DNase-seq analysis performed for the BLUEPRINT project.
 
 ##Mapping
 
