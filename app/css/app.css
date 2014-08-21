@@ -231,3 +231,9 @@ table.experiments td.assays a:hover {
     display: block;
   }
 }
+
+/* row with same height panels */
+.flex-row, .flex-row > div[class*='col-']  {
+  display: -webkit-flex;
+  display: flex;
+}
