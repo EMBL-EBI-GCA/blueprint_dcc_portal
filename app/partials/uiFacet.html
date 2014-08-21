@@ -8,7 +8,7 @@
 			ng-class="{active: selected.hasOwnProperty(item.term)}"
 			ng-click="handleClick($event)"
 			ui-facet-value="{{item.term}}">
-			{{item.term}} <span class="badge">{{item.count}}</span>
+			{{item.term}} <span ui-facet-value="{{item.term}}" class="badge">{{item.count}}</span>
 		</li>
 	</ul>
 </div>
