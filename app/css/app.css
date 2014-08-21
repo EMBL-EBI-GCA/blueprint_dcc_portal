@@ -15,7 +15,7 @@ svg {
 }
 
 /* spreadsheet download (file list)*/
-div.tsv_downlaod {
+div.tsv_download {
   text-align: right;
   clear: right;
 }
