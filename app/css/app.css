@@ -237,3 +237,9 @@ table.experiments td.assays a:hover {
   display: -webkit-flex;
   display: flex;
 }
+
+@media (max-width: 767px) { /* @screen-xs-max */
+  .flex-row, .flex-row > div[class*='col-']  {
+    display: block;
+  }
+}
