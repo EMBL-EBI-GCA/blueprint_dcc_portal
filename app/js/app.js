@@ -9,7 +9,9 @@ var dependencies = [
   'dccPortal.controllers',
   'uiFacets',
   'ui.bootstrap',
-  'markdown'
+  'markdown',
+  'angulartics',
+  'angulartics.google.analytics'
 ];
 
 if (Modernizr.svg) {

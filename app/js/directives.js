@@ -10,7 +10,7 @@ directives.directive('dccDownload', function() {
       url: '@'
     },
     replace: true,
-    template: '<a class="btn btn-link download" ng-href="{{url}}">&#8659;</a>'
+    template: '<a class="btn btn-link download" ng-href="{{url}}" analytics-on="click" analytics-event="FileDownload" analytics-category="Files" analytics-label="{{url}}">&#8659;</a>'
   }
 });
 
@@ -48,8 +48,7 @@ directives.directive('dccReactome', function($http, $window) {
 
           $http.post(reactomeCorsURI, $scope.url, {
             headers: {
-              "Content-Type": "text/plain",
-              "Content-Length": $scope.url.length
+              "Content-Type": "text/plain"
             }
           }).success(function(data) {
             var token = data.summary.token;
