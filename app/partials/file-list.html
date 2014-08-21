@@ -37,9 +37,9 @@
 			<thead>
 				<tr>
 		      <th>Download</th>									 
-					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_1'),sortDesc: (orderProp == '-SAMPLE_DESC_1')}" ng-click="order('SAMPLE_DESC_1')">Group</th>
-					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_3'),sortDesc: (orderProp == '-SAMPLE_DESC_3')}" ng-click="order('SAMPLE_DESC_3')">Sub-group</th>
-					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_2'),sortDesc: (orderProp == '-SAMPLE_DESC_2')}" ng-click="order('SAMPLE_DESC_2')">Name</th>					
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_SOURCE'),sortDesc: (orderProp == '-SAMPLE_SOURCE')}" ng-click="order('SAMPLE_SOURCE')">Source</th>
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESCRIPTION'),sortDesc: (orderProp == '-SAMPLE_DESCRIPTION')}" ng-click="order('SAMPLE_DESCRIPTION')">Description</th>
+					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_NAME'),sortDesc: (orderProp == '-SAMPLE_NAME')}" ng-click="order('SAMPLE_NAME')">Name</th>					
 		      <th class="sort" ng-class="{sortAsc: (orderProp == 'DONOR_SEX'),sortDesc: (orderProp == '-DONOR_SEX')}" ng-click="order('DONOR_SEX')">Sex</th>
 					<th class="sort" ng-class="{sortAsc: (orderProp == 'DATA_LABEL'),sortDesc: (orderProp == '-DATA_LABEL')}" ng-click="order('DATA_LABEL')">Experiment</th> 
 					<th class="sort" ng-class="{sortAsc: (orderProp == 'TYPE'),sortDesc: (orderProp == '-TYPE')}" ng-click="order('TYPE')">Type</th>
@@ -53,9 +53,9 @@
 			<tbody id="results">				
 				<tr ng-repeat="item in items | orderBy:orderProp | pager:currentPage:pageSize">
 		      <td><span popover="Download {{item.TYPE}} as {{item.FORMAT}} file" popover-trigger="mouseenter"><dcc-download url="{{item.PATH}}"></dcc-download></span></td>
-		      <td>{{item.SAMPLE_DESC_1}}</td>
-		      <td>{{item.SAMPLE_DESC_3}}</td>
-		      <td>{{item.SAMPLE_DESC_2}}</td>
+		      <td>{{item.SAMPLE_SOURCE}}</td>
+		      <td>{{item.SAMPLE_DESCRIPTION}}</td>
+		      <td>{{item.SAMPLE_NAME}}</td>
 		      <td>{{item.DONOR_SEX}}</td>
 					<td>{{item.DATA_LABEL}}</td>
 		      <td>{{item.TYPE}}</td>

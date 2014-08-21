@@ -31,18 +31,18 @@
 		<table class="experiments table table-striped">
 			<thead>
 				<tr class="slanted">
-					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_1'),sortDesc: (orderProp == '-SAMPLE_DESC_1')}" ng-click="order('SAMPLE_DESC_1')">Group</th>
-					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_3'),sortDesc: (orderProp == '-SAMPLE_DESC_3')}" ng-click="order('SAMPLE_DESC_3')">Sub-group</th>
-					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESC_2'),sortDesc: (orderProp == '-SAMPLE_DESC_2')}" ng-click="order('SAMPLE_DESC_2')">Name</th>
+					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_SOURCE'),sortDesc: (orderProp == '-SAMPLE_SOURCE')}" ng-click="order('SAMPLE_SOURCE')">Source</th>
+					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESCRIPTION'),sortDesc: (orderProp == '-SAMPLE_DESCRIPTION')}" ng-click="order('SAMPLE_DESCRIPTION')">Description</th>
+					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_NAME'),sortDesc: (orderProp == '-SAMPLE_NAME')}" ng-click="order('SAMPLE_NAME')">Name</th>
 					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'DONOR_SEX'),sortDesc: (orderProp == '-DONOR_SEX')}" ng-click="order('DONOR_SEX')">Sex</th>					
 					<th class="assays" ng-repeat="dt in datatypes"><div><span>{{dt}}</span></div></th>
 				</tr>
 			</thead>
 			<tbody id="results">				
 				<tr ng-repeat="item in items | orderBy:orderProp | pager:currentPage:pageSize">
-						<td>{{item.SAMPLE_DESC_1}}</td>
-						<td>{{item.SAMPLE_DESC_3}}</td>
-						<td>{{item.SAMPLE_DESC_2}}</td>
+						<td>{{item.SAMPLE_SOURCE}}</td>
+						<td>{{item.SAMPLE_DESCRIPTION}}</td>
+						<td>{{item.SAMPLE_NAME}}</td>
 						<td>{{item.DONOR_SEX}}</td>
 						<td ng-repeat="dt in datatypes" class="assays" ng-class="{hasdata: item.data[dt]}">
 							<span ng-if="item.data[dt]">
