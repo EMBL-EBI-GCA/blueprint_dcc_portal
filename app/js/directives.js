@@ -39,15 +39,17 @@ directives.directive('dccReactome', function($http, $window) {
         if (!$scope.href) {
           $scope.text = 'Loading...';
 
-          var reactomeCorsBase = 'http://www.reactome.org/';
+          var reactomeCorsURI = 'http://www.reactome.org/AnalysisService/identifiers/url/projection?pageSize=0&page=1';
+
           //use our proxy for local servers.
           if (window.XDomainRequest && !jQuery.support.cors) {
-            reactomeCorsBase = '/reactome/';
+            reactomeCorsURI = '/perl/reactome?uri=' + encodeURIComponent(reactomeCorsURI);;
           }
 
-          $http.post(reactomeCorsBase + 'AnalysisService/identifiers/url/projection?pageSize=0&page=1', $scope.url, {
+          $http.post(reactomeCorsURI, $scope.url, {
             headers: {
-              "Content-Type": "text/plain"
+              "Content-Type": "text/plain",
+              "Content-Length": $scope.url.length
             }
           }).success(function(data) {
             var token = data.summary.token;
