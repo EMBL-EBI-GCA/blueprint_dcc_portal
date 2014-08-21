@@ -74,7 +74,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    <td>Quantification</td>
 	    <td>GTF</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.transcript_quantification.gem_grape_crg.20130415.gtf">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.transcript_quantification.gem_grape_crg.20130415.gtf">
 	      C0010K Monocyte transcript quantification</a>
 	    </td>
 	  </tr>
@@ -85,7 +85,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.plusStrand.gem_grape_crg.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.plusStrand.gem_grape_crg.20130415.bw">
 	      C0010K Monocyte plus strand signal</a>
 	    </td>
 	  </tr>
@@ -96,7 +96,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.H3K4me1.ppqt_macs2_broad.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.H3K4me1.ppqt_macs2_broad.20130415.bb">
 	      C0010K Monocyte H3K4me1 peak calls</a>
 	    </td>
 	  </tr>
@@ -107,7 +107,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.H3K4me1.wiggler.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.H3K4me1.wiggler.20130415.bw">
 	      C0010K Monocyte H3K4me1 signal</a>
 	    </td>
 	  </tr>
@@ -116,7 +116,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    <td>Hotspots</td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.DNase.hotspot_v3.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.DNase.hotspot_v3.20130415.bb">
 	      C0010K Monocyte Dnase hotspots</a>
 	    </td>
 	  </tr>
@@ -127,7 +127,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.DNase.wiggler.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.DNase.wiggler.20130415.bw">
 	      C0010K Monocyte Dnase signal</a>
 	    </td>
 	  </tr>
@@ -140,7 +140,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.hypo_meth.bs_call.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.hypo_meth.bs_call.20130415.bb">
 	      C0010K Monocyte hypo methylation calls</a>
 	    </td>
 	  </tr>
@@ -153,7 +153,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.hyper_meth.bs_call.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.hyper_meth.bs_call.20130415.bb">
 	      C0010K Monocyte hyper methylation calls</a>
 	    </td>
 	  </tr>
@@ -166,7 +166,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/next_data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.CPG_methylation_calls.bs_call.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.CPG_methylation_calls.bs_call.20130415.bw">
 	      C0010K Monocyte methylation call signal</a>
 	    </td>
 	  </tr>
