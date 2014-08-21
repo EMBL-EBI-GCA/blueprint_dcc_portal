@@ -40,12 +40,17 @@ Command line:
 
 The program versions currently used within the pipeline:
 
-|  Tool          | Step                   | Version        |
-|----------------|------------------------|:--------------:|
-| GEMTools       | mapping                | 1.6.2          |
-| Flux Capacitor | isoform quantification | 1.2.4          |
-| SAMtools       | SAM/BAM manipulation   | 0.1.19         |
-| RSeQC          | BAM statistics         | 2.3.7          |
+<table class="table table-striped">
+  <thead>
+    <tr><th>Tool</th><th>Step</th><th>Version</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GEMTools</td><td>mapping </td><td>1.6.2</td></tr>
+    <tr><td>Flux Capacitor</td><td>isoform quantification</td><td>1.2.4</td></tr>
+    <tr><td>SAMtools</td><td>SAM/BAM manipulation</td><td>0.1.19</td></tr>
+    <tr><td>RSeQC </td><td>BAM statistics</td><td>2.3.7 </td></tr>
+  </tbody>
+</table>
 
 The other programs described below are CRG in-house tools or tools adapted from external programs. Those tools have no version information.
 
@@ -62,14 +67,18 @@ Command line:
 
 The parameters used for the mapping steps are the following:
 
-|  Parameter                  |  Value     |
-|-----------------------------|:----------:|
-|  quality offset:            |  33        |
-|  mismatches:                |  0.06      |
-|  denovo junction coverage:  |  2         |
-|  strata after best:         |  1         |
-|  max edit distance:         |  0.20      |
-
+<table class="table table-striped">
+<thead>
+  <tr><th>Parameter</th><th>Value</th></tr>  
+</thead>
+<tbody>
+    <tr><td>quality offset:</td><td>33</td></tr>  
+    <tr><td>mismatches:</td><td>0.06</td></tr> 
+    <tr><td>denovo junction coverage:</td><td>2</td></tr> 
+    <tr><td>strata after best:</td><td>1</td></tr> 
+    <tr><td>max edit distance:</td><td>0.20</td></tr> 
+</tbody>
+</table>
 
 ###Output
 
@@ -77,7 +86,7 @@ The parameters used for the mapping steps are the following:
 
 File format:
 
-GEM format - see [GEM Alignment Format][]
+GEM format - see [GEM Alignment Format](http://algorithms.cnag.cat/wiki/FAQ:The_GEM_alignment_format)
 
 ##Filtering
 
