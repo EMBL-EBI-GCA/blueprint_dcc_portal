@@ -1,7 +1,7 @@
 #DNase I hypersensitivity Analysis Pipeline
 ***
 
-This describes the DNase-seq analysis performed for the BLUEPRINT project.
+This document describes the DNAse-Seq analysis performed for the BLUEPRINT project. The experimental protocols are described on the [BLUEPRINT website](http://www.blueprint-epigenome.eu/index.cfm?p=7BF8A4B6-F4FE-861A-2AD57A08D63D0B58).
 
 ##Mapping
 

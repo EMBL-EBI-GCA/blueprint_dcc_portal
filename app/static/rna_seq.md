@@ -1,5 +1,8 @@
 #RNA-Seq Analysis Pipeline
 ***
+This document describes the RNA-Seq analysis performed by the Guigo group for the BLUEPRINT project. The experimental protocols are described on the [BLUEPRINT website](http://www.blueprint-epigenome.eu/index.cfm?p=7BF8A4B6-F4FE-861A-2AD57A08D63D0B58).
+
+##Overview
 
 The pipeline script executes several steps on the input sample. The steps are described in details below.
 
@@ -32,7 +35,7 @@ Command line:
                 Default: "$TMPDIR" if the environment variable is defined, "-" otherwise.
       --dry-run     Test the pipeline. Writes the command to the standard output.
 
-#Pipeline programs
+##Pipeline programs
 
 
 The program versions currently used within the pipeline:
@@ -46,7 +49,7 @@ The program versions currently used within the pipeline:
 
 The other programs described below are CRG in-house tools or tools adapted from external programs. Those tools have no version information.
 
-#Mapping
+##Mapping
 
 The mapping step is performed by mean of the [GEMTools library](http://github.com/gemtools) which uses the GEM mapper
 to map the RNA-seq reads to the reference genome and transcriptome. The transcriptome is artificially computed from
@@ -68,7 +71,7 @@ The parameters used for the mapping steps are the following:
 |  max edit distance:         |  0.20      |
 
 
-##Output
+###Output
 
     Produced file: SAMPLE.map.gz
 
@@ -76,7 +79,7 @@ File format:
 
 GEM format - see [GEM Alignment Format][]
 
-#Filtering
+##Filtering
 
 In the filtering step some filter are applied to the mapping file:
 
@@ -96,7 +99,7 @@ Command line:
     gt.quality -i SAMPLE.map.gz -t THREADS | gt.filter --max-levenshtein-error 4 -t THREADS | gt.filter --max-matches 10 -t THREADS | pigz -p THREADS -c  SAMPLE.map.gz
 
 
-##Output
+###Output
 
     Produced file: SAMPLE_m4_n10.map.gz
 
@@ -104,7 +107,7 @@ File format:
 
 GEM format - see [GEM Alignment Format](http://algorithms.cnag.cat/wiki/FAQ:The_GEM_alignment_format)
 
-#Converting to BAM
+##Converting to BAM
 
 In this step the GEM file obtained from the mapping step is converted to a sorted BAM file. The file is
 sorted by genomic coordinates. The XS field required by Cufflinks (please see [Cufflinks Documentation][]) is added during the conversion.
@@ -114,7 +117,7 @@ Command line:
     pigz -p THREADS -dc SAMPLE_m4_n10.map.gz | gem2sam -T THREADS/2 -I INDEX_FILE --expect-paired-end-reads -q offset-33 -l | samtools view -@ THREADS -Sb | - samtools sort -@ THREADS -m MAX_MEM - SAMPLE_m4_n10
 
 
-##Output
+###Output
 
     Produced file: SAMPLE_m4_n10.bam
 
@@ -122,7 +125,7 @@ File format:
 
 SAM format - see [SAM Format Specification](http://samtools.github.io/SAM1.pdf)
 
-#Indexing
+##Indexing
 
 The filterd BAM files is then indexed.
 
@@ -131,12 +134,12 @@ Command line:
     $ samtools index SAMPLE_m4_n10.bam
 
 
-##Output
+###Output
 
       Produced file: SAMPLE_m4_n10.bam.bai
 
 
-#Producing BigWig
+##Producing BigWig
 
 In this step the procedure is differentiated for stranded and unstranded sample. For each sample:
 
@@ -166,14 +169,14 @@ Command line for unstranded samples:
     bedGraphToBigWig SAMPLE.bedgraph GENOME_FASTA_INDEX SAMPLE.STRANDRaw.bigwig
 
 
-##Output
+###Output
 
     Produced files: SAMPLE.plusRaw.bigwig  # if the sample is stranded
                     SAMPLE.minusRaw.bigwig # if the sample is stranded
                     SAMPLE.bigwig          # if the sample is unstranded
 
 
-#Producing Contigs
+##Producing Contigs
 
 Also in this step the procedure is differentiated for stranded and unstranded sample. For strand specific data it is required to change the directionality of the antisense mate. The command line of this step:
 
@@ -202,12 +205,12 @@ Command line for unstranded samples:
     bamToBed -i TEMP_BAM_UNIQUE.bam | sort -k1,1 -nk2,2 > | mergeBed > SAMPLE_contigs.bed
 
 
-##Output
+###Output
 
     Produced files: SAMPLE_contigs.bed
 
 
-#Quantifying
+##Quantifying
 
 In the quantification step the [Flux Capacitor](http://sammeth.net/confluence/display/FLUX/Home) is used to provide transcript quantifications and annotated splice junction counts. One output file
 is given at the end of the run. It is then splitted into the different files corrensponding to the two quantified features.
@@ -246,7 +249,7 @@ Some options need changed/added for stranded samples:
     READ_STRAND MATE2_SENSE
 
 
-##Output
+###Output
 
     Produced files: SAMPLE.gtf
                     SAMPLE_transcript.gtf
@@ -257,7 +260,7 @@ Some options need changed/added for stranded samples:
 
 
 
-#Links
+##Links
 
  - [SAM Format Specification](http://samtools.sourceforge.net/SAM1.pdf  "SAM Format Specification")
  - [GEM Alignment Format](http://algorithms.cnag.cat/wiki/FAQ:The_GEM_alignment_format  "GEM Alignment Format")
