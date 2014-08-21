@@ -1,7 +1,8 @@
 'use strict';
 
 /* Directives */
-var directives = angular.module('dccPortal.directives', []);
+var directives = angular.module('dccPortal.directives', [  'angulartics',
+  'angulartics.google.analytics']);
 
 directives.directive('dccDownload', function() {
   return {
@@ -10,7 +11,7 @@ directives.directive('dccDownload', function() {
       url: '@'
     },
     replace: true,
-    template: '<a class="btn btn-link download" ng-href="{{url}}" analytics-on="click" analytics-event="FileDownload" analytics-category="Files" analytics-label="{{url}}">&#8659;</a>'
+    template: '<a class="btn btn-link download" ng-href="{{url}} analytics-on="click" analytics-event="DownloadAnalysisFile" analytics-category="Download" analytics-label="{{url}}"" >&#8659;</a>'
   }
 });
 
