@@ -13,8 +13,4 @@ Access to the data will require the completion of each of these documents:
 - an Application for Data Access form ([DOC](http://ftp.ebi.ac.uk/pub/databases/blueprint/data_access/Blueprint_data_access_form.doc),[PDF](http://ftp.ebi.ac.uk/pub/databases/blueprint/data_access/Blueprint_data_access_form.pdf))
 These should be completed and returned to blueprint-dac@ebi.ac.uk. Applications will only be accepted electronically.
 
-Please refer to the guidelines ([DOC](http://ftp.ebi.ac.uk/pub/databases/blueprint/data_access/Blueprint_DAC_general_principles.doc), [PDF](http://ftp.ebi.ac.uk/pub/databases/blueprint/data_access/Blueprint_DAC_general_principles.pdf)) for further information on how to apply. Any queries regarding applications should be sent to blueprint-dac@ebi.ac.uk.
-
-
-
-
+Please refer to the guidelines ([DOC](http://ftp.ebi.ac.uk/pub/databases/blueprint/data_access/Blueprint_DAC_general_principles.doc), [PDF](http://ftp.ebi.ac.uk/pub/databases/blueprint/data_access/Blueprint_DAC_general_principles.pdf)) and terms of reference ([DOC](http://ftp.ebi.ac.uk/pub/databases/blueprint/data_access/Blueprint_DAC_Terms.doc), [PDF](http://ftp.ebi.ac.uk/pub/databases/blueprint/data_access/Blueprint_DAC_Terms.pdf)) for further information on how to apply. Any queries regarding applications should be sent to blueprint-dac@ebi.ac.uk.
