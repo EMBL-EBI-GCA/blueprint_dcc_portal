@@ -24,9 +24,6 @@ div.tsv_download {
 div.print {
   position: relative;
 }
-div.print img {
-  height: 24px;
-}
 div.print a {
   cursor: pointer;
   position: absolute;
