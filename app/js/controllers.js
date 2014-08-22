@@ -26,7 +26,7 @@ controllers.controller('ExperimentListCtrl', ['$scope', 'List','sharedProperty',
     
     $scope.orderProp = 'SAMPLE_DESC_1';
     $scope.numPages = 5;
-    $scope.pageSize = 25;
+    $scope.pageSize = 35;
     $scope.currentPage = 1;
     $scope.order = function(order){
       if ($scope.orderProp == order){
@@ -60,7 +60,7 @@ controllers.controller('FileListCtrl', ['$scope', 'List',
     });
     $scope.orderProp = 'SAMPLE_DESC_1';
     $scope.numPages = 5;
-    $scope.pageSize = 25;
+    $scope.pageSize = 35;
     $scope.currentPage = 1;
     $scope.order = function(order){
       if ($scope.orderProp == order){
