@@ -11,7 +11,7 @@ directives.directive('dccDownload', function() {
       url: '@'
     },
     replace: true,
-    template: '<a class="btn btn-link download" ng-href="{{url}}">&#8659;</a>'
+    template: '<a class="btn btn-link download" ng-href="{{url}}" download>&#8659;</a>'
   }
 });
 
