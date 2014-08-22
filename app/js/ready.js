@@ -6,4 +6,9 @@ $('document').ready(function(){
   $('.print a').click(function() {
     window.print();
   });
+  
+  //the navbar menu (small screen version) does not retract when an option is clicked
+  $('body').on('click','.navbar-collapse .nav a',function(event){
+    $('button.navbar-toggle').click();
+  });
 });
