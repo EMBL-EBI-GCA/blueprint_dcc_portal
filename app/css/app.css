@@ -29,7 +29,7 @@ div.print {
 div.print a {
   cursor: pointer;
   position: absolute;
-  margin: 7px;
+  margin: 11px;
   right: 0;
   z-index: 100;
 }
