@@ -1,5 +1,7 @@
 /* app css stylesheet */
-
+body {
+  background-color: rgb(235,235,235);
+}
 p {
   text-align: justify;
 }
