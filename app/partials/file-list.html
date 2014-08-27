@@ -34,40 +34,42 @@
           <div class="tsv_download">
             <a href="data/blueprint_files.tsv" class="btn btn-primary">Download .tsv</a>
           </div>
-    		<table class="table table-striped">
-    			<thead>
-    				<tr>
-    		      <th>Download</th>									 
-    					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_SOURCE'),sortDesc: (orderProp == '-SAMPLE_SOURCE')}" ng-click="order('SAMPLE_SOURCE')">Source</th>
-    					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESCRIPTION'),sortDesc: (orderProp == '-SAMPLE_DESCRIPTION')}" ng-click="order('SAMPLE_DESCRIPTION')">Description</th>
-    					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_NAME'),sortDesc: (orderProp == '-SAMPLE_NAME')}" ng-click="order('SAMPLE_NAME')">Name</th>					
-    		      <th class="sort" ng-class="{sortAsc: (orderProp == 'DONOR_SEX'),sortDesc: (orderProp == '-DONOR_SEX')}" ng-click="order('DONOR_SEX')">Sex</th>
-    					<th class="sort" ng-class="{sortAsc: (orderProp == 'DATA_LABEL'),sortDesc: (orderProp == '-DATA_LABEL')}" ng-click="order('DATA_LABEL')">Experiment</th> 
-    					<th class="sort" ng-class="{sortAsc: (orderProp == 'TYPE'),sortDesc: (orderProp == '-TYPE')}" ng-click="order('TYPE')">Type</th>
-    		      <th class="sort" ng-class="{sortAsc: (orderProp == 'FORMAT'),sortDesc: (orderProp == '-FORMAT')}" ng-click="order('FORMAT')">Format</th>
-    					<th class="sort" ng-class="{sortAsc: (orderProp == 'SIZE'),sortDesc: (orderProp == '-SIZE')}" ng-click="order('SIZE')">Size</th>
-    					<th class="sort" ng-class="{sortAsc: (orderProp == 'ANALYSIS_GROUP'),sortDesc: (orderProp == '-ANALYSIS_GROUP')}" ng-click="order('ANALYSIS_GROUP')"><abbr title="Analysis provider">AP</abbr></th>
-    					<th>Protocol</th>
-    					<th>Metadata</th>
-    				</tr>
-    			</thead>
-    			<tbody id="results">				
-    				<tr ng-repeat="item in items | orderBy:orderProp | pager:currentPage:pageSize">
-    		      <td><span popover="Download {{item.TYPE}} as {{item.FORMAT}} file" popover-trigger="mouseenter"><dcc-download url="{{item.PATH}}"></dcc-download></span></td>
-    		      <td>{{item.SAMPLE_SOURCE}}</td>
-    		      <td>{{item.SAMPLE_DESCRIPTION}}</td>
-    		      <td>{{item.SAMPLE_NAME}}</td>
-    		      <td>{{item.DONOR_SEX}}</td>
-    					<td>{{item.DATA_LABEL}}</td>
-    		      <td>{{item.TYPE}}</td>
-    					<td>{{item.FORMAT}}</td>
-    					<td>{{item.SIZE}}</td>
-    					<td>{{item.ANALYSIS_GROUP}}</td>
-    					<td><a class="btn btn-link" ng-href="#/md/{{item.PROTOCOL_DOC}}">View</td>
-    					<td><a class="btn btn-link" ng-href="#/experiments/{{item.EXPERIMENT_ID}}">View</td>
-    				</tr>
-    			</tbody>
-    		</table>
+          <div class="table-responsive">
+        		<table class="table table-striped">
+        			<thead>
+        				<tr>
+          		      <th>Download</th>									 
+          					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_SOURCE'),sortDesc: (orderProp == '-SAMPLE_SOURCE')}" ng-click="order('SAMPLE_SOURCE')">Source</th>
+          					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESCRIPTION'),sortDesc: (orderProp == '-SAMPLE_DESCRIPTION')}" ng-click="order('SAMPLE_DESCRIPTION')">Description</th>
+          					<th class="sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_NAME'),sortDesc: (orderProp == '-SAMPLE_NAME')}" ng-click="order('SAMPLE_NAME')">Name</th>					
+          		      <th class="sort" ng-class="{sortAsc: (orderProp == 'DONOR_SEX'),sortDesc: (orderProp == '-DONOR_SEX')}" ng-click="order('DONOR_SEX')">Sex</th>
+          					<th class="sort" ng-class="{sortAsc: (orderProp == 'DATA_LABEL'),sortDesc: (orderProp == '-DATA_LABEL')}" ng-click="order('DATA_LABEL')">Experiment</th> 
+          					<th class="sort" ng-class="{sortAsc: (orderProp == 'TYPE'),sortDesc: (orderProp == '-TYPE')}" ng-click="order('TYPE')">Type</th>
+          		      <th class="sort" ng-class="{sortAsc: (orderProp == 'FORMAT'),sortDesc: (orderProp == '-FORMAT')}" ng-click="order('FORMAT')">Format</th>
+          					<th class="sort" ng-class="{sortAsc: (orderProp == 'SIZE'),sortDesc: (orderProp == '-SIZE')}" ng-click="order('SIZE')">Size</th>
+          					<th class="sort" ng-class="{sortAsc: (orderProp == 'ANALYSIS_GROUP'),sortDesc: (orderProp == '-ANALYSIS_GROUP')}" ng-click="order('ANALYSIS_GROUP')"><abbr title="Analysis provider">AP</abbr></th>
+          					<th>Protocol</th>
+          					<th>Metadata</th>
+          				</tr>
+          			</thead>
+          			<tbody id="results">				
+          				<tr ng-repeat="item in items | orderBy:orderProp | pager:currentPage:pageSize">
+          		      <td><span popover="Download {{item.TYPE}} as {{item.FORMAT}} file" popover-trigger="mouseenter"><dcc-download url="{{item.PATH}}"></dcc-download></span></td>
+          		      <td>{{item.SAMPLE_SOURCE}}</td>
+          		      <td>{{item.SAMPLE_DESCRIPTION}}</td>
+          		      <td>{{item.SAMPLE_NAME}}</td>
+          		      <td>{{item.DONOR_SEX}}</td>
+          					<td>{{item.DATA_LABEL}}</td>
+          		      <td>{{item.TYPE}}</td>
+          					<td>{{item.FORMAT}}</td>
+          					<td>{{item.SIZE}}</td>
+          					<td>{{item.ANALYSIS_GROUP}}</td>
+          					<td><a class="btn btn-link" ng-href="#/md/{{item.PROTOCOL_DOC}}">View</td>
+          					<td><a class="btn btn-link" ng-href="#/experiments/{{item.EXPERIMENT_ID}}">View</td>
+          				</tr>
+          			</tbody>
+          		</table>
+            </div>
 		
     		<pagination 
     			total-items="items.length"
