@@ -12,6 +12,3 @@
 .table>thead>tr>th.sort {
   padding-right: 20px;
 }
-.table-striped > tbody {
-  background-color: white;
-}
