@@ -9,6 +9,7 @@ The Blueprint consortium expects this data to be valuable to other researchers. 
 ***
 Our data is available both from the sequence archives and from our own FTP site, and through data mining and browsing tools.
 
+<div class="table-responsive">
 <table summary="BLUEPRINT Data access summary" class="table table-striped">
 	<thead>
 		<tr>
@@ -41,6 +42,7 @@ Our data is available both from the sequence archives and from our own FTP site,
 		</tr>
 	</tbody>
 </table>
+</div>
 
 We provide two web pages to help find data. The [experiments](#/experiments) page
 provides links to experiment pages. These describe a particular assay
@@ -59,6 +61,7 @@ The majority of samples sequenced by Blueprint are consented for release via a m
 ###Processed data
 The alignments generated for our sequence data are also available from the EGA. All processed data types are available from our ftp site. The main types we make available are defined here:
 
+<div class="table-responsive">
 <table summary="BLUEPRINT Data Types" class="table table-striped">
 	<thead>
 	  <tr>
@@ -172,6 +175,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	  </tr>
 	</tbody>
 </table> 
+</div>
 
 ##FTP site
 The FTP site has 3 major sections listed here and described in more detail below:

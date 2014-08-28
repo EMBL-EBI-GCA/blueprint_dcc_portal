@@ -40,6 +40,7 @@ Command line:
 
 The program versions currently used within the pipeline:
 
+<div class="table-responsive">
 <table class="table table-striped">
   <thead>
     <tr><th>Tool</th><th>Step</th><th>Version</th></tr>
@@ -51,6 +52,7 @@ The program versions currently used within the pipeline:
     <tr><td>RSeQC </td><td>BAM statistics</td><td>2.3.7 </td></tr>
   </tbody>
 </table>
+</div>
 
 The other programs described below are CRG in-house tools or tools adapted from external programs. Those tools have no version information.
 
@@ -67,6 +69,7 @@ Command line:
 
 The parameters used for the mapping steps are the following:
 
+<div class="table-responsive">
 <table class="table table-striped">
 <thead>
   <tr><th>Parameter</th><th>Value</th></tr>  
@@ -79,6 +82,7 @@ The parameters used for the mapping steps are the following:
     <tr><td>max edit distance:</td><td>0.20</td></tr> 
 </tbody>
 </table>
+</div>
 
 ###Output
 
