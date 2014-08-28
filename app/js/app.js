@@ -11,7 +11,8 @@ var dependencies = [
   'ui.bootstrap',
   'markdown',
   'angulartics',
-  'angulartics.google.analytics'
+  'angulartics.google.analytics',
+  'ngAnimate'
 ];
 
 if (Modernizr.svg) {
