@@ -1,64 +1,67 @@
-<div>
-	<h1>Experiments</h1>
-	<hr/>
-</div>
+<div class="panel panel-default">
+  <div class="panel-body">
+    
+    <h1>Experiments</h1>
+    <hr/>
 
-<div class="row" ui-facets items="items">
-  <div class="col-md-3 fixd-width-lhs">
-    <!--Sidebar content-->
-		<ui-facets-clear text="Clear filters"></ui-facets-clear>
+    <div class="row" ui-facets items="items">
+      <div class="col-md-3 fixd-width-lhs">
+        <!--Sidebar content-->
+    		<ui-facets-clear text="Clear filters"></ui-facets-clear>
 		
-		<ui-facet title="Experiment" property="data" initial-values="initialExpValues"></ui-facet>
-		<ui-facet title="Cell type" property="CELL_TYPE"></ui-facet>
-		<ui-facet title="Cell line" property="CELL_LINE"></ui-facet>
-		<ui-facet title="Tissue" property="TISSUE_TYPE"></ui-facet>
-		<ui-facet title="Sex" property="DONOR_SEX"></ui-facet>
-		<ui-facet title="Donor" property="DONOR_ID"></ui-facet>
-  </div>
-  <div class="col-md-9 fixd-width-rhs">
-    <!--Body content-->
-		<pagination 
-			total-items="items.length"
-			ng-model="currentPage"
-			items-per-page="pageSize"
-			max-size="numPages"
-			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
+    		<ui-facet title="Experiment" property="data" initial-values="initialExpValues"></ui-facet>
+    		<ui-facet title="Cell type" property="CELL_TYPE"></ui-facet>
+    		<ui-facet title="Cell line" property="CELL_LINE"></ui-facet>
+    		<ui-facet title="Tissue" property="TISSUE_TYPE"></ui-facet>
+    		<ui-facet title="Sex" property="DONOR_SEX"></ui-facet>
+    		<ui-facet title="Donor" property="DONOR_ID"></ui-facet>
+      </div>
+      <div class="col-md-9 fixd-width-rhs">
+        <!--Body content-->
+    		<pagination 
+    			total-items="items.length"
+    			ng-model="currentPage"
+    			items-per-page="pageSize"
+    			max-size="numPages"
+    			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
 			
-			<div class="facet-filter">
-	    Search: <ui-facet-filter></ui-facet-filter>
-			</div>
-		<div class="experiments-wrapper">
-		<table class="experiments table table-striped">
-			<thead>
-				<tr class="slanted">
-					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_SOURCE'),sortDesc: (orderProp == '-SAMPLE_SOURCE')}" ng-click="order('SAMPLE_SOURCE')">Source</th>
-					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESCRIPTION'),sortDesc: (orderProp == '-SAMPLE_DESCRIPTION')}" ng-click="order('SAMPLE_DESCRIPTION')">Description</th>
-					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_NAME'),sortDesc: (orderProp == '-SAMPLE_NAME')}" ng-click="order('SAMPLE_NAME')">Name</th>
-					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'DONOR_SEX'),sortDesc: (orderProp == '-DONOR_SEX')}" ng-click="order('DONOR_SEX')">Sex</th>					
-					<th class="assays" ng-repeat="dt in datatypes"><div><span>{{dt}}</span></div></th>
-				</tr>
-			</thead>
-			<tbody id="results">				
-				<tr ng-repeat="item in items | orderBy:orderProp | pager:currentPage:pageSize">
-						<td>{{item.SAMPLE_SOURCE}}</td>
-						<td>{{item.SAMPLE_DESCRIPTION}}</td>
-						<td>{{item.SAMPLE_NAME}}</td>
-						<td>{{item.DONOR_SEX}}</td>
-						<td ng-repeat="dt in datatypes" class="assays" ng-class="{hasdata: item.data[dt]}">
-							<span ng-if="item.data[dt]">
-								<a href="#/experiments/{{item.data[dt]}}" popover="{{dt}}" popover-trigger="mouseenter">&#x25cf;</a>
-						  </span>
-						</td>
-				</tr>
-			</tbody>
-		</table>
-		</div>
-		<pagination 
-			total-items="items.length"
-			ng-model="currentPage"
-			items-per-page="pageSize"
-			max-size="numPages"
-			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
-	</div>
+    			<div class="facet-filter">
+    	    Search: <ui-facet-filter></ui-facet-filter>
+    			</div>
+    		<div class="experiments-wrapper table-responsive">
+    		<table class="experiments table table-striped">
+    			<thead>
+    				<tr class="slanted">
+    					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_SOURCE'),sortDesc: (orderProp == '-SAMPLE_SOURCE')}" ng-click="order('SAMPLE_SOURCE')">Source</th>
+    					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_DESCRIPTION'),sortDesc: (orderProp == '-SAMPLE_DESCRIPTION')}" ng-click="order('SAMPLE_DESCRIPTION')">Description</th>
+    					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'SAMPLE_NAME'),sortDesc: (orderProp == '-SAMPLE_NAME')}" ng-click="order('SAMPLE_NAME')">Name</th>
+    					<th class="reg sort" ng-class="{sortAsc: (orderProp == 'DONOR_SEX'),sortDesc: (orderProp == '-DONOR_SEX')}" ng-click="order('DONOR_SEX')">Sex</th>					
+    					<th class="assays" ng-repeat="dt in datatypes"><div><span>{{dt}}</span></div></th>
+    				</tr>
+    			</thead>
+    			<tbody id="results">				
+    				<tr ng-repeat="item in items | orderBy:orderProp | pager:currentPage:pageSize">
+    						<td>{{item.SAMPLE_SOURCE}}</td>
+    						<td>{{item.SAMPLE_DESCRIPTION}}</td>
+    						<td>{{item.SAMPLE_NAME}}</td>
+    						<td>{{item.DONOR_SEX}}</td>
+    						<td ng-repeat="dt in datatypes" class="assays" ng-class="{hasdata: item.data[dt]}">
+    							<span ng-if="item.data[dt]">
+    								<a href="#/experiments/{{item.data[dt]}}" popover="{{dt}}" popover-trigger="mouseenter">&#x25cf;</a>
+    						  </span>
+    						</td>
+    				</tr>
+    			</tbody>
+    		</table>
+    		</div>
+    		<pagination 
+    			total-items="items.length"
+    			ng-model="currentPage"
+    			items-per-page="pageSize"
+    			max-size="numPages"
+    			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
+    	</div>
+    </div>
+  </div>
 </div>
 
