@@ -206,7 +206,7 @@ The most recent release can be found at [current_release](ftp://ftp.ebi.ac.uk/pu
 
 A description for the data index and each analysis pipeline can be found here:
 
- * [Data Index](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data_index/homo_sapiensREADME.data.index)
+ * [Data Index](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data_index/homo_sapiens/README.data.index)
  * [Bisulphite-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/protocols/Analysis_protocols/README_bisulphite_analysis_CNAG)
  * [ChIP-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/protocols/Analysis_protocols/README_chipseq_analysis_ebi)
  * [Dnase-seq analysis](ftp://ftp.ebi.ac.uk/pub/databases/blueprint/protocols/Analysis_protocols/README_dnaseseq_analysis_ebi)
