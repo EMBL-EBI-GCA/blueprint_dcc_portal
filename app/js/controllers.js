@@ -115,7 +115,15 @@ controllers.controller('HomeCtrl', ['$scope', 'List', 'Item', 'Modernizr', '$loc
 /* Markdown */
 controllers.controller('MarkdownCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
-    $http.get('static/' + $routeParams.name + '.md', {
+    var path = 'static/';
+    
+    if ($routeParams.dir){
+      path += $routeParams.dir+'/';
+    }
+    
+    path += $routeParams.name + '.md';
+    
+    $http.get(path, {
       responseType: 'text'
     }).success(function(data) {
       $scope.content = data;

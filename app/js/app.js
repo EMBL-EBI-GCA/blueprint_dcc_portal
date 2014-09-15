@@ -41,6 +41,10 @@ dccPortal.config(['$routeProvider',
       templateUrl: 'partials/home.html',
       controller: 'HomeCtrl'
     }).
+    when('/md/:dir/:name', {
+      templateUrl: 'partials/markdown.html',
+      controller: 'MarkdownCtrl'
+    }).
     when('/md/:name', {
       templateUrl: 'partials/markdown.html',
       controller: 'MarkdownCtrl'
