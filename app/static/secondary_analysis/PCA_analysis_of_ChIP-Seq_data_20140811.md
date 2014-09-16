@@ -45,4 +45,4 @@ PDF files containing the following:
 [The Radboud Institute for Molecular Life Sciences](http://www.rimls.nl/)
 
 ## Contacts: 
-Hinri Kerstens <h.kerstens@ncmls.ru.nl>
+* [Hinri Kerstens](mailto:h.kerstens@ncmls.ru.nl)

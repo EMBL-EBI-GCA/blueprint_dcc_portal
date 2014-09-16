@@ -76,5 +76,5 @@ More details about ChromHmm software can be found in [the manual](http://compbio
 [Centro Nacional de Investigaciones Oncológicas](http://cnio.es)
 
 ## Contact
-Enrique Carrillo <ecarrillo@cnio.es>
+* [Enrique Carrillo](mailto:ecarrillo@cnio.es)
 

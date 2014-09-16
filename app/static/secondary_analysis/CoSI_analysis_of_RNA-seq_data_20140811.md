@@ -1,4 +1,4 @@
-# COSI and other sample specific RNA-Seq analysis
+# CoSI and other sample specific RNA-Seq analysis
 ***
 
 ## Analysis description
@@ -36,9 +36,10 @@ The information about read strandedness and length is taken automatically from t
 [Center for Genomic Regulation](http://crg.eu/)
 
 ## Contacts
-* Alessandra Breschi <Alessandra.Breschi@crg.eu>
-* Sarah Djebali <Sarah.Djebali@crg.eu>
-* Emilio Palumbo <Emilio.Palumbo@crg.eu>
-* Sebastian Ullrich <Sebastian.Ullrich@crg.eu>
-* Roderic Guigo Serra <roderic.guigo@crg.eu>
+
+* [Alessandra Breschi](mailto:Alessandra.Breschi@crg.eu)
+* [Sarah Djebali](mailto:Sarah.Djebali@crg.eu)
+* [Emilio Palumbo](mailto:Emilio.Palumbo@crg.eu)
+* [Sebastian Ullrich](mailto:Sebastian.Ullrich@crg.eu)
+* [Roderic Guigo Serra](mailto:roderic.guigo@crg.eu)
 

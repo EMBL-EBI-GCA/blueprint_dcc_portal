@@ -99,6 +99,5 @@ these features are not represented in the cell type specific annotation (Note: t
 [Ensembl, EMBL-EBI](http://www.ensembl.org/index.html)
 
 ## Contact
-
-Blueprint DCC <blueprint-info@ebi.ac.uk>
+* [Blueprint DCC](mailto:blueprint-info@ebi.ac.uk)
 

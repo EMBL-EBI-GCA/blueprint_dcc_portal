@@ -68,6 +68,6 @@ Samples: S001MJ
 [Max Planck Institute for Molecular Genetics](http://www.molgen.mpg.de/)
 
 ## Contact
-* Alena van Bömmel <mysickov@molgen.mpg.de>
-* Juliane Perner <perner@molgen.mpg.de>
+* [Alena van Bömmel](mailto:mysickov@molgen.mpg.de)
+* [Juliane Perner](mailto:perner@molgen.mpg.de)
 

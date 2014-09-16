@@ -77,4 +77,4 @@ Explicitely specified options for the RnBeads pipeline are:
 [Max Planck Institute for Informatics](http://mpi-inf.mpg.de)
 
 ##Contacts:
-Fabian Müller <fmueller@mpi-inf.mpg.de>
+* [Fabian Müller](mailto:fmueller@mpi-inf.mpg.de)
