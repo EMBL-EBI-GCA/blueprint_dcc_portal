@@ -22,7 +22,7 @@ The primary analysis results (processed) can be found in the <a href="http://ftp
 		</tr>
 	</thead>
 	<tbody>
-		<td>COSI and other sample specific RNA-Seq analysis</td>
+		<td>CoSI and other sample specific RNA-Seq analysis</td>
 			<td><a href="http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/secondary_analysis/CoSI_analysis_of_RNA-seq_data">FTP</a></td>
 			<td><a href="#/md/secondary_analysis/CoSI_analysis_of_RNA-seq_data_20140811">link</a></td>
 			<td><a href="http://crg.eu/">CRG</a></td>
