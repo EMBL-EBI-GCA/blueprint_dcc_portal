@@ -177,6 +177,10 @@ The alignments generated for our sequence data are also available from the EGA. 
 </table> 
 </div>
 
+###Secondary analysis
+
+Secondary analysis results are made available as part of the data release cycle. The methods and how to access the results are listed on the [secondary analysis page](#/md/secondary_analysis). 
+
 ##FTP site
 The FTP site has 3 major sections listed here and described in more detail below:
 
