@@ -30,8 +30,9 @@
         <h2 class="panel-title">News</h2>
       </div>
       <div class="panel-body">
-        <h3>Data release - August 2014</h3>
-        <p>The fifth Blueprint data release is now available. Within BLUEPRINT we isolated cells from 4 Bone marrow, 18 Venous blood, 25 Cord blood, 1 Tonsil and 7 Cell line samples and performed epigenomic analysis including RNA-seq, DNAme-seq, DNAseI-seq and 8 different ChIP-seq experiments. This release includes  data from monocytes, granulocyte neutrophils, eosinophils, macrophages ( M0 , M1 and M2 ), naive CD4+ and naive CD8+ cells apart from 7 cell line samples. Future releases of data for additional samples are planned at a regular basis.</p>
+        <h3><b>{{latestNews.date}}:</b> {{latestNews.headline}}</h3>
+        <div ng-bind-html="latestNews.content | markdown"></div>
+        <a href="#/news" class="btn btn-default">All news</a>
       </div>
     </div>
   </div>

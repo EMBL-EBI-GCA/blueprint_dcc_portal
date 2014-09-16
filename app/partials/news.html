@@ -1,0 +1,13 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    
+    <h1>News</h1>
+    <hr/>
+    
+    <div class="newsItem" ng-repeat="newsItem in news">
+      <h2><b class="date">{{newsItem.date}}:</b> {{newsItem.headline}}</h2>
+      <div ng-bind-html="newsItem.content | markdown"></div>
+    </div>  
+    
+  </div>
+</div>

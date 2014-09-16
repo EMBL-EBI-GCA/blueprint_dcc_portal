@@ -79,6 +79,18 @@ controllers.controller('FileListCtrl', ['$scope', 'List',
   }
 ]);
 
+/*News*/
+controllers.controller('NewsCtrl', ['$scope', 'List',
+  function($scope, List) {
+    $scope.news = List.query({
+      name: 'news'
+    });
+    $scope.news.$promise.then(function(data) {
+      $scope.new = data;
+    });
+  }
+]);
+
 /* Home */
 controllers.controller('HomeCtrl', ['$scope', 'List', 'Item', 'Modernizr', '$location', 'sharedProperty',
   function($scope, List, Item, Modernizr, $location, sharedProperty) {
@@ -92,6 +104,16 @@ controllers.controller('HomeCtrl', ['$scope', 'List', 'Item', 'Modernizr', '$loc
         name: 'progress'
       })
     };
+    $scope.latestNews = {};
+    var news = List.query({
+      name: 'news'
+    });
+    news.$promise.then(function(data) {
+      if (data[0]) {
+        $scope.latestNews = data[0];
+      }
+    });
+
     $scope.supportsSvg = Modernizr.svg;
 
     $scope.counts.terms.$promise.then(function(data) {
@@ -115,14 +137,15 @@ controllers.controller('HomeCtrl', ['$scope', 'List', 'Item', 'Modernizr', '$loc
 /* Markdown */
 controllers.controller('MarkdownCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
+
     var path = 'static/';
-    
-    if ($routeParams.dir){
-      path += $routeParams.dir+'/';
+
+    if ($routeParams.dir) {
+      path += $routeParams.dir + '/';
     }
-    
+
     path += $routeParams.name + '.md';
-    
+
     $http.get(path, {
       responseType: 'text'
     }).success(function(data) {

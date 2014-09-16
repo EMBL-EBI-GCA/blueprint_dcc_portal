@@ -49,6 +49,10 @@ dccPortal.config(['$routeProvider',
       templateUrl: 'partials/markdown.html',
       controller: 'MarkdownCtrl'
     }).
+    when('/news', {
+      templateUrl: 'partials/news.html',
+      controller: 'NewsCtrl'
+    }).
     otherwise({
       redirectTo: '/home'
     });
