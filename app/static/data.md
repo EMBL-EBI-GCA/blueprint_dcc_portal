@@ -56,7 +56,7 @@ hand menus.
 
 ###Raw data
 
-The majority of samples sequenced by Blueprint are consented for release via a managed access system. To facilitate this we have archived the data in the <a href="https://www.ebi.ac.uk/ega/dacs/EGAC00001000135"><abbr title="European Genome-phenome Archive">EGA</abbr></a>. Users can apply to download data. The process for this can be found on our Data Access Page. Data for samples that do not require managed access have been archived with the <a href="https://www.ebi.ac.uk/ena"><abbr title="European Nucleotide Archive">ENA</abbr></a>. In each case, links to the raw data can be found through the [experiment grid](#/experiments). 
+The majority of samples sequenced by Blueprint are consented for release via a managed access system. To facilitate this we have archived the data in the <a href="https://www.ebi.ac.uk/ega/dacs/EGAC00001000135"><abbr title="European Genome-phenome Archive">EGA</abbr></a>. Users can apply to download data. The process and forms for this can be found on our [DAC applications page](#/md/dac_applications). Data for samples that do not require managed access have been archived with the <a href="https://www.ebi.ac.uk/ena"><abbr title="European Nucleotide Archive">ENA</abbr></a>. In each case, links to the raw data can be found through the [experiment grid](#/experiments). 
 
 ###Processed data
 The alignments generated for our sequence data are also available from the EGA. All processed data types are available from our ftp site. The main types we make available are defined here:
