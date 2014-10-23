@@ -29,9 +29,9 @@ Command line used:
 
 ##Peak Calling
 
-Hotspot v3 is used for tracing DNaseI hypersensitive genomic regions.
+Hotspot v3 is used for tracing DNaseI hypersensitive genomic regions, with an FDR of 0.05.
 
-File paths in runall.tokens.txt were adjusted to our local implementation according to the instructions in the Hotspot documentation. A K-mer size of 36 was used in the analyses and the included hg19.K36.mappable_only.bed file was used to mark the uniquely mappable regions in the hg19 genome.
+File paths in runall.tokens.txt were adjusted to our local implementation according to the instructions in the Hotspot documentation. A K-mer size of 36 was used in the analyses and the included hg19.K36.mappable_only.bed file was used to mark the uniquely mappable regions in the hg19 genome. 
 
 Hotspots runs were performed by modifying the variable _TAGS_ to point to the BAM file.
 

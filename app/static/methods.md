@@ -9,7 +9,7 @@ Members of the consortium have developed pipelines to analyse the data produced 
 
 * BS-seqreads are aligned using GEM, and methylation status is deterimned with bs\_call. ([link](#/md/bs_seq)) 
 * ChIP-seq reads are aligned using BWA and enriched regions are called using MACS2. ([link](#/md/chip_seq))
-* DNAse-seq reads are aligned using BWA and enriched regions are called using MACS2. ([link](#/md/dnase_seq))
+* DNAse-seq reads are aligned using BWA and enriched regions are called using Hotspot. ([link](#/md/dnase_seq))
 * RNA-seq reads are aligned using GEM and transcription is quantified with FLUX capacitor. ([link](#/md/rna_seq))
 * For a subset of samples (progenitor cells), RNA-seq reads are aligned to the transcriptome using bowtie and transcription is quantified with MMSEQ. ([link](#/md/rna_seq_cu))
  
