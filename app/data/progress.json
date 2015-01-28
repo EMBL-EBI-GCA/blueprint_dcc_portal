@@ -1,22 +1,26 @@
 [
     {
         "count": 28, 
-        "term": "March 2013"
+        "term": "03-2013"
     }, 
     {
         "count": 120, 
-        "term": "June 2013"
+        "term": "06-2013"
     }, 
     {
         "count": 171, 
-        "term": "September 2013"
+        "term": "09-2013"
     }, 
     {
         "count": 259, 
-        "term": "March 2014"
+        "term": "03-2014"
     }, 
     {
         "count": 367, 
-        "term": "August 2014"
+        "term": "08-2014"
+    },
+    {
+        "count": 736,
+        "term": "01-2015"
     }
 ]
