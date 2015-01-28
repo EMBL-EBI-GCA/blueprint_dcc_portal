@@ -1,5 +1,10 @@
 [
   {
+    "headline": "Data release - January 2015",
+    "date": "28 January 2015",
+    "content": "The sixth Blueprint data release is now available. Within Blueprint we have so far isolated cells from 11 Bone marrow, 64 Venous blood, 46 Cord blood, 1 Tonsil and 7 Cell line samples and performed epigenomic analysis including RNA-seq, DNAme-seq, DNAseI-seq and 8 different ChIP-seq experiments. This release includes data from monocytes, granulocyte neutrophils, eosinophils, macrophages ( M0 , M1 and M2 ), naive CD4+ and naive CD8+ cells and cell line samples. Future releases of data for additional samples are planned at a regular basis."    
+  },
+  {
     "headline": "Secondary analysis release",
     "date": "16 September 2014",
     "content": "The secondary analysis results based on the August data release are [now available](#/md/secondary_analysis). This release contains the following analysis:\n\n* Completed splicing index (CoSI)\n* Ensembl regulatory build based on BLUEPRINT data\n* PCA analysis of ChIP-seq data\n* RnBeads analysis of methylation data\n* ChromHmm Segmentation of ChIP-Seq data\n* Cell-type specific DNase-hypersensitive sites and co-occurring transcription factors analysis\n\nFor more details, see the [secondary analysis page](#/md/secondary_analysis)."
