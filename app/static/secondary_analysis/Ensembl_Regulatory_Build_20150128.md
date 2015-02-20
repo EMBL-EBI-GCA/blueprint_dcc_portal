@@ -13,9 +13,9 @@ For more details, see [README](http://ftp.ebi.ac.uk/pub/databases/blueprint/rele
 [FTP](http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20150128/homo_sapiens/secondary_analysis/Ensembl_Regulatory_Build/)
 
 ## Trackhub link
-* [Hub](http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20150128/homo_sapiens/secondary_analysis/Ensembl_Regulatory_Build/README_ensembl_regulatory_build_20150128)
-* [UCSC](http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&amp;hubUrl=http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20150128/homo_sapiens/secondary_analysis/Ensembl_Regulatory_Build/README_ensembl_regulatory_build_20150128)
-* [Ensembl](http://grch37.ensembl.org/Homo_sapiens/Location/View?g=ENSG00000130544;contigviewbottom=url:http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20150128/homo_sapiens/secondary_analysis/Ensembl_Regulatory_Build/README_ensembl_regulatory_build_20150128;format=DATAHUB;menu=Ensembl) 
+* [Hub](http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20150128/homo_sapiens/secondary_analysis/Ensembl_Regulatory_Build/hub.txt)
+* [UCSC](http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&amp;hubUrl=http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20150128/homo_sapiens/secondary_analysis/Ensembl_Regulatory_Build/hub.txt)
+* [Ensembl](http://grch37.ensembl.org/Homo_sapiens/Location/View?g=ENSG00000130544;contigviewbottom=url:http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20150128/homo_sapiens/secondary_analysis/Ensembl_Regulatory_Build/hub.txt;format=DATAHUB;menu=Ensembl) 
 
 ## Files Description
 * hg19/overview/ReBuild.bb: BigBed file containing the Regulatory Features, defining their function.
