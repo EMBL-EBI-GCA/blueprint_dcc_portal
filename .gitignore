@@ -1,3 +1,4 @@
+app/npm-debug.log
 logs/*
 !.gitkeep
 node_modules/

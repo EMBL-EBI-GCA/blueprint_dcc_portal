@@ -1,5 +1,10 @@
 [
   {
+    "headline": "Secondary analysis release",
+    "date": "20 Febuary 2015",
+    "content": "The secondary analysis results of fifth Blueprint data release is now [available](#/md/secondary_analysis). This release includes data from monocytes, granulocyte neutrophils, eosinophils, macrophages ( M0 , M1 and M2 ), naive CD4+ and naive CD8+ cells of 11 Bone marrow, 64 Venous blood, 46 Cord blood, 1 Tonsil and 7 Cell line samples and performed epigenomic analysis including RNA-seq, DNAme-seq, DNAseI-seq and 8 different ChIP-seq experiments. Future  releases of data for additional samples are planned at a regular basis. The primary analysis results (processed) can be found in the [FTP](http://ftp.ebi.ac.uk/pub/databases/blueprint/data/). More information on Blueprint data access can be found [here](http://dcc.blueprint-epigenome.eu/#/md/data)."
+  },
+  {
     "headline": "Data release - January 2015",
     "date": "28 January 2015",
     "content": "The sixth Blueprint data release is now available. Within Blueprint we have so far isolated cells from 11 Bone marrow, 64 Venous blood, 46 Cord blood, 1 Tonsil and 7 Cell line samples and performed epigenomic analysis including RNA-seq, DNAme-seq, DNAseI-seq and 8 different ChIP-seq experiments. This release includes data from monocytes, granulocyte neutrophils, eosinophils, macrophages ( M0 , M1 and M2 ), naive CD4+ and naive CD8+ cells and cell line samples. Future releases of data for additional samples are planned at a regular basis."    
