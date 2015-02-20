@@ -17,9 +17,11 @@ Members of the consortium have developed pipelines to analyse the data produced 
 
 The secondary analysis products are described in more detail [here](#/md/secondary_analysis).
 
-* CoSI and other sample specific RNA-Seq analysis. ([link](#/md/secondary_analysis/CoSI_analysis_of_RNA-seq_data_20140811))
-* Ensembl Regulatory Build with cell type specific activity ([link](#/md/secondary_analysis/Ensembl_Regulatory_Build_20140811))
-* PCA analysis of ChIP-Seq data ([link](#/md/secondary_analysis/PCA_analysis_of_ChIP-Seq_data_20140811))
-* RnBeads analysis of DNA methylation profiles ([link](#/md/secondary_analysis/RnBeads_analysis_for_Methylation_data_20140811))
-* ChromHmm Segmentation of ChIP-Seq data ([link](#/md/secondary_analysis/Segmentation_of_ChIP-Seq_data_20140811))
-* Cell-type specific DNase-hypersensitive sites and co-occurring transcription factors analysis ([link](#/md/secondary_analysis/Cell-type_specific_DNase-hypersensitive_sites_20140811))
+* Cell-type specific DNase-hypersensitive sites and co-occurring transcription factors analysis ([link](#/md/secondary_analysis/Cell-type_specific_DNase-hypersensitive_sites_20150128))
+* CoSI and other sample specific RNA-Seq analysis ([link](#/md/secondary_analysis/CoSI_analysis_of_RNA-seq_data_20150128))
+* Ensembl Regulatory Build with cell type specific activity ([link](#/md/secondary_analysis/Ensembl_Regulatory_Build_20150128))
+* Nucleosome detection and histone annotation ([link](#/md/secondary_analysis/Nucleosome_detection_and_histone_annotation_20150128))
+* PCA analysis of ChIP-Seq data ([link](#/md/secondary_analysis/PCA_analysis_of_ChIP-Seq_data_20150128))
+* RnBeads analysis of DNA methylation profiles ([link](#/md/secondary_analysis/RnBeads_analysis_for_Methylation_data_20150128))
+* ChromHmm Segmentation of ChIP-Seq data ([link](#/md/secondary_analysis/Segmentation_of_ChIP-Seq_data_20150128))
+
