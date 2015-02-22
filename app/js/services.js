@@ -21,13 +21,14 @@ services.factory('List', ['$resource',
 
 services.factory('Item', ['$resource',
   function($resource) {
-    return $resource('data/:name.json', {}, {
+    return $resource('http://127.0.0.1:9200/blueprint/:type/:name', {}, {
       query: {
         method: 'GET',
         isArray: false,
         params: {
-          name: 'experiment_counts'
-        }
+          name: '_count',
+          type: 'experiment',
+        },
       }
     });
   }

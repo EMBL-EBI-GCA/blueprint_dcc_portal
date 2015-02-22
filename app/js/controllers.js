@@ -47,11 +47,12 @@ controllers.controller('ExperimentListCtrl', ['$scope', 'List', 'sharedProperty'
 
 controllers.controller('ExperimentDetailCtrl', ['$scope', '$routeParams', 'Item',
   function($scope, $routeParams, Item) {
-    $scope.data = Item.get({
-      name: $routeParams.experimentId
+    $scope.data = Item.query({
+      name: $routeParams.experimentId,
+      type: 'experiment',
     });
     $scope.data.$promise.then(function(exp) {
-      $scope.data = exp;
+      $scope.data = exp._source;
     });
   }
 ]);
