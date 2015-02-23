@@ -2,7 +2,16 @@
 
 /* Services */
 
-var services = angular.module('dccPortal.services', ['ngResource']);
+var services = angular.module('dccPortal.services', ['ngResource', 'elasticsearch']);
+
+services.service('esClient', ['esFactory',
+  function(esFactory) {
+      return esFactory({
+          host: '127.0.0.1:3000',
+          apiVersion: '1.3'
+      });
+  }
+]);
 
 services.factory('List', ['$resource',
   function($resource) {
@@ -14,21 +23,6 @@ services.factory('List', ['$resource',
           name: 'experiments'
         },
         isArray: true
-      }
-    });
-  }
-]);
-
-services.factory('Item', ['$resource',
-  function($resource) {
-    return $resource('http://127.0.0.1:9200/blueprint/:type/:name', {}, {
-      query: {
-        method: 'GET',
-        isArray: false,
-        params: {
-          name: '_count',
-          type: 'experiment',
-        },
       }
     });
   }

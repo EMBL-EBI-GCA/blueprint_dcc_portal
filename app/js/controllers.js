@@ -45,14 +45,14 @@ controllers.controller('ExperimentListCtrl', ['$scope', 'List', 'sharedProperty'
   }
 ]);
 
-controllers.controller('ExperimentDetailCtrl', ['$scope', '$routeParams', 'Item',
-  function($scope, $routeParams, Item) {
-    $scope.data = Item.query({
-      name: $routeParams.experimentId,
-      type: 'experiment',
-    });
-    $scope.data.$promise.then(function(exp) {
-      $scope.data = exp._source;
+controllers.controller('ExperimentDetailCtrl', ['$scope', '$routeParams', 'esClient',
+  function($scope, $routeParams, esClient) {
+    $scope.data = esClient.getSource({
+        index: 'blueprint',
+        type: 'experiment',
+        id: $routeParams.experimentId
+    }).then(function(resp) {
+        $scope.data = resp;
     });
   }
 ]);

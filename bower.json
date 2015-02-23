@@ -15,7 +15,8 @@
         "jquery" : "1.11.1",
         "respond": "1.4.2",
         "json2": "3d7767b6b1",
-        "angulartics": "0.16.3"
+        "angulartics": "0.16.3",
+        "elasticsearch": "3.1.2"
     }, 
     "description": "A simple DCC portal using AngularJS", 
     "homepage": "https://github.com/davidrichardson/dcc_portal", 
