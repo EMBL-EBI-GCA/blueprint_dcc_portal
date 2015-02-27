@@ -9,7 +9,15 @@ p {
 hr {
   margin: 15px 0;
 }
-
+/* In table lists of ontology links */
+ul.onto_links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.onto_links li{
+  display: inline;
+}
 /* svg fix for safari */
 svg {
   height: 100%;
@@ -21,7 +29,6 @@ div.tsv_download {
   text-align: right;
   clear: right;
 }
-
 /*Print icon*/
 div.print {
   position: relative;
