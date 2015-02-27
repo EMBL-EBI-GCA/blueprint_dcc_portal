@@ -1,0 +1,73 @@
+{
+   "analysis_spreadsheet_file_name" : "EGAD00001000909_BisulfiteSeq_erythroblast_2014_08_analysis_files.tsv",
+   "release" : "2014-08",
+   "dataset_id" : "EGAD00001000909",
+   "description" : "Bisulfite-Seq data for 1 erythroblast sample(s). 14 run(s), 1 experiment(s), 1 alignment(s). Part of BLUEPRINT release August 2014. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_bisulphite_analysis_CNAG_20140811",
+   "runs_spreadsheet_file_name" : "EGAD00001000909_BisulfiteSeq_erythroblast_2014_08_run_files.tsv",
+   "run_files" : [],
+   "short_description" : "Bisulfite-Seq for erythroblast",
+   "data_type" : "Bisulfite-Seq",
+   "title" : "BLUEPRINT release August 2014, Bisulfite-Seq for erythroblast",
+   "sample_type" : "erythroblast",
+   "alias" : "BP_August_2014_Bisulfite-Seq_erythroblast",
+   "analysis_files" : [
+      {
+         "withdrawn" : "-",
+         "FILE" : "S002S351.BS.gem_cnag_bs.20140106.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "S002S3",
+         "STUDY_ID" : "ERP002159",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000765",
+               "label" : "CL_0000765"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0012168",
+               "label" : "UBERON_0012168"
+            }
+         ],
+         "DONOR_ID" : "S002S3",
+         "SAMPLE_DESC_1" : "Cord blood",
+         "FIRST_SUBMISSION_DATE" : "09-DEC-2013 09:51:12",
+         "READ_QUALITIES" : "-",
+         "STUDY_NAME" : "Bisulfite-Seq",
+         "BIOMATERIAL_PROVIDER" : "NIHR Cambridge BioResource",
+         "LIBRARY_STRATEGY" : "Bisulfite-Seq",
+         "TISSUE_TYPE" : "Cord blood",
+         "DONOR_REGION_OF_RESIDENCE" : "East Anglia",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "READ_STRAND" : "-",
+         "EXPERIMENT_ID" : "ERX353596",
+         "type" : "BS_BAM_CNAG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
+         "DISEASE" : "None",
+         "CELL_TYPE" : "erythroblast",
+         "SEQ_RUNS_COUNT" : "14",
+         "DISEASE_ONTOLOGY_URI" : [],
+         "SPECIMEN_PROCESSING" : "fresh",
+         "CENTER_NAME" : "CNAG",
+         "LIBRARY_NAME" : "852G_BS",
+         "FILE_SIZE" : "149663437709",
+         "SAMPLE_DESC_3" : "erythroblast",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "NA",
+         "DONOR_HEALTH_STATUS" : "NA",
+         "MOLECULE" : "genomic DNA",
+         "DONOR_AGE" : "-",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "SAMPLE_ID" : "ERS358627",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell Culture",
+         "FILE_MD5" : "1a33907f6420d5d5defca197bc02d973",
+         "SAMPLE_NAME" : "S002S351",
+         "POOL_ID" : "-",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "NA"
+      }
+   ]
+}
