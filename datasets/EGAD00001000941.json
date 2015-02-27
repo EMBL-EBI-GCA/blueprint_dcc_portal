@@ -1,0 +1,12 @@
+{
+   "release" : "2014-08",
+   "dataset_id" : "EGAD00001000941",
+   "description" : "Bisulfite-Seq data for 6 CD14-positive, CD16-negative classical monocyte sample(s). 86 run(s), 6 experiment(s), 6 alignment(s). Part of BLUEPRINT release August 2014. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_bisulphite_analysis_CNAG_20140811",
+   "run_files" : [],
+   "short_description" : "Bisulfite-Seq for CD14-positive, CD16-negative classical monocyte",
+   "data_type" : "Bisulfite-Seq",
+   "title" : "BLUEPRINT release August 2014, Bisulfite-Seq for CD14-positive, CD16-negative classical monocyte",
+   "sample_type" : "CD14-positive, CD16-negative classical monocyte",
+   "alias" : "BP_August_2014_Bisulfite-Seq_CD14-positive,_CD16-negative_classical_monocyte",
+   "analysis_files" : []
+}

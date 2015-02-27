@@ -21,7 +21,7 @@ services.factory('List', ['$resource',
 
 services.factory('Item', ['$resource',
   function($resource) {
-    return $resource('data/:name.json', {}, {
+    return $resource('data/:type/:name.json', {}, {
       query: {
         method: 'GET',
         isArray: false,

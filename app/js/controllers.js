@@ -45,10 +45,12 @@ controllers.controller('ExperimentListCtrl', ['$scope', 'List', 'sharedProperty'
   }
 ]);
 
+
 controllers.controller('ExperimentDetailCtrl', ['$scope', '$routeParams', 'Item',
   function($scope, $routeParams, Item) {
     $scope.data = Item.get({
-      name: $routeParams.experimentId
+      name: $routeParams.experimentId,
+      type: 'experiments'
     });
     $scope.data.$promise.then(function(exp) {
       $scope.data = exp;
@@ -76,6 +78,43 @@ controllers.controller('FileListCtrl', ['$scope', 'List',
         $scope.orderProp = order;
       }
     }
+  }
+]);
+
+/* DatasetListCtrl */
+controllers.controller('DatasetListCtrl', ['$scope', 'List',
+  function($scope, List) {
+    $scope.items = List.query({
+      name: 'datasets'
+    });
+    $scope.items.$promise.then(function(data) {
+      $scope.items = data;
+    });
+    $scope.orderProp = 'short_description';
+    $scope.numPages = 5;
+    $scope.pageSize = 35;
+    $scope.currentPage = 1;
+    $scope.order = function(order) {
+      if ($scope.orderProp == order) {
+        $scope.orderProp = '-' + order;
+      } else {
+        $scope.orderProp = order;
+      }
+    }
+  }
+]);
+
+/* DatasetDetailCtrl */
+controllers.controller('DatasetDetailCtrl', ['$scope', '$routeParams', 'Item',
+  function($scope, $routeParams, Item) {
+    $scope.data = Item.get({
+      name: $routeParams.datasetId,
+      type: 'datasets'
+    });
+    $scope.data.$promise.then(function(data) {
+      $scope.data = data;
+    });
+    $scope.ftp_dataset_root = 'http://ftp.ebi.ac.uk/pub/databases/blueprint/ega_dataset/'
   }
 ]);
 

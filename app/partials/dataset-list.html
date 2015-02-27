@@ -1,0 +1,62 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    
+    <h1>EGA Datasets</h1>
+    <hr/>
+
+    <div class="row" ui-facets items="items">
+      <div class="col-md-3 fixd-width-lhs">
+        <!--Sidebar content-->
+      		<ui-facets-clear text="Clear filters"></ui-facets-clear>
+		
+    			<ui-facet title="Release" property="release"></ui-facet>
+    			<ui-facet title="Data type" property="data_type"></ui-facet>
+    			<ui-facet title="Sample type" property="sample_type"></ui-facet>
+      </div>
+	
+      <div class="col-md-9 fixd-width-rhs">
+        <!--Body content-->
+    		<pagination 
+    			total-items="items.length"
+    			ng-model="currentPage"
+    			items-per-page="pageSize"
+    			max-size="numPages"
+    			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
+
+    			<div class="facet-filter">
+    	    	<ui-facet-filter></ui-facet-filter>
+    			</div>
+          <div class="table-responsive">
+        		<table class="table table-striped">
+        			<thead>
+        				<tr>          		      
+										<th class="sort" ng-class="{sortAsc: (orderProp == 'dataset_id'),sortDesc: (orderProp == '-dataset_id')}" ng-click="order('dataset_id')">ID</th>									 
+          					<th class="sort" ng-class="{sortAsc: (orderProp == 'release'),sortDesc: (orderProp == '-release')}" ng-click="order('release')">Release</th>
+          					<th class="sort" ng-class="{sortAsc: (orderProp == 'data_type'),sortDesc: (orderProp == '-data_type')}" ng-click="order('data_type')">Description</th>
+          				
+          		      <th/>
+          				</tr>
+          			</thead>
+          			<tbody id="results">				
+          				<tr ng-repeat="item in items | orderBy:orderProp | pager:currentPage:pageSize">
+										<td><a class="btn btn-link" ng-href="#/datasets/{{item.dataset_id}}">{{item.dataset_id}}</a></td>
+          		      <td>{{item.release}}</td>
+          		      <td>{{item.short_description}}</td>
+          				</tr>
+          			</tbody>
+          		</table>
+            </div>
+		
+    		<pagination 
+    			total-items="items.length"
+    			ng-model="currentPage"
+    			items-per-page="pageSize"
+    			max-size="numPages"
+    			class="pagination-sm" boundary-links="true" rotate="false" ></pagination>
+    	</div>
+
+    </div>
+
+  </div>
+</div>
+

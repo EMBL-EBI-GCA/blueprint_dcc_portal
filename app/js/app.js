@@ -37,6 +37,14 @@ dccPortal.config(['$routeProvider',
       templateUrl: 'partials/file-list.html',
       controller: 'FileListCtrl'
     }).
+    when('/datasets/:datasetId', {
+      templateUrl: 'partials/dataset-detail.html',
+      controller: 'DatasetDetailCtrl'
+    }).
+    when('/datasets', {
+      templateUrl: 'partials/dataset-list.html',
+      controller: 'DatasetListCtrl'
+    }).
     when('/home', {
       templateUrl: 'partials/home.html',
       controller: 'HomeCtrl'

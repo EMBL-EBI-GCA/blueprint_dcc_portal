@@ -1,0 +1,12 @@
+{
+   "release" : "2014-08",
+   "dataset_id" : "EGAD00001000917",
+   "description" : "Bisulfite-Seq data for 1 hematopoietic multipotent progenitor cell sample(s). 8 run(s), 1 experiment(s), 1 alignment(s). Part of BLUEPRINT release August 2014. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_bisulphite_analysis_CNAG_20140811",
+   "run_files" : [],
+   "short_description" : "Bisulfite-Seq for hematopoietic multipotent progenitor cell",
+   "data_type" : "Bisulfite-Seq",
+   "title" : "BLUEPRINT release August 2014, Bisulfite-Seq for hematopoietic multipotent progenitor cell",
+   "sample_type" : "hematopoietic multipotent progenitor cell",
+   "alias" : "BP_August_2014_Bisulfite-Seq_hematopoietic_multipotent_progenitor_cell",
+   "analysis_files" : []
+}

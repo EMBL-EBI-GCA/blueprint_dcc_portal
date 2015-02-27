@@ -1,0 +1,12 @@
+{
+   "release" : "2014-08",
+   "dataset_id" : "EGAD00001000923",
+   "description" : "Bisulfite-Seq data for 1 macrophage sample(s). 14 run(s), 1 experiment(s), 1 alignment(s). Part of BLUEPRINT release August 2014. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_bisulphite_analysis_CNAG_20140811",
+   "run_files" : [],
+   "short_description" : "Bisulfite-Seq for macrophage",
+   "data_type" : "Bisulfite-Seq",
+   "title" : "BLUEPRINT release August 2014, Bisulfite-Seq for macrophage",
+   "sample_type" : "macrophage",
+   "alias" : "BP_August_2014_Bisulfite-Seq_macrophage",
+   "analysis_files" : []
+}

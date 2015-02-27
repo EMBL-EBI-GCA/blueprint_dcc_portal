@@ -1,0 +1,12 @@
+{
+   "release" : "2014-08",
+   "dataset_id" : "EGAD00001000934",
+   "description" : "Bisulfite-Seq data for 2 Multiple myeloma sample(s). 16 run(s), 2 experiment(s), 2 alignment(s). Part of BLUEPRINT release August 2014. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_bisulphite_analysis_CNAG_20140811",
+   "run_files" : [],
+   "short_description" : "Bisulfite-Seq for Multiple myeloma",
+   "data_type" : "Bisulfite-Seq",
+   "title" : "BLUEPRINT release August 2014, Bisulfite-Seq for Multiple myeloma",
+   "sample_type" : "Multiple myeloma",
+   "alias" : "BP_August_2014_Bisulfite-Seq_Multiple_myeloma",
+   "analysis_files" : []
+}

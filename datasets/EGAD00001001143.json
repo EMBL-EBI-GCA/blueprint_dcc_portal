@@ -1,0 +1,12 @@
+{
+   "release" : "2015-01",
+   "dataset_id" : "EGAD00001001143",
+   "description" : "Bisulfite-Seq data for 4 alternatively activated macrophage sample(s). 64 run(s), 4 experiment(s), 4 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_bisulphite_analysis_CNAG_20140811",
+   "run_files" : [],
+   "short_description" : "Bisulfite-Seq for alternatively activated macrophage",
+   "data_type" : "Bisulfite-Seq",
+   "title" : "BLUEPRINT release January 2015, Bisulfite-Seq for alternatively activated macrophage",
+   "sample_type" : "alternatively activated macrophage",
+   "alias" : "BP_January_2015_Bisulfite-Seq_alternatively_activated_macrophage",
+   "analysis_files" : []
+}

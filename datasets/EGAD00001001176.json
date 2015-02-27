@@ -1,0 +1,12 @@
+{
+   "release" : "2015-01",
+   "dataset_id" : "EGAD00001001176",
+   "description" : "Bisulfite-Seq data for 1 class switched memory B cell sample(s). 20 run(s), 1 experiment(s), 1 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_bisulphite_analysis_CNAG_20140811",
+   "run_files" : [],
+   "short_description" : "Bisulfite-Seq for class switched memory B cell",
+   "data_type" : "Bisulfite-Seq",
+   "title" : "BLUEPRINT release January 2015, Bisulfite-Seq for class switched memory B cell",
+   "sample_type" : "class switched memory B cell",
+   "alias" : "BP_January_2015_Bisulfite-Seq_class_switched_memory_B_cell",
+   "analysis_files" : []
+}
