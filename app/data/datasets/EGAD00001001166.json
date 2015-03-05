@@ -7,7 +7,7 @@
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",
-         "FILE" : "140618_SN935_0195_A_C42K0ACXX_GTCCGC_3_read1.fastq.gz",
+         "FILE" : "140618_SN935_0195_A_C42K0ACXX_GTCCGC_3_read2.fastq.gz",
          "TREATMENT" : "-",
          "SAMPLE_DESC_2" : "S00DCS",
          "STUDY_ID" : "ERP001664",
@@ -22,7 +22,7 @@
             }
          ],
          "DONOR_ID" : "S00DCS",
-         "MD5" : "ac89a7a1f9df155c43d5b7f8d16676c5",
+         "MD5" : "a787c1e40d517c19e7b126ec08371469",
          "SAMPLE_DESC_1" : "Cord blood",
          "FIRST_SUBMISSION_DATE" : "22-JUL-2014 14:28:17",
          "READ_QUALITIES" : "phred",
@@ -63,7 +63,7 @@
       },
       {
          "GENETIC_CHARACTERISTICS" : "-",
-         "FILE" : "140618_SN935_0195_A_C42K0ACXX_GTCCGC_3_read2.fastq.gz",
+         "FILE" : "140618_SN935_0195_A_C42K0ACXX_GTCCGC_3_read1.fastq.gz",
          "TREATMENT" : "-",
          "SAMPLE_DESC_2" : "S00DCS",
          "STUDY_ID" : "ERP001664",
@@ -78,7 +78,7 @@
             }
          ],
          "DONOR_ID" : "S00DCS",
-         "MD5" : "a787c1e40d517c19e7b126ec08371469",
+         "MD5" : "ac89a7a1f9df155c43d5b7f8d16676c5",
          "SAMPLE_DESC_1" : "Cord blood",
          "FIRST_SUBMISSION_DATE" : "22-JUL-2014 14:28:17",
          "READ_QUALITIES" : "phred",

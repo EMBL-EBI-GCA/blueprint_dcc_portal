@@ -7,7 +7,7 @@
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",
-         "FILE" : "130919_SN546_0217_B_C2GFPACXX_GTCCGC_3_read2.fastq.gz",
+         "FILE" : "130919_SN546_0217_B_C2GFPACXX_GTCCGC_3_read1.fastq.gz",
          "TREATMENT" : "-",
          "SAMPLE_DESC_2" : "S00622",
          "STUDY_ID" : "ERP001664",
@@ -22,7 +22,7 @@
             }
          ],
          "DONOR_ID" : "S00622",
-         "MD5" : "e3b3fe3dd9e0d1040563bec463931b1f",
+         "MD5" : "5d61635a812016f1e13089a63733fa4b",
          "SAMPLE_DESC_1" : "Venous blood",
          "FIRST_SUBMISSION_DATE" : "14-OCT-2013 11:41:09",
          "READ_QUALITIES" : "phred",
@@ -63,7 +63,7 @@
       },
       {
          "GENETIC_CHARACTERISTICS" : "-",
-         "FILE" : "130919_SN546_0217_B_C2GFPACXX_GTCCGC_3_read1.fastq.gz",
+         "FILE" : "130919_SN546_0217_B_C2GFPACXX_GTCCGC_3_read2.fastq.gz",
          "TREATMENT" : "-",
          "SAMPLE_DESC_2" : "S00622",
          "STUDY_ID" : "ERP001664",
@@ -78,7 +78,7 @@
             }
          ],
          "DONOR_ID" : "S00622",
-         "MD5" : "5d61635a812016f1e13089a63733fa4b",
+         "MD5" : "e3b3fe3dd9e0d1040563bec463931b1f",
          "SAMPLE_DESC_1" : "Venous blood",
          "FIRST_SUBMISSION_DATE" : "14-OCT-2013 11:41:09",
          "READ_QUALITIES" : "phred",

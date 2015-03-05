@@ -40,20 +40,20 @@
       "sample_type" : "CD38-negative naive B cell"
    },
    {
-      "short_description" : "ChIP-Seq for Acute promyelocytic leukemia",
-      "data_type" : "ChIP-Seq",
-      "title" : "BLUEPRINT release January 2015, ChIP-Seq for Acute promyelocytic leukemia",
-      "release" : "2015-01",
-      "dataset_id" : "EGAD00001001138",
-      "sample_type" : "Acute promyelocytic leukemia"
-   },
-   {
       "short_description" : "Bisulfite-Seq for endothelial cell of umbilical vein (proliferating)",
       "data_type" : "Bisulfite-Seq",
       "title" : "BLUEPRINT release January 2015, Bisulfite-Seq for endothelial cell of umbilical vein (proliferating)",
       "release" : "2015-01",
       "dataset_id" : "EGAD00001001151",
       "sample_type" : "endothelial cell of umbilical vein (proliferating)"
+   },
+   {
+      "short_description" : "ChIP-Seq for Acute promyelocytic leukemia",
+      "data_type" : "ChIP-Seq",
+      "title" : "BLUEPRINT release January 2015, ChIP-Seq for Acute promyelocytic leukemia",
+      "release" : "2015-01",
+      "dataset_id" : "EGAD00001001138",
+      "sample_type" : "Acute promyelocytic leukemia"
    },
    {
       "short_description" : "DNaseI-seq for monocytes",
@@ -152,20 +152,20 @@
       "sample_type" : "inflammatory macrophage"
    },
    {
-      "short_description" : "RNA-Seq for CD8-positive, alpha-beta T cell",
-      "data_type" : "RNA-Seq",
-      "title" : "BLUEPRINT release August 2014, RNA-Seq for CD8-positive, alpha-beta T cell",
-      "release" : "2014-08",
-      "dataset_id" : "EGAD00001000912",
-      "sample_type" : "CD8-positive, alpha-beta T cell"
-   },
-   {
       "short_description" : "RNA-Seq for CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
       "data_type" : "RNA-Seq",
       "title" : "BLUEPRINT release August 2014, RNA-Seq for CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
       "release" : "2014-08",
       "dataset_id" : "EGAD00001000903",
       "sample_type" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell"
+   },
+   {
+      "short_description" : "RNA-Seq for CD8-positive, alpha-beta T cell",
+      "data_type" : "RNA-Seq",
+      "title" : "BLUEPRINT release August 2014, RNA-Seq for CD8-positive, alpha-beta T cell",
+      "release" : "2014-08",
+      "dataset_id" : "EGAD00001000912",
+      "sample_type" : "CD8-positive, alpha-beta T cell"
    },
    {
       "short_description" : "ChIP-Seq for erythroblast",
@@ -192,14 +192,6 @@
       "sample_type" : "CD8-positive, alpha-beta T cell"
    },
    {
-      "short_description" : "Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity",
-      "data_type" : "Mixed",
-      "title" : "BLUEPRINT: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity",
-      "release" : "NA",
-      "dataset_id" : "EGAD00001001011",
-      "sample_type" : ""
-   },
-   {
       "short_description" : "ChIP-Seq for endothelial cell of umbilical vein (resting)",
       "data_type" : "ChIP-Seq",
       "title" : "BLUEPRINT release January 2015, ChIP-Seq for endothelial cell of umbilical vein (resting)",
@@ -208,12 +200,12 @@
       "sample_type" : "endothelial cell of umbilical vein (resting)"
    },
    {
-      "short_description" : "Bisulfite-Seq for precursor lymphocyte of B lineage",
-      "data_type" : "Bisulfite-Seq",
-      "title" : "BLUEPRINT release January 2015, Bisulfite-Seq for precursor lymphocyte of B lineage",
-      "release" : "2015-01",
-      "dataset_id" : "EGAD00001001134",
-      "sample_type" : "precursor lymphocyte of B lineage"
+      "short_description" : "Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity",
+      "data_type" : "Mixed",
+      "title" : "BLUEPRINT: Epigenetic programming during monocyte to macrophage differentiation and trained innate immunity",
+      "release" : "NA",
+      "dataset_id" : "EGAD00001001011",
+      "sample_type" : ""
    },
    {
       "short_description" : "Bisulfite-Seq for CD38-negative naive B cell",
@@ -222,6 +214,14 @@
       "release" : "2015-01",
       "dataset_id" : "EGAD00001001205",
       "sample_type" : "CD38-negative naive B cell"
+   },
+   {
+      "short_description" : "Bisulfite-Seq for precursor lymphocyte of B lineage",
+      "data_type" : "Bisulfite-Seq",
+      "title" : "BLUEPRINT release January 2015, Bisulfite-Seq for precursor lymphocyte of B lineage",
+      "release" : "2015-01",
+      "dataset_id" : "EGAD00001001134",
+      "sample_type" : "precursor lymphocyte of B lineage"
    },
    {
       "short_description" : "RNA-Seq for central memory CD4-positive, alpha-beta T cell",
@@ -424,9 +424,9 @@
       "sample_type" : "cytotoxic CD56-dim natural killer cell"
    },
    {
-      "short_description" : "methylome saturation and COMET analysis of monocyte samples",
+      "short_description" : "Methylome saturation and COMET analysis of monocyte samples",
       "data_type" : "Bisulfite-Seq",
-      "title" : "BLUEPRINT methylome saturation and COMET analysis of monocyte samples",
+      "title" : "BLUEPRINT Methylome saturation and COMET analysis of monocyte samples",
       "release" : "NA",
       "dataset_id" : "EGAD00001001261",
       "sample_type" : ""
@@ -584,20 +584,20 @@
       "sample_type" : "Leukemia"
    },
    {
-      "short_description" : "ChIP-Seq for central memory CD4-positive, alpha-beta T cell",
-      "data_type" : "ChIP-Seq",
-      "title" : "BLUEPRINT release January 2015, ChIP-Seq for central memory CD4-positive, alpha-beta T cell",
-      "release" : "2015-01",
-      "dataset_id" : "EGAD00001001144",
-      "sample_type" : "central memory CD4-positive, alpha-beta T cell"
-   },
-   {
       "short_description" : "ChIP-Seq for effector memory CD8-positive, alpha-beta T cell",
       "data_type" : "ChIP-Seq",
       "title" : "BLUEPRINT release January 2015, ChIP-Seq for effector memory CD8-positive, alpha-beta T cell",
       "release" : "2015-01",
       "dataset_id" : "EGAD00001001127",
       "sample_type" : "effector memory CD8-positive, alpha-beta T cell"
+   },
+   {
+      "short_description" : "ChIP-Seq for central memory CD4-positive, alpha-beta T cell",
+      "data_type" : "ChIP-Seq",
+      "title" : "BLUEPRINT release January 2015, ChIP-Seq for central memory CD4-positive, alpha-beta T cell",
+      "release" : "2015-01",
+      "dataset_id" : "EGAD00001001144",
+      "sample_type" : "central memory CD4-positive, alpha-beta T cell"
    },
    {
       "short_description" : "ChIP-Seq for CD4-positive, alpha-beta T cell",
@@ -896,20 +896,20 @@
       "sample_type" : "inflammatory macrophage"
    },
    {
-      "short_description" : "RNA-Seq for common myeloid progenitor",
-      "data_type" : "RNA-Seq",
-      "title" : "BLUEPRINT release August 2014, RNA-Seq for common myeloid progenitor",
-      "release" : "2014-08",
-      "dataset_id" : "EGAD00001000907",
-      "sample_type" : "common myeloid progenitor"
-   },
-   {
       "short_description" : "RNA-Seq for megakaryocyte-erythroid progenitor cell",
       "data_type" : "RNA-Seq",
       "title" : "BLUEPRINT release January 2015, RNA-Seq for megakaryocyte-erythroid progenitor cell",
       "release" : "2015-01",
       "dataset_id" : "EGAD00001001140",
       "sample_type" : "megakaryocyte-erythroid progenitor cell"
+   },
+   {
+      "short_description" : "RNA-Seq for common myeloid progenitor",
+      "data_type" : "RNA-Seq",
+      "title" : "BLUEPRINT release August 2014, RNA-Seq for common myeloid progenitor",
+      "release" : "2014-08",
+      "dataset_id" : "EGAD00001000907",
+      "sample_type" : "common myeloid progenitor"
    },
    {
       "short_description" : "DNase-Hypersensitivity for macrophage",
@@ -992,20 +992,20 @@
       "sample_type" : "effector memory CD4-positive, alpha-beta T cell"
    },
    {
-      "short_description" : "ChIP-Seq for inflammatory macrophage",
-      "data_type" : "ChIP-Seq",
-      "title" : "BLUEPRINT release August 2014, ChIP-Seq for inflammatory macrophage",
-      "release" : "2014-08",
-      "dataset_id" : "EGAD00001000940",
-      "sample_type" : "inflammatory macrophage"
-   },
-   {
       "short_description" : "RNA-Seq for CD8-positive, alpha-beta T cell",
       "data_type" : "RNA-Seq",
       "title" : "BLUEPRINT release January 2015, RNA-Seq for CD8-positive, alpha-beta T cell",
       "release" : "2015-01",
       "dataset_id" : "EGAD00001001137",
       "sample_type" : "CD8-positive, alpha-beta T cell"
+   },
+   {
+      "short_description" : "ChIP-Seq for inflammatory macrophage",
+      "data_type" : "ChIP-Seq",
+      "title" : "BLUEPRINT release August 2014, ChIP-Seq for inflammatory macrophage",
+      "release" : "2014-08",
+      "dataset_id" : "EGAD00001000940",
+      "sample_type" : "inflammatory macrophage"
    },
    {
       "short_description" : "ChIP-Seq for monocyte",
