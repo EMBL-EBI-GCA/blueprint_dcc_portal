@@ -7,7 +7,7 @@
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",
-         "FILE" : "C3P56ACXX_1_8.unaligned.bam",
+         "FILE" : "C43MDACXX_1_8.unaligned.bam",
          "TREATMENT" : "CTR",
          "SAMPLE_DESC_2" : "pz 290",
          "STUDY_ID" : "ERP002159",
@@ -18,7 +18,7 @@
             }
          ],
          "DONOR_ID" : "pz 290",
-         "MD5" : "2afdebac71c8fba79c8b4853d694d3c4",
+         "MD5" : "25f62e25b6404ea07d2f84cd3b489a99",
          "SAMPLE_DESC_1" : "Bone marrow",
          "FIRST_SUBMISSION_DATE" : "09-JUL-2014 12:04:48",
          "READ_QUALITIES" : "-",
@@ -30,7 +30,7 @@
          "READ_STRAND" : "-",
          "INSTRUMENT_PLATFORM" : "ILLUMINA",
          "EXPERIMENT_ID" : "ERX517287",
-         "RUN_ID" : "ERR558217",
+         "RUN_ID" : "ERR558245",
          "CELL_LINE" : "-",
          "TISSUE_DEPOT" : "-",
          "EXPERIMENT_TYPE" : "DNA Methylation",
@@ -64,7 +64,7 @@
       },
       {
          "GENETIC_CHARACTERISTICS" : "-",
-         "FILE" : "C43MDACXX_1_8.unaligned.bam",
+         "FILE" : "C3P56ACXX_1_8.unaligned.bam",
          "TREATMENT" : "CTR",
          "SAMPLE_DESC_2" : "pz 290",
          "STUDY_ID" : "ERP002159",
@@ -75,7 +75,7 @@
             }
          ],
          "DONOR_ID" : "pz 290",
-         "MD5" : "25f62e25b6404ea07d2f84cd3b489a99",
+         "MD5" : "2afdebac71c8fba79c8b4853d694d3c4",
          "SAMPLE_DESC_1" : "Bone marrow",
          "FIRST_SUBMISSION_DATE" : "09-JUL-2014 12:04:48",
          "READ_QUALITIES" : "-",
@@ -87,7 +87,7 @@
          "READ_STRAND" : "-",
          "INSTRUMENT_PLATFORM" : "ILLUMINA",
          "EXPERIMENT_ID" : "ERX517287",
-         "RUN_ID" : "ERR558245",
+         "RUN_ID" : "ERR558217",
          "CELL_LINE" : "-",
          "TISSUE_DEPOT" : "-",
          "EXPERIMENT_TYPE" : "DNA Methylation",
