@@ -9,7 +9,7 @@
     <h2>{{data.sample.SAMPLE_SOURCE}} / {{data.sample.SAMPLE_DESCRIPTION}} / {{data.sample.SAMPLE_NAME}}</h2>
     <p ng-if="data.archive == 'EGA'">
     	The raw data is available from the <a href="http://www.ebi.ac.uk/ega"><abbr title="European Genome-phenome Archive">EGA</abbr></a> and the most recent data set it
-    	is part of is <a ng-href="{{data.archive_url}}">{{data.dataset_id}}</a>. Access to this data requires an
+    	is part of is <a ng-href="#/datasets/{{data.dataset_id}}">{{data.dataset_id}}</a>. Access to this data requires an
     	application to the <a href="https://www.ebi.ac.uk/ega/dacs/EGAC00001000135">BLUEPRINT Data Access Committee</a>, following the <a href="#/md/dac_applications">application procedure</a>.	
     </p>
     <p ng-if="data.archive == 'ENA'">
