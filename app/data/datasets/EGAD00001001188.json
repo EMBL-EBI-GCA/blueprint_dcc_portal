@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001188_ChIPSeq_Acute_myeloid_leukemia_2015_01_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001188_ChIPSeq_Acute_myeloid_leukemia_2015_01_analysis_files.tsv",
    "release" : "2015-01",
    "dataset_id" : "EGAD00001001188",
    "description" : "ChIP-Seq data for 7 Acute myeloid leukemia sample(s). 23 run(s), 23 experiment(s), 23 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_chipseq_analysis_ebi_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001001188_ChIPSeq_Acute_myeloid_leukemia_2015_01_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001188_ChIPSeq_Acute_myeloid_leukemia_2015_01_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

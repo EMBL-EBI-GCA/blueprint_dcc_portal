@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001000909_BisulfiteSeq_erythroblast_2014_08_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2014-08/EGAD00001000909_BisulfiteSeq_erythroblast_2014_08_analysis_files.tsv",
    "release" : "2014-08",
    "dataset_id" : "EGAD00001000909",
    "description" : "Bisulfite-Seq data for 1 erythroblast sample(s). 14 run(s), 1 experiment(s), 1 alignment(s). Part of BLUEPRINT release August 2014. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_bisulphite_analysis_CNAG_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001000909_BisulfiteSeq_erythroblast_2014_08_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2014-08/EGAD00001000909_BisulfiteSeq_erythroblast_2014_08_run_files.tsv",
    "run_files" : [],
    "short_description" : "Bisulfite-Seq for erythroblast",
    "data_type" : "Bisulfite-Seq",

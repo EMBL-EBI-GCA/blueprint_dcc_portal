@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001000674_DNaseISeq_monocytes_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "publication_datasets/EGAD00001000674_DNaseISeq_monocytes_analysis_files.tsv",
    "release" : "NA",
    "dataset_id" : "EGAD00001000674",
    "description" : "DNaseI-seq for monocytes",
-   "runs_spreadsheet_file_name" : "EGAD00001000674_DNaseISeq_monocytes_run_files.tsv",
+   "runs_spreadsheet_file_name" : "publication_datasets/EGAD00001000674_DNaseISeq_monocytes_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

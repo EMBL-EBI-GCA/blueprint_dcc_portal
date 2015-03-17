@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001212_transcriptional_profiling_of_normal_and_neoplastic_plasma_cells_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "publication_datasets/EGAD00001001212_transcriptional_profiling_of_normal_and_neoplastic_plasma_cells_analysis_files.tsv",
    "release" : "NA",
    "dataset_id" : "EGAD00001001212",
    "description" : "RNAseq profile of purified plasma cells from multiple myeloma patients and tonsils of healthy donors",
-   "runs_spreadsheet_file_name" : "EGAD00001001212_transcriptional_profiling_of_normal_and_neoplastic_plasma_cells_run_files.tsv",
+   "runs_spreadsheet_file_name" : "publication_datasets/EGAD00001001212_transcriptional_profiling_of_normal_and_neoplastic_plasma_cells_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

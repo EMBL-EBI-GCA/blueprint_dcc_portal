@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001207_ChIPSeq_CD38_negative_naive_B_cell_2015_01_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001207_ChIPSeq_CD38_negative_naive_B_cell_2015_01_analysis_files.tsv",
    "release" : "2015-01",
    "dataset_id" : "EGAD00001001207",
    "description" : "ChIP-Seq data for 4 CD38-negative naive B cell sample(s). 14 run(s), 14 experiment(s), 14 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_chipseq_analysis_ebi_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001001207_ChIPSeq_CD38_negative_naive_B_cell_2015_01_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001207_ChIPSeq_CD38_negative_naive_B_cell_2015_01_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

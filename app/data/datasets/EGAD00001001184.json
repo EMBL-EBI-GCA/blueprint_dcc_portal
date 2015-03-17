@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001184_RNASeq_common_lymphoid_progenitor_2015_01_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001184_RNASeq_common_lymphoid_progenitor_2015_01_analysis_files.tsv",
    "release" : "2015-01",
    "dataset_id" : "EGAD00001001184",
    "description" : "RNA-Seq data for 5 common lymphoid progenitor sample(s). 20 run(s), 5 experiment(s), 5 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_rnaseq_analysis_crg_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001001184_RNASeq_common_lymphoid_progenitor_2015_01_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001184_RNASeq_common_lymphoid_progenitor_2015_01_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

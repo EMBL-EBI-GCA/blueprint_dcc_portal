@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001000905_DNase_Hypersensitivity_for_CD14_positive_CD16_negative_classical_monocyte_2014_08_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2014-08/EGAD00001000905_DNase_Hypersensitivity_for_CD14_positive_CD16_negative_classical_monocyte_2014_08_analysis_files.tsv",
    "release" : "2014-08",
    "dataset_id" : "EGAD00001000905",
    "description" : "DNase-Hypersensitivity data for 5 CD14-positive, CD16-negative classical monocyte sample(s). 5 run(s), 5 experiment(s), 5 alignment(s). Part of BLUEPRINT release August 2014. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_dnaseseq_analysis_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001000905_DNase_Hypersensitivity_for_CD14_positive_CD16_negative_classical_monocyte_2014_08_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2014-08/EGAD00001000905_DNase_Hypersensitivity_for_CD14_positive_CD16_negative_classical_monocyte_2014_08_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

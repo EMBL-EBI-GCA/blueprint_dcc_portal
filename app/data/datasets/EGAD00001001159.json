@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001159_RNASeq_cytotoxic_CD56_dim_natural_killer_cell_2015_01_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001159_RNASeq_cytotoxic_CD56_dim_natural_killer_cell_2015_01_analysis_files.tsv",
    "release" : "2015-01",
    "dataset_id" : "EGAD00001001159",
    "description" : "RNA-Seq data for 3 cytotoxic CD56-dim natural killer cell sample(s). 3 run(s), 3 experiment(s), 3 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_rnaseq_analysis_crg_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001001159_RNASeq_cytotoxic_CD56_dim_natural_killer_cell_2015_01_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001159_RNASeq_cytotoxic_CD56_dim_natural_killer_cell_2015_01_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

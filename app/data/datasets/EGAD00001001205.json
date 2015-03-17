@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001205_BisulfiteSeq_CD38_negative_naive_B_cell_2015_01_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001205_BisulfiteSeq_CD38_negative_naive_B_cell_2015_01_analysis_files.tsv",
    "release" : "2015-01",
    "dataset_id" : "EGAD00001001205",
    "description" : "Bisulfite-Seq data for 3 CD38-negative naive B cell sample(s). 29 run(s), 3 experiment(s), 3 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_bisulphite_analysis_CNAG_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001001205_BisulfiteSeq_CD38_negative_naive_B_cell_2015_01_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001205_BisulfiteSeq_CD38_negative_naive_B_cell_2015_01_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

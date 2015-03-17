@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001185_DNase_Hypersensitivity_for_monocyte_2015_01_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001185_DNase_Hypersensitivity_for_monocyte_2015_01_analysis_files.tsv",
    "release" : "2015-01",
    "dataset_id" : "EGAD00001001185",
    "description" : "DNase-Hypersensitivity data for 2 monocyte sample(s). 4 run(s), 2 experiment(s), 2 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_dnaseseq_analysis_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001001185_DNase_Hypersensitivity_for_monocyte_2015_01_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001185_DNase_Hypersensitivity_for_monocyte_2015_01_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001000672_WGBSSeq_of_multiple_myeloma_and_plasma_cells_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "publication_datasets/EGAD00001000672_WGBSSeq_of_multiple_myeloma_and_plasma_cells_analysis_files.tsv",
    "release" : "NA",
    "dataset_id" : "EGAD00001000672",
    "description" : "Whole-genome Bisulfite sequencing of two multiple myeloma samples and one pooled sample of plasma cells.",
-   "runs_spreadsheet_file_name" : "EGAD00001000672_WGBSSeq_of_multiple_myeloma_and_plasma_cells_run_files.tsv",
+   "runs_spreadsheet_file_name" : "publication_datasets/EGAD00001000672_WGBSSeq_of_multiple_myeloma_and_plasma_cells_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

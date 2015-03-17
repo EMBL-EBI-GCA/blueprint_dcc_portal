@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001000924_ChIPSeq_erythroblast_2014_08_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2014-08/EGAD00001000924_ChIPSeq_erythroblast_2014_08_analysis_files.tsv",
    "release" : "2014-08",
    "dataset_id" : "EGAD00001000924",
    "description" : "ChIP-Seq data for 2 erythroblast sample(s). 14 run(s), 14 experiment(s), 14 alignment(s). Part of BLUEPRINT release August 2014. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_chipseq_analysis_ebi_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001000924_ChIPSeq_erythroblast_2014_08_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2014-08/EGAD00001000924_ChIPSeq_erythroblast_2014_08_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

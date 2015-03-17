@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001156_RNASeq_hematopoietic_stem_cell_2015_01_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001156_RNASeq_hematopoietic_stem_cell_2015_01_analysis_files.tsv",
    "release" : "2015-01",
    "dataset_id" : "EGAD00001001156",
    "description" : "RNA-Seq data for 6 hematopoietic stem cell sample(s). 13 run(s), 6 experiment(s), 6 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_rnaseq_analysis_crg_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001001156_RNASeq_hematopoietic_stem_cell_2015_01_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001156_RNASeq_hematopoietic_stem_cell_2015_01_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

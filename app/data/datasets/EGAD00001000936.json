@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001000936_ChIPSeq_CD8_positive_alpha_beta_T_cell_2014_08_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2014-08/EGAD00001000936_ChIPSeq_CD8_positive_alpha_beta_T_cell_2014_08_analysis_files.tsv",
    "release" : "2014-08",
    "dataset_id" : "EGAD00001000936",
    "description" : "ChIP-Seq data for 2 CD8-positive, alpha-beta T cell sample(s). 13 run(s), 13 experiment(s), 13 alignment(s). Part of BLUEPRINT release August 2014. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_chipseq_analysis_ebi_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001000936_ChIPSeq_CD8_positive_alpha_beta_T_cell_2014_08_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2014-08/EGAD00001000936_ChIPSeq_CD8_positive_alpha_beta_T_cell_2014_08_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

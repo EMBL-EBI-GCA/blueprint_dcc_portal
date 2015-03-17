@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001141_BisulfiteSeq_hematopoietic_multipotent_progenitor_cell_2015_01_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001141_BisulfiteSeq_hematopoietic_multipotent_progenitor_cell_2015_01_analysis_files.tsv",
    "release" : "2015-01",
    "dataset_id" : "EGAD00001001141",
    "description" : "Bisulfite-Seq data for 1 hematopoietic multipotent progenitor cell sample(s). 8 run(s), 1 experiment(s), 1 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_bisulphite_analysis_CNAG_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001001141_BisulfiteSeq_hematopoietic_multipotent_progenitor_cell_2015_01_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001141_BisulfiteSeq_hematopoietic_multipotent_progenitor_cell_2015_01_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

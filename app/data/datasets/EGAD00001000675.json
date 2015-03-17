@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001000675_RNASeq_monocytes_and_neutrophils_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "publication_datasets/EGAD00001000675_RNASeq_monocytes_and_neutrophils_analysis_files.tsv",
    "release" : "NA",
    "dataset_id" : "EGAD00001000675",
    "description" : "RNA-seq for monocytes and neutrophils",
-   "runs_spreadsheet_file_name" : "EGAD00001000675_RNASeq_monocytes_and_neutrophils_run_files.tsv",
+   "runs_spreadsheet_file_name" : "publication_datasets/EGAD00001000675_RNASeq_monocytes_and_neutrophils_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

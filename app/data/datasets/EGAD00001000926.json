@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001000926_DNase_Hypersensitivity_for_inflammatory_macrophage_2014_08_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2014-08/EGAD00001000926_DNase_Hypersensitivity_for_inflammatory_macrophage_2014_08_analysis_files.tsv",
    "release" : "2014-08",
    "dataset_id" : "EGAD00001000926",
    "description" : "DNase-Hypersensitivity data for 2 inflammatory macrophage sample(s). 2 run(s), 2 experiment(s), 2 alignment(s). Part of BLUEPRINT release August 2014. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_dnaseseq_analysis_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001000926_DNase_Hypersensitivity_for_inflammatory_macrophage_2014_08_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2014-08/EGAD00001000926_DNase_Hypersensitivity_for_inflammatory_macrophage_2014_08_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

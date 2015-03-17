@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001136_ChIPSeq_endothelial_cell_of_umbilical_vein_proliferating_2015_01_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001136_ChIPSeq_endothelial_cell_of_umbilical_vein_proliferating_2015_01_analysis_files.tsv",
    "release" : "2015-01",
    "dataset_id" : "EGAD00001001136",
    "description" : "ChIP-Seq data for 2 endothelial cell of umbilical vein (proliferating) sample(s). 13 run(s), 13 experiment(s), 13 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_chipseq_analysis_ebi_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001001136_ChIPSeq_endothelial_cell_of_umbilical_vein_proliferating_2015_01_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001136_ChIPSeq_endothelial_cell_of_umbilical_vein_proliferating_2015_01_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",

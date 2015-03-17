@@ -1,9 +1,9 @@
 {
-   "analysis_spreadsheet_file_name" : "EGAD00001001161_DNase_Hypersensitivity_for_CD34_negative_CD41_positive_CD42_positive_megakaryocyte_cell_2015_01_analysis_files.tsv",
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001161_DNase_Hypersensitivity_for_CD34_negative_CD41_positive_CD42_positive_megakaryocyte_cell_2015_01_analysis_files.tsv",
    "release" : "2015-01",
    "dataset_id" : "EGAD00001001161",
    "description" : "DNase-Hypersensitivity data for 1 CD34-negative, CD41-positive, CD42-positive megakaryocyte cell sample(s). 1 run(s), 1 experiment(s), 1 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_dnaseseq_analysis_20140811",
-   "runs_spreadsheet_file_name" : "EGAD00001001161_DNase_Hypersensitivity_for_CD34_negative_CD41_positive_CD42_positive_megakaryocyte_cell_2015_01_run_files.tsv",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001161_DNase_Hypersensitivity_for_CD34_negative_CD41_positive_CD42_positive_megakaryocyte_cell_2015_01_run_files.tsv",
    "run_files" : [
       {
          "GENETIC_CHARACTERISTICS" : "-",
