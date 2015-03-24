@@ -61,6 +61,20 @@ Signal plots are produced using align2RawSignal using the fragment size predicte
 
     align2rawsignal -i=chip.bam -of=bg -o=chip.bg -l fragment_size -s=/path/to/fasta_files -u=/path/to/umap_files
 
+##Output format
+
+Bed files, also converted to BigBed. Columns:
+
+ 1. chrom
+ 2. start
+ 3. end
+ 4. name
+ 5. score (fold enrichment * 10, rounded down to integer value)
+ 6. strand
+ 7. -log10(qvalue)
+ 8. -log10(pvalue)
+ 9. fold_enrichment
+
 ##Links
 
  * [SAMtools](http://samtools.sourceforge.net)

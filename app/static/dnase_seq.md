@@ -35,6 +35,25 @@ File paths in runall.tokens.txt were adjusted to our local implementation accord
 
 Hotspots runs were performed by modifying the variable _TAGS_ to point to the BAM file.
 
+##Output formats
+
+Bed files, also coverted to BigBed. Hotspot produces two types of output:
+
+Hotspots:
+
+ 1. chrom
+ 2. start
+ 3. end
+ 4. score (z-score from binomial model)
+
+peaks:
+
+ 1. chrom
+ 2. start
+ 3. end
+ 4. not used
+ 5. score (z-score from binomial model)
+
 ##Links
 
 * [SAMtools](http://samtools.sourceforge.net)
