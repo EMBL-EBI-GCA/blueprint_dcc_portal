@@ -208,6 +208,14 @@
       "sample_type" : ""
    },
    {
+      "short_description" : "Whole-genome fingerprint of the DNA methylome during human B-cell differentiation",
+      "data_type" : "Bisulfite-Seq",
+      "title" : "BLUEPRINT Whole-genome fingerprint of the DNA methylome during human B-cell differentiation",
+      "release" : "NA",
+      "dataset_id" : "EGAD00001001304",
+      "sample_type" : ""
+   },
+   {
       "short_description" : "Bisulfite-Seq for CD38-negative naive B cell",
       "data_type" : "Bisulfite-Seq",
       "title" : "BLUEPRINT release January 2015, Bisulfite-Seq for CD38-negative naive B cell",
