@@ -1,0 +1,135 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+  
+    <h1>Dataset {{data.dataset_id}}</h1>
+    <hr/>
+
+    <h2>{{data.short_description}}</h2>
+    <p>
+    	This dataset is available from the <a ng-href="http://www.ebi.ac.uk/ega/datasets/{{data.dataset_id}}"><abbr title="European Genome-phenome Archive">EGA</abbr></a>. Access requires an
+    	application to the <a href="https://www.ebi.ac.uk/ega/dacs/EGAC00001000135">BLUEPRINT Data Access Committee</a>, following the <a href="#/md/dac_applications">application procedure</a>.	
+    </p>
+
+		<div ng-if="data.run_files">
+		<h2>
+			Run Files
+			<span class="pull-right">
+	    	<a ng-href="{{ftp_dataset_root}}{{data.runs_spreadsheet_file_name}}" class="btn btn-primary">Download .tsv</a>
+	  	</span>
+		</h2>
+
+    <hr/>
+
+    <div class="table-responsive">
+  		<table class="table table-striped">
+  			<thead><tr>
+					<th>Experiment</th>
+					<th>File</th>
+					<th>Sample</th>
+					<th>Instrument platform</th>
+					<th>Library strategy</th>
+					<th>Experiment type</th>
+					<th>Sample ontology</th>
+					<th>Disease ontology</th>
+					<th>Disease</th>
+					<th>Cell type</th>
+					<th>Donor ID</th>
+					<th>Donor age</th>
+					<th>Donor health status</th>
+					<th>Sex</th>
+					<th>Tissue</th>
+					<th>Treatment</th>
+				</tr></thead>
+				
+			<tbody><tr ng-repeat="file in data.run_files">
+				<td><a ng-href="#/experiments/{{file.EXPERIMENT_ID}}">{{file.EXPERIMENT_ID}}</a></td>
+				<td>{{file.FILE}}</td>
+				<td>{{file.SAMPLE_NAME}}</td>
+				<td>{{file.INSTRUMENT_PLATFORM}}</td>
+				<td>{{file.LIBRARY_STRATEGY}}</td>
+				<td>{{file.EXPERIMENT_TYPE}}</td>
+				<td>
+					<ul class="onto_links" ng-repeat="uri in file.SAMPLE_ONTOLOGY_URI">
+						<li><a ng-href="{{uri.url}}">{{uri.label}}</a></li>
+					</ul>	    
+				</td>
+				<td>
+					<ul class="onto_links" ng-repeat="uri in file.DISEASE_ONTOLOGY_URI">
+						<li><a ng-href="{{uri.url}}">{{uri.label}}</a></li>
+					</ul>
+				</td>
+				<td>{{file.DISEASE}}</td>
+				<td>{{file.CELL_TYPE}}</td>
+				<td>{{file.DONOR_ID}}</td>
+				<td>{{file.DONOR_AGE}}</td>
+				<td>{{file.DONOR_HEALTH_STATUS}}</td>
+				<td>{{file.DONOR_SEX}}</td>
+				<td>{{file.TISSUE_TYPE}}</td>
+				<td>{{file.TREATMENT}}</td>
+			</tr></tbody>
+  		</table>
+    </div>
+		</div>
+		
+		<div ng-if="data.analysis_files">
+		<h2>Analysis files
+			<span class="pull-right">
+				<a ng-href="{{ftp_dataset_root}}{{data.analysis_spreadsheet_file_name}}" class="btn btn-primary">Download .tsv</a>
+    	</span>
+		</h2>
+    
+    <hr/>
+	
+    <div class="table-responsive">
+  		<table class="table table-striped">
+  			<thead><tr>
+					<th>Experiment</th>
+					<th>File</th>
+					<th>Sample</th>
+					<th>Instrument platform</th>
+					<th>Library strategy</th>
+					<th>Experiment type</th>
+					<th>Sample ontology</th>
+					<th>Disease ontology</th>
+					<th>Disease</th>
+					<th>Cell type</th>
+					<th>Donor ID</th>
+					<th>Donor age</th>
+					<th>Donor health status</th>
+					<th>Sex</th>
+					<th>Tissue</th>
+					<th>Treatment</th>
+				</tr></thead>
+				
+			<tbody><tr ng-repeat="file in data.analysis_files">
+				<td><a ng-href="#/experiments/{{file.EXPERIMENT_ID}}">{{file.EXPERIMENT_ID}}</a></td>
+				<td>{{file.FILE}}</td>
+				<td>{{file.SAMPLE_NAME}}</td>
+				<td>{{file.INSTRUMENT_PLATFORM}}</td>
+				<td>{{file.LIBRARY_STRATEGY}}</td>
+				<td>{{file.EXPERIMENT_TYPE}}</td>
+				<td>
+					<ul class="onto_links" ng-repeat="uri in file.SAMPLE_ONTOLOGY_URI">
+						<li><a ng-href="{{uri.url}}">{{uri.label}}</a></li>
+					</ul>	    
+				</td>
+				<td>
+					<ul class="onto_links" ng-repeat="uri in file.DISEASE_ONTOLOGY_URI">
+						<li><a ng-href="{{uri.url}}">{{uri.label}}</a></li>
+					</ul>
+				</td>
+				<td>{{file.DISEASE}}</td>
+				<td>{{file.CELL_TYPE}}</td>
+				<td>{{file.DONOR_ID}}</td>
+				<td>{{file.DONOR_AGE}}</td>
+				<td>{{file.DONOR_HEALTH_STATUS}}</td>
+				<td>{{file.DONOR_SEX}}</td>
+				<td>{{file.TISSUE_TYPE}}</td>
+				<td>{{file.TREATMENT}}</td>
+			</tr></tbody>
+  		</table>
+    </div>
+		</div>
+
+	</div>
+</div>

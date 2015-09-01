@@ -1,0 +1,251 @@
+/* app css stylesheet */
+body {
+  background-color: rgb(235,235,235);
+}
+p {
+  text-align: justify;
+}
+
+hr {
+  margin: 15px 0;
+}
+/* In table lists of ontology links */
+ul.onto_links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.onto_links li{
+  display: inline;
+}
+/* svg fix for safari */
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+/* spreadsheet download (file list)*/
+div.tsv_download {
+  text-align: right;
+  clear: right;
+}
+/*Print icon*/
+div.print {
+  position: relative;
+}
+div.print a {
+  cursor: pointer;
+  position: absolute;
+  margin: 11px;
+  right: 0;
+  z-index: 100;
+}
+@media print {
+  div.print {
+    display: none;
+  }
+}
+
+/* charts on the homepage */
+.homepage-chart {
+  max-width: 660px;
+  margin: 0 auto;
+  position: relative;
+  float: none;
+}
+.homepage-chart p {
+  text-align: center;
+}
+html[data-useragent*='MSIE 9'] .homepage-chart svg, html[data-useragent*='MSIE 10'] .homepage-chart svg {
+  height: 500px;
+}
+
+/*Sort BG*/
+.sort {
+  background-repeat: no-repeat;
+  background-position: right center;
+  cursor: pointer;
+  background-image: url(../img/bg.gif);
+}
+
+.slanted .sort {
+    background-position: right 58px;
+}
+.sort.sortAsc {
+	background-image: url(../img/asc.gif);
+}
+.sort.sortDesc {
+	background-image: url(../img/desc.gif);
+}
+
+/*charts on the front page*/
+.chart {
+  max-width: 250px;
+  max-height: 250px;
+}
+/*footer images should all scale to the height of the blueprint logo, but keep their aspect ratio*/
+.footer div.logo {
+  text-align: center;
+}
+.footer div.logo:first-child {
+  text-align: left;
+}
+.footer div.logo:last-child {
+  text-align: right;
+}
+@media (max-width: 767px) { /* @screen-xs-max */
+  .footer div.logo {
+    text-align: center !important;
+    margin-bottom: 15px;
+  }
+}
+.footer  {
+  font-size: 11px;
+  padding-bottom: 15px;
+}
+.footer .right{
+  text-align: right;
+}
+
+/* fixed height logo images */
+img.logo {
+  height: 54px;
+}
+
+/* push images in paragraphs over to the left */
+p .left-image{
+  margin: 0 5px 5px 0;
+  float: left;
+}
+
+/*Partially collapsed facet list, overflow is used to detect if the show more button is required*/
+.facet ul.list-group.collapsed{
+  margin-left: -1px;
+  padding-left: 1px; /* padding and margin compensate each other, but are only here to force IE 8 to redraw the ul when collapsed class is removed */
+  max-height: 250px;
+  overflow: hidden;
+}
+
+/*Show hide button appears in the factet title bar*/
+.facet button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/* Facet filter query input*/
+.facet-filter{
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*match the panel heading style*/
+.facet .heading{
+  background-image: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+}
+/*make it clear that facet terms do something*/
+.facet .facet-term:hover{
+  color:rgb(107, 174, 214);
+}
+/*Download link symbol is a bit weedy, make it bigger and bolder*/
+a.download {
+  font-size: 1.3em;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+/*padding for the fixed position nav bar */
+body { padding-top: 60px; } 
+
+/*angular ui bootstrap css fix see http://angular-ui.github.io/bootstrap/*/
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+/* experiment grid styles */
+div.experiments-wrapper {
+  padding-right: 80px; /* to prevent slanting heading to overflow out of the page */
+}
+html[data-useragent*='MSIE 8'] div.experiments-wrapper {
+  padding-right: 0; /* not need in IE 8 since the heading are not slanting */
+}
+table.experiments th.assays{
+  width: 25px;
+  height: 80px;
+  white-space: nowrap;
+}
+table.experiments th.assays > div {
+  -ms-transform:translate(20px, 0px) rotate(315deg);
+  -moz-transform:translate(20px, 0px) rotate(315deg);
+  -webkit-transform:translate(20px, 0px) rotate(315deg);
+  -o-transform:translate(20px, 0px) rotate(315deg);
+  transform:translate(20px, 0px) rotate(315deg);
+  width: inherit;
+}
+table.experiments th.assays > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
+html[data-useragent*='MSIE 8'] table.experiments th.assays > div { /* for IE8 only */
+  font-size: 65%;
+  margin: 0 -8px;
+  padding: 2px;
+  width: auto;
+}
+html[data-useragent*='MSIE 8'] table.experiments th.assays > div > span {
+  border: none;
+  padding: 0;
+}
+table.experiments td.assays {
+  text-align: center;
+  border-left: thin solid #ddd;
+  overflow: hidden;
+}
+
+table.experiments td.assays a {
+  color: #058dc7;
+  font-size: 20px;
+  text-decoration:none;
+  text-align: center;
+  margin: -8px -8px -108px;
+  padding-bottom: 100px;
+  line-height: 36px;
+  display: block;
+}
+table.experiments td.assays a:hover {
+  background-color: #b3d4fc;
+}
+
+/* layout for experiment and files page with fixed width lhs column */
+@media (min-width: 992px) { /* @screen-md-min */
+  .fixd-width-lhs {
+    width: 350px;
+  }
+
+  .fixd-width-rhs {
+    float: none;
+    margin-left: 350px;
+    width: auto;
+  }
+}
+
+/* logo to replace nav bar on printed page */
+.print-only-logo {
+  display: none;
+  padding: 0 15px 15px;
+}
+
+@media print {
+  .print-only-logo {
+    display: block;
+  }
+}
+
+/* row with same height panels */
+.flex-row, .flex-row > div[class*='col-']  {
+  display: -webkit-flex;
+  display: flex;
+}
+
+@media (max-width: 767px) { /* @screen-xs-max */
+  .flex-row, .flex-row > div[class*='col-']  {
+    display: block;
+  }
+}

@@ -1,0 +1,133 @@
+{
+   "analysis_spreadsheet_file_name" : "2015-01/EGAD00001001190_DNase_Hypersensitivity_for_Acute_myeloid_leukemia_2015_01_analysis_files.tsv",
+   "release" : "2015-01",
+   "dataset_id" : "EGAD00001001190",
+   "description" : "DNase-Hypersensitivity data for 1 Acute myeloid leukemia sample(s). 1 run(s), 1 experiment(s), 1 alignment(s). Part of BLUEPRINT release January 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_dnaseseq_analysis_20140811",
+   "runs_spreadsheet_file_name" : "2015-01/EGAD00001001190_DNase_Hypersensitivity_for_Acute_myeloid_leukemia_2015_01_run_files.tsv",
+   "run_files" : [
+      {
+         "GENETIC_CHARACTERISTICS" : "-",
+         "FILE" : "C20BGACXX_lane6_3754_ACAGTG_L006_R1.fastq.gz",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "UMCG00017",
+         "STUDY_ID" : "ERP001748",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000763",
+               "label" : "CL_0000763"
+            }
+         ],
+         "DONOR_ID" : "UMCG00017",
+         "MD5" : "7254db0c558e90d4ef5ae93d8a63e059",
+         "SAMPLE_DESC_1" : "Bone marrow",
+         "FIRST_SUBMISSION_DATE" : "31-JUL-2013 13:47:10",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "DNase accessibility",
+         "BIOMATERIAL_PROVIDER" : "Prof.dr. E. Vellenga, University Medical Centre Groningen - Department of Hematology",
+         "LIBRARY_STRATEGY" : "DNase-Hypersensitivity",
+         "TISSUE_TYPE" : "Bone marrow",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "READ_STRAND" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX286201",
+         "RUN_ID" : "ERR320998",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "Chromatin Accessibility",
+         "DISEASE" : "Acute Myeloid Leukemia",
+         "CELL_TYPE" : "Myeloid cell",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023467",
+               "label" : "C0023467"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "NCMLS",
+         "LIBRARY_NAME" : "Blueprint_S005FH41_DNaseI_80U",
+         "SAMPLE_DESC_3" : "Acute Myeloid Leukemia",
+         "POOLED_DONOR_IDS" : "-",
+         "DONOR_HEALTH_STATUS" : "Leukemia",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_AGE" : "70 - 75",
+         "MOLECULE" : "genomic DNA",
+         "SAMPLE_ID" : "ERS255950",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "SAMPLE_NAME" : "S005FH41",
+         "POOL_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_ETHNICITY" : "Caucasian"
+      }
+   ],
+   "short_description" : "DNase-Hypersensitivity for Acute myeloid leukemia",
+   "data_type" : "DNase-Hypersensitivity",
+   "title" : "BLUEPRINT release January 2015, DNase-Hypersensitivity for Acute myeloid leukemia",
+   "sample_type" : "Acute myeloid leukemia",
+   "alias" : "BP_January_2015_DNase-Hypersensitivity_Acute_myeloid_leukemia",
+   "analysis_files" : [
+      {
+         "withdrawn" : null,
+         "FILE" : "S005FH41.DNase.bwa_filtered.20130819.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "UMCG00017",
+         "STUDY_ID" : "ERP001748",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000763",
+               "label" : "CL_0000763"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "Blueprint_S005FH41_DNaseI_80U",
+         "DONOR_ID" : "UMCG00017",
+         "SAMPLE_DESC_1" : "Bone marrow",
+         "FIRST_SUBMISSION_DATE" : "31-JUL-2013 13:47:10",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "DNase accessibility",
+         "BIOMATERIAL_PROVIDER" : "Prof.dr. E. Vellenga, University Medical Centre Groningen - Department of Hematology",
+         "LIBRARY_STRATEGY" : "DNase-Hypersensitivity",
+         "TISSUE_TYPE" : "Bone marrow",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "READ_STRAND" : "-",
+         "EXPERIMENT_ID" : "ERX286201",
+         "type" : "DS_FILTERED_BAM",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "Chromatin Accessibility",
+         "DISEASE" : "Acute Myeloid Leukemia",
+         "CELL_TYPE" : "Myeloid cell",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023467",
+               "label" : "C0023467"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "NCMLS",
+         "LIBRARY_NAME" : "Blueprint_S005FH41_DNaseI_80U",
+         "FILE_SIZE" : "938617936",
+         "SAMPLE_DESC_3" : "Acute Myeloid Leukemia",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_HEALTH_STATUS" : "Leukemia",
+         "MOLECULE" : "genomic DNA",
+         "DONOR_AGE" : "70 - 75",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "SAMPLE_ID" : "ERS255950",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "FILE_MD5" : "4a64c471927db04fb64222f8cbd8d0f2",
+         "SAMPLE_NAME" : "S005FH41",
+         "POOL_ID" : "-",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "Caucasian"
+      }
+   ]
+}

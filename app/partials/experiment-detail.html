@@ -1,0 +1,66 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+  
+    <h1>Experiment summary for {{data.experiment.EXPERIMENT_ID}}</h1>
+    <hr/>
+
+
+    <h2>{{data.experiment.ASSAY_TYPE}} - {{data.experiment.EXPERIMENT_TYPE}}</h2>
+    <h2>{{data.sample.SAMPLE_SOURCE}} / {{data.sample.SAMPLE_DESCRIPTION}} / {{data.sample.SAMPLE_NAME}}</h2>
+    <p ng-if="data.archive == 'EGA'">
+    	The raw data is available from the <a href="http://www.ebi.ac.uk/ega"><abbr title="European Genome-phenome Archive">EGA</abbr></a> and the most recent data set it
+    	is part of is <a ng-href="#/datasets/{{data.dataset_id}}">{{data.dataset_id}}</a>. Access to this data requires an
+    	application to the <a href="https://www.ebi.ac.uk/ega/dacs/EGAC00001000135">BLUEPRINT Data Access Committee</a>, following the <a href="#/md/dac_applications">application procedure</a>.	
+    </p>
+    <p ng-if="data.archive == 'ENA'">
+    	The raw data is available from the <a href="http://www.ebi.ac.uk/ena"><abbr title="European Nucleotide Archive">ENA</abbr></a>, as <a ng-href="{{data.archive_url}}">{{data.experiment.EXPERIMENT_ID}}</a>.	
+    </p>	
+
+
+		<h2>Files</h2>
+    <hr/>
+    <div class="table-responsive">
+  		<table class="table table-striped">
+  			<thead><tr>
+  				<th>Data type</th>
+  				<th>Format</th>
+  				<th>Size</th>
+  				<th>Analysis provider</th>
+  				<th>Method</th>
+  				<th>Download</th>
+  				<th/>
+  			</tr></thead>
+  			<tbody>
+  				<tr ng-repeat="file in data.files">					
+  					<td>{{file.TYPE}}</td>
+  					<td>{{file.FORMAT}}</td>
+  					<td>{{file.SIZE}}</td>
+  					<td>{{file.ANALYSIS_GROUP}}</td>
+  					<td><a class="btn btn-link" ng-href="#/md/{{file.PROTOCOL_DOC}}">link</td>					
+  					<td><span popover="Download {{file.TYPE}} as {{file.FORMAT}} file" popover-trigger="mouseenter"><dcc-download url="{{file.PATH}}"></dcc-download></span></td>
+  					<td><span ng-if="file.REACTOME_PATH"><dcc-reactome url="file.REACTOME_PATH"></dcc-reactome></span></td> 
+  				</tr>
+  			</tbody>
+  		</table>
+    </div>
+
+
+
+		<h2>Experiment {{data.experiment.EXPERIMENT_ID}} - {{data.experiment.ASSAY_TYPE}} ({{data.experiment.EXPERIMENT_TYPE}}) </h2>
+    <hr/>
+		<dl>
+			<dt ng-repeat-start="(name, values) in data.experiment.attributes">{{name}}</dt>
+			<dd ng-repeat-end ng-repeat="value in values">{{value}}</dd>
+		</dl>
+
+		<h2>Sample {{data.sample.SAMPLE_ID}} - {{data.sample.sample_barcode}}</h2>
+    <hr/>
+		<dl>
+			<dt ng-repeat-start="(name, values) in data.sample.attributes">{{name}}</dt>
+			<dd ng-repeat-end ng-repeat="value in values">
+				<a ng-if="value.url" ng-href="{{value.url}}">{{value.label}}</a>
+				<span ng-if="!value.url">{{value}}</span>
+			</dd>
+		</dl>
+	</div>
+</div>

@@ -1,0 +1,190 @@
+{
+   "analysis_spreadsheet_file_name" : "2015-08/EGAD00001001469_RNASeq_T_cell_acute_leukemia_on_genome_GRCh38_2015_08_analysis_files.tsv",
+   "release" : "2015-08",
+   "dataset_id" : "EGAD00001001469",
+   "description" : "RNA-Seq data for 1 T-cell acute leukemia sample(s). 1 run(s), 1 experiment(s), 1 alignment(s) on human genome GRCh38. Part of BLUEPRINT release August 2015. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20150820/homo_sapiens/README_rnaseq_analysis_crg_20150820",
+   "runs_spreadsheet_file_name" : "2015-08/EGAD00001001469_RNASeq_T_cell_acute_leukemia_on_genome_GRCh38_2015_08_run_files.tsv",
+   "run_files" : [
+      {
+         "GENETIC_CHARACTERISTICS" : "-",
+         "FILE" : "141030_SN935_0211_B_C5R24ACXX_ACTGAT_3_read2.fastq.gz",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "K V",
+         "STUDY_ID" : "ERP001664",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013757",
+               "label" : "UBERON_0013757"
+            }
+         ],
+         "DONOR_ID" : "K V",
+         "MD5" : "15c6ed1447554c30b9e10838229486e8",
+         "SAMPLE_DESC_1" : "capillary blood",
+         "FIRST_SUBMISSION_DATE" : "12-DEC-2014 12:28:39",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "Blueprint RNA-seq data (common cell types)",
+         "BIOMATERIAL_PROVIDER" : "Necker's hospital",
+         "LIBRARY_STRATEGY" : "RNA-Seq",
+         "TISSUE_TYPE" : "capillary blood",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "READ_STRAND" : "Mate2_Sense",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX644792",
+         "RUN_ID" : "ERR700457",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "mRNA-seq",
+         "DISEASE" : "T-cell acute leukemia",
+         "CELL_TYPE" : "T-cell acute lymphocytic leukemia",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023449",
+               "label" : "C0023449"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "MPIMG",
+         "LIBRARY_NAME" : "I_bc_pelib_2465",
+         "SAMPLE_DESC_3" : "T-cell acute leukemia",
+         "POOLED_DONOR_IDS" : "-",
+         "DONOR_HEALTH_STATUS" : "immature TALL",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_AGE" : "20 -25",
+         "MOLECULE" : "total RNA",
+         "SAMPLE_ID" : "ERS628287",
+         "LIBRARY_LAYOUT" : "PAIRED",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "SAMPLE_NAME" : "TALL-1",
+         "POOL_ID" : "-",
+         "DONOR_SEX" : "Male",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_ETHNICITY" : "NA"
+      },
+      {
+         "GENETIC_CHARACTERISTICS" : "-",
+         "FILE" : "141030_SN935_0211_B_C5R24ACXX_ACTGAT_3_read1.fastq.gz",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "K V",
+         "STUDY_ID" : "ERP001664",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013757",
+               "label" : "UBERON_0013757"
+            }
+         ],
+         "DONOR_ID" : "K V",
+         "MD5" : "c340daebf3d42dad9ad81b84e3759b10",
+         "SAMPLE_DESC_1" : "capillary blood",
+         "FIRST_SUBMISSION_DATE" : "12-DEC-2014 12:28:39",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "Blueprint RNA-seq data (common cell types)",
+         "BIOMATERIAL_PROVIDER" : "Necker's hospital",
+         "LIBRARY_STRATEGY" : "RNA-Seq",
+         "TISSUE_TYPE" : "capillary blood",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "READ_STRAND" : "Mate2_Sense",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX644792",
+         "RUN_ID" : "ERR700457",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "mRNA-seq",
+         "DISEASE" : "T-cell acute leukemia",
+         "CELL_TYPE" : "T-cell acute lymphocytic leukemia",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023449",
+               "label" : "C0023449"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "MPIMG",
+         "LIBRARY_NAME" : "I_bc_pelib_2465",
+         "SAMPLE_DESC_3" : "T-cell acute leukemia",
+         "POOLED_DONOR_IDS" : "-",
+         "DONOR_HEALTH_STATUS" : "immature TALL",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_AGE" : "20 -25",
+         "MOLECULE" : "total RNA",
+         "SAMPLE_ID" : "ERS628287",
+         "LIBRARY_LAYOUT" : "PAIRED",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "SAMPLE_NAME" : "TALL-1",
+         "POOL_ID" : "-",
+         "DONOR_SEX" : "Male",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_ETHNICITY" : "NA"
+      }
+   ],
+   "short_description" : "RNA-Seq for T-cell acute leukemia, on genome GRCh38",
+   "data_type" : "RNA-Seq",
+   "title" : "BLUEPRINT release August 2015, RNA-Seq for T-cell acute leukemia, on genome GRCh38",
+   "sample_type" : "T-cell acute leukemia, on genome GRCh38",
+   "alias" : "BP_August_2015_RNA-Seq_T-cell_acute_leukemia_on_GRCh38",
+   "analysis_files" : [
+      {
+         "withdrawn" : "-",
+         "FILE" : "TALL-1.RNA-Seq.star_grape2_crg.GRCh38.20150815.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "K V",
+         "STUDY_ID" : "ERP001664",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013757",
+               "label" : "UBERON_0013757"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "ena-EXPERIMENT-BLUEPRINT-12-12-2014-12:28:29:459-2",
+         "DONOR_ID" : "K V",
+         "SAMPLE_DESC_1" : "capillary blood",
+         "FIRST_SUBMISSION_DATE" : "12-DEC-2014 12:28:39",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "Blueprint RNA-seq data (common cell types)",
+         "BIOMATERIAL_PROVIDER" : "Necker's hospital",
+         "LIBRARY_STRATEGY" : "RNA-Seq",
+         "TISSUE_TYPE" : "capillary blood",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "READ_STRAND" : "Mate2_Sense",
+         "EXPERIMENT_ID" : "ERX644792",
+         "type" : "RNA_BAM_STAR_CRG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "mRNA-seq",
+         "DISEASE" : "T-cell acute leukemia",
+         "CELL_TYPE" : "T-cell acute lymphocytic leukemia",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023449",
+               "label" : "C0023449"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "MPIMG",
+         "LIBRARY_NAME" : "I_bc_pelib_2465",
+         "FILE_SIZE" : "20774832633",
+         "SAMPLE_DESC_3" : "T-cell acute leukemia",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_HEALTH_STATUS" : "immature TALL",
+         "MOLECULE" : "total RNA",
+         "DONOR_AGE" : "20 -25",
+         "LIBRARY_LAYOUT" : "PAIRED",
+         "SAMPLE_ID" : "ERS628287",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "FILE_MD5" : "c6d05cd8b1288252e641a700a6666a46",
+         "SAMPLE_NAME" : "TALL-1",
+         "POOL_ID" : "-",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Male",
+         "DONOR_ETHNICITY" : "NA"
+      }
+   ]
+}

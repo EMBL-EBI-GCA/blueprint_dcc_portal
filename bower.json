@@ -1,0 +1,26 @@
+{
+    "dependencies": {
+        "angular": "1.2.x", 
+        "angular-bootstrap": "0.11", 
+        "angular-loader": "1.2.x", 
+        "angular-mocks": "~1.2.x", 
+        "angular-route": "1.2.x", 
+        "angular-resource": "1.2.x",
+        "bootstrap": "3.1.1", 
+        "html5-boilerplate": "~4.3.0",
+        "dangle": null,
+        "d3": "3.4.11",
+        "angular-markdown-filter": null,
+        "angular-sanitize": "1.2.x",
+        "jquery" : "1.11.1",
+        "respond": "1.4.2",
+        "json2": "3d7767b6b1",
+        "angulartics": "0.16.3"
+    }, 
+    "description": "A simple DCC portal using AngularJS", 
+    "homepage": "https://github.com/davidrichardson/dcc_portal", 
+    "license": "Apache2", 
+    "name": "dcc-portal", 
+    "private": true, 
+    "version": "0.0.1"
+}
