@@ -59,6 +59,9 @@ div.print a {
 html[data-useragent*='MSIE 9'] .homepage-chart svg, html[data-useragent*='MSIE 10'] .homepage-chart svg {
   height: 500px;
 }
+.homepage-chart .axis text {
+  font-size: 13px;
+}
 
 /*Sort BG*/
 .sort {

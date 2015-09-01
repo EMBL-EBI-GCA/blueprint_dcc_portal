@@ -28,17 +28,17 @@ Our data is available both from the sequence archives and from our own FTP site,
 		</tr>
 		<tr>
 			<td>Data mining</td>
-			<td><a href="http://blueprint.bsc.es/">BioMart</a></td>
+			<td><a href="http://blueprint-data.bsc.es/">Data portal</a></td>
 		</tr>
 		<tr>
 			<td rowspan="3">Genome browser</td>
 			<td><a href="https://blueprint.genomatix.de">Genomatix browser</a></td>
 		</tr>
 		<tr>
-			<td>BLUEPRINT Track Hub on the <a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&hubUrl=http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/hub/hub.txt">UCSC browser</a> </td>
+			<td>BLUEPRINT Track Hub on the <a href="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/hub/hub.txt">UCSC browser</a> </td>
 		</tr>
 		<tr>
-			<td>BLUEPRINT Track Hub on the <a href="http://grch37.ensembl.org/Homo_sapiens/Location/View?g=ENSG00000130544;contigviewbottom=url:http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/hub/hub.txt;format=DATAHUB;menu=Blueprint%20data">Ensembl browser</a></td>
+			<td>BLUEPRINT Track Hub on the <a href="http://ensembl.org/Homo_sapiens/Location/View?g=ENSG00000130544;contigviewbottom=url:http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/current_release/homo_sapiens/hub/hub.txt;format=DATAHUB;menu=Blueprint%20data">Ensembl browser</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -75,9 +75,9 @@ The alignments generated for our sequence data are also available from the EGA. 
 	  <tr>
 	    <td>RNA-Seq</td>
 	    <td>Quantification</td>
-	    <td>GTF</td>
+	    <td>Text</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.transcript_quantification.gem_grape_crg.20130415.gtf">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.gene_quantification.rsem_grape2_crg.GRCh38.20150622.results">
 	      C0010K Monocyte transcript quantification</a>
 	    </td>
 	  </tr>
@@ -88,7 +88,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.plusStrand.gem_grape_crg.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.plusStrand.star_grape2_crg.GRCh38.20150815.bw">
 	      C0010K Monocyte plus strand signal</a>
 	    </td>
 	  </tr>
@@ -99,8 +99,8 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.H3K4me1.ppqt_macs2_broad.20130415.bb">
-	      C0010K Monocyte H3K4me1 peak calls</a>
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.ERX197174.H3K27ac.bwa.GRCh38.20150526.bb">
+	      C0010K Monocyte H3K27ac peak calls</a>
 	    </td>
 	  </tr>
 	  <tr>
@@ -110,8 +110,8 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.H3K4me1.wiggler.20130415.bw">
-	      C0010K Monocyte H3K4me1 signal</a>
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.ERX197174.H3K27ac.bwa.GRCh38.20150528.bw">
+	      C0010K Monocyte H3K27ac signal</a>
 	    </td>
 	  </tr>
 	  <tr>
@@ -119,7 +119,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    <td>Hotspots</td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.DNase.hotspot_v3.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.ERX197156.Dnase.GRCh38.hotspot.20150709.bb">
 	      C0010K Monocyte Dnase hotspots</a>
 	    </td>
 	  </tr>
@@ -130,7 +130,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.DNase.wiggler.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.ERX197156.Dnase.bwa.GRCh38.20150529.bw">
 	      C0010K Monocyte Dnase signal</a>
 	    </td>
 	  </tr>
@@ -143,7 +143,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.hypo_meth.bs_call.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.hypo_meth.bs_call.GRCh38.20150707.bb">
 	      C0010K Monocyte hypo methylation calls</a>
 	    </td>
 	  </tr>
@@ -156,7 +156,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigBed</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.hyper_meth.bs_call.20130415.bb">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.hyper_meth.bs_call.GRCh38.20150707.bb">
 	      C0010K Monocyte hyper methylation calls</a>
 	    </td>
 	  </tr>
@@ -169,7 +169,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	    </td>
 	    <td>BigWig</td>
 	    <td>
-	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.CPG_methylation_calls.bs_call.20130415.bw">
+	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/Bisulfite-Seq/CNAG/C0010KA2bs.CPG_methylation_calls.bs_call.GRCh38.20150707.bw">
 	      C0010K Monocyte methylation call signal</a>
 	    </td>
 	  </tr>
@@ -177,9 +177,11 @@ The alignments generated for our sequence data are also available from the EGA. 
 </table> 
 </div>
 
+<!--
 ###Secondary analysis
 
 Secondary analysis results are made available as part of the data release cycle. The methods and how to access the results are listed on the [secondary analysis page](#/md/secondary_analysis). 
+// -->
 
 ##FTP site
 The FTP site has 3 major sections listed here and described in more detail below:
@@ -193,13 +195,26 @@ The FTP site has 3 major sections listed here and described in more detail below
 The data directory contains all processed data files as described in the above table. New files will be added each release. Subdirectories are organised by species, tissue type, donor, cell type, production centre and data type. The filename format follows this general form:
 
 <blockquote>
-	<tt><strong>sample_name</strong>.experiment.<strong>algorithm_or_pipeline_name</strong>.freeze_date.<strong>file_extension</strong></tt>
+	<tt><strong>sample_name</strong>.experiment.<strong>algorithm_or_pipeline_name</strong>.genome_build.freeze_date.<strong>file_extension</strong></tt>
 </blockquote>
 
 e.g.
 
 <blockquote>
-	<tt><strong>C002TWH1</strong>.H3K4me3.<strong>bwa_filtered</strong>.20130415.<strong>bw</strong></tt>
+	<tt><strong>C0010KA2bs</strong>.hypo_meth.<strong>bs_call</strong>.GRCh38.20150707.<strong>bb</strong></tt>
+</blockquote>
+
+
+File name format for ChIP-Seq and DNase1-Seq
+
+<blockquote>
+	<tt><strong>sample_name</strong>.experiment_id.experiment.<strong>algorithm_or_pipeline_name</strong>.genome_build.freeze_date.<strong>file_extension</strong></tt>
+</blockquote>
+
+e.g.
+
+<blockquote>
+	<tt><strong>C0010KH1</strong>.ERX197174.H3K27ac.<strong>bwa</strong>.GRCh38.20150526.<strong>bb</strong></tt>
 </blockquote>
 
 The freeze date in the filename should match the first freeze in which the file was produced.

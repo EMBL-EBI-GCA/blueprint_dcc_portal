@@ -1,8 +1,8 @@
 [
   {
-    "headline": "Data release - August 2015",
-    "date": "20 August 2015",
-    "content": "The seventh Blueprint data release is now available. Within Blueprint we have so far isolated cells from 79 Bone marrow, 217 Venous blood, 111 Cord blood, 10 Tonsil, 8 Thymus and 7 Cell line samples and performed epigenomic analysis including RNA-seq, DNAme-seq, DNAseI-seq and 8 different ChIP-seq experiments. This release includes data remapped on new human genome assembly GRCh38 from monocytes, granulocyte neutrophils, eosinophils, macrophages ( M0 , M1 and M2 ), naive CD4+ and naive CD8+ cells and cell line samples. Future releases of data for additional samples are planned at a regular basis."    
+    "headline": "Data release - September 2015",
+    "date": "10 September 2015",
+    "content": "The seventh Blueprint data release is now available. Within Blueprint we have so far isolated cells from 79 Bone marrow, 217 Venous blood, 111 Cord blood, 10 Tonsil, 8 Thymus and 7 Cell line samples and performed epigenomic analysis including RNA-seq, DNAme-seq, DNAseI-seq and 8 different ChIP-seq experiments. All the sequence data from Blueprint were remapped to new human genome assembly GRCh38 for this release. This includes data from monocytes, granulocyte neutrophils, eosinophils, macrophages ( M0 , M1 and M2 ), naive CD4+ and naive CD8+ cells and cell line samples. Future releases of data for additional samples are planned at a regular basis."    
   },
   {
     "headline": "Secondary analysis release",
