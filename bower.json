@@ -10,7 +10,7 @@
         "html5-boilerplate": "~4.3.0",
         "dangle": null,
         "d3": "3.4.11",
-        "angular-markdown-filter": null,
+        "angular-markdown-filter": "v1.2.0",
         "angular-sanitize": "1.2.x",
         "jquery" : "1.11.1",
         "respond": "1.4.2",
