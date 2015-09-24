@@ -74,7 +74,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	<tbody>
 	  <tr>
 	    <td>RNA-Seq</td>
-	    <td>Quantification</td>
+	    <td>Transcription quantification (Genes)</td>
 	    <td>Text</td>
 	    <td>
 	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.gene_quantification.rsem_grape2_crg.GRCh38.20150622.results">
@@ -83,9 +83,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	  </tr>
 	  <tr>
 	    <td>RNA-Seq</td>
-	    <td>
-	      Alignment Signal
-	    </td>
+	    <td>Transcription signal (Unique mappings) from plus strand</td>
 	    <td>BigWig</td>
 	    <td>
 	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.plusStrand.star_grape2_crg.GRCh38.20150815.bw">
@@ -94,9 +92,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	  </tr>
 	  <tr>
 	    <td>ChIP-Seq</td>
-	    <td>
-	      Peak Calls
-	    </td>
+	    <td>Enriched regions</td>
 	    <td>BigBed</td>
 	    <td>
 	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.ERX197174.H3K27ac.bwa.GRCh38.20150526.bb">
@@ -105,9 +101,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	  </tr>
 	  <tr>
 	    <td>ChIP-Seq</td>
-	    <td>
-	      Alignment Signal
-	    </td>
+	    <td>Normalized signal</td>
 	    <td>BigWig</td>
 	    <td>
 	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/ChIP-Seq/NCMLS/C0010KH1.ERX197174.H3K27ac.bwa.GRCh38.20150528.bw">
@@ -125,9 +119,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	  </tr>
 	  <tr>
 	    <td>DNase1-Seq</td>
-	    <td>
-	      Alignment Signal
-	    </td>
+	    <td>Normalized signal</td>
 	    <td>BigWig</td>
 	    <td>
 	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/DNase-Hypersensitivity/NCMLS/C0010K46.ERX197156.Dnase.bwa.GRCh38.20150529.bw">
@@ -139,7 +131,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	      WGS Bisulphite Seq
 	    </td>
 	    <td>
-	      Hypo-methylated Regions
+	      Hypo-methylated regions
 	    </td>
 	    <td>BigBed</td>
 	    <td>
@@ -152,7 +144,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	      WGS Bisulphite Seq
 	    </td>
 	    <td>
-	      Hyper-methylated Regions
+	      Hyper-methylated regions
 	    </td>
 	    <td>BigBed</td>
 	    <td>
@@ -165,7 +157,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	      WGS Bisulphite Seq
 	    </td>
 	    <td>
-	      Methylation Signal
+	      Methylation signal
 	    </td>
 	    <td>BigWig</td>
 	    <td>
