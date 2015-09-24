@@ -74,7 +74,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	<tbody>
 	  <tr>
 	    <td>RNA-Seq</td>
-	    <td>Transcription quantification (Genes)</td>
+	    <td>Transcription quantification</td>
 	    <td>Text</td>
 	    <td>
 	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.gene_quantification.rsem_grape2_crg.GRCh38.20150622.results">
@@ -83,7 +83,7 @@ The alignments generated for our sequence data are also available from the EGA. 
 	  </tr>
 	  <tr>
 	    <td>RNA-Seq</td>
-	    <td>Transcription signal (Unique mappings) from plus strand</td>
+	    <td>Transcription signal</td>
 	    <td>BigWig</td>
 	    <td>
 	      <a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/Venous_blood/C0010K/CD14-positive_CD16-negative_classical_monocyte/RNA-Seq/MPIMG/C0010KB1.plusStrand.star_grape2_crg.GRCh38.20150815.bw">
