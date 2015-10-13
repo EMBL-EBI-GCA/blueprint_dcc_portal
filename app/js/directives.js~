@@ -53,7 +53,7 @@ directives.directive('dccReactome', function($http, $window) {
             }
           }).success(function(data) {
             var token = data.summary.token;
-            var newUrl = "http://www.reactome.org/PathwayBrowser/#DTAB=AN&ANALYSIS=" + token;
+            var newUrl = "http://www.reactome.org/PathwayBrowser/#DTAB=AN&TOOL=AT&ANALYSIS=" + token;
             $scope.href = newUrl;
             $scope.loaded = true;
             $scope.text = "View in Reactome";
