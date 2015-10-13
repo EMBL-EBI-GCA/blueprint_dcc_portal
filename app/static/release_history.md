@@ -1,6 +1,6 @@
 #Release history
 ***
-Over the course of the Blueprint project we have made several releases. This page lists all the releases we have made, in reverse chronological order. This table also contains links to summary pages for each release.
+Over the course of the Blueprint project we have made several releases. This page lists all the releases we have made, in reverse chronological order. This table contains links to summary pages for each release.
 
 <div class="table-responsive">
 <table summary="BLUEPRINT releases" class="table table-striped">
