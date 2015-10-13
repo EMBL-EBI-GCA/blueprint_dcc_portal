@@ -1,6 +1,6 @@
 #Release history
 ***
-Blueprint public data release details can be found here. 
+Over the course of the Blueprint project we have made several releases. This page lists all the releases we have made and links to a summary page for that release.
 
 <div class="table-responsive">
 <table summary="BLUEPRINT releases" class="table table-striped">
