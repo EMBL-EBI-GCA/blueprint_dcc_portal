@@ -27,8 +27,11 @@ Our data is available both from the sequence archives and from our own FTP site,
 			<td><a href="ftp://ftp.ebi.ac.uk/pub/databases/blueprint">FTP site</a></td>
 		</tr>
 		<tr>
-			<td>Data mining</td>
-			<td><a href="http://blueprint-data.bsc.es/">Data portal</a></td>
+			<td rowspan="2">Data mining</td>
+	        <td><a href="http://blueprint-data.bsc.es/">Data portal</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://deepblue.mpi-inf.mpg.de/">DeepBlue</a></td>
 		</tr>
 		<tr>
 			<td rowspan="3">Genome browser</td>
