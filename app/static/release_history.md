@@ -24,7 +24,7 @@ Over the course of the Blueprint project we have made several releases. This pag
 	    <td>08 August 2014</td>
 	  </tr>
 	   <tr>
-	    <td><a href=#/md/release_history/20140811_release>4th Data release</td>
+	    <td><a href=#/md/release_history/20140317_release>4th Data release</td>
 	    <td>17 March 2014</td>
 	  </tr>
 	  <tr>
