@@ -43,3 +43,6 @@ Over the course of the Blueprint project we have made several releases. This pag
 </table> 
 </div>
 
+###Note
+
+Please be aware that old files can be renamed, moved or entirely removed when a new release is made. This can happen due to metadata, data or analysis process updates. If you can not find a file you still need, please email <a href='mailto:blueprint-info@ebi.ac.uk'>blueprint-info@ebi.ac.uk</a>.
