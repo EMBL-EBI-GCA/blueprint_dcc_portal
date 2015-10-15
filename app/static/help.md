@@ -26,7 +26,7 @@ The [Methods page](http://dcc.blueprint-epigenome.eu/#/md/methods) lists the ana
 
 ##Release history
 
-The [Release history](http://dcc.blueprint-epigenome.eu/#/md/release_history) page lists all the Blueprint public data releases.
+The [Release history](http://dcc.blueprint-epigenome.eu/#/md/release_history) page provides a list of all Blueprint public data releases and links to summaries for each release.
 
 If you have any questions about the portal or any of its features, please email blueprint-info@ebi.ac.uk
 
