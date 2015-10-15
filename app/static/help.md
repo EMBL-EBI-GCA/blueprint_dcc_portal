@@ -24,4 +24,9 @@ The [Data access page](http://dcc.blueprint-epigenome.eu/#/md/data) describes th
 
 The [Methods page](http://dcc.blueprint-epigenome.eu/#/md/methods) lists the analysis protocols for our different analysis types.
 
+##Release history
+
+The [Release history](http://dcc.blueprint-epigenome.eu/#/md/release_history) page provides a list of all Blueprint public data releases and links to summaries for each release.
+
 If you have any questions about the portal or any of its features, please email blueprint-info@ebi.ac.uk
+
