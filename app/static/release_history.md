@@ -21,7 +21,7 @@ Over the course of the Blueprint project we have made several releases. This pag
 	  </tr>
 	  <tr>
 	    <td><a href=#/md/release_history/20140811_release>5th Data release</td>
-	    <td>08 August 2014</td>
+	    <td>11 August 2014</td>
 	  </tr>
 	   <tr>
 	    <td><a href=#/md/release_history/20140317_release>4th Data release</td>
@@ -36,8 +36,8 @@ Over the course of the Blueprint project we have made several releases. This pag
 	    <td>17 June 2013</td>
 	  </tr>
 	  <tr>
-	    <td><a href=#/md/release_history/20130301_release>1st Data release</td>
-	    <td>01 March 2013</td>
+	    <td><a href=#/md/release_history/20130405_release>1st Data release</td>
+	    <td>05 April 2013</td>
 	  </tr>
 	</tbody>
 </table> 
