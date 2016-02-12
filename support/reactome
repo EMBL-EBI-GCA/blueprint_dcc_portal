@@ -1,0 +1,44 @@
+#!/usr/bin/perl
+
+# This script makes a POST request to reactome's REST API with the data as provided by the frontend and then returns the JSON recieved from reactome to the frontend
+
+use strict;
+use warnings;
+
+#my $REACTOME_URL = 'http://www.reactome.org/AnalysisService/identifiers/url/projection?pageSize=0&page=1';
+my $PROXY_URL    = 'http://wwwcache.ebi.ac.uk:3128';
+
+BEGIN {
+  push @INC, '/nfs/web-hx/vg/blueprint/perl5/5.14.2', '/nfs/web-hx/vg/blueprint/perl5/5.14.2_extra';
+}
+
+use CGI;
+use LWP::UserAgent;
+
+my $q = CGI->new;
+my $response;
+
+# pass the request to reactome
+{
+  my $uri  = $q->url_param('uri');
+  my $data = $q->param('POSTDATA');
+  my $ua   = LWP::UserAgent->new;
+
+  $ua->proxy('http', $PROXY_URL);
+
+  $response = $ua->request(HTTP::Request->new('POST', $uri, [
+    'Cache-control' => 'no-cache',
+    'Content-type'  => 'text/plain',
+    'Pragma'        => 'no-cache'
+  ], $data));
+}
+
+if ($response && $response->is_success) {
+  print $q->header('application/json');
+  print $response->content;
+
+} else {
+  print $q->header(-status => $response ? $response->status_line : '500 Internal Server Error');
+}
+
+exit;
