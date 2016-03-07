@@ -2070,5 +2070,61 @@
       "release" : "2015-08",
       "dataset_id" : "EGAD00001001529",
       "sample_type" : "precursor B cell, on genome GRCh38"
+   },
+   {
+      "short_description" : "BLUEPRINT Gene expression of different B-cell subpopulations",
+      "data_type" : "Affymetrix Human Genome U219 Array",
+      "title" : "BLUEPRINT Gene expression of different B-cell subpopulations",
+      "release" : "NA",
+      "dataset_id" : "EGAD00010000718",
+      "sample_type" : "NA"
+   },
+   {
+      "short_description" : "Purified plasma cells from tonsil of Healthy donor",
+      "data_type" : "Infinium HumanMethylation450K Array",
+      "title" : "Purified plasma cells from tonsil of Healthy donor",
+      "release" : "NA",
+      "dataset_id" : "EGAD00010000666",
+      "sample_type" : "plasma cell"
+   },
+   {
+      "short_description" : "Purified plasma cells from bone marrow of Monoclonal gammopathy of unknown significance patient",
+      "data_type" : "Infinium HumanMethylation450K Array",
+      "title" : "Purified plasma cells from bone marrow of Monoclonal gammopathy of unknown significance patient",
+      "release" : "NA",
+      "dataset_id" : "EGAD00010000668",
+      "sample_type" : "plasma cell"
+   },
+   {
+      "short_description" : "Purified plasma cells from bone marrow of Pooled healthy donors",
+      "data_type" : "Infinium HumanMethylation450K Array",
+      "title" : "Purified plasma cells from bone marrow of Pooled healthy donors",
+      "release" : "NA",
+      "dataset_id" : "EGAD00010000670",
+      "sample_type" : "plasma cell"
+   },
+   {
+      "short_description" : "Purified plasma cells from bone marrow of Multiple myeloma patient",
+      "data_type" : "Infinium HumanMethylation450K Array",
+      "title" : "Purified plasma cells from bone marrow of Multiple myeloma patient",
+      "release" : "NA",
+      "dataset_id" : "EGAD00010000672",
+      "sample_type" : "plasma cell"
+   },
+   {
+      "short_description" : "BLUEPRINT DNA Methylation of different B-cell subpopulations",
+      "data_type" : "Infinium HumanMethylation450K Array",
+      "title" : "BLUEPRINT DNA Methylation of different B-cell subpopulations",
+      "release" : "NA",
+      "dataset_id" : "EGAD00010000716",
+      "sample_type" : "NA"
+   },
+   {
+      "short_description" : "BLUEPRINT EpiMatch: harnessing epigenetics for hematopoietic stem cell transplantation",
+      "data_type" : "Infinium HumanMethylation450K Array",
+      "title" : "BLUEPRINT EpiMatch: harnessing epigenetics for hematopoietic stem cell transplantation",
+      "release" : "NA",
+      "dataset_id" : "EGAD00010000831",
+      "sample_type" : "NA"
    }
 ]
