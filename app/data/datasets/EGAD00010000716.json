@@ -2,6 +2,7 @@
    "run_files" : [
       {
          "FILE" : "7990908013_R04C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -16,6 +17,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -26,6 +28,7 @@
       },
       {
          "FILE" : "7990908013_R04C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -40,6 +43,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -50,6 +54,7 @@
       },
       {
          "FILE" : "6929671137_R03C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -64,6 +69,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "30-35",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -74,6 +80,7 @@
       },
       {
          "FILE" : "6929671137_R03C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -88,6 +95,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "30-35",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -98,6 +106,7 @@
       },
       {
          "FILE" : "5900833028_R03C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -112,6 +121,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "60-65",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -122,6 +132,7 @@
       },
       {
          "FILE" : "5900833028_R03C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -136,6 +147,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "60-65",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -146,6 +158,7 @@
       },
       {
          "FILE" : "7990895055_R06C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -160,6 +173,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "10-15",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -170,6 +184,7 @@
       },
       {
          "FILE" : "7990895055_R06C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -184,6 +199,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "10-15",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -194,6 +210,7 @@
       },
       {
          "FILE" : "5900833028_R04C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -208,6 +225,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "60-65",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -218,6 +236,7 @@
       },
       {
          "FILE" : "5900833028_R04C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -232,6 +251,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "60-65",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -242,6 +262,7 @@
       },
       {
          "FILE" : "6929671127_R05C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -256,6 +277,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -266,6 +288,7 @@
       },
       {
          "FILE" : "6929671127_R05C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -280,6 +303,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -290,6 +314,7 @@
       },
       {
          "FILE" : "6929671168_R03C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -304,6 +329,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -314,6 +340,7 @@
       },
       {
          "FILE" : "6929671168_R03C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -328,6 +355,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -338,6 +366,7 @@
       },
       {
          "FILE" : "6929671127_R06C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -352,6 +381,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -362,6 +392,7 @@
       },
       {
          "FILE" : "6929671127_R06C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -376,6 +407,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -386,6 +418,7 @@
       },
       {
          "FILE" : "6929671168_R06C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -400,6 +433,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -410,6 +444,7 @@
       },
       {
          "FILE" : "6929671168_R06C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -424,6 +459,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -434,6 +470,7 @@
       },
       {
          "FILE" : "6929671168_R02C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "long lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -448,6 +485,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -458,6 +496,7 @@
       },
       {
          "FILE" : "6929671168_R02C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "long lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -472,6 +511,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -482,6 +522,7 @@
       },
       {
          "FILE" : "6929671127_R04C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -496,6 +537,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "25-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -506,6 +548,7 @@
       },
       {
          "FILE" : "6929671127_R04C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -520,6 +563,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "25-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -530,6 +574,7 @@
       },
       {
          "FILE" : "6929671168_R03C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -544,6 +589,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -554,6 +600,7 @@
       },
       {
          "FILE" : "6929671168_R03C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -568,6 +615,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -578,6 +626,7 @@
       },
       {
          "FILE" : "7990908013_R06C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -592,6 +641,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -602,6 +652,7 @@
       },
       {
          "FILE" : "7990908013_R06C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -616,6 +667,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -626,6 +678,7 @@
       },
       {
          "FILE" : "6929671133_R04C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -640,6 +693,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -650,6 +704,7 @@
       },
       {
          "FILE" : "6929671133_R04C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -664,6 +719,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -674,6 +730,7 @@
       },
       {
          "FILE" : "6929671131_R04C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -688,6 +745,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -698,6 +756,7 @@
       },
       {
          "FILE" : "6929671131_R04C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -712,6 +771,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -722,6 +782,7 @@
       },
       {
          "FILE" : "6929671168_R04C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -736,6 +797,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -746,6 +808,7 @@
       },
       {
          "FILE" : "6929671168_R04C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -760,6 +823,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -770,6 +834,7 @@
       },
       {
          "FILE" : "6929671137_R01C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -784,6 +849,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "30-35",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -794,6 +860,7 @@
       },
       {
          "FILE" : "6929671137_R01C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -808,6 +875,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "30-35",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -818,6 +886,7 @@
       },
       {
          "FILE" : "5900833028_R06C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -832,6 +901,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "60-65",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -842,6 +912,7 @@
       },
       {
          "FILE" : "5900833028_R06C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -856,6 +927,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "60-65",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -866,6 +938,7 @@
       },
       {
          "FILE" : "5900833028_R03C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -880,6 +953,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "65-70",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -890,6 +964,7 @@
       },
       {
          "FILE" : "5900833028_R03C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -904,6 +979,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "65-70",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -914,6 +990,7 @@
       },
       {
          "FILE" : "5900833028_R01C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -928,6 +1005,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "65-70",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -938,6 +1016,7 @@
       },
       {
          "FILE" : "5900833028_R01C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -952,6 +1031,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "65-70",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -962,6 +1042,7 @@
       },
       {
          "FILE" : "7990908013_R01C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -976,6 +1057,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -986,6 +1068,7 @@
       },
       {
          "FILE" : "7990908013_R01C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1000,6 +1083,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1010,6 +1094,7 @@
       },
       {
          "FILE" : "6929671133_R03C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1024,6 +1109,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1034,6 +1120,7 @@
       },
       {
          "FILE" : "6929671133_R03C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1048,6 +1135,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1058,6 +1146,7 @@
       },
       {
          "FILE" : "6929671131_R03C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1072,6 +1161,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1082,6 +1172,7 @@
       },
       {
          "FILE" : "6929671131_R03C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1096,6 +1187,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1106,6 +1198,7 @@
       },
       {
          "FILE" : "7990895143_R06C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "long lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1120,6 +1213,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -1130,6 +1224,7 @@
       },
       {
          "FILE" : "7990895143_R06C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "long lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1144,6 +1239,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -1154,6 +1250,7 @@
       },
       {
          "FILE" : "6929671127_R02C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1168,6 +1265,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "25-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -1178,6 +1276,7 @@
       },
       {
          "FILE" : "6929671127_R02C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1192,6 +1291,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "25-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -1202,6 +1302,7 @@
       },
       {
          "FILE" : "7990908013_R03C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1216,6 +1317,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1226,6 +1328,7 @@
       },
       {
          "FILE" : "7990908013_R03C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1240,6 +1343,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1250,6 +1354,7 @@
       },
       {
          "FILE" : "7990908013_R05C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1264,6 +1369,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1274,6 +1380,7 @@
       },
       {
          "FILE" : "7990908013_R05C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1288,6 +1395,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1298,6 +1406,7 @@
       },
       {
          "FILE" : "7990908013_R06C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1312,6 +1421,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1322,6 +1432,7 @@
       },
       {
          "FILE" : "7990908013_R06C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1336,6 +1447,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1346,6 +1458,7 @@
       },
       {
          "FILE" : "5900833028_R01C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1360,6 +1473,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "60-65",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -1370,6 +1484,7 @@
       },
       {
          "FILE" : "5900833028_R01C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1384,6 +1499,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "60-65",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -1394,6 +1510,7 @@
       },
       {
          "FILE" : "7990908013_R05C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1408,6 +1525,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1418,6 +1536,7 @@
       },
       {
          "FILE" : "7990908013_R05C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1432,6 +1551,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1442,6 +1562,7 @@
       },
       {
          "FILE" : "6929671131_R06C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1456,6 +1577,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1466,6 +1588,7 @@
       },
       {
          "FILE" : "6929671131_R06C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1480,6 +1603,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1490,6 +1614,7 @@
       },
       {
          "FILE" : "7990908013_R04C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1504,6 +1629,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1514,6 +1640,7 @@
       },
       {
          "FILE" : "7990908013_R04C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1528,6 +1655,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1538,6 +1666,7 @@
       },
       {
          "FILE" : "7990908013_R02C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1552,6 +1681,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1562,6 +1692,7 @@
       },
       {
          "FILE" : "7990908013_R02C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1576,6 +1707,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5 - 10",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1586,6 +1718,7 @@
       },
       {
          "FILE" : "6929671168_R01C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "long lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1600,6 +1733,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-30 ",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -1610,6 +1744,7 @@
       },
       {
          "FILE" : "6929671168_R01C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "long lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1624,6 +1759,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-30 ",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -1634,6 +1770,7 @@
       },
       {
          "FILE" : "6929671168_R04C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1648,6 +1785,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -1658,6 +1796,7 @@
       },
       {
          "FILE" : "6929671168_R04C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009852",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1672,6 +1811,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "BLUEPRINT DNA methylation profiling of B-cell differentiation using Illumina HumanMethylation 450K BeadArray",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",

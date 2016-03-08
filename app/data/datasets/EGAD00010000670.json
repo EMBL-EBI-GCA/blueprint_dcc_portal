@@ -2,6 +2,7 @@
    "run_files" : [
       {
          "FILE" : "7990895143_R06C02_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "Purified plasma cells",
          "STUDY_ID" : "ERP005982",
          "CENTER_NAME" : "IDIBAPS",
@@ -10,6 +11,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2014-06-03 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "HumanMethylation450K data from Purified Plasma Cells of Monoclonal gammopathy of unknown significance and Multiple myeloma patients and Healthy donors",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -20,6 +22,7 @@
       },
       {
          "FILE" : "7990895143_R06C02_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "Purified plasma cells",
          "STUDY_ID" : "ERP005982",
          "CENTER_NAME" : "IDIBAPS",
@@ -28,6 +31,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2014-06-03 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "HumanMethylation450K data from Purified Plasma Cells of Monoclonal gammopathy of unknown significance and Multiple myeloma patients and Healthy donors",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -38,6 +42,7 @@
       },
       {
          "FILE" : "6929671168_R01C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "Purified plasma cells",
          "STUDY_ID" : "ERP005982",
          "CENTER_NAME" : "IDIBAPS",
@@ -46,6 +51,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2014-06-03 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "HumanMethylation450K data from Purified Plasma Cells of Monoclonal gammopathy of unknown significance and Multiple myeloma patients and Healthy donors",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -56,6 +62,7 @@
       },
       {
          "FILE" : "6929671168_R01C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "Purified plasma cells",
          "STUDY_ID" : "ERP005982",
          "CENTER_NAME" : "IDIBAPS",
@@ -64,6 +71,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2014-06-03 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "HumanMethylation450K data from Purified Plasma Cells of Monoclonal gammopathy of unknown significance and Multiple myeloma patients and Healthy donors",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -74,6 +82,7 @@
       },
       {
          "FILE" : "6929671168_R02C01_Grn.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "Purified plasma cells",
          "STUDY_ID" : "ERP005982",
          "CENTER_NAME" : "IDIBAPS",
@@ -82,6 +91,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2014-06-03 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "HumanMethylation450K data from Purified Plasma Cells of Monoclonal gammopathy of unknown significance and Multiple myeloma patients and Healthy donors",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -92,6 +102,7 @@
       },
       {
          "FILE" : "6929671168_R02C01_Red.20160209.idat",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
          "CELL_TYPE" : "Purified plasma cells",
          "STUDY_ID" : "ERP005982",
          "CENTER_NAME" : "IDIBAPS",
@@ -100,6 +111,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2014-06-03 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "genomic DNA",
          "STUDY_NAME" : "HumanMethylation450K data from Purified Plasma Cells of Monoclonal gammopathy of unknown significance and Multiple myeloma patients and Healthy donors",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",

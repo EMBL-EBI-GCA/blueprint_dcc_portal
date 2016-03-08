@@ -2,6 +2,7 @@
    "run_files" : [
       {
          "FILE" : "MemAG_NC11_67_plate2_G09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -16,6 +17,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "30-35",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -26,6 +28,7 @@
       },
       {
          "FILE" : "S3-6_BCELLPRECURSOR_C05.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "pre-B-II cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -40,6 +43,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-25 weeks",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -50,6 +54,7 @@
       },
       {
          "FILE" : "GCBC-T12_18_plate2_E07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -64,6 +69,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -74,6 +80,7 @@
       },
       {
          "FILE" : "NBC.T-T12_15_plate2_A07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -88,6 +95,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -98,6 +106,7 @@
       },
       {
          "FILE" : "MemAG-NC31_C07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -112,6 +121,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "60-65",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -122,6 +132,7 @@
       },
       {
          "FILE" : "NBC.T-AMG13_plate1_H07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -136,6 +147,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -146,6 +158,7 @@
       },
       {
          "FILE" : "Naive-927_A01.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -160,6 +173,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "55-60",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -170,6 +184,7 @@
       },
       {
          "FILE" : "CB-AMG13_plate1_A09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -184,6 +199,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -194,6 +210,7 @@
       },
       {
          "FILE" : "S3-10_BCELLPRECURSOR_F05.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "pre-B-II cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -208,6 +225,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-25 weeks",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -218,6 +236,7 @@
       },
       {
          "FILE" : "S3-14_BCELLPRECURSOR_A07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "pre-B-II cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -232,6 +251,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-25 weeks",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -242,6 +262,7 @@
       },
       {
          "FILE" : "MemAG-928_E09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -256,6 +277,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "55-60",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -266,6 +288,7 @@
       },
       {
          "FILE" : "S1-8_BCELLPRECURSOR_E05.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "hematopoietic precursor cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -280,6 +303,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-25 weeks",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -290,6 +314,7 @@
       },
       {
          "FILE" : "S1-16_BCELLPRECURSOR_C07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "hematopoietic precursor cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -304,6 +329,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-25 weeks",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -314,6 +340,7 @@
       },
       {
          "FILE" : "GCBC-T12_24_plate2_B09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -328,6 +355,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -338,6 +366,7 @@
       },
       {
          "FILE" : "GCBC-T11_7_plate2_D05.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -352,6 +381,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -362,6 +392,7 @@
       },
       {
          "FILE" : "CB-AMG52_plate1_C09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -376,6 +407,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -386,6 +418,7 @@
       },
       {
          "FILE" : "PC.T-T12_24_plate2_C09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -400,6 +433,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -410,6 +444,7 @@
       },
       {
          "FILE" : "S2-11_BCELLPRECURSOR_G05.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "pre-B-I cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -424,6 +459,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-25 weeks",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -434,6 +470,7 @@
       },
       {
          "FILE" : "Naive_NC11_67_plate2_F09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -448,6 +485,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "30-35",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -458,6 +496,7 @@
       },
       {
          "FILE" : "PC.T-T12_17_plate2_D07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -472,6 +511,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -482,6 +522,7 @@
       },
       {
          "FILE" : "Naive-NC35_D07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -496,6 +537,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "55-60",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -506,6 +548,7 @@
       },
       {
          "FILE" : "S1-4_BCELLPRECURSOR_B05.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "hematopoietic precursor cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -520,6 +563,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-25 weeks",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -530,6 +574,7 @@
       },
       {
          "FILE" : "Naive-928_F09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -544,6 +589,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "55-60",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -554,6 +600,7 @@
       },
       {
          "FILE" : "NBC.T-AMG52_plate1_B09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -568,6 +615,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-6",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -578,6 +626,7 @@
       },
       {
          "FILE" : "GCBC-T11_8_plate2_F05.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -592,6 +641,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -602,6 +652,7 @@
       },
       {
          "FILE" : "GCBC-T12_17_plate2_C07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -616,6 +667,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -626,6 +678,7 @@
       },
       {
          "FILE" : "GCBC-T12_15_plate2_H05.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -640,6 +693,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -650,6 +704,7 @@
       },
       {
          "FILE" : "PC.T-T12_16_plate1_G09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -664,6 +719,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -674,6 +730,7 @@
       },
       {
          "FILE" : "MemAG-NC35_G07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -688,6 +745,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "55-60",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -698,6 +756,7 @@
       },
       {
          "FILE" : "Naive-931.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -712,6 +771,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "55-60",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -722,6 +782,7 @@
       },
       {
          "FILE" : "S2-15_BCELLPRECURSOR_B07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "pre-B-I cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -736,6 +797,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-25 weeks",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -746,6 +808,7 @@
       },
       {
          "FILE" : "GCBC-T12_19_plate2_G07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -760,6 +823,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5-10",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -770,6 +834,7 @@
       },
       {
          "FILE" : "NBC.T-T12_12_BCELLPRECURSOR_D07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -784,6 +849,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "5-10",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -794,6 +860,7 @@
       },
       {
          "FILE" : "PC.T-T12_18_plate2_F07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -808,6 +875,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -818,6 +886,7 @@
       },
       {
          "FILE" : "GCBC-T11_9_plate2_G05.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -832,6 +901,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -842,6 +912,7 @@
       },
       {
          "FILE" : "PC.T-T12_15_plate2_B07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "short lived plasma cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -856,6 +927,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -866,6 +938,7 @@
       },
       {
          "FILE" : "Naive-NC31_F07.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "naive B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -880,6 +953,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "60-65",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -890,6 +964,7 @@
       },
       {
          "FILE" : "MemAG-931_D09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "class switched memory B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -904,6 +979,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "55-60",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Venous blood",
@@ -914,6 +990,7 @@
       },
       {
          "FILE" : "GCBC-T12_16_plate1_F09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "tonsil germinal center B cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -928,6 +1005,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "0-5",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Tonsil",
@@ -938,6 +1016,7 @@
       },
       {
          "FILE" : "S2-7_BCELLPRECURSOR_D05_2.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "pre-B-I cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -952,6 +1031,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-25 weeks",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -962,6 +1042,7 @@
       },
       {
          "FILE" : "MO69_CD138_plate2_D09.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "long lived plasma cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -976,6 +1057,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-30",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
@@ -986,6 +1068,7 @@
       },
       {
          "FILE" : "S3-2_BCELLPRECURSOR_A05.20160209.CEL",
+         "EXPERIMENT_TYPE" : "polyA RNA",
          "CELL_TYPE" : "pre-B-II cell",
          "STUDY_ID" : "ERP009853",
          "SAMPLE_ONTOLOGY_URI" : [
@@ -1000,6 +1083,7 @@
          "DONOR_HEALTH_STATUS" : "-",
          "FIRST_SUBMISSION_DATE" : "2015-03-13 00:00:00",
          "DONOR_AGE" : "20-25 weeks",
+         "MOLECULE" : "polyA RNA",
          "STUDY_NAME" : "BLUEPRINT Gene expression analysis during human B-cell differentiation using the Affymetrix Human Genome U219 Array",
          "BIOMATERIAL_PROVIDER" : "Jose I. Martin-Subero",
          "TISSUE_TYPE" : "Bone marrow",
