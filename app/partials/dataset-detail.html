@@ -42,7 +42,8 @@
 				</tr></thead>
 				
 			<tbody><tr ng-repeat="file in data.run_files">
-				<td><a ng-href="#/experiments/{{file.EXPERIMENT_ID}}">{{file.EXPERIMENT_ID}}</a></td>
+				<td ng-if="file.EXPERIMENT_ID != 'NA'"><a ng-href="#/experiments/{{file.EXPERIMENT_ID}}">{{file.EXPERIMENT_ID}}</a></td>
+                                <td ng-if="file.EXPERIMENT_ID == 'NA'">{{file.EXPERIMENT_ID}}</td>       
 				<td>{{file.FILE}}</td>
 				<td>{{file.SAMPLE_NAME}}</td>
 				<td>{{file.INSTRUMENT_PLATFORM}}</td>
