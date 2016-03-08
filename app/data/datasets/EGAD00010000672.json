@@ -4786,6 +4786,7 @@
       }
    ],
    "runs_spreadsheet_file_name" : "publication_datasets/EGAD00010000672_Purified_plasma_cells_from_bone_marrow_of_Multiple_myeloma_patient.tsv",
+   "short_description" : "Purified plasma cells from bone marrow of Multiple myeloma patient",
    "release" : "NA",
    "dataset_id" : "EGAD00010000672",
    "description" : "Purified plasma cells from bone marrow of Multiple myeloma patient"

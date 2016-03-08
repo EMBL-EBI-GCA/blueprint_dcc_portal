@@ -738,6 +738,7 @@
       }
    ],
    "runs_spreadsheet_file_name" : "publication_datasets/EGAD00010000668_Purified_plasma_cells_from_bone_marrow_of_Monoclonal_gammopathy_of_unknown_significance_patient.tsv",
+   "short_description" : "Purified plasma cells from bone marrow of Monoclonal gammopathy of unknown significance patient",
    "release" : "NA",
    "dataset_id" : "EGAD00010000668",
    "description" : "Purified plasma cells from bone marrow of Monoclonal gammopathy of unknown significance patient"

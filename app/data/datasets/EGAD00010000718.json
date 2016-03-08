@@ -1178,6 +1178,7 @@
       }
    ],
    "runs_spreadsheet_file_name" : "publication_datasets/EGAD00010000718_BLUEPRINT_Gene_expression_of_different_B-cell_subpopulations.tsv",
+   "short_description" : "BLUEPRINT Gene expression of different B-cell subpopulations",
    "release" : "NA",
    "dataset_id" : "EGAD00010000718",
    "description" : "BLUEPRINT Gene expression of different B-cell subpopulations"

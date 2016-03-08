@@ -1962,6 +1962,7 @@
       }
    ],
    "runs_spreadsheet_file_name" : "publication_datasets/EGAD00010000716_BLUEPRINT_DNA_Methylation_of_different_B-cell_subpopulations.tsv",
+   "short_description" : "BLUEPRINT DNA Methylation of different B-cell subpopulations",
    "release" : "NA",
    "dataset_id" : "EGAD00010000716",
    "description" : "BLUEPRINT DNA Methylation of different B-cell subpopulations"

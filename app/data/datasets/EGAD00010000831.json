@@ -3402,6 +3402,7 @@
       }
    ],
    "runs_spreadsheet_file_name" : "publication_datasets/EGAD00010000831_BLUEPRINT_EpiMatch_harnessing_epigenetics_for_hematopoietic_stem_cell_transplantation.tsv",
+   "short_description" : "BLUEPRINT EpiMatch: harnessing epigenetics for hematopoietic stem cell transplantation",
    "release" : "NA",
    "dataset_id" : "EGAD00010000831",
    "description" : "BLUEPRINT EpiMatch: harnessing epigenetics for hematopoietic stem cell transplantation"

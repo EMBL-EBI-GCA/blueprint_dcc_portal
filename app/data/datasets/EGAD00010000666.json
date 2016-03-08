@@ -354,6 +354,7 @@
       }
    ],
    "runs_spreadsheet_file_name" : "publication_datasets/EGAD00010000666_Purified_plasma_cells_from_tonsil_of_Healthy_donor.tsv",
+   "short_description" : "Purified plasma cells from tonsil of Healthy donor",
    "release" : "NA",
    "dataset_id" : "EGAD00010000666",
    "description" : "Purified plasma cells from tonsil of Healthy donor"

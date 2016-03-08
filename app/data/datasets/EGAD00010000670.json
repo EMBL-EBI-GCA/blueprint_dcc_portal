@@ -134,6 +134,7 @@
       }
    ],
    "runs_spreadsheet_file_name" : "publication_datasets/EGAD00010000670_Purified_plasma_cells_from_bone_marrow_of_Pooled_healthy_donors.tsv",
+   "short_description" : "Purified plasma cells from bone marrow of Pooled healthy donors",
    "release" : "NA",
    "dataset_id" : "EGAD00010000670",
    "description" : "Purified plasma cells from bone marrow of Pooled healthy donors"
