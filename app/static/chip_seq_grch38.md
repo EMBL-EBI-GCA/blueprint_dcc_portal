@@ -23,7 +23,13 @@ The output bam file was then filtered to remove unmapped reads and reads with Ma
 
 Command line used:
 
-    samtools view -b -F 1024 -q 5 input.bam > output.bam
+    samtools view -b -F 4 -q 5 input.bam > intermediate.output.bam
+
+The intermediate output bam file was then filtered to remove PCR or optical duplicate reads
+
+Command line used:
+
+    samtools view -b -F 1024 intermediate.output.bam > output.bam
 
 ##Modelling Fragment Size
 
