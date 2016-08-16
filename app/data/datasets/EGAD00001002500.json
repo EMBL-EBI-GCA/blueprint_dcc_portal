@@ -1,0 +1,206 @@
+{
+   "analysis_spreadsheet_file_name" : "2016-08/EGAD00001002500_RNASeq_Acute_Promyelocytic_Leukemia_MS_275_20h_on_genome_GRCh38_2016_08_analysis_files.tsv",
+   "release" : "2016-08",
+   "dataset_id" : "EGAD00001002500",
+   "description" : "RNA-Seq data for 1 Acute Promyelocytic Leukemia - MS-275 (20h) sample(s). 1 run(s), 1 experiment(s), 1 analysis(s) on human genome GRCh38. Part of BLUEPRINT release August 2016. Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20160816/homo_sapiens/README_rnaseq_analysis_crg_20160816",
+   "runs_spreadsheet_file_name" : "2016-08/EGAD00001002500_RNASeq_Acute_Promyelocytic_Leukemia_MS_275_20h_on_genome_GRCh38_2016_08_run_files.tsv",
+   "run_files" : [
+      {
+         "SAMPLE_STATUS" : "private",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "FILE" : "150226_SN935_0006_B_C5YBTACXX_ACTTGA_5_read1.fastq.gz",
+         "TREATMENT" : "MS-275 (20h)",
+         "SAMPLE_DESC_2" : "pz 289",
+         "STUDY_ID" : "ERP001664",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000763",
+               "label" : "CL_0000763"
+            }
+         ],
+         "DONOR_ID" : "pz 289",
+         "MD5" : "c5ee31ebf0d26155286a341110cc9ba7",
+         "SAMPLE_DESC_1" : "bone marrow",
+         "FIRST_SUBMISSION_DATE" : "12-MAY-2015 10:40:23",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "BLUEPRINT RNA-seq data for common cells in the haematopoietic lineages, from adult and cord blood samples.",
+         "BIOMATERIAL_PROVIDER" : "Prof: Lucia Altucci  (SECONDA UNIVERSITA' di NAPOLI- IT)",
+         "LIBRARY_STRATEGY" : "RNA-Seq",
+         "TISSUE_TYPE" : "bone marrow",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "READ_STRAND" : "Mate2_Sense",
+         "EXPERIMENT_ID" : "ERX957895",
+         "RUN_ID" : "ERR878372",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "RUN_STATUS" : "private",
+         "EXPERIMENT_TYPE" : "total-RNA-Seq",
+         "DISEASE" : "Acute Promyelocytic Leukemia",
+         "CELL_TYPE" : "myeloid cell",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&amp",
+               "label" : "NCI%20MetaThesaurus&amp"
+            },
+            {
+               "url" : "code=C0023487",
+               "label" : "C0023487"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "MPIMG",
+         "LIBRARY_NAME" : "I_bc_pelib_2934",
+         "POOLED_DONOR_IDS" : "-",
+         "SAMPLE_DESC_3" : "Acute Promyelocytic Leukemia - MS-275 (20h)",
+         "DONOR_HEALTH_STATUS" : "Acute Promyelocytic Leukemia",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_AGE" : "30 - 35",
+         "MOLECULE" : "total RNA",
+         "SAMPLE_ID" : "ERS715434",
+         "LIBRARY_LAYOUT" : "PAIRED",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "SAMPLE_NAME" : "S008TE11",
+         "EXPERIMENT_STATUS" : "private",
+         "POOL_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_ETHNICITY" : "Caucasian"
+      },
+      {
+         "SAMPLE_STATUS" : "private",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "FILE" : "150226_SN935_0006_B_C5YBTACXX_ACTTGA_5_read2.fastq.gz",
+         "TREATMENT" : "MS-275 (20h)",
+         "SAMPLE_DESC_2" : "pz 289",
+         "STUDY_ID" : "ERP001664",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000763",
+               "label" : "CL_0000763"
+            }
+         ],
+         "DONOR_ID" : "pz 289",
+         "MD5" : "5de8e511aee50650db31a6f8f9d51682",
+         "SAMPLE_DESC_1" : "bone marrow",
+         "FIRST_SUBMISSION_DATE" : "12-MAY-2015 10:40:23",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "BLUEPRINT RNA-seq data for common cells in the haematopoietic lineages, from adult and cord blood samples.",
+         "BIOMATERIAL_PROVIDER" : "Prof: Lucia Altucci  (SECONDA UNIVERSITA' di NAPOLI- IT)",
+         "LIBRARY_STRATEGY" : "RNA-Seq",
+         "TISSUE_TYPE" : "bone marrow",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "READ_STRAND" : "Mate2_Sense",
+         "EXPERIMENT_ID" : "ERX957895",
+         "RUN_ID" : "ERR878372",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "RUN_STATUS" : "private",
+         "EXPERIMENT_TYPE" : "total-RNA-Seq",
+         "DISEASE" : "Acute Promyelocytic Leukemia",
+         "CELL_TYPE" : "myeloid cell",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&amp",
+               "label" : "NCI%20MetaThesaurus&amp"
+            },
+            {
+               "url" : "code=C0023487",
+               "label" : "C0023487"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "MPIMG",
+         "LIBRARY_NAME" : "I_bc_pelib_2934",
+         "POOLED_DONOR_IDS" : "-",
+         "SAMPLE_DESC_3" : "Acute Promyelocytic Leukemia - MS-275 (20h)",
+         "DONOR_HEALTH_STATUS" : "Acute Promyelocytic Leukemia",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_AGE" : "30 - 35",
+         "MOLECULE" : "total RNA",
+         "SAMPLE_ID" : "ERS715434",
+         "LIBRARY_LAYOUT" : "PAIRED",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "SAMPLE_NAME" : "S008TE11",
+         "EXPERIMENT_STATUS" : "private",
+         "POOL_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_ETHNICITY" : "Caucasian"
+      }
+   ],
+   "short_description" : "RNA-Seq for Acute Promyelocytic Leukemia - MS-275 (20h), on genome GRCh38",
+   "data_type" : "RNA-Seq",
+   "title" : "BLUEPRINT release August 2016, RNA-Seq for Acute Promyelocytic Leukemia - MS-275 (20h), on genome GRCh38",
+   "sample_type" : "Acute Promyelocytic Leukemia - MS-275 (20h), on genome GRCh38",
+   "alias" : "BP_August_2016_RNA-Seq_Acute_Promyelocytic_Leukemia_-_MS-275_(20h)_on_GRCh38",
+   "analysis_files" : [
+      {
+         "withdrawn" : "-",
+         "FILE" : "S008TE11.RNA-Seq.star_grape2_crg.GRCh38.20151028.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "MS-275 (20h)",
+         "SAMPLE_DESC_2" : "pz 289",
+         "STUDY_ID" : "ERP001664",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000763",
+               "label" : "CL_0000763"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "ena-EXPERIMENT-BLUEPRINT-12-05-2015-10:40:05:133-8",
+         "DONOR_ID" : "pz 289",
+         "SAMPLE_DESC_1" : "bone marrow",
+         "FIRST_SUBMISSION_DATE" : "12-MAY-2015 10:40:23",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "BLUEPRINT RNA-seq data for common cells in the haematopoietic lineages, from adult and cord blood samples.",
+         "BIOMATERIAL_PROVIDER" : "Prof: Lucia Altucci  (SECONDA UNIVERSITA' di NAPOLI- IT)",
+         "LIBRARY_STRATEGY" : "RNA-Seq",
+         "TISSUE_TYPE" : "bone marrow",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "READ_STRAND" : "Mate2_Sense",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX957895",
+         "type" : "RNA_BAM_STAR_CRG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "total-RNA-Seq",
+         "DISEASE" : "Acute Promyelocytic Leukemia",
+         "CELL_TYPE" : "myeloid cell",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023487",
+               "label" : "C0023487"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "MPIMG",
+         "LIBRARY_NAME" : "I_bc_pelib_2934",
+         "FILE_SIZE" : "18054019789",
+         "SAMPLE_DESC_3" : "Acute Promyelocytic Leukemia - MS-275 (20h)",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_HEALTH_STATUS" : "Acute Promyelocytic Leukemia",
+         "MOLECULE" : "total RNA",
+         "DONOR_AGE" : "30 - 35",
+         "LIBRARY_LAYOUT" : "PAIRED",
+         "SAMPLE_ID" : "ERS715434",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "FILE_MD5" : "15d36288800aa449f9c0bda07936c97a",
+         "SAMPLE_NAME" : "S008TE11",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "Caucasian"
+      }
+   ]
+}

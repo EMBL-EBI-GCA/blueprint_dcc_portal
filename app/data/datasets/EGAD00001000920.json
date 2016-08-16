@@ -12,63 +12,7 @@
    "alias" : "BP_August_2014_Bisulfite-Seq_alternatively_activated_macrophage",
    "analysis_files" : [
       {
-         "withdrawn" : null,
-         "FILE" : "S0062252.BS.gem_cnag_bs.20140106.bam",
-         "GENETIC_CHARACTERISTICS" : "-",
-         "TREATMENT" : "-",
-         "SAMPLE_DESC_2" : "S00622",
-         "STUDY_ID" : "ERP002159",
-         "SAMPLE_ONTOLOGY_URI" : [
-            {
-               "url" : "http://purl.obolibrary.org/obo/CL_0000890",
-               "label" : "CL_0000890"
-            },
-            {
-               "url" : "http://purl.obolibrary.org/obo/UBERON_0013756",
-               "label" : "UBERON_0013756"
-            }
-         ],
-         "EXPERIMENT_ALIAS" : "Blueprint_CNAG_BS_857G_BS_S0062252",
-         "DONOR_ID" : "S00622",
-         "SAMPLE_DESC_1" : "Venous blood",
-         "FIRST_SUBMISSION_DATE" : "09-DEC-2013 09:51:12",
-         "READ_QUALITIES" : "-",
-         "STUDY_NAME" : "Bisulfite-Seq",
-         "BIOMATERIAL_PROVIDER" : "NIHR Cambridge BioResource",
-         "LIBRARY_STRATEGY" : "Bisulfite-Seq",
-         "TISSUE_TYPE" : "Venous blood",
-         "DONOR_REGION_OF_RESIDENCE" : "East Anglia",
-         "INSTRUMENT_PLATFORM" : "ILLUMINA",
-         "READ_STRAND" : "-",
-         "EXPERIMENT_ID" : "ERX353601",
-         "type" : "BS_BAM_CNAG",
-         "CELL_LINE" : "-",
-         "TISSUE_DEPOT" : "-",
-         "EXPERIMENT_TYPE" : "DNA Methylation",
-         "DISEASE" : "None",
-         "CELL_TYPE" : "alternatively activated macrophage",
-         "SEQ_RUNS_COUNT" : "10",
-         "DISEASE_ONTOLOGY_URI" : [],
-         "SPECIMEN_PROCESSING" : "fresh",
-         "CENTER_NAME" : "CNAG",
-         "LIBRARY_NAME" : "857G_BS",
-         "FILE_SIZE" : "147659977747",
-         "SAMPLE_DESC_3" : "alternatively activated macrophage",
-         "POOLED_DONOR_IDS" : "-",
-         "SPECIMEN_STORAGE" : "NA",
-         "DONOR_HEALTH_STATUS" : "NA",
-         "MOLECULE" : "genomic DNA",
-         "DONOR_AGE" : "65 - 70",
-         "LIBRARY_LAYOUT" : "SINGLE",
-         "SAMPLE_ID" : "ERS337121",
-         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
-         "BIOMATERIAL_TYPE" : "Primary Cell Culture",
-         "FILE_MD5" : "434ad0e8552ffc5fba135ae072b1cd0c",
-         "SAMPLE_NAME" : "S0062252",
-         "POOL_ID" : "-",
-         "TWIN_PAIR_ID" : "-",
-         "DONOR_SEX" : "Male",
-         "DONOR_ETHNICITY" : "Northern European"
+         "FILE" : "S0062252.BS.gem_cnag_bs.20140106.bam"
       }
    ]
 }

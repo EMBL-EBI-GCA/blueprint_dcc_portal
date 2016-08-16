@@ -12,63 +12,7 @@
    "alias" : "BP_August_2014_Bisulfite-Seq_CD8-positive,_alpha-beta_T_cell",
    "analysis_files" : [
       {
-         "withdrawn" : null,
-         "FILE" : "C0066P51.BS.gem_cnag_bs.20140106.bam",
-         "GENETIC_CHARACTERISTICS" : "-",
-         "TREATMENT" : "-",
-         "SAMPLE_DESC_2" : "C0066P",
-         "STUDY_ID" : "ERP002159",
-         "SAMPLE_ONTOLOGY_URI" : [
-            {
-               "url" : "http://purl.obolibrary.org/obo/CL_0000625",
-               "label" : "CL_0000625"
-            },
-            {
-               "url" : "http://purl.obolibrary.org/obo/UBERON_0012168",
-               "label" : "UBERON_0012168"
-            }
-         ],
-         "EXPERIMENT_ALIAS" : "Blueprint_CNAG_BS_848G_BS_C0066P51",
-         "DONOR_ID" : "C0066P",
-         "SAMPLE_DESC_1" : "Cord blood",
-         "FIRST_SUBMISSION_DATE" : "09-DEC-2013 09:51:12",
-         "READ_QUALITIES" : "-",
-         "STUDY_NAME" : "Bisulfite-Seq",
-         "BIOMATERIAL_PROVIDER" : "NIHR Cambridge BioResource",
-         "LIBRARY_STRATEGY" : "Bisulfite-Seq",
-         "TISSUE_TYPE" : "Cord blood",
-         "DONOR_REGION_OF_RESIDENCE" : "East Anglia",
-         "INSTRUMENT_PLATFORM" : "ILLUMINA",
-         "READ_STRAND" : "-",
-         "EXPERIMENT_ID" : "ERX353592",
-         "type" : "BS_BAM_CNAG",
-         "CELL_LINE" : "-",
-         "TISSUE_DEPOT" : "-",
-         "EXPERIMENT_TYPE" : "DNA Methylation",
-         "DISEASE" : "None",
-         "CELL_TYPE" : "CD8-positive, alpha-beta T cell",
-         "SEQ_RUNS_COUNT" : "14",
-         "DISEASE_ONTOLOGY_URI" : [],
-         "SPECIMEN_PROCESSING" : "fresh",
-         "CENTER_NAME" : "CNAG",
-         "LIBRARY_NAME" : "848G_BS",
-         "FILE_SIZE" : "142717469196",
-         "SAMPLE_DESC_3" : "CD8-positive, alpha-beta T cell",
-         "POOLED_DONOR_IDS" : "-",
-         "SPECIMEN_STORAGE" : "NA",
-         "DONOR_HEALTH_STATUS" : "NA",
-         "MOLECULE" : "genomic DNA",
-         "DONOR_AGE" : "-",
-         "LIBRARY_LAYOUT" : "SINGLE",
-         "SAMPLE_ID" : "ERS222241",
-         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
-         "BIOMATERIAL_TYPE" : "Primary Cell",
-         "FILE_MD5" : "e82b9bca6e7a2a4d82ea3ea97c702668",
-         "SAMPLE_NAME" : "C0066P51",
-         "POOL_ID" : "-",
-         "TWIN_PAIR_ID" : "-",
-         "DONOR_SEX" : "Female",
-         "DONOR_ETHNICITY" : "NA"
+         "FILE" : "C0066P51.BS.gem_cnag_bs.20140106.bam"
       }
    ]
 }
