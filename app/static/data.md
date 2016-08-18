@@ -28,7 +28,7 @@ Our data is available both from the sequence archives and from our own FTP site,
 		</tr>
 		<tr>
 			<td rowspan="2">Data mining</td>
-	        <td><a href="http://blueprint-data.bsc.es/">Data portal</a></td>
+	        <td><a href="http://blueprint-dev.bioinfo.cnio.es/release_2016-08">Data Analysis Portal</a></td>
 		</tr>
 		<tr>
 			<td><a href="http://deepblue.mpi-inf.mpg.de/">DeepBlue</a></td>
