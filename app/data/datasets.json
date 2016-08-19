@@ -1440,14 +1440,6 @@
       "sample_type" : "common lymphoid progenitor, on genome GRCh38"
    },
    {
-      "short_description" : "Bisulfite-seq and Whole Genome Sequencing of mantle cell lymphoma",
-      "data_type" : "Mixed",
-      "title" : "BLUEPRINT Bisulfite-seq and Whole Genome Sequencing of mantle cell lymphoma",
-      "release" : "NA",
-      "dataset_id" : "EGAD00001001892",
-      "sample_type" : ""
-   },
-   {
       "short_description" : "RNA-Seq for neutrophilic metamyelocyte, on genome GRCh38",
       "data_type" : "RNA-Seq",
       "title" : "BLUEPRINT release August 2016, RNA-Seq for neutrophilic metamyelocyte, on genome GRCh38",
