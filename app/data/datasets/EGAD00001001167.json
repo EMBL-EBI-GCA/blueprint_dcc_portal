@@ -1453,13 +1453,190 @@
    "alias" : "BP_January_2015_Bisulfite-Seq_Acute_promyelocytic_leukemia",
    "analysis_files" : [
       {
-         "FILE" : "S0050AA1.BS.gem_cnag_bs.20140106.bam"
+         "withdrawn" : null,
+         "FILE" : "S0050AA1.BS.gem_cnag_bs.20140106.bam",
+         "GENETIC_CHARACTERISTICS" : "Translocation t(15;17)",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "ATRA",
+         "SAMPLE_DESC_2" : "pz 284",
+         "STUDY_ID" : "ERP002159",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000763",
+               "label" : "CL_0000763"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "Blueprint_CNAG_BS_128G_BS_S0050AA1",
+         "DONOR_ID" : "pz 284",
+         "SAMPLE_DESC_1" : "bone marrow",
+         "FIRST_SUBMISSION_DATE" : "10-DEC-2013 15:46:15",
+         "READ_QUALITIES" : "-",
+         "STUDY_NAME" : "BLUEPRINT Bisulfite-seq (CNAG)",
+         "BIOMATERIAL_PROVIDER" : "Prof: Lucia Altucci  (SECONDA UNIVERSITA' di NAPOLI- IT)",
+         "LIBRARY_STRATEGY" : "Bisulfite-Seq",
+         "TISSUE_TYPE" : "bone marrow",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "READ_STRAND" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX358120",
+         "type" : "BS_BAM_CNAG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
+         "DISEASE" : "Acute Promyelocytic Leukemia",
+         "CELL_TYPE" : "myeloid cell",
+         "SEQ_RUNS_COUNT" : "9",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023487",
+               "label" : "C0023487"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "CNAG",
+         "LIBRARY_NAME" : "128G_BS",
+         "FILE_SIZE" : "162924282093",
+         "SAMPLE_DESC_3" : "Acute Promyelocytic Leukemia - ATRA",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_HEALTH_STATUS" : "Acute Promyelocytic Leukemia",
+         "MOLECULE" : "genomic DNA",
+         "DONOR_AGE" : "40 - 45",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "SAMPLE_ID" : "ERS377553",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "FILE_MD5" : "47772e5d8bbe571e73724dc7bf5443d7",
+         "SAMPLE_NAME" : "S0050AA1",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "Caucasian"
       },
       {
-         "FILE" : "S008QKA1.BS.gem_cnag_bs.20141014.bam"
+         "withdrawn" : null,
+         "FILE" : "S004XMA1.BS.gem_cnag_bs.20140106.bam",
+         "GENETIC_CHARACTERISTICS" : "Translocation t(15;17)",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "CTR",
+         "SAMPLE_DESC_2" : "pz 284",
+         "STUDY_ID" : "ERP002159",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000763",
+               "label" : "CL_0000763"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "Blueprint_CNAG_BS_127G_BS_S004XMA1",
+         "DONOR_ID" : "pz 284",
+         "SAMPLE_DESC_1" : "bone marrow",
+         "FIRST_SUBMISSION_DATE" : "10-DEC-2013 15:46:15",
+         "READ_QUALITIES" : "-",
+         "STUDY_NAME" : "BLUEPRINT Bisulfite-seq (CNAG)",
+         "BIOMATERIAL_PROVIDER" : "Prof: Lucia Altucci  (SECONDA UNIVERSITA' di NAPOLI- IT)",
+         "LIBRARY_STRATEGY" : "Bisulfite-Seq",
+         "TISSUE_TYPE" : "bone marrow",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "READ_STRAND" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX358119",
+         "type" : "BS_BAM_CNAG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
+         "DISEASE" : "Acute Promyelocytic Leukemia",
+         "CELL_TYPE" : "myeloid cell",
+         "SEQ_RUNS_COUNT" : "9",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023487",
+               "label" : "C0023487"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "CNAG",
+         "LIBRARY_NAME" : "127G_BS",
+         "FILE_SIZE" : "157559833374",
+         "SAMPLE_DESC_3" : "Acute Promyelocytic Leukemia - CTR",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_HEALTH_STATUS" : "Acute Promyelocytic Leukemia",
+         "MOLECULE" : "genomic DNA",
+         "DONOR_AGE" : "40 - 45",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "SAMPLE_ID" : "ERS377554",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "FILE_MD5" : "155f8c8176425970c18dca39038be11a",
+         "SAMPLE_NAME" : "S004XMA1",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "Caucasian"
       },
       {
-         "FILE" : "S004XMA1.BS.gem_cnag_bs.20140106.bam"
+         "withdrawn" : null,
+         "FILE" : "S008QKA1.BS.gem_cnag_bs.20141014.bam",
+         "GENETIC_CHARACTERISTICS" : "Translocation t(15;17)",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "CTR",
+         "SAMPLE_DESC_2" : "pz 289",
+         "STUDY_ID" : "ERP002159",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000763",
+               "label" : "CL_0000763"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "Blueprint_CNAG_BS_101I_BS_S008QKA1",
+         "DONOR_ID" : "pz 289",
+         "SAMPLE_DESC_1" : "bone marrow",
+         "FIRST_SUBMISSION_DATE" : "09-JUL-2014 12:04:48",
+         "READ_QUALITIES" : "-",
+         "STUDY_NAME" : "BLUEPRINT Bisulfite-seq (CNAG)",
+         "BIOMATERIAL_PROVIDER" : "Prof: Lucia Altucci  (SECONDA UNIVERSITA' di NAPOLI- IT)",
+         "LIBRARY_STRATEGY" : "Bisulfite-Seq",
+         "TISSUE_TYPE" : "bone marrow",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "READ_STRAND" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX517286",
+         "type" : "BS_BAM_CNAG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
+         "DISEASE" : "Acute Promyelocytic Leukemia",
+         "CELL_TYPE" : "myeloid cell",
+         "SEQ_RUNS_COUNT" : "6",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023487",
+               "label" : "C0023487"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "CNAG",
+         "LIBRARY_NAME" : "101I_BS",
+         "FILE_SIZE" : "144195469684",
+         "SAMPLE_DESC_3" : "Acute Promyelocytic Leukemia - CTR",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_HEALTH_STATUS" : "Acute Promyelocytic Leukemia",
+         "MOLECULE" : "genomic DNA",
+         "DONOR_AGE" : "30 - 35",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "SAMPLE_ID" : "ERS497451",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "FILE_MD5" : "64526e64339e2bb9cddd7f5b5d7e56bc",
+         "SAMPLE_NAME" : "S008QKA1",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "Caucasian"
       }
    ]
 }

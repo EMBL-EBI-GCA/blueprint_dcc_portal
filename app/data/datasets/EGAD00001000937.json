@@ -131,7 +131,65 @@
    "alias" : "BP_August_2014_RNA-Seq_alternatively_activated_macrophage",
    "analysis_files" : [
       {
-         "FILE" : "S0062212.RNA_seq.gem_grape_crg.20140106.bam"
+         "withdrawn" : null,
+         "FILE" : "S0062212.RNA_seq.gem_grape_crg.20140106.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "S00622",
+         "STUDY_ID" : "ERP001664",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000890",
+               "label" : "CL_0000890"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013756",
+               "label" : "UBERON_0013756"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "ena-EXPERIMENT-BLUEPRINT-14-10-2013-11:41:04:768-9",
+         "DONOR_ID" : "S00622",
+         "SAMPLE_DESC_1" : "venous blood",
+         "FIRST_SUBMISSION_DATE" : "14-OCT-2013 11:41:09",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "BLUEPRINT RNA-seq data for common cells in the haematopoietic lineages, from adult and cord blood samples.",
+         "BIOMATERIAL_PROVIDER" : "NIHR Cambridge BioResource",
+         "LIBRARY_STRATEGY" : "RNA-Seq",
+         "TISSUE_TYPE" : "venous blood",
+         "DONOR_REGION_OF_RESIDENCE" : "East Anglia",
+         "READ_STRAND" : "Mate2_Sense",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX326146",
+         "type" : "RNA_BAM_CRG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "total-RNA-Seq",
+         "DISEASE" : "None",
+         "CELL_TYPE" : "alternatively activated macrophage",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [],
+         "SPECIMEN_PROCESSING" : "fresh",
+         "CENTER_NAME" : "MPIMG",
+         "LIBRARY_NAME" : "I_bc_pelib_1782",
+         "FILE_SIZE" : "9161032783",
+         "SAMPLE_DESC_3" : "alternatively activated macrophage",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "NA",
+         "DONOR_HEALTH_STATUS" : "NA",
+         "MOLECULE" : "total RNA",
+         "DONOR_AGE" : "65 - 70",
+         "LIBRARY_LAYOUT" : "PAIRED",
+         "SAMPLE_ID" : "ERS358652",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell Culture",
+         "FILE_MD5" : "54c2681bc3ed80a349417be30bfd9f9c",
+         "SAMPLE_NAME" : "S0062212",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Male",
+         "DONOR_ETHNICITY" : "Northern European"
       }
    ]
 }

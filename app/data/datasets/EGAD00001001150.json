@@ -12,7 +12,65 @@
    "alias" : "BP_January_2015_Bisulfite-Seq_CD34-negative,_CD41-positive,_CD42-positive_megakaryocyte_cell",
    "analysis_files" : [
       {
-         "FILE" : "S004BT51.BS.gem_cnag_bs.20140106.bam"
+         "withdrawn" : null,
+         "FILE" : "S004BT51.BS.gem_cnag_bs.20140106.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "S004BT",
+         "STUDY_ID" : "ERP002159",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0002026",
+               "label" : "CL_0002026"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0012168",
+               "label" : "UBERON_0012168"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "Blueprint_CNAG_BS_854G_BS_S004BT51",
+         "DONOR_ID" : "S004BT",
+         "SAMPLE_DESC_1" : "cord blood",
+         "FIRST_SUBMISSION_DATE" : "09-DEC-2013 09:51:12",
+         "READ_QUALITIES" : "-",
+         "STUDY_NAME" : "BLUEPRINT Bisulfite-seq (CNAG)",
+         "BIOMATERIAL_PROVIDER" : "NIHR Cambridge BioResource",
+         "LIBRARY_STRATEGY" : "Bisulfite-Seq",
+         "TISSUE_TYPE" : "cord blood",
+         "DONOR_REGION_OF_RESIDENCE" : "East Anglia",
+         "READ_STRAND" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX353598",
+         "type" : "BS_BAM_CNAG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
+         "DISEASE" : "None",
+         "CELL_TYPE" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
+         "SEQ_RUNS_COUNT" : "14",
+         "DISEASE_ONTOLOGY_URI" : [],
+         "SPECIMEN_PROCESSING" : "fresh",
+         "CENTER_NAME" : "CNAG",
+         "LIBRARY_NAME" : "854G_BS",
+         "FILE_SIZE" : "142617185859",
+         "SAMPLE_DESC_3" : "CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "NA",
+         "DONOR_HEALTH_STATUS" : "NA",
+         "MOLECULE" : "genomic DNA",
+         "DONOR_AGE" : "0 - 5",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "SAMPLE_ID" : "ERS358643",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell Culture",
+         "FILE_MD5" : "878323476f1b5ffdc0b4ceba54aec54d",
+         "SAMPLE_NAME" : "S004BT51",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "NA"
       }
    ]
 }

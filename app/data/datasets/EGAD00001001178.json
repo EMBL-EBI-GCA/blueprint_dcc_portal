@@ -133,7 +133,66 @@
    "alias" : "BP_January_2015_RNA-Seq_Leukemia",
    "analysis_files" : [
       {
-         "FILE" : "S008X611.RNA_seq.gem_grape_crg.20141014.bam"
+         "withdrawn" : null,
+         "FILE" : "S008X611.RNA_seq.gem_grape_crg.20141014.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "CTR",
+         "SAMPLE_DESC_2" : "pz 290",
+         "STUDY_ID" : "ERP001664",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000763",
+               "label" : "CL_0000763"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "ena-EXPERIMENT-BLUEPRINT-11-04-2014-09:38:35:978-5",
+         "DONOR_ID" : "pz 290",
+         "SAMPLE_DESC_1" : "bone marrow",
+         "FIRST_SUBMISSION_DATE" : "11-APR-2014 09:38:45",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "BLUEPRINT RNA-seq data for common cells in the haematopoietic lineages, from adult and cord blood samples.",
+         "BIOMATERIAL_PROVIDER" : "Prof: Lucia Altucci  (SECONDA UNIVERSITA' di NAPOLI- IT)",
+         "LIBRARY_STRATEGY" : "RNA-Seq",
+         "TISSUE_TYPE" : "bone marrow",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "READ_STRAND" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX442233",
+         "type" : "RNA_BAM_CRG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "total-RNA-Seq",
+         "DISEASE" : "Acute Myeloid Leukemia",
+         "CELL_TYPE" : "myeloid cell",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023418",
+               "label" : "C0023418"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "MPIMG",
+         "LIBRARY_NAME" : "I_bc_pelib_2104",
+         "FILE_SIZE" : "9588295620",
+         "SAMPLE_DESC_3" : "Acute Myeloid Leukemia - CTR",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_HEALTH_STATUS" : "Acute Myeloid Leukemia",
+         "MOLECULE" : "total RNA",
+         "DONOR_AGE" : "65 - 70",
+         "LIBRARY_LAYOUT" : "PAIRED",
+         "SAMPLE_ID" : "ERS417206",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "FILE_MD5" : "8480adcc26a3af6fe04795709d8a0b37",
+         "SAMPLE_NAME" : "S008X611",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "Caucasian"
       }
    ]
 }

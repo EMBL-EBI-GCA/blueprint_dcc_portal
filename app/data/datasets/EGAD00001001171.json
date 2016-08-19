@@ -131,7 +131,65 @@
    "alias" : "BP_January_2015_RNA-Seq_memory_B_cell",
    "analysis_files" : [
       {
-         "FILE" : "C001NBB3.RNA_seq.gem_grape_crg.20130819.bam"
+         "withdrawn" : null,
+         "FILE" : "C001NBB3.RNA_seq.gem_grape_crg.20130819.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "C001NB",
+         "STUDY_ID" : "ERP001664",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000787",
+               "label" : "CL_0000787"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013756",
+               "label" : "UBERON_0013756"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "ena-EXPERIMENT-BLUEPRINT-31-10-2012-10:25:04:143-1",
+         "DONOR_ID" : "C001NB",
+         "SAMPLE_DESC_1" : "venous blood",
+         "FIRST_SUBMISSION_DATE" : "31-OCT-2012 10:25:06",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "BLUEPRINT RNA-seq data for common cells in the haematopoietic lineages, from adult and cord blood samples.",
+         "BIOMATERIAL_PROVIDER" : "NIHR Cambridge BioResource",
+         "LIBRARY_STRATEGY" : "RNA-Seq",
+         "TISSUE_TYPE" : "venous blood",
+         "DONOR_REGION_OF_RESIDENCE" : "East Anglia",
+         "READ_STRAND" : "Mate2_Sense",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX161541",
+         "type" : "RNA_BAM_CRG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "total-RNA-Seq",
+         "DISEASE" : "None",
+         "CELL_TYPE" : "memory B cell",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [],
+         "SPECIMEN_PROCESSING" : "fresh",
+         "CENTER_NAME" : "MPIMG",
+         "LIBRARY_NAME" : "I_bc_pelib_908",
+         "FILE_SIZE" : "9516149505",
+         "SAMPLE_DESC_3" : "memory B cell",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "NA",
+         "DONOR_HEALTH_STATUS" : "NA",
+         "MOLECULE" : "total RNA",
+         "DONOR_AGE" : "50 - 55",
+         "LIBRARY_LAYOUT" : "PAIRED",
+         "SAMPLE_ID" : "ERS150407",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "FILE_MD5" : "a7190ee7763e86fc3c466b3d2039a1cb",
+         "SAMPLE_NAME" : "C001NBB3",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "Northern European"
       }
    ]
 }

@@ -1093,7 +1093,66 @@
    "alias" : "BP_January_2015_Bisulfite-Seq_Acute_myeloid_leukemia",
    "analysis_files" : [
       {
-         "FILE" : "S008X6A1.BS.gem_cnag_bs.20141014.bam"
+         "withdrawn" : null,
+         "FILE" : "S008X6A1.BS.gem_cnag_bs.20141014.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "CTR",
+         "SAMPLE_DESC_2" : "pz 290",
+         "STUDY_ID" : "ERP002159",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000763",
+               "label" : "CL_0000763"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "Blueprint_CNAG_BS_102I_BS_S008X6A1",
+         "DONOR_ID" : "pz 290",
+         "SAMPLE_DESC_1" : "bone marrow",
+         "FIRST_SUBMISSION_DATE" : "09-JUL-2014 12:04:48",
+         "READ_QUALITIES" : "-",
+         "STUDY_NAME" : "BLUEPRINT Bisulfite-seq (CNAG)",
+         "BIOMATERIAL_PROVIDER" : "Prof: Lucia Altucci  (SECONDA UNIVERSITA' di NAPOLI- IT)",
+         "LIBRARY_STRATEGY" : "Bisulfite-Seq",
+         "TISSUE_TYPE" : "bone marrow",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "READ_STRAND" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX517287",
+         "type" : "BS_BAM_CNAG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
+         "DISEASE" : "Acute Myeloid Leukemia",
+         "CELL_TYPE" : "myeloid cell",
+         "SEQ_RUNS_COUNT" : "18",
+         "DISEASE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://ncimeta.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0023467",
+               "label" : "C0023467"
+            }
+         ],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "CNAG",
+         "LIBRARY_NAME" : "102I_BS",
+         "FILE_SIZE" : "157913005996",
+         "SAMPLE_DESC_3" : "Acute Myeloid Leukemia - CTR",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_HEALTH_STATUS" : "Acute Myeloid Leukemia",
+         "MOLECULE" : "genomic DNA",
+         "DONOR_AGE" : "65 - 70",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "SAMPLE_ID" : "ERS497452",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "FILE_MD5" : "8bed9daedf243b760ecb416675a95e8c",
+         "SAMPLE_NAME" : "S008X6A1",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "Caucasian"
       }
    ]
 }

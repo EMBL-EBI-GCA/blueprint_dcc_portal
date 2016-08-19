@@ -131,7 +131,65 @@
    "alias" : "BP_January_2015_RNA-Seq_conventional_dendritic_cell",
    "analysis_files" : [
       {
-         "FILE" : "S00CP612.RNA_seq.gem_grape_crg.20141014.bam"
+         "withdrawn" : null,
+         "FILE" : "S00CP612.RNA_seq.gem_grape_crg.20141014.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "S00CP6",
+         "STUDY_ID" : "ERP001664",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000990",
+               "label" : "CL_0000990"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0012168",
+               "label" : "UBERON_0012168"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "ena-EXPERIMENT-BLUEPRINT-07-10-2014-09:32:44:418-8",
+         "DONOR_ID" : "S00CP6",
+         "SAMPLE_DESC_1" : "cord blood",
+         "FIRST_SUBMISSION_DATE" : "07-OCT-2014 09:32:54",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "BLUEPRINT RNA-seq data for common cells in the haematopoietic lineages, from adult and cord blood samples.",
+         "BIOMATERIAL_PROVIDER" : "NIHR Cambridge BioResource",
+         "LIBRARY_STRATEGY" : "RNA-Seq",
+         "TISSUE_TYPE" : "cord blood",
+         "DONOR_REGION_OF_RESIDENCE" : "East Anglia",
+         "READ_STRAND" : "Mate2_Sense",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX607013",
+         "type" : "RNA_BAM_CRG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "total-RNA-Seq",
+         "DISEASE" : "None",
+         "CELL_TYPE" : "conventional dendritic cell",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [],
+         "SPECIMEN_PROCESSING" : "fresh",
+         "CENTER_NAME" : "MPIMG",
+         "LIBRARY_NAME" : "I_bc_pelib_2315",
+         "FILE_SIZE" : "15640842567",
+         "SAMPLE_DESC_3" : "conventional dendritic cell",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "NA",
+         "DONOR_HEALTH_STATUS" : "NA",
+         "MOLECULE" : "total RNA",
+         "DONOR_AGE" : "0 - 5",
+         "LIBRARY_LAYOUT" : "PAIRED",
+         "SAMPLE_ID" : "ERS487311",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell Culture",
+         "FILE_MD5" : "a2e2b18f44fa3212ed05aa958a5b8478",
+         "SAMPLE_NAME" : "S00CP612",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "DONOR_ETHNICITY" : "NA"
       }
    ]
 }

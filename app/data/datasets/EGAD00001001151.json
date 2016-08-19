@@ -1252,7 +1252,65 @@
    "alias" : "BP_January_2015_Bisulfite-Seq_endothelial_cell_of_umbilical_vein_(proliferating)",
    "analysis_files" : [
       {
-         "FILE" : "S00BJM51.BS.gem_cnag_bs.20141014.bam"
+         "withdrawn" : null,
+         "FILE" : "S00BJM51.BS.gem_cnag_bs.20141014.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "S00BJM",
+         "STUDY_ID" : "ERP002159",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0002618",
+               "label" : "CL_0002618"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0012168",
+               "label" : "UBERON_0012168"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "Blueprint_CNAG_BS_340I_BS_S00BJM51",
+         "DONOR_ID" : "S00BJM",
+         "SAMPLE_DESC_1" : "cord blood",
+         "FIRST_SUBMISSION_DATE" : "30-JUL-2014 10:20:38",
+         "READ_QUALITIES" : "-",
+         "STUDY_NAME" : "BLUEPRINT Bisulfite-seq (CNAG)",
+         "BIOMATERIAL_PROVIDER" : "NIHR Cambridge BioResource",
+         "LIBRARY_STRATEGY" : "Bisulfite-Seq",
+         "TISSUE_TYPE" : "cord blood",
+         "DONOR_REGION_OF_RESIDENCE" : "East Anglia",
+         "READ_STRAND" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX530512",
+         "type" : "BS_BAM_CNAG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
+         "DISEASE" : "None",
+         "CELL_TYPE" : "endothelial cell of umbilical vein (proliferating)",
+         "SEQ_RUNS_COUNT" : "21",
+         "DISEASE_ONTOLOGY_URI" : [],
+         "SPECIMEN_PROCESSING" : "fresh",
+         "CENTER_NAME" : "CNAG",
+         "LIBRARY_NAME" : "340I_BS",
+         "FILE_SIZE" : "123483097734",
+         "SAMPLE_DESC_3" : "endothelial cell of umbilical vein (proliferating)",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "NA",
+         "DONOR_HEALTH_STATUS" : "NA",
+         "MOLECULE" : "genomic DNA",
+         "DONOR_AGE" : "0 - 5",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "SAMPLE_ID" : "ERS433785",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell Culture",
+         "FILE_MD5" : "07ded3f29496ef8193f7fa2528e0236c",
+         "SAMPLE_NAME" : "S00BJM51",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Male",
+         "DONOR_ETHNICITY" : "NA"
       }
    ]
 }

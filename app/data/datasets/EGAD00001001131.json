@@ -1193,7 +1193,65 @@
    "alias" : "BP_January_2015_Bisulfite-Seq_memory_B_cell",
    "analysis_files" : [
       {
-         "FILE" : "C003N351.BS.gem_cnag_bs.20140527.bam"
+         "withdrawn" : null,
+         "FILE" : "C003N351.BS.gem_cnag_bs.20140527.bam",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "SAMPLE_STATUS" : "private",
+         "TREATMENT" : "-",
+         "SAMPLE_DESC_2" : "C003N3",
+         "STUDY_ID" : "ERP002159",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000787",
+               "label" : "CL_0000787"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013756",
+               "label" : "UBERON_0013756"
+            }
+         ],
+         "EXPERIMENT_ALIAS" : "Blueprint_CNAG_BS_102H_BS_C003N351",
+         "DONOR_ID" : "C003N3",
+         "SAMPLE_DESC_1" : "venous blood",
+         "FIRST_SUBMISSION_DATE" : "26-MAY-2014 10:39:11",
+         "READ_QUALITIES" : "-",
+         "STUDY_NAME" : "BLUEPRINT Bisulfite-seq (CNAG)",
+         "BIOMATERIAL_PROVIDER" : "NIHR Cambridge BioResource",
+         "LIBRARY_STRATEGY" : "Bisulfite-Seq",
+         "TISSUE_TYPE" : "venous blood",
+         "DONOR_REGION_OF_RESIDENCE" : "East Anglia",
+         "READ_STRAND" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "EXPERIMENT_ID" : "ERX480352",
+         "type" : "BS_BAM_CNAG",
+         "CELL_LINE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "EXPERIMENT_TYPE" : "DNA Methylation",
+         "DISEASE" : "None",
+         "CELL_TYPE" : "memory B cell",
+         "SEQ_RUNS_COUNT" : "20",
+         "DISEASE_ONTOLOGY_URI" : [],
+         "SPECIMEN_PROCESSING" : "fresh",
+         "CENTER_NAME" : "CNAG",
+         "LIBRARY_NAME" : "102H_BS",
+         "FILE_SIZE" : "200389513975",
+         "SAMPLE_DESC_3" : "memory B cell",
+         "POOLED_DONOR_IDS" : "-",
+         "SPECIMEN_STORAGE" : "NA",
+         "DONOR_HEALTH_STATUS" : "NA",
+         "MOLECULE" : "genomic DNA",
+         "DONOR_AGE" : "50 - 55",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "SAMPLE_ID" : "ERS222208",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "FILE_MD5" : "8f0622454148d75ea1655ab7d9f03fe7",
+         "SAMPLE_NAME" : "C003N351",
+         "POOL_ID" : "-",
+         "EXPERIMENT_STATUS" : "private",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_SEX" : "Male",
+         "DONOR_ETHNICITY" : "Northern European"
       }
    ]
 }
