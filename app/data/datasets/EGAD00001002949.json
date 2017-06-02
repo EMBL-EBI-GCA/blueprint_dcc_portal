@@ -1,0 +1,78 @@
+{
+   "analysis_spreadsheet_file_name" : "publication_datasets/EGAD00001002949_September_2016_ChIPSeq_Acute_Lymphocytic_Leukemia_for_precursor_B_cell_from_venous_blood_on_Genome_GRCh38_analysis_files.tsv",
+   "release" : "NA",
+   "dataset_id" : "EGAD00001002949",
+   "description" : "ChIP-Seq data for 1 sample(s) Acute Lymphocytic Leukemia for precursor B cell from venous blood, on Genome GRCh38. 1 run(s), 1 experiment(s), 1 alignment(s). Part of BLUEPRINT (September 2016).Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_chipseq_analysis_ebi_20140811",
+   "runs_spreadsheet_file_name" : "publication_datasets/EGAD00001002949_September_2016_ChIPSeq_Acute_Lymphocytic_Leukemia_for_precursor_B_cell_from_venous_blood_on_Genome_GRCh38_run_files.tsv",
+   "run_files" : [
+      {
+         "SAMPLE_STATUS" : "private",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "FILE" : "C7W7BACXX_lane1_8877_GAGTGG_L001_R1.fastq.gz",
+         "TREATMENT" : "-",
+         "CULTURE_CONDITIONS" : "-",
+         "SAMPLE_DESC_2" : "S0173P",
+         "STUDY_ID" : "ERP001663",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000817",
+               "label" : "CL_0000817"
+            }
+         ],
+         "DONOR_ID" : "S0173P",
+         "MD5" : "658f2780b04034c0c900299ffec0243b",
+         "SAMPLE_DESC_1" : "venous blood",
+         "FIRST_SUBMISSION_DATE" : "20-SEP-2016 10:22:16",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "BLUEPRINT ChIP-seq data for cells in the haematopoietic lineages, from adult and cord blood samples.",
+         "BIOMATERIAL_PROVIDER" : "Anke Bergmann",
+         "LIBRARY_STRATEGY" : "ChIP-Seq",
+         "TISSUE_TYPE" : "venous blood",
+         "DONOR_REGION_OF_RESIDENCE" : "-",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "READ_STRAND" : "-",
+         "EXPERIMENT_ID" : "ERX1302277",
+         "RUN_ID" : "ERR1642492",
+         "CELL_LINE" : "-",
+         "DIFFERENTIATION_STAGE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "RUN_STATUS" : "private",
+         "EXPERIMENT_TYPE" : "H3K27ac",
+         "DISEASE" : "Acute Lymphocytic Leukemia",
+         "LINEAGE" : "-",
+         "CELL_TYPE" : "precursor B cell",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [],
+         "SPECIMEN_PROCESSING" : "-",
+         "CENTER_NAME" : "NCMLS",
+         "LIBRARY_NAME" : "Blueprint_S0173PH1_H3K27ac",
+         "POOLED_DONOR_IDS" : "-",
+         "SAMPLE_DESC_3" : "Acute Lymphocytic Leukemia",
+         "MEDIUM" : "-",
+         "DONOR_HEALTH_STATUS" : "Acute Lymphocytic Leukemia",
+         "SPECIMEN_STORAGE" : "-",
+         "DONOR_AGE" : "0 - 18",
+         "MOLECULE" : "genomic DNA",
+         "SAMPLE_ID" : "ERS1044113",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "SAMPLE_NAME" : "S0173PH1",
+         "EXPERIMENT_STATUS" : "private",
+         "POOL_ID" : "-",
+         "DONOR_SEX" : "Unknown",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_ETHNICITY" : "NA"
+      }
+   ],
+   "short_description" : "September 2016, ChIP-Seq Acute Lymphocytic Leukemia for precursor B cell from venous blood, on Genome GRCh38",
+   "data_type" : "ChIP-Seq",
+   "title" : "BLUEPRINT September 2016, ChIP-Seq Acute Lymphocytic Leukemia for precursor B cell from venous blood, on Genome GRCh38",
+   "sample_type" : "",
+   "alias" : "BP_September_2016_ChIP-Seq_Acute_Lymphocytic_Leukemia_for_precursor_B_cell_from_venous_blood,_on_Genome_GRCh38",
+   "analysis_files" : [
+      {
+         "FILE" : "S0173PH1.ERX1302277.H3K27ac.dedup.bwa.GRCh38.20160922.bam"
+      }
+   ]
+}
