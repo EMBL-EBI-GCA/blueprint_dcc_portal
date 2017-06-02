@@ -1,0 +1,82 @@
+{
+   "analysis_spreadsheet_file_name" : "publication_datasets/EGAD00001002951_September_2016_ChIPSeq_class_switched_memory_B_cell_from_venous_blood_on_Genome_GRCh38_analysis_files.tsv",
+   "release" : "NA",
+   "dataset_id" : "EGAD00001002951",
+   "description" : "ChIP-Seq data for 1 sample(s) for class switched memory B cell from venous blood, on Genome GRCh38. 1 run(s), 1 experiment(s), 1 alignment(s). Part of BLUEPRINT (September 2016).Analysis documentation available at http://ftp.ebi.ac.uk/pub/databases/blueprint/releases/20140811/homo_sapiens/README_chipseq_analysis_ebi_20140811",
+   "runs_spreadsheet_file_name" : "publication_datasets/EGAD00001002951_September_2016_ChIPSeq_class_switched_memory_B_cell_from_venous_blood_on_Genome_GRCh38_run_files.tsv",
+   "run_files" : [
+      {
+         "SAMPLE_STATUS" : "private",
+         "GENETIC_CHARACTERISTICS" : "-",
+         "FILE" : "C9H3UACXX_lane4_10421_GTTTCG_L004_R1.fastq.gz",
+         "TREATMENT" : "-",
+         "CULTURE_CONDITIONS" : "-",
+         "SAMPLE_DESC_2" : "S017RE",
+         "STUDY_ID" : "ERP001663",
+         "SAMPLE_ONTOLOGY_URI" : [
+            {
+               "url" : "http://purl.obolibrary.org/obo/CL_0000972",
+               "label" : "CL_0000972"
+            },
+            {
+               "url" : "http://purl.obolibrary.org/obo/UBERON_0013756",
+               "label" : "UBERON_0013756"
+            }
+         ],
+         "DONOR_ID" : "S017RE",
+         "MD5" : "6bbecc848130aecf19b1f53f0998fbb9",
+         "SAMPLE_DESC_1" : "venous blood",
+         "FIRST_SUBMISSION_DATE" : "06-SEP-2016 12:07:46",
+         "READ_QUALITIES" : "phred",
+         "STUDY_NAME" : "BLUEPRINT ChIP-seq data for cells in the haematopoietic lineages, from adult and cord blood samples.",
+         "BIOMATERIAL_PROVIDER" : "NIHR Cambridge BioResource",
+         "LIBRARY_STRATEGY" : "ChIP-Seq",
+         "TISSUE_TYPE" : "venous blood",
+         "DONOR_REGION_OF_RESIDENCE" : "East Anglia",
+         "INSTRUMENT_PLATFORM" : "ILLUMINA",
+         "READ_STRAND" : "-",
+         "EXPERIMENT_ID" : "ERX1678481",
+         "RUN_ID" : "ERR1607914",
+         "CELL_LINE" : "-",
+         "DIFFERENTIATION_STAGE" : "-",
+         "TISSUE_DEPOT" : "-",
+         "RUN_STATUS" : "private",
+         "EXPERIMENT_TYPE" : "Input",
+         "DISEASE" : "None",
+         "LINEAGE" : "-",
+         "CELL_TYPE" : "class switched memory B cell",
+         "SEQ_RUNS_COUNT" : "1",
+         "DISEASE_ONTOLOGY_URI" : [],
+         "SPECIMEN_PROCESSING" : "fresh",
+         "CENTER_NAME" : "NCMLS",
+         "LIBRARY_NAME" : "Blueprint_S017REH1_Input",
+         "POOLED_DONOR_IDS" : "-",
+         "SAMPLE_DESC_3" : "class switched memory B cell",
+         "MEDIUM" : "-",
+         "DONOR_HEALTH_STATUS" : "NA",
+         "SPECIMEN_STORAGE" : "NA",
+         "DONOR_AGE" : "50 - 55",
+         "MOLECULE" : "genomic DNA",
+         "SAMPLE_ID" : "ERS709806",
+         "LIBRARY_LAYOUT" : "SINGLE",
+         "BIOMATERIAL_TYPE" : "Primary Cell",
+         "INSTRUMENT_MODEL" : "Illumina HiSeq 2000",
+         "SAMPLE_NAME" : "S017REH1",
+         "EXPERIMENT_STATUS" : "private",
+         "POOL_ID" : "-",
+         "DONOR_SEX" : "Female",
+         "TWIN_PAIR_ID" : "-",
+         "DONOR_ETHNICITY" : "NA"
+      }
+   ],
+   "short_description" : "September 2016, ChIP-Seq for class switched memory B cell from venous blood, on Genome GRCh38",
+   "data_type" : "ChIP-Seq",
+   "title" : "BLUEPRINT September 2016, ChIP-Seq for class switched memory B cell from venous blood, on Genome GRCh38",
+   "sample_type" : "",
+   "alias" : "BP_September_2016_ChIP-Seq_for_class_switched_memory_B_cell_from_venous_blood,_on_Genome_GRCh38",
+   "analysis_files" : [
+      {
+         "FILE" : "S017REH1.ERX1678481.Input.dedup.bwa.GRCh38.20160913.bam"
+      }
+   ]
+}
